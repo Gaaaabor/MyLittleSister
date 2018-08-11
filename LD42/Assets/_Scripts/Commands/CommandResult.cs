@@ -24,4 +24,9 @@
     {
         return !ReferenceEquals(commandResult, null) && commandResult.IsSuccessful;
     }
+
+    public static implicit operator string(CommandResult commandResult)
+    {
+        return !ReferenceEquals(commandResult, null) ? commandResult.Message : string.Empty;
+    }
 }
