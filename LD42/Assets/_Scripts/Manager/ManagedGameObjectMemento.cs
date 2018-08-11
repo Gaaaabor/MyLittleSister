@@ -17,7 +17,7 @@ namespace Assets._Scripts.Manager
 
             if (item.CanDestroy)
             {
-                _isDestroyed = item.IsDestroyed;
+                _isDestroyed = item._isDestroyed;
             }
         }
 
@@ -29,7 +29,7 @@ namespace Assets._Scripts.Manager
 
             if (item.CanDestroy)
             {
-                item.IsDestroyed = _isDestroyed;
+                item._isDestroyed = _isDestroyed;
             }
         }
     }

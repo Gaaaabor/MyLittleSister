@@ -2,11 +2,11 @@
 
 namespace Assets._Scripts.Commands
 {
-    public class ActivateCommand : CommandBase
+    public class EnableCommand : CommandBase
     {
-        public ActivateCommand()
+        public EnableCommand()
         {
-            CommandText = "activate";
+            CommandText = "enable";
             ParameterCount = 1;
         }
 
@@ -25,9 +25,9 @@ namespace Assets._Scripts.Commands
                 return false;
             }
 
-            managedGameObject.SetActivatedState();
+            managedGameObject.SetEnabledState();
 
-            Debug.Log(string.Format("Item with id ({0}) activated!", target));
+            Debug.Log(string.Format("Item with id ({0}) enabled!", target));
 
             return true;
         }
