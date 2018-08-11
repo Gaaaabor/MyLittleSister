@@ -1,6 +1,5 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class CheckPoint : MonoBehaviour
@@ -9,7 +8,7 @@ public class CheckPoint : MonoBehaviour
 
     private void Awake()
     {
-        _checkPointObject = GetComponentInChildren<ManagedGameObject>();
+        _checkPointObject = GetComponentsInChildren<ManagedGameObject>().ToList();
     }
     private void OnTriggerEnter(Collider other)
     {

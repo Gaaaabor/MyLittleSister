@@ -1,6 +1,7 @@
 ﻿using Assets._Scripts.Commands;
 using System;
 using System.Collections.Generic;
+using UnityEngine;
 
 namespace Assets._Scripts
 {
@@ -8,6 +9,7 @@ namespace Assets._Scripts
     {
         public const char WHITESPACE = ' ';
 
+        #region //Singleton
         public volatile static object _lock = new object();
         public static CommandHandler _instance;
         public static CommandHandler Instance
@@ -28,6 +30,7 @@ namespace Assets._Scripts
                 return _instance;
             }
         }
+        #endregion //Singleton
 
         public List<CommandBase> Commands { get; private set; }
 
@@ -38,26 +41,43 @@ namespace Assets._Scripts
             Commands = new List<CommandBase>
             {
                 new DestroyCommand(),
+                new ResetCheckPointCommand(),
                 new OpenCommand(),
-                new ResetCheckPointCommand()
+                new ActivateCommand()
             };
         }
 
-        public void TryExecuteCommand(string commandToExecute)
-        {
-            var stringComparison = IsCaseSensitive ? StringComparison.OrdinalIgnoreCase : StringComparison.Ordinal;
+        //IDEA: paypal fun
 
+        public bool TryExecuteCommand(string commandToExecute)
+        {
+            var stringComparison = IsCaseSensitive ? StringComparison.Ordinal : StringComparison.OrdinalIgnoreCase;
+
+            CommandBase foundCommand = null;
             foreach (var command in Commands)
             {
-                if (string.Equals(command.CommandText, commandToExecute, stringComparison))
+                if (!command.CommandText.Equals(commandToExecute, stringComparison))
                 {
-                    var parameters = commandToExecute
-                        .Replace(command.CommandText, string.Empty)
-                        .Split(WHITESPACE);
-
-                    command.Execute(parameters);
+                    continue;
                 }
+
+                foundCommand = command;
+                break;
             }
+
+            if (foundCommand == null)
+            {
+                Debug.Log(string.Format("Incorrect command ({0})!", commandToExecute));
+                return false;
+            }
+
+            var parameters = commandToExecute
+                .Replace(foundCommand.CommandText, string.Empty)
+                .Split(WHITESPACE);
+
+            foundCommand.Execute(parameters);
+
+            return true;
         }
     }
 }

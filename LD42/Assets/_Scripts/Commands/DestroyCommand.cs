@@ -6,7 +6,7 @@ namespace Assets._Scripts.Commands
     {
         public DestroyCommand()
         {
-            CommandText = "Destroy";
+            CommandText = "destroy";
             ParameterCount = 1;
         }
 

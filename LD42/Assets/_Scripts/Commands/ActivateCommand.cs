@@ -2,11 +2,11 @@
 
 namespace Assets._Scripts.Commands
 {
-    public class OpenCommand : CommandBase
+    public class ActivateCommand : CommandBase
     {
-        public OpenCommand()
+        public ActivateCommand()
         {
-            CommandText = "open";
+            CommandText = "activate";
             ParameterCount = 1;
         }
 
@@ -17,7 +17,7 @@ namespace Assets._Scripts.Commands
                 return false;
             }
 
-            Debug.Log(string.Format("Item with id ({0}) opened!", parameters[ParameterCount - 1]));
+            Debug.Log(string.Format("Item with id ({0}) activated!", parameters[ParameterCount - 1]));
 
             return true;
         }

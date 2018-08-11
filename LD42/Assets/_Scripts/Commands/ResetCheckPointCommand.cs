@@ -6,7 +6,7 @@ namespace Assets._Scripts.Commands
     {
         public ResetCheckPointCommand()
         {
-            CommandText = "Reset";
+            CommandText = "reset";
             ParameterCount = 1;
         }
 

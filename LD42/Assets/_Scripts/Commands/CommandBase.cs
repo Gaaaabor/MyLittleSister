@@ -25,7 +25,7 @@ namespace Assets._Scripts.Commands
 
         private void InvalidParameterCountMessage()
         {
-            Debug.Log(string.Format("Incorrect count of parameters ({0}) for command({1})", ParameterCount, CommandText));
+            Debug.Log(string.Format("Incorrect number of parameters {0} for command {1}", ParameterCount, CommandText));
         }
     }
 }
