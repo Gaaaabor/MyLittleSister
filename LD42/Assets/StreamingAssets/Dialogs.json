@@ -1,1 +1,230 @@
-{"DialogTexts":[{"SoundFile":"test_01.mp3","Placement":"TopLeft","Owner":"The","Body":"Blablabla"},{"SoundFile":"test_02.mp3","Placement":"TopRight","Owner":"The1","Body":"Blablabla1"}]}
+[{
+"SoundFile": "administrator_01.mp3",
+"Direction": "Top",
+"Owner": "Narrator",
+"Body":"Greetings Almighty Knight!
+Welcome in the Kingdom of Retsis! A great evil..."
+},
+
+{
+"SoundFile": "administrator_01.mp3",
+"Direction": "Bottomleft"
+"Owner": "Little girl",
+"Body":"Brotheeer... I don't understaaand..."
+},
+
+{
+"SoundFile": "administrator_01.mp3",
+"Direction": "Bottomright",
+"Owner": "Boy",
+"Body":"Leave me be! I am busy... Just play!"
+},
+
+{
+"SoundFile": "administrator_01.mp3",
+"Direction": "Bottomleft"
+"Owner": "Little girl",
+"Body":"I wanna play. But I don't know how..."
+},
+
+{
+"SoundFile": "administrator_01.mp3",
+"Direction": "Bottomright",
+"Owner": "Boy",
+"Body":"Oh my God, Sis... Okay... Let's take a look.
+First, move forward."
+},
+
+{
+"SoundFile": "administrator_01.mp3",
+"Direction": "Bottomleft"
+"Owner": "Little girl",
+"Body":"But how?"
+},
+
+{
+"SoundFile": "administrator_01.mp3",
+"Direction": "Bottomright",
+"Owner": "Boy",
+"Body":"Just press this button, Suzy..."
+},
+
+{
+"SoundFile": "administrator_01.mp3",
+"Direction": "Bottomleft"
+"Owner": "Suzy",
+"Body":"Oh, he is moving! Thank you."
+},
+
+{
+"SoundFile": "administrator_01.mp3",
+"Direction": "Bottomright",
+"Owner": "Boy",
+"Body":"Great. Now, move backwards, press this bu... 
+What the ... happened to your keyboard?
+Is it syrup???"
+},
+
+{
+"SoundFile": "administrator_01.mp3",
+"Direction": "Bottomleft"
+"Owner": "Suzy",
+"Body":"Sorry Chris, I was thirsty... but a little accident happened..."
+},
+
+{
+"SoundFile": "administrator_01.mp3",
+"Direction": "Bottomright",
+"Owner": "Chris",
+"Body":"Suzy, you are making my job harder every day...
+The other control keys stuck.
+I guess we have to use what we have... So, just press the forward button."
+},
+
+{
+"SoundFile": "administrator_01.mp3",
+"Direction": "Bottomleft"
+"Owner": "Suzy",
+"Body":"This is easy!"
+},
+
+{
+"SoundFile": "administrator_01.mp3",
+"Direction": "Bottomleft"
+"Owner": "Suzy",
+"Body":"Brother!
+I can't move along... Help meeeeeeee!"
+},
+
+{
+"SoundFile": "administrator_01.mp3",
+"Direction": "Bottomright",
+"Owner": "Chris",
+"Body":"Okay, okay. Please calm down.
+Let me take a look...
+Oh! This trunk should not be here."
+},
+
+{
+"SoundFile": "administrator_01.mp3",
+"Direction": "Bottomleft"
+"Owner": "Suzy",
+"Body":"I bet you can solve this!"
+},
+
+{
+"SoundFile": "administrator_01.mp3",
+"Direction": "Bottomright",
+"Owner": "Chris",
+"Body":"Actually, I have a friend, who gave me some codes..."
+},
+
+{
+"SoundFile": "administrator_01.mp3",
+"Direction": "Bottomleft"
+"Owner": "Suzy",
+"Body":"Cheat codes?
+I don't want to be a cheater!"
+},
+
+{
+"SoundFile": "administrator_01.mp3",
+"Direction": "Bottomright",
+"Owner": "Chris",
+"Body":"Nooo... We don't cheat. This is just a little help.
+First, I have to press enter, then type cheatmode, enter."
+},
+
+{
+"SoundFile": "administrator_01.mp3",
+"Direction": "Bottomright",
+"Owner": "Chris",
+"Body":"Now I can see the object's name.
+There are some basic commands.
+To destroy an object I have to type destroy, press space, then type the object name and press enter."
+},
+
+{
+"SoundFile": "administrator_01.mp3",
+"Direction": "Bottomleft"
+"Owner": "Suzy",
+"Body":"Hurray! Now I can move forward."
+},
+
+{
+"SoundFile": "administrator_01.mp3",
+"Direction": "Bottomleft"
+"Owner": "Suzy",
+"Body":"Brotheeer!"
+},
+
+{
+"SoundFile": "administrator_01.mp3",
+"Direction": "Bottomright",
+"Owner": "Chris",
+"Body":"Oh, I guess I have to destroy, or disable that rock for you.
+If I type disable, press space, then type the object name, the rock will disappear.
+Disabled objects can be enabled later."
+},
+
+{
+"SoundFile": "administrator_01.mp3",
+"Direction": "Bottomleft"
+"Owner": "Suzy",
+"Body":"You are so smart! Would you mind staying here to help me?"
+},
+
+{
+"SoundFile": "administrator_01.mp3",
+"Direction": "Bottomright",
+"Owner": "Chris",
+"Body":"Nah... Okay...
+Actually...
+I have nothing else to do..."
+},
+
+{
+"SoundFile": "administrator_01.mp3",
+"Direction": "Bottomleft"
+"Owner": "Suzy",
+"Body":"Can the Knight swim?"
+},
+
+{
+"SoundFile": "administrator_01.mp3",
+"Direction": "Bottomright",
+"Owner": "Chris",
+"Body":"Whid did you do this?
+It is obvious that he cannot swim in that heavy armor.
+We need a bridge!"
+},
+
+{
+"SoundFile": "administrator_01.mp3",
+"Direction": "Bottomright",
+"Owner": "Chris",
+"Body":"Now you can pass safely."
+},
+
+{
+"SoundFile": "administrator_01.mp3",
+"Direction": "Bottomleft"
+"Owner": "Suzy",
+"Body":"Oh, we have crossed an island!
+I loved to live on an island..."
+},
+
+{
+"SoundFile": "administrator_01.mp3",
+"Direction": "Bottomright",
+"Owner": "Chris",
+"Body":"I didn't like the seagulls... They stole my pizza, do you remember?"
+},
+
+{
+"SoundFile": "administrator_01.mp3",
+"Direction": "Bottomleft"
+"Owner": "Suzy",
+"Body":"Please open the door for me."
+},
+]
