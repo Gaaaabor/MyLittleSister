@@ -1,15 +1,25 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Assets._Scripts.Commands
 {
     public class OpenCommand : CommandBase
     {
-        public override void Execute(string[] parameters)
+        public OpenCommand()
         {
-            var index = Math.Min(ParameterCount - 1, 0);
+            CommandText = "Open";
+            ParameterCount = 1;
+        }
 
-            Debug.Log(string.Format("Item with id ({0}) opened!", parameters[index]));
+        public override bool Execute(string[] parameters)
+        {
+            if (!base.Execute(parameters))
+            {
+                return false;
+            }
+
+            Debug.Log(string.Format("Item with id ({0}) opened!", parameters[ParameterCount - 1]));
+
+            return true;
         }
     }
 }

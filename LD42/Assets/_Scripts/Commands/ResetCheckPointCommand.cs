@@ -2,11 +2,11 @@
 
 namespace Assets._Scripts.Commands
 {
-    public class DestroyCommand : CommandBase
+    public class ResetCheckPointCommand : CommandBase
     {
-        public DestroyCommand()
+        public ResetCheckPointCommand()
         {
-            CommandText = "Destroy";
+            CommandText = "Reset";
             ParameterCount = 1;
         }
 
@@ -17,7 +17,7 @@ namespace Assets._Scripts.Commands
                 return false;
             }
 
-            Debug.Log(string.Format("Item with id ({0}) destroyed!", parameters[ParameterCount - 1]));
+            Debug.Log(string.Format("Item with id ({0}) reseted!", parameters[ParameterCount - 1]));
 
             return true;
         }
