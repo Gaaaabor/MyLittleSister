@@ -1,10 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class BuffManager : SingletonBase<BuffManager>
 {
-    private bool _timeChanged;
     private float _myTime;
 
     public float MyTime
@@ -23,6 +24,11 @@ public class BuffManager : SingletonBase<BuffManager>
     public GameObject TimeBuffUi;
     public Text TimeBuffText;
 
+    public GameObject CaseSensitivenessBuffUi;
+    public Text CaseSensitivenessBuffText;
+
+    public List<BuffBase> Buffs;
+
     private void Awake()
     {
         TimeBuffUi.gameObject.SetActive(false);
@@ -30,30 +36,95 @@ public class BuffManager : SingletonBase<BuffManager>
 
     private void Update()
     {
-        if (_timeChanged)
-        {
-            MyTime -= (1 - Time.timeScale) * Time.unscaledDeltaTime;
-            if (MyTime <= 0)
-            {
-                _timeChanged = false;
-                MyTime = 0;
-                TimeBuffUi.gameObject.SetActive(false);
+        UpdateBuffs();
+    }
 
-                Time.timeScale = 1;
-            }            
+    private void UpdateBuffs()
+    {
+        if (Buffs.Any())
+        {
+            foreach (var buff in Buffs.ToList())
+            {
+                if (buff.IsExpired)
+                {
+                    Buffs.Remove(buff);
+                    HideBuffText(buff);
+                    continue;
+                }
+
+                buff.OnStart();
+                buff.Apply();
+                buff.OnEnd();
+
+                UpdateBuffText(buff);
+            }
         }
     }
 
-    public void ChangeTime(float time)
+    public void ChangeTime(float scale)
     {
-        Time.timeScale = Math.Min(time, 1);
-        _timeChanged = time != 1;
+        Buffs.Add(new TimeBuff(scale, 10f));
     }
 
     [ContextMenu("TestTime")]
     public void AddTime()
     {
-        MyTime = 10;
-        TimeBuffUi.gameObject.SetActive(true);
+        AddBuff(new TimeBuff(0.1f, 10f));
+    }
+
+    [ContextMenu("TestCaseSensitiveness")]
+    public void CaseSensitiveness()
+    {
+        AddBuff(new CaseSensitivenessBuff(10f));
+    }
+
+    private void AddBuff(BuffBase buff)
+    {
+        if (!Buffs.Any(x => x.Name.Equals(buff.Name, StringComparison.OrdinalIgnoreCase)))
+        {
+            Buffs.Add(buff);
+        }
+    }
+
+    private void UpdateBuffText(BuffBase buff)
+    {
+        var duration = buff.Duration.ToString("N2");        
+
+        switch (buff.Name)
+        {
+            case "TimeBuff":
+                TimeBuffText.text = duration;
+                if (!TimeBuffUi.gameObject.activeSelf)
+                {
+                    TimeBuffUi.gameObject.SetActive(true);
+                }
+                break;
+            case "CaseSensitivenessBuff":
+                CaseSensitivenessBuffText.text = duration;
+                if (!CaseSensitivenessBuffUi.gameObject.activeSelf)
+                {
+                    CaseSensitivenessBuffUi.gameObject.SetActive(true);
+                }
+                break;
+            default:
+                break;
+        }
+    }
+
+    private void HideBuffText(BuffBase buff)
+    {
+        switch (buff.Name)
+        {
+            case "TimeBuff":
+                TimeBuffText.text = string.Empty;
+                TimeBuffUi.gameObject.SetActive(false);
+                break;
+            case "CaseSensitivenessBuff":
+                CaseSensitivenessBuffText.text = string.Empty;
+                CaseSensitivenessBuffUi.gameObject.SetActive(false);
+                break;
+            default:
+                break;
+        }
     }
 }
