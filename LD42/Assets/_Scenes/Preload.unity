@@ -282,6 +282,45 @@ MonoBehaviour:
   ManagedObjects: []
   CommandField: {fileID: 1833847029}
   CommandKey: 13
+  ErrorPref: {fileID: 1918185780}
+  CommandPref: {fileID: 1537431978}
+  Parent: {fileID: 1741735144}
+  ScrollRect: {fileID: 308467087}
+  HideTime: 2
+  HideAnimCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.008333334
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.83543426
+      value: 0.5281767
+      inSlope: -1.512366
+      outSlope: -1.512366
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  CanvasGroup: {fileID: 308467088}
 --- !u!1 &267239449
 GameObject:
   m_ObjectHideFlags: 0
@@ -328,9 +367,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DialogTexts: []
-  TestJson: "\r\n[{\r\n\"SoundFile\":\"file_01.mp3\",\r\n\"Placement\":\"TopLeft\",\r\n\"Owner\":\"The
-    administrator\",\r\n\"Body\":\"Oh hai world!\"\r\n},\r\n{\r\n\"SoundFile\":\"file_02.mp3\",\r\n\"Placement\":\"TopRight\",\r\n\"Owner\":\"Sound
-    from the bushes\",\r\n\"Body\":\"Hello adventurer!\"\r\n}]"
+  eventList: []
+  firedEvent: []
 --- !u!4 &276763675
 Transform:
   m_ObjectHideFlags: 0
@@ -898,14 +936,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 590546640}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8ea183b206290544ac399bdf4969223, type: 3}
+  m_Script: {fileID: 11500000, guid: ed881a91e5943894a83d68071cfcdd97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   BottonLeft: {fileID: 402598137}
   ButtonLeftText: {fileID: 954711924}
   ButtonLeftOwner: {fileID: 1636032917}
   BottomRight: {fileID: 652304874}
-  BottomRightText: {fileID: 150301018}
+  BottomRightText: {fileID: 1969911995}
   BottomRightOwner: {fileID: 1416057560}
   TopLeft: {fileID: 1265627452}
   TopLeftText: {fileID: 8640196}
@@ -1225,7 +1263,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 642533568}
-  - {fileID: 150301017}
+  - {fileID: 1969911994}
   - {fileID: 1416057558}
   m_Father: {fileID: 590546641}
   m_RootOrder: 1
@@ -4467,6 +4505,80 @@ RectTransform:
   m_AnchoredPosition: {x: 381.7, y: 39}
   m_SizeDelta: {x: 554.7, y: 255.4}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1969911993
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1969911994}
+  - component: {fileID: 1969911996}
+  - component: {fileID: 1969911995}
+  m_Layer: 0
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1969911994
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1969911993}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 652304875}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1969911995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1969911993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 32
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 48
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: New Text
+--- !u!222 &1969911996
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1969911993}
 --- !u!1 &1981752832
 GameObject:
   m_ObjectHideFlags: 0

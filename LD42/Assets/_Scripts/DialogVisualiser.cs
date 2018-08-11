@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-public class DialogVisualiser : MonoBehaviour
+public class DialogVisualiser : SingletonBase<DialogVisualiser>
 {
     public GameObject BottonLeft;
     public Text ButtonLeftText;
@@ -33,7 +33,7 @@ public class DialogVisualiser : MonoBehaviour
         {
             ClearDialog();
         }
-
+        
         switch (placement)
         {
             case DialogPlacement.BottonLeft:
@@ -46,7 +46,7 @@ public class DialogVisualiser : MonoBehaviour
                 BottomRightText.text = text;
                 BottomRightOwner.text = owner;
                 break;
-            case DialogPlacement.TopLeft:
+            case DialogPlacement.TopLeft:                
                 TopLeft.SetActive(true);
                 TopLeftText.text = text;
                 TopLeftOwner.text = owner;
@@ -81,7 +81,6 @@ public class DialogVisualiser : MonoBehaviour
         Top.SetActive(false);
     }
 }
-
 
 public enum DialogPlacement
 {
