@@ -57,12 +57,12 @@ namespace Assets._Scripts
                 return false;
             }
 
-            for (int i = 0; i < length; i++)
-            {
+            //for (int i = 0; i < length; i++)
+            //{
 
-            }
+            //}
 
-            commandToExecute = commandToExecute
+           // commandToExecute = commandToExecute
                 
 
             var commandPart = commandToExecute.Contains(WHITESPACE)
