@@ -20,7 +20,7 @@ public class Label : MonoBehaviour
         GetComponentInParent<ManagedGameObject>().Label = this;
     }
 
-    public void ShowLabe()
+    public void ShowLabel()
     {
         _anim.SetBool("Show",true);
     }

@@ -11,7 +11,7 @@ namespace Assets._Scripts.Manager
             Labels.Add(label);
         }
 
-        public void DisplayLabels()
+        public void ShowLabels()
         {
             Labels.ForEach(x => x.ShowLabel());
         }
