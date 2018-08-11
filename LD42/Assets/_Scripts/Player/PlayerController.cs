@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class PlayerController : SingletonBase<PlayerController>
 {
@@ -14,12 +15,30 @@ public class PlayerController : SingletonBase<PlayerController>
 
     private CheckPoint _lastCheckPoint;
     private float _Z;
+
+    public GameObject Torch;
+    public bool TorchInhand;
+
     public override void Awake()
     {
         base.Awake();
         _Z = transform.position.z;
         _rigidbody = GetComponent<Rigidbody>();
         _charController = GetComponent<CharacterController>();
+        if (TorchInhand)
+        {
+            SetTorch(true);
+        }
+        else
+        {
+            SetTorch(false);
+        }
+    }
+
+    public void SetTorch(bool v)
+    {
+        Torch.SetActive(v);
+        TorchInhand = v;
     }
 
     private void Update()
