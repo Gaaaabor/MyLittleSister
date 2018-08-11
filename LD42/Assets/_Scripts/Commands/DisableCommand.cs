@@ -2,11 +2,11 @@
 
 namespace Assets._Scripts.Commands
 {
-    public class ResetCheckPointCommand : CommandBase
+    public class DisableCommand : CommandBase
     {
-        public ResetCheckPointCommand()
+        public DisableCommand()
         {
-            CommandText = "reset";
+            CommandText = "disable";
             ParameterCount = 1;
         }
 
@@ -25,9 +25,9 @@ namespace Assets._Scripts.Commands
                 return false;
             }
 
-            managedGameObject.Restore();
+            managedGameObject.SetDisabledState();
 
-            Debug.Log(string.Format("Item with id ({0}) reseted!", parameters[ParameterCount - 1]));
+            Debug.Log(string.Format("Item with id ({0}) disabled!", target));
 
             return true;
         }
