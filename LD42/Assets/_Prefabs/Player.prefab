@@ -100,7 +100,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1527195504288178}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.92, y: 3.3, z: -10.36}
+  m_LocalPosition: {x: 17.92, y: 3.3, z: -12.81}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4986594919900412}
@@ -114,13 +114,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1603417956755158}
-  m_LocalRotation: {x: 0.38268343, y: -0, z: -0, w: 0.92387956}
-  m_LocalPosition: {x: -5.97, y: 7.784149, z: -5.73}
+  m_LocalRotation: {x: 0.4227909, y: -0, z: -0, w: 0.9062273}
+  m_LocalPosition: {x: 20.17, y: 18.73, z: -15.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4341972054195708}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 50.022003, y: 0, z: 0}
 --- !u!4 &4986594919900412
 Transform:
   m_ObjectHideFlags: 1
@@ -247,7 +247,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerSpeed: 5
-  MoveDirection: {x: -1, y: 0, z: 0}
+  MoveDirection: {x: 1, y: 0, z: 0}
   Gravity: 100
   _currentPlayerState: 1
 --- !u!114 &114888741033061210

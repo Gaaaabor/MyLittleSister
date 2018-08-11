@@ -11,15 +11,17 @@ public class PlayerController : SingletonBase<PlayerController>
     public float Gravity;
 
 
-    public PlayerState _currentPlayerState;     
+    public PlayerState _currentPlayerState;
     private Rigidbody _rigidbody;
     private CharacterController _charController;
     private Vector3 _moveDirection;
 
     private CheckPoint _lastCheckPoint;
-
-    private void Awake()
+    private float _Z;
+    public override void Awake()
     {
+        base.Awake();
+        _Z = transform.position.z;
         _rigidbody = GetComponent<Rigidbody>();
         _charController = GetComponent<CharacterController>();
     }
@@ -38,16 +40,17 @@ public class PlayerController : SingletonBase<PlayerController>
                 break;
             case PlayerState.Fight:
                 break;
-            case PlayerState.Talking:             
+            case PlayerState.Talking:
                 break;
             default:
                 break;
-        }        
+        }
     }
 
     private void WalkForward()
     {
         _charController.Move(_moveDirection * PlayerSpeed * Time.deltaTime);
+        transform.position = new Vector3(transform.position.x, transform.position.y, _Z);
     }
 
     public void SetCheckPoint(CheckPoint checkPoint)
@@ -88,7 +91,7 @@ public class PlayerController : SingletonBase<PlayerController>
     }
 }
 
-public enum PlayerState   
+public enum PlayerState
 {
     Idle,
     Walking,

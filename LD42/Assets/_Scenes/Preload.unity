@@ -206,9 +206,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae318bf45cddd3147ad1946f6acc1ca5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentTimeBuff: {fileID: 0}
-  TimeBuffUi: {fileID: 0}
-  TimeBuffText: {fileID: 0}
+  TimeBuffUi: {fileID: 1538172067}
+  TimeBuffText: {fileID: 1034202386}
 --- !u!1 &326555689
 GameObject:
   m_ObjectHideFlags: 0
