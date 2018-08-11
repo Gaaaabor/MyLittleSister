@@ -41,6 +41,8 @@ GameObject:
   - component: {fileID: 222626207282163932}
   - component: {fileID: 114289067454001436}
   - component: {fileID: 114216678668605538}
+  - component: {fileID: 225625779971390410}
+  - component: {fileID: 95004220065561702}
   m_Layer: 0
   m_Name: manageName
   m_TagString: Untagged
@@ -48,6 +50,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &95004220065561702
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1256907811465964}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 89305101b6df4c646956601f7c38da99, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114216678668605538
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -206,3 +226,14 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 358}
   m_SizeDelta: {x: 880, y: 281.1}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!225 &225625779971390410
+CanvasGroup:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1256907811465964}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
