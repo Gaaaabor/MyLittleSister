@@ -1,38 +1,35 @@
 ﻿using System.Collections.Generic;
 
-namespace Assets._Scripts.Manager
+public class LabelManager : SingletonBase<LabelManager>
 {
-    public class LabelManager : SingletonBase<LabelManager>
+    public List<Label> Labels;
+
+    public bool LabelsVisible;
+
+    private void Start()
     {
-        public List<Label> Labels;
-
-        public bool LabelsVisible;
-
-        private void Start()
+        if (LabelsVisible)
         {
-            if (LabelsVisible)
-            {
-                ShowLabels();
-            }
-            else
-            {
-                HideLabels();
-            }
+            ShowLabels();
         }
-
-        public void RegisterLabel(Label label)
+        else
         {
-            Labels.Add(label);
+            HideLabels();
         }
+    }
 
-        public void ShowLabels()
-        {
-            Labels.ForEach(x => x.ShowLabel());
-        }
+    public void RegisterLabel(Label label)
+    {
+        Labels.Add(label);
+    }
 
-        public void HideLabels()
-        {
-            Labels.ForEach(x => x.HideLabel());
-        }
+    public void ShowLabels()
+    {
+        Labels.ForEach(x => x.ShowLabel());
+    }
+
+    public void HideLabels()
+    {
+        Labels.ForEach(x => x.HideLabel());
     }
 }

@@ -18,17 +18,18 @@ public class Label : MonoBehaviour
 
     public void Awake()
     {
-        _anim = GetComponentInChildren<Animator>();
         _label = Instantiate(Resources.Load("Label"), transform.position + LabelPlace.transform.localPosition, Quaternion.identity) as GameObject;
         _label.transform.SetParent(transform);
+        _anim = _label.GetComponentInChildren<Animator>();
         _text = _label.GetComponentInChildren<Text>();
         _text.text = GetComponent<ManagedGameObject>().ManagedName;
         GetComponentInParent<ManagedGameObject>().Label = this;
+        LabelManager.Instance.RegisterLabel(this);
     }
 
     public void ShowLabel()
     {
-        _anim.SetBool("Show",true);
+        _anim.SetBool("Show", true);
     }
 
     public void HideLabel()
@@ -38,20 +39,23 @@ public class Label : MonoBehaviour
 
     public void Destroyed()
     {
-        _anim.SetInteger("State",0);
-        LerpColor(DestroyColor);
+        _anim.SetInteger("State", 0);
+        StopAllCoroutines();
+        StartCoroutine(LerpColor(DestroyColor));
     }
 
     public void Disabled()
     {
         _anim.SetInteger("State", 1);
-        LerpColor(DisableColor);
+        StopAllCoroutines();
+        StartCoroutine(LerpColor(DisableColor));
     }
 
     public void Enabled()
     {
         _anim.SetInteger("State", 2);
-        LerpColor(EnableColor);
+        StopAllCoroutines();
+        StartCoroutine(LerpColor(EnableColor));
     }
 
     public void Activate()
