@@ -1,7 +1,7 @@
 ﻿using Assets._Scripts.Manager;
 using UnityEngine;
 
-//[RequireComponent(typeof(Label))]
+[RequireComponent(typeof(Label))]
 public class ManagedGameObject : MonoBehaviour
 {
     [HideInInspector]
@@ -10,6 +10,9 @@ public class ManagedGameObject : MonoBehaviour
     private ManagedGameObjectMemento _memento = new ManagedGameObjectMemento();
 
     public string ManagedName;
+
+    public bool StartEnabled;
+
     public bool CanDestroy = true;
     public bool CanEnable = true;
     public bool CanDisable = true;
@@ -51,6 +54,15 @@ public class ManagedGameObject : MonoBehaviour
 
     private void Awake()
     {
+        if (StartEnabled)
+        {
+            SetEnabledState();
+        }
+        else
+        {
+            SetDisabledState();
+        }
+
         _memento.Save(this);
         GameObjectManager.Instance.RegisterObject(this);
     }

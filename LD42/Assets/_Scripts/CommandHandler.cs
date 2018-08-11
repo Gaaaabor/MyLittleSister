@@ -42,8 +42,9 @@ namespace Assets._Scripts
             Commands = new List<CommandBase>
             {
                 new DestroyCommand(),
-                new ResetCheckPointCommand(),
-                new OpenCommand(),
+                new DisableCommand(),
+                new EnableCommand(),
+                new RestartCommand(),
                 new ActivateCommand()
             };
         }
