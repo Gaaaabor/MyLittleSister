@@ -6,6 +6,20 @@ namespace Assets._Scripts.Manager
     {
         public List<Label> Labels;
 
+        public bool LabelsVisible;
+
+        private void Start()
+        {
+            if (LabelsVisible)
+            {
+                ShowLabels();
+            }
+            else
+            {
+                HideLabels();
+            }
+        }
+
         public void RegisterLabel(Label label)
         {
             Labels.Add(label);
