@@ -51,6 +51,8 @@ public class DialogManager : SingletonBase<DialogManager>
 
         DialogVisualiser.Instance.UpdateDialogText(dialogText.Body, dialogText.Owner, dialogText.GetPlacement(), nextevent.Clear);
 
+        PlayerController.Instance.SetPlayerState(nextevent.PlayerState);
+
         nextevent.Event.Invoke();
         firedEvent.Add(nextevent);
         eventList.Remove(nextevent);
