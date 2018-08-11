@@ -1,11 +1,16 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class LoadMainScene : MonoBehaviour {
-    public string MapName;
+
+    public List<string> SceneList;
 
     private void Start()
     {
-        SceneManager.LoadScene(MapName);
+        foreach (var item in SceneList)
+        {
+            SceneManager.LoadScene(item,LoadSceneMode.Additive);
+        }       
     }
 }
