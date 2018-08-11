@@ -1,5 +1,4 @@
-﻿using Assets._Scripts.Manager;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Events;
 
 [RequireComponent(typeof(Label))]

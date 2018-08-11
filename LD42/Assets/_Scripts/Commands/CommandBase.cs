@@ -1,31 +1,28 @@
 ﻿using UnityEngine;
 
-namespace Assets._Scripts.Commands
+public abstract class CommandBase
 {
-    public abstract class CommandBase
+    public string CommandText { get; protected set; }
+    public int ParameterCount { get; protected set; }
+
+    public virtual bool Execute(string[] parameters)
     {
-        public string CommandText { get; protected set; }
-        public int ParameterCount { get; protected set; }
-
-        public virtual bool Execute(string[] parameters)
+        if (!IsParameterCountValid(parameters))
         {
-            if (!IsParameterCountValid(parameters))
-            {
-                InvalidParameterCountMessage();
-                return false;
-            }
-
-            return true;
+            InvalidParameterCountMessage();
+            return false;
         }
 
-        private bool IsParameterCountValid(string[] parameters)
-        {
-            return parameters != null && ParameterCount == parameters.Length;
-        }
+        return true;
+    }
 
-        private void InvalidParameterCountMessage()
-        {
-            Debug.Log(string.Format("Incorrect number of parameters {0} for command {1}", ParameterCount, CommandText));
-        }
+    private bool IsParameterCountValid(string[] parameters)
+    {
+        return parameters != null && ParameterCount == parameters.Length;
+    }
+
+    private void InvalidParameterCountMessage()
+    {
+        Debug.Log(string.Format("Incorrect number of parameters {0} for command {1}", ParameterCount, CommandText));
     }
 }
