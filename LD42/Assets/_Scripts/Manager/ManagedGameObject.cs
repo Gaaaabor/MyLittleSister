@@ -58,7 +58,8 @@ public class ManagedGameObject : MonoBehaviour
     {
         if (CanActivate && ObjectOverride.activeInHierarchy && !_isDestroyed)
         {
-            ActivateEvent.Invoke();
+            Label.Activate();
+            ActivateEvent.Invoke();  
         }
     }
 

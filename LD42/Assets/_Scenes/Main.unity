@@ -1053,6 +1053,7 @@ MonoBehaviour:
   EnableColor: {r: 1, g: 1, b: 1, a: 1}
   DestroyColor: {r: 1, g: 0, b: 0, a: 1}
   DisableColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  ActivateColor: {r: 0, g: 1, b: 1, a: 1}
 --- !u!1 &632879799 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1432823546959924, guid: c2e1978a5f79607419a330606f8197a4,
@@ -1412,6 +1413,7 @@ MonoBehaviour:
   EnableColor: {r: 1, g: 1, b: 1, a: 1}
   DestroyColor: {r: 1, g: 0, b: 0, a: 1}
   DisableColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  ActivateColor: {r: 0, g: 1, b: 1, a: 1}
 --- !u!4 &901830260 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4835722740395414, guid: 424bc0378a7582d4599d3dae55411c34,
@@ -2533,6 +2535,7 @@ MonoBehaviour:
   EnableColor: {r: 1, g: 1, b: 1, a: 1}
   DestroyColor: {r: 1, g: 0, b: 0, a: 1}
   DisableColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  ActivateColor: {r: 0, g: 1, b: 1, a: 1}
 --- !u!114 &1766476338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2940,13 +2943,35 @@ MonoBehaviour:
   CanDisable: 1
   DisableEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1766476336}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   CanDestroy: 1
   DestroyEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1766476336}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   CanActivate: 1
@@ -2972,6 +2997,7 @@ MonoBehaviour:
   EnableColor: {r: 1, g: 1, b: 1, a: 1}
   DestroyColor: {r: 1, g: 0, b: 0, a: 1}
   DisableColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  ActivateColor: {r: 0, g: 1, b: 1, a: 1}
 --- !u!1 &1979461132
 GameObject:
   m_ObjectHideFlags: 0
@@ -3030,8 +3056,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1979461132}
-  m_LocalRotation: {x: -0.4193833, y: 0.15611479, z: 0.07345954, w: 0.8912629}
-  m_LocalPosition: {x: 49.561836, y: -28.852386, z: -19.56121}
+  m_LocalRotation: {x: 0.26749694, y: 0.12873355, z: 0.036087286, w: -0.95423836}
+  m_LocalPosition: {x: 906.8302, y: -688.1604, z: -388.73444}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
