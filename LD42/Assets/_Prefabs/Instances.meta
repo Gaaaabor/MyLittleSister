@@ -1,6 +1,10 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:LD42/Assets/_Prefabs/Instances.meta
 guid: 3d830cea80d0a3047ad8764aa50ff6ae
 folderAsset: yes
+=======
+guid: 9a6f8c7c1ea72ce46831c5e1b6150d0c
+>>>>>>> 2d3377cb364b3ff6f76582cb62b1e56c8da6308d:LD42/Assets/Import/JsonDotNet/JsonDotNet201Source.zip.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
