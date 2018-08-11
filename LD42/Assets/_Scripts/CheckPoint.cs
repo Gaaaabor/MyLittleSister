@@ -4,12 +4,7 @@ using UnityEngine;
 
 public class CheckPoint : MonoBehaviour
 {
-    private List<ManagedGameObject> _checkPointObject;
-
-    private void Awake()
-    {
-        _checkPointObject = GetComponentsInChildren<ManagedGameObject>().ToList();
-    }
+    public List<ManagedGameObject> CheckPointObject;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -21,7 +16,7 @@ public class CheckPoint : MonoBehaviour
 
     public void ResetCheckPoint()
     {
-        foreach (var item in _checkPointObject)
+        foreach (var item in CheckPointObject)
         {
             item.Restore();
         }

@@ -17,43 +17,18 @@ public class ManagedGameObject : MonoBehaviour
     public bool CanEnable = true;
     public bool CanDisable = true;
 
-    internal void SetActivatedState()
-    {
-        //TODO
-    }
+    public GameObject ObjectOverride;
 
-    internal void SetDestroyedState()
+    [HideInInspector]
+    public Label Label;
+
+    private void Start()
     {
-        if (CanDestroy)
+        if (ObjectOverride == null)
         {
-            _isDestroyed = true;
-            gameObject.SetActive(false);
+            ObjectOverride = transform.GetChild(0).gameObject;
         }
-    }
 
-    internal void SetDisabledState()
-    {
-        if (CanDisable)
-        {
-            gameObject.SetActive(false);
-        }
-    }
-
-    internal void SetEnabledState()
-    {
-        if (CanEnable)
-        {
-            gameObject.SetActive(true);
-        }
-    }
-
-    internal void Restore()
-    {
-        _memento.Restore(this);
-    }
-
-    private void Awake()
-    {
         if (StartEnabled)
         {
             SetEnabledState();
@@ -65,5 +40,46 @@ public class ManagedGameObject : MonoBehaviour
 
         _memento.Save(this);
         GameObjectManager.Instance.RegisterObject(this);
+    }
+
+    public void SetActivatedState()
+    {
+        if (CanEnable && !_isDestroyed)
+        {
+            ObjectOverride.SetActive(true);
+        }
+    }
+
+    public void SetDestroyedState()
+    {
+        if (CanDestroy)
+        {
+            Label.Destroyed();
+            _isDestroyed = true;
+            ObjectOverride.SetActive(false);
+        }
+    }
+
+    public void SetDisabledState()
+    {
+        if (CanDisable && !_isDestroyed)
+        {
+            Label.Disabled();
+            ObjectOverride.SetActive(false);
+        }
+    }
+
+    public void SetEnabledState()
+    {
+        if (CanEnable)
+        {
+            Label.Enabled();
+            ObjectOverride.SetActive(true);
+        }
+    }
+
+    public void Restore()
+    {
+        _memento.Restore(this);
     }
 }
