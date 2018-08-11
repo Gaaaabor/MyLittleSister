@@ -43,9 +43,8 @@ public class PlayerController : SingletonBase<PlayerController>
 
     private void Update()
     {
-        _moveDirection = MoveDirection;
-        _moveDirection.y -= Gravity * Time.deltaTime;
-
+        _moveDirection = Vector3.zero;
+ 
         switch (_currentPlayerState)
         {
             case PlayerState.Idle:
@@ -60,12 +59,15 @@ public class PlayerController : SingletonBase<PlayerController>
             default:
                 break;
         }
+
+        _moveDirection.y -= Gravity * Time.deltaTime;
+        _charController.Move(_moveDirection);
+        transform.position = new Vector3(transform.position.x, transform.position.y, _Z);
     }
 
     private void WalkForward()
     {
-        _charController.Move(_moveDirection * PlayerSpeed * Time.deltaTime);
-        transform.position = new Vector3(transform.position.x, transform.position.y, _Z);
+        _moveDirection += MoveDirection * PlayerSpeed * Time.deltaTime;
     }
 
     public void SetCheckPoint(CheckPoint checkPoint)
@@ -94,7 +96,7 @@ public class PlayerController : SingletonBase<PlayerController>
         _currentPlayerState = PlayerState.Fight;
     }
 
-    public void TalkPlay()
+    public void DialogPlay()
     {
         _currentPlayerState = PlayerState.Talking;
     }
