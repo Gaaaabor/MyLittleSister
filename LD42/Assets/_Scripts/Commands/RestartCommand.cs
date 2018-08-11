@@ -1,23 +1,20 @@
-﻿namespace Assets._Scripts.Commands
+﻿public class RestartCommand : CommandBase
 {
-    public class RestartCommand : CommandBase
+    public RestartCommand()
     {
-        public RestartCommand()
+        CommandText = "restart";
+        ParameterCount = 0;
+    }
+
+    public override bool Execute(string[] parameters)
+    {
+        if (!base.Execute(parameters))
         {
-            CommandText = "restart";
-            ParameterCount = 0;
+            return false;
         }
 
-        public override bool Execute(string[] parameters)
-        {
-            if (!base.Execute(parameters))
-            {
-                return false;
-            }
+        PlayerController.Instance.Die();
 
-            PlayerController.Instance.Die();
-
-            return true;
-        }
+        return true;
     }
 }

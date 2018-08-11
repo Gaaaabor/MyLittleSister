@@ -1,45 +1,42 @@
-﻿using Assets._Scripts.Commands;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 using UnityEngine;
 
-namespace Assets._Scripts
+public class CommandHandler
 {
-    public class CommandHandler
-    {
-        public const string WHITESPACE = " ";
+    public const string WHITESPACE = " ";
 
-        #region //Singleton
-        public volatile static object _lock = new object();
-        public static CommandHandler _instance;
-        public static CommandHandler Instance
+    #region //Singleton
+    public volatile static object _lock = new object();
+    public static CommandHandler _instance;
+    public static CommandHandler Instance
+    {
+        get
         {
-            get
+            if (_instance == null)
             {
-                if (_instance == null)
+                lock (_lock)
                 {
-                    lock (_lock)
+                    if (_instance == null)
                     {
-                        if (_instance == null)
-                        {
-                            _instance = new CommandHandler();
-                        }
+                        _instance = new CommandHandler();
                     }
                 }
-
-                return _instance;
             }
+
+            return _instance;
         }
-        #endregion //Singleton
+    }
+    #endregion //Singleton
 
-        public List<CommandBase> Commands { get; private set; }
+    public List<CommandBase> Commands { get; private set; }
 
-        public bool IsCaseSensitive;
+    public bool IsCaseSensitive;
 
-        private CommandHandler()
-        {
-            Commands = new List<CommandBase>
+    private CommandHandler()
+    {
+        Commands = new List<CommandBase>
             {
                 new DestroyCommand(),
                 new DisableCommand(),
@@ -48,76 +45,75 @@ namespace Assets._Scripts
                 new ActivateCommand(),
                 new SpeedCommand()
             };
+    }
+
+    //IDEA: paypal fun
+
+    public bool TryExecuteCommand(string commandToExecute)
+    {
+        if (string.IsNullOrEmpty(commandToExecute))
+        {
+            return false;
         }
 
-        //IDEA: paypal fun
+        commandToExecute = removeWhiteSpaceDuplications(commandToExecute);
 
-        public bool TryExecuteCommand(string commandToExecute)
+        var commandPart = commandToExecute.Contains(WHITESPACE)
+            ? commandToExecute.Split(new[] { WHITESPACE }, StringSplitOptions.RemoveEmptyEntries)[0]
+            : commandToExecute;
+
+        var stringComparison = IsCaseSensitive ? StringComparison.Ordinal : StringComparison.OrdinalIgnoreCase;
+
+        CommandBase foundCommand = null;
+        foreach (var command in Commands)
         {
-            if (string.IsNullOrEmpty(commandToExecute))
+            if (!command.CommandText.Equals(commandPart, stringComparison))
             {
-                return false;
+                continue;
             }
 
-            commandToExecute = removeWhiteSpaceDuplications(commandToExecute);
+            foundCommand = command;
+            break;
+        }
 
-            var commandPart = commandToExecute.Contains(WHITESPACE)
-                ? commandToExecute.Split(new[] { WHITESPACE }, StringSplitOptions.RemoveEmptyEntries)[0]
-                : commandToExecute;
+        if (foundCommand == null)
+        {
+            Debug.Log(string.Format("Incorrect command ({0})!", commandPart));
+            return false;
+        }
 
-            var stringComparison = IsCaseSensitive ? StringComparison.Ordinal : StringComparison.OrdinalIgnoreCase;
+        var parameters = commandToExecute
+            .Replace(foundCommand.CommandText, string.Empty)
+            .Split(new[] { WHITESPACE }, StringSplitOptions.RemoveEmptyEntries);
 
-            CommandBase foundCommand = null;
-            foreach (var command in Commands)
+        foundCommand.Execute(parameters);
+
+        return true;
+    }
+
+    private string removeWhiteSpaceDuplications(string commandToExecute)
+    {
+        var builder = new StringBuilder();
+        var previousIsWhitespace = false;
+        for (var i = 0; i < commandToExecute.Length; i++)
+        {
+            if (char.IsWhiteSpace(commandToExecute[i]))
             {
-                if (!command.CommandText.Equals(commandPart, stringComparison))
+                if (previousIsWhitespace)
                 {
                     continue;
                 }
 
-                foundCommand = command;
-                break;
+                previousIsWhitespace = true;
             }
-
-            if (foundCommand == null)
+            else
             {
-                Debug.Log(string.Format("Incorrect command ({0})!", commandPart));
-                return false;
+                previousIsWhitespace = false;
             }
 
-            var parameters = commandToExecute
-                .Replace(foundCommand.CommandText, string.Empty)
-                .Split(new[] { WHITESPACE }, StringSplitOptions.RemoveEmptyEntries);
-
-            foundCommand.Execute(parameters);
-
-            return true;
+            builder.Append(commandToExecute[i]);
         }
 
-        private string removeWhiteSpaceDuplications(string commandToExecute)
-        {
-            var builder = new StringBuilder();
-            var previousIsWhitespace = false;
-            for (var i = 0; i < commandToExecute.Length; i++)
-            {
-                if (char.IsWhiteSpace(commandToExecute[i]))
-                {
-                    if (previousIsWhitespace)
-                    {
-                        continue;
-                    }
-
-                    previousIsWhitespace = true;
-                }
-                else
-                {
-                    previousIsWhitespace = false;
-                }
-
-                builder.Append(commandToExecute[i]);
-            }
-
-            return builder.ToString();
-        }
+        return builder.ToString();
     }
 }

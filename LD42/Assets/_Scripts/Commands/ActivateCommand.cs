@@ -1,35 +1,32 @@
 ﻿using UnityEngine;
 
-namespace Assets._Scripts.Commands
+public class ActivateCommand : CommandBase
 {
-    public class ActivateCommand : CommandBase
+    public ActivateCommand()
     {
-        public ActivateCommand()
+        CommandText = "activate";
+        ParameterCount = 1;
+    }
+
+    public override bool Execute(string[] parameters)
+    {
+        if (!base.Execute(parameters))
         {
-            CommandText = "activate";
-            ParameterCount = 1;
+            return false;
         }
 
-        public override bool Execute(string[] parameters)
+        var target = parameters[ParameterCount - 1];
+        var managedGameObject = GameObjectManager.Instance.GetManagedGameObject(target);
+        if (managedGameObject == null)
         {
-            if (!base.Execute(parameters))
-            {
-                return false;
-            }
-
-            var target = parameters[ParameterCount - 1];
-            var managedGameObject = GameObjectManager.Instance.GetManagedGameObject(target);
-            if (managedGameObject == null)
-            {
-                Debug.Log(string.Format("Item with id ({0}) not found!", target));
-                return false;
-            }
-
-            managedGameObject.SetActivatedState();
-
-            Debug.Log(string.Format("Item with id ({0}) activated!", target));
-
-            return true;
+            Debug.Log(string.Format("Item with id ({0}) not found!", target));
+            return false;
         }
+
+        managedGameObject.SetActivatedState();
+
+        Debug.Log(string.Format("Item with id ({0}) activated!", target));
+
+        return true;
     }
 }
