@@ -17,6 +17,16 @@ namespace Assets._Scripts.Commands
                 return false;
             }
 
+            var target = parameters[ParameterCount - 1];
+            var managedGameObject = GameObjectManager.Instance.GetManagedGameObject(target);
+            if (managedGameObject == null)
+            {
+                Debug.Log(string.Format("Item with id ({0}) not found!", parameters[ParameterCount - 1]));
+                return false;
+            }
+
+            managedGameObject.Restore();
+
             Debug.Log(string.Format("Item with id ({0}) reseted!", parameters[ParameterCount - 1]));
 
             return true;

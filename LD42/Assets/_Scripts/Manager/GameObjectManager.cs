@@ -1,9 +1,11 @@
 ﻿using Assets._Scripts;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class GameObjectManager : MonoBehaviour
+public class GameObjectManager : SingletonBase<GameObjectManager>
 {
     private bool _inCommand;
 
@@ -11,8 +13,9 @@ public class GameObjectManager : MonoBehaviour
     public InputField CommandField;
     public KeyCode CommandKey;
 
-    private void Awake()
+    public override void Awake()
     {
+        base.Awake();
         CommandField.gameObject.SetActive(false);
     }
 
@@ -49,5 +52,15 @@ public class GameObjectManager : MonoBehaviour
     public void RegisterObject(ManagedGameObject managedGameObject)
     {
         ManagedObjects.Add(managedGameObject);
+    }
+
+    public ManagedGameObject GetManagedGameObject(string name)
+    {
+        if (string.IsNullOrEmpty(name) || ManagedObjects == null)
+        {
+            return null;
+        }
+
+        return ManagedObjects.FirstOrDefault(x => x.ManagedName.Equals(name, StringComparison.OrdinalIgnoreCase));
     }
 }
