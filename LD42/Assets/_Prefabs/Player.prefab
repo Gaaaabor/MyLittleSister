@@ -245,7 +245,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cd3d0ead7bcaaa4eb3a9015bfc4156d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerSpeed: 15
+  PlayerSpeed: 40
   MoveDirection: {x: -1, y: 0, z: 0}
   Gravity: 100
   _currentPlayerState: 1

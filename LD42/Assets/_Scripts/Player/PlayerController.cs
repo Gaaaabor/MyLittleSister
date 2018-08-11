@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : SingletonBase<PlayerController>
 {
     public float PlayerSpeed;
     public Vector3 MoveDirection;
@@ -47,7 +47,7 @@ public class PlayerController : MonoBehaviour
 
     private void WalkForward()
     {
-        _charController.Move(_moveDirection * Time.deltaTime);
+        _charController.Move(_moveDirection * PlayerSpeed * Time.deltaTime);
     }
 
     public void SetCheckPoint(CheckPoint checkPoint)

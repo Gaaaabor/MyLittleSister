@@ -15,8 +15,7 @@ public class CheckPoint : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            Debug.Log(other.transform.name);
-            other.GetComponent<PlayerController>().SetCheckPoint(this);
+            PlayerController.Instance.SetCheckPoint(this);
         }
     }
 
