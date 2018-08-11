@@ -61,18 +61,18 @@ public class GameObjectManager : SingletonBase<GameObjectManager>
             StopAllCoroutines();
             StartCoroutine(HideRect());
             var Result = CommandHandler.Instance.TryExecuteCommand(CommandField.text);
-            //if (Result.isSucces)
-            //{
-            //    GameObject go = Instantiate(CommandPref, Parent) as GameObject;
-            //    go.SetActive(true);
-            //    go.GetComponentInChildren<Text>().text = Result.Message;
-            //}
-            //else
-            //{
-            //    GameObject go = Instantiate(ErrorPref, Parent) as GameObject;
-            //    go.SetActive(true);
-            //    go.GetComponentInChildren<Text>().text = Result.Message;
-            //}
+            if (Result.IsSuccessful)
+            {
+                GameObject go = Instantiate(CommandPref, Parent) as GameObject;
+                go.SetActive(true);
+                go.GetComponentInChildren<Text>().text = Result.Message;
+            }
+            else
+            {
+                GameObject go = Instantiate(ErrorPref, Parent) as GameObject;
+                go.SetActive(true);
+                go.GetComponentInChildren<Text>().text = Result.Message;
+            }
         }
 
         _inCommand = false;
