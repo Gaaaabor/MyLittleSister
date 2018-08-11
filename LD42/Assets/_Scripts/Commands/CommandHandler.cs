@@ -57,7 +57,7 @@ public class CommandHandler
             return false;
         }
 
-        commandToExecute = removeWhiteSpaceDuplications(commandToExecute);
+        commandToExecute = RemoveWhiteSpaceDuplications(commandToExecute);
 
         var commandPart = commandToExecute.Contains(WHITESPACE)
             ? commandToExecute.Split(new[] { WHITESPACE }, StringSplitOptions.RemoveEmptyEntries)[0]
@@ -79,12 +79,12 @@ public class CommandHandler
 
         if (foundCommand == null)
         {
-            Debug.Log(string.Format("Incorrect command ({0})!", commandPart));
+            Debug.Log(string.Format("Incorrect command ({0}) [{1}]!", commandPart, commandToExecute));
             return false;
         }
 
         var parameters = commandToExecute
-            .Replace(foundCommand.CommandText, string.Empty)
+            .Substring(commandPart.Length, commandToExecute.Length - commandPart.Length)
             .Split(new[] { WHITESPACE }, StringSplitOptions.RemoveEmptyEntries);
 
         foundCommand.Execute(parameters);
@@ -92,7 +92,7 @@ public class CommandHandler
         return true;
     }
 
-    private string removeWhiteSpaceDuplications(string commandToExecute)
+    private string RemoveWhiteSpaceDuplications(string commandToExecute)
     {
         var builder = new StringBuilder();
         var previousIsWhitespace = false;
