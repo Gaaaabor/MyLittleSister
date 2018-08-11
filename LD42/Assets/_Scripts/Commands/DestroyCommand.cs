@@ -21,7 +21,7 @@ namespace Assets._Scripts.Commands
             var managedGameObject = GameObjectManager.Instance.GetManagedGameObject(target);
             if (managedGameObject == null)
             {
-                Debug.Log(string.Format("Item with id ({0}) not found!", parameters[ParameterCount - 1]));
+                Debug.Log(string.Format("Item with id ({0}) not found!", target));
                 return false;
             }
 

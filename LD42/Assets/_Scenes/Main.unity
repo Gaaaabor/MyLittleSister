@@ -1211,7 +1211,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _isDestroyed: 0
   ManagedName: Bridge
-  StartEnabled: 0
+  StartEnabled: 1
   CanDestroy: 1
   CanEnable: 1
   CanDisable: 1
@@ -1446,6 +1446,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4341972054195708, guid: 905f9ff1fe98b6742a6c75d50574484d, type: 2}
       propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114469961961148264, guid: 905f9ff1fe98b6742a6c75d50574484d,
+        type: 2}
+      propertyPath: PlayerSpeed
       value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
