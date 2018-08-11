@@ -8,25 +8,27 @@ public class EnableCommand : CommandBase
         ParameterCount = 1;
     }
 
-    public override bool Execute(string[] parameters)
+    public override CommandResult Execute(string[] parameters)
     {
-        if (!base.Execute(parameters))
+        var commandResult = base.Execute(parameters);
+        if (!commandResult)
         {
-            return false;
+            return commandResult;
         }
 
         var target = parameters[ParameterCount - 1];
         var managedGameObject = GameObjectManager.Instance.GetManagedGameObject(target);
         if (managedGameObject == null)
         {
-            Debug.Log(string.Format("Item with id ({0}) not found!", target));
-            return false;
+            commandResult = new CommandResult(string.Format("Item with id ({0}) not found!", target), false);
+            Debug.Log(commandResult);
+            return commandResult;
         }
 
         managedGameObject.SetEnabledState();
 
-        Debug.Log(string.Format("Item with id ({0}) enabled!", target));
-
-        return true;
+        commandResult = new CommandResult(string.Format("Item with id ({0}) enabled!", target));
+        Debug.Log(commandResult);
+        return commandResult;
     }
 }

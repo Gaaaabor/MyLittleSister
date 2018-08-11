@@ -8,16 +8,18 @@ public class CheatModeCommand : CommandBase
         ParameterCount = 0;
     }
 
-    public override bool Execute(string[] parameters)
+    public override CommandResult Execute(string[] parameters)
     {
-        if (!base.Execute(parameters))
+        var commandResult = base.Execute(parameters);
+        if (!commandResult)
         {
-            return false;
+            return commandResult;
         }
 
         LabelManager.Instance.ShowLabels();
 
-        Debug.Log("Cheatmode enabled!");
-        return true;
+        commandResult = new CommandResult("Cheatmode enabled!");
+        Debug.Log(commandResult);
+        return commandResult;
     }
 }
