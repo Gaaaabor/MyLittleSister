@@ -1,16 +1,54 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
-public class MainMenuFunctions : MonoBehaviour {
+public class MainMenuFunctions : MonoBehaviour
+{
+    public GameObject MainMenu;
+    public GameObject NameMenu;
+    public GameObject HighScore;
+    public string MainSceneName;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public InputField NameField;
+
+    private void Awake()
+    {
+        MainMenu.SetActive(true);
+        NameMenu.SetActive(false);
+        HighScore.SetActive(false);
+    }
+
+    public void StartGame()
+    {
+        MainMenu.SetActive(false);
+        NameMenu.SetActive(true);
+        HighScore.SetActive(false);
+    }
+
+    public void ConfirmName()
+    {
+        Cursor.visible = false;
+        SceneManager.LoadScene(MainSceneName);
+    }
+
+    public void CheckHighScore()
+    {
+        MainMenu.SetActive(false);
+        NameMenu.SetActive(false);
+        HighScore.SetActive(true);
+    }
+
+    public void BackToMenu()
+    {
+        MainMenu.SetActive(true);
+        NameMenu.SetActive(false);
+        HighScore.SetActive(false);
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
+    }
 }
