@@ -45,7 +45,8 @@ namespace Assets._Scripts
                 new DisableCommand(),
                 new EnableCommand(),
                 new RestartCommand(),
-                new ActivateCommand()
+                new ActivateCommand(),
+                new SpeedCommand()
             };
         }
 

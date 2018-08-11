@@ -38,6 +38,7 @@ public class GameObjectManager : SingletonBase<GameObjectManager>
     {
         _inCommand = true;
         CommandField.gameObject.SetActive(true);
+        CommandField.ActivateInputField();
         CommandField.Select();
     }
 
