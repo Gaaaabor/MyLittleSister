@@ -84,7 +84,7 @@ public class CommandHandler
         }
 
         var parameters = commandToExecute
-            .Replace(foundCommand.CommandText, string.Empty)
+            .Substring(commandPart.Length, commandToExecute.Length - commandPart.Length)
             .Split(new[] { WHITESPACE }, StringSplitOptions.RemoveEmptyEntries);
 
         foundCommand.Execute(parameters);
