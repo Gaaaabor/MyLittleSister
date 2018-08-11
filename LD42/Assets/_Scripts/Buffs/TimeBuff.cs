@@ -22,11 +22,11 @@ public class TimeBuff : BuffBase
 
     public override bool OnEnd()
     {
-        var endExecuted = base.OnEnd();
-        if (!endExecuted)
+        var canExecute = base.OnEnd();
+        if (canExecute)
         {
             Time.timeScale = 1;
         }
-        return endExecuted;
+        return canExecute;
     }
 }

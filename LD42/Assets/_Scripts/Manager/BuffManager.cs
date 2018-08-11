@@ -27,11 +27,12 @@ public class BuffManager : SingletonBase<BuffManager>
     public GameObject CaseSensitivenessBuffUi;
     public Text CaseSensitivenessBuffText;
 
-    public List<BuffBase> Buffs;
+    private List<BuffBase> _Buffs = new List<BuffBase>();
 
     private void Awake()
     {
         TimeBuffUi.gameObject.SetActive(false);
+        CaseSensitivenessBuffUi.gameObject.SetActive(false);
     }
 
     private void Update()
@@ -41,29 +42,31 @@ public class BuffManager : SingletonBase<BuffManager>
 
     private void UpdateBuffs()
     {
-        if (Buffs.Any())
+        if (_Buffs == null || !_Buffs.Any())
         {
-            foreach (var buff in Buffs.ToList())
+            return;
+        }
+
+        foreach (var buff in _Buffs.ToList())
+        {
+            if (buff.IsExpired)
             {
-                if (buff.IsExpired)
-                {
-                    Buffs.Remove(buff);
-                    HideBuffText(buff);
-                    continue;
-                }
-
-                buff.OnStart();
-                buff.Apply();
-                buff.OnEnd();
-
-                UpdateBuffText(buff);
+                HideBuffText(buff);
+                _Buffs.Remove(buff);
+                continue;
             }
+
+            buff.OnStart();
+            buff.Apply();
+            buff.OnEnd();
+
+            UpdateBuffText(buff);
         }
     }
 
     public void ChangeTime(float scale)
     {
-        Buffs.Add(new TimeBuff(scale, 10f));
+        AddBuff(new TimeBuff(scale, 10f));
     }
 
     [ContextMenu("TestTime")]
@@ -80,31 +83,25 @@ public class BuffManager : SingletonBase<BuffManager>
 
     private void AddBuff(BuffBase buff)
     {
-        if (!Buffs.Any(x => x.Name.Equals(buff.Name, StringComparison.OrdinalIgnoreCase)))
+        if (_Buffs != null && _Buffs.All(x => !x.Name.Equals(buff.Name, StringComparison.OrdinalIgnoreCase)))
         {
-            Buffs.Add(buff);
+            _Buffs.Add(buff);
         }
     }
 
     private void UpdateBuffText(BuffBase buff)
     {
-        var duration = buff.Duration.ToString("N2");        
+        var duration = buff.Duration.ToString("N2");
 
         switch (buff.Name)
         {
             case "TimeBuff":
                 TimeBuffText.text = duration;
-                if (!TimeBuffUi.gameObject.activeSelf)
-                {
-                    TimeBuffUi.gameObject.SetActive(true);
-                }
+                TimeBuffUi.gameObject.SetActive(true);
                 break;
             case "CaseSensitivenessBuff":
                 CaseSensitivenessBuffText.text = duration;
-                if (!CaseSensitivenessBuffUi.gameObject.activeSelf)
-                {
-                    CaseSensitivenessBuffUi.gameObject.SetActive(true);
-                }
+                CaseSensitivenessBuffUi.gameObject.SetActive(true);
                 break;
             default:
                 break;

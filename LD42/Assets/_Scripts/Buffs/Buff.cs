@@ -46,13 +46,12 @@
 
     public virtual bool OnEnd()
     {
-        if (_endExecuted)
+        if (_endExecuted || !IsExpired)
         {
-            return true;
+            return false;
         }
 
         _endExecuted = true;
-
-        return false;
+        return true;
     }
 }
