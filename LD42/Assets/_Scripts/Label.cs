@@ -6,48 +6,65 @@ using UnityEngine.UI;
 
 public class Label : MonoBehaviour
 {
-    public Color EnabledColor = Color.white;
-    public Color DisabledColor = Color.yellow;
-    public Color DestroyColor = Color.red;
     public Transform LabelPlace;
 
     private GameObject _label;
+    private Animator _anim;
 
     public void Awake()
     {
+        _anim = GetComponentInChildren<Animator>();
         _label = Instantiate(Resources.Load("Label"), transform.position + LabelPlace.transform.localPosition, Quaternion.identity) as GameObject;
         _label.transform.SetParent(transform);
         _label.GetComponentInChildren<Text>().text = GetComponent<ManagedGameObject>().ManagedName;
         GetComponentInParent<ManagedGameObject>().Label = this;
     }
 
+    public void ShowLabe()
+    {
+        _anim.SetBool("Show",true);
+    }
+
+    public void HideLabel()
+    {
+        _anim.SetBool("Show", false);
+    }
+
     public void Destroyed()
     {
-        _label.GetComponentInChildren<Text>().color = DestroyColor;
+        _anim.SetInteger("State",0);
     }
 
     public void Disabled()
     {
-        _label.GetComponentInChildren<Text>().color = DisabledColor;
+        _anim.SetInteger("State", 1);
     }
 
     public void Enabled()
     {
-        _label.GetComponentInChildren<Text>().color = EnabledColor;
+        _anim.SetInteger("State", 2);
+    }
+
+    public void Activate()
+    {
+        _anim.SetTrigger("Activate");
     }
 
     void Reset()
     {
         if (LabelPlace == null)
         {
+            for (int i = 0; i < transform.childCount; i++)
+            {
+                if (transform.GetChild(i).name == "LabelPlace")
+                {
+                    LabelPlace = transform.GetChild(i);
+                    return;
+                }
+            }
             LabelPlace = new GameObject("LabelPlace").transform;
             LabelPlace.transform.SetParent(transform);
             LabelPlace.transform.localPosition = Vector3.zero;
         }
-    }
-
-    internal void Activate()
-    {
-        throw new NotImplementedException();
     }
 }
