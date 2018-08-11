@@ -1,5 +1,6 @@
 ﻿using Assets._Scripts.Manager;
 using UnityEngine;
+using UnityEngine.Events;
 
 [RequireComponent(typeof(Label))]
 public class ManagedGameObject : MonoBehaviour
@@ -13,9 +14,21 @@ public class ManagedGameObject : MonoBehaviour
 
     public bool StartEnabled;
 
-    public bool CanDestroy = true;
+    [Header("Enable")]
     public bool CanEnable = true;
+    public UnityEvent EnableEvent;
+
+    [Header("Disable")]
     public bool CanDisable = true;
+    public UnityEvent DisableEvent;
+
+    [Header("Destroy")]
+    public bool CanDestroy = true;
+    public UnityEvent DestroyEvent;
+
+    [Header("Active")]
+    public bool CanActivate = true;
+    public UnityEvent ActivateEvent;
 
     public GameObject ObjectOverride;
 
@@ -44,9 +57,9 @@ public class ManagedGameObject : MonoBehaviour
 
     public void SetActivatedState()
     {
-        if (CanEnable && !_isDestroyed)
+        if (CanActivate && ObjectOverride.activeInHierarchy && !_isDestroyed)
         {
-            ObjectOverride.SetActive(true);
+            ActivateEvent.Invoke();
         }
     }
 
@@ -57,6 +70,7 @@ public class ManagedGameObject : MonoBehaviour
             Label.Destroyed();
             _isDestroyed = true;
             ObjectOverride.SetActive(false);
+            DestroyEvent.Invoke();
         }
     }
 
@@ -66,6 +80,7 @@ public class ManagedGameObject : MonoBehaviour
         {
             Label.Disabled();
             ObjectOverride.SetActive(false);
+            DisableEvent.Invoke();
         }
     }
 
@@ -75,6 +90,7 @@ public class ManagedGameObject : MonoBehaviour
         {
             Label.Enabled();
             ObjectOverride.SetActive(true);
+            EnableEvent.Invoke();
         }
     }
 

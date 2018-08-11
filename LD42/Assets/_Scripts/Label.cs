@@ -45,4 +45,9 @@ public class Label : MonoBehaviour
             LabelPlace.transform.localPosition = Vector3.zero;
         }
     }
+
+    internal void Activate()
+    {
+        throw new NotImplementedException();
+    }
 }
