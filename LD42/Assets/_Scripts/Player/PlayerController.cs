@@ -7,7 +7,6 @@ public class PlayerController : SingletonBase<PlayerController>
     public Vector3 MoveDirection;
     public float Gravity;
 
-
     public PlayerState _currentPlayerState;
     private Rigidbody _rigidbody;
     private CharacterController _charController;
