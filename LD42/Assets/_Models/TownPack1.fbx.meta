@@ -1,0 +1,172 @@
+fileFormatVersion: 2
+guid: 71d067e3f8d14874db5cd1067cbe7d2f
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: HayBale_1
+    100002: HouseBase_1
+    100004: HouseWindows_1
+    100006: Lever_1
+    100008: LeverBase_1
+    100010: TownGate_1
+    100012: TownGateWing_1
+    100014: TownGateWing_2
+    100016: TownGround_1
+    100018: //RootNode
+    100020: TownWall_1
+    100022: WellBase_1
+    100024: WellWater_1
+    400000: HayBale_1
+    400002: HouseBase_1
+    400004: HouseWindows_1
+    400006: Lever_1
+    400008: LeverBase_1
+    400010: TownGate_1
+    400012: TownGateWing_1
+    400014: TownGateWing_2
+    400016: TownGround_1
+    400018: //RootNode
+    400020: TownWall_1
+    400022: WellBase_1
+    400024: WellWater_1
+    2100000: No Name
+    2100002: Overall
+    2300000: HayBale_1
+    2300002: HouseBase_1
+    2300004: HouseWindows_1
+    2300006: Lever_1
+    2300008: LeverBase_1
+    2300010: TownGate_1
+    2300012: TownGateWing_1
+    2300014: TownGateWing_2
+    2300016: TownGround_1
+    2300018: TownWall_1
+    2300020: WellBase_1
+    2300022: WellWater_1
+    3300000: HayBale_1
+    3300002: HouseBase_1
+    3300004: HouseWindows_1
+    3300006: Lever_1
+    3300008: LeverBase_1
+    3300010: TownGate_1
+    3300012: TownGateWing_1
+    3300014: TownGateWing_2
+    3300016: TownGround_1
+    3300018: TownWall_1
+    3300020: WellBase_1
+    3300022: WellWater_1
+    4300000: LeverBase_1
+    4300002: Lever_1
+    4300004: WellWater_1
+    4300006: WellBase_1
+    4300008: HayBale_1
+    4300010: HouseWindows_1
+    4300012: HouseBase_1
+    4300014: TownWall_1
+    4300016: TownGate_1
+    4300018: TownGround_1
+    4300020: TownGateWing_2
+    4300022: TownGateWing_1
+    6400000: HayBale_1
+    6400002: HouseBase_1
+    6400004: HouseWindows_1
+    6400006: Lever_1
+    6400008: LeverBase_1
+    6400010: TownGate_1
+    6400012: TownGateWing_1
+    6400014: TownGateWing_2
+    6400016: TownGround_1
+    6400018: TownWall_1
+    6400020: WellBase_1
+    6400022: WellWater_1
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: f35087073ac15304490a7c6382c9eb4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Overall
+    second: {fileID: 2100000, guid: b613d7ff26da38f4eba9b38fcdc43688, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

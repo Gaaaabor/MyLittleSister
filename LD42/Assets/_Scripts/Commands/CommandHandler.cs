@@ -38,6 +38,7 @@ public class CommandHandler
     {
         Commands = new List<CommandBase>
             {
+                new CheatModeCommand(),
                 new DestroyCommand(),
                 new DisableCommand(),
                 new EnableCommand(),

@@ -9,6 +9,7 @@ public class Label : MonoBehaviour
     public Color EnableColor = Color.white;
     public Color DestroyColor = Color.red;
     public Color DisableColor = Color.yellow;
+    public Color ActivateColor = Color.cyan;
 
     private GameObject _label;
     private Animator _anim;
@@ -16,17 +17,18 @@ public class Label : MonoBehaviour
 
     public void Awake()
     {
-        _anim = GetComponentInChildren<Animator>();
         _label = Instantiate(Resources.Load("Label"), transform.position + LabelPlace.transform.localPosition, Quaternion.identity) as GameObject;
         _label.transform.SetParent(transform);
+        _anim = _label.GetComponentInChildren<Animator>();
         _text = _label.GetComponentInChildren<Text>();
         _text.text = GetComponent<ManagedGameObject>().ManagedName;
         GetComponentInParent<ManagedGameObject>().Label = this;
+        LabelManager.Instance.RegisterLabel(this);
     }
 
     public void ShowLabel()
     {
-        _anim.SetBool("Show",true);
+        _anim.SetBool("Show", true);
     }
 
     public void HideLabel()
@@ -36,25 +38,30 @@ public class Label : MonoBehaviour
 
     public void Destroyed()
     {
-        _anim.SetInteger("State",0);
-        LerpColor(DestroyColor);
+        _anim.SetInteger("State", 0);
+        StopAllCoroutines();
+        StartCoroutine(LerpColor(DestroyColor));
     }
 
     public void Disabled()
     {
         _anim.SetInteger("State", 1);
-        LerpColor(DisableColor);
+        StopAllCoroutines();
+        StartCoroutine(LerpColor(DisableColor));
     }
 
     public void Enabled()
     {
         _anim.SetInteger("State", 2);
-        LerpColor(EnableColor);
+        StopAllCoroutines();
+        StartCoroutine(LerpColor(EnableColor));
     }
 
     public void Activate()
     {
         _anim.SetTrigger("Activate");
+        StopAllCoroutines();
+        StartCoroutine(LerpColorAndBack(ActivateColor));
     }
 
     void Reset()
@@ -78,13 +85,38 @@ public class Label : MonoBehaviour
     public IEnumerator LerpColor(Color targetColor)
     {
         float ElapsedTime = 0.0f;
-        float TotalTime = 1.5f;
         Color currentColor = _text.color;
-        while (ElapsedTime < TotalTime)
+        while (ElapsedTime < 1.5f)
         {
             ElapsedTime += Time.deltaTime;
-            _text.color = Color.Lerp(currentColor, targetColor, (ElapsedTime / TotalTime));
+            _text.color = Color.Lerp(currentColor, targetColor, (ElapsedTime / 1.5f));
             yield return null;
         }
     }
+
+    private IEnumerator LerpColorAndBack(Color targetColor)
+    {
+        float ElapsedTime = 0.0f;
+        Color currentColor = _text.color;
+        while (ElapsedTime < 0.5f)
+        {
+            ElapsedTime += Time.deltaTime;
+            _text.color = Color.Lerp(currentColor, targetColor, (ElapsedTime / 0.5f));
+            yield return null;
+        }
+        ElapsedTime = 0;
+        while (ElapsedTime < 1f)
+        {
+            ElapsedTime += Time.deltaTime;
+            yield return null;
+        }
+        ElapsedTime = 0;
+        while (ElapsedTime < 0.5f)
+        {
+            ElapsedTime += Time.deltaTime;
+            _text.color = Color.Lerp(targetColor, currentColor, (ElapsedTime / 0.5f));
+            yield return null;
+        }
+    }
+
 }
