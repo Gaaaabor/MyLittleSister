@@ -15,7 +15,7 @@ public class CheatModeCommand : CommandBase
             return false;
         }
 
-        //TODO: Enable cheatmode!!
+        LabelManager.Instance.ShowLabels();
 
         Debug.Log("Cheatmode enabled!");
         return true;
