@@ -1,13 +1,14 @@
 ﻿using Assets._Scripts.Commands;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 namespace Assets._Scripts
 {
     public class CommandHandler
     {
-        public const char WHITESPACE = ' ';
+        public const string WHITESPACE = " ";
 
         #region //Singleton
         public volatile static object _lock = new object();
@@ -51,12 +52,29 @@ namespace Assets._Scripts
 
         public bool TryExecuteCommand(string commandToExecute)
         {
+            if (string.IsNullOrEmpty(commandToExecute))
+            {
+                return false;
+            }
+
+            for (int i = 0; i < length; i++)
+            {
+
+            }
+
+            commandToExecute = commandToExecute
+                
+
+            var commandPart = commandToExecute.Contains(WHITESPACE)
+                ? commandToExecute.Split(new[] { WHITESPACE }, StringSplitOptions.RemoveEmptyEntries)[0]
+                : commandToExecute;
+
             var stringComparison = IsCaseSensitive ? StringComparison.Ordinal : StringComparison.OrdinalIgnoreCase;
 
             CommandBase foundCommand = null;
             foreach (var command in Commands)
             {
-                if (!command.CommandText.Equals(commandToExecute, stringComparison))
+                if (!command.CommandText.Equals(commandPart, stringComparison))
                 {
                     continue;
                 }
@@ -67,13 +85,13 @@ namespace Assets._Scripts
 
             if (foundCommand == null)
             {
-                Debug.Log(string.Format("Incorrect command ({0})!", commandToExecute));
+                Debug.Log(string.Format("Incorrect command ({0})!", commandPart));
                 return false;
             }
 
             var parameters = commandToExecute
                 .Replace(foundCommand.CommandText, string.Empty)
-                .Split(WHITESPACE);
+                .Split(new[] { WHITESPACE }, StringSplitOptions.RemoveEmptyEntries);
 
             foundCommand.Execute(parameters);
 
