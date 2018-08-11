@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class MusicManager : SingletonBase<MusicManager>
 {
-
     public AudioSource Primary;
     public AudioSource Secondary;
 
@@ -24,7 +23,7 @@ public class MusicManager : SingletonBase<MusicManager>
         {
             Secondary.clip = clip;
             Secondary.Play();
-
+            StopAllCoroutines();
             StartCoroutine(LerpVolume(0, Primary));
             StartCoroutine(LerpVolume(1, Secondary));
             _primary = false;
@@ -33,7 +32,7 @@ public class MusicManager : SingletonBase<MusicManager>
         {
             Primary.clip = clip;
             Primary.Play();
-
+            StopAllCoroutines();
             StartCoroutine(LerpVolume(1, Primary));
             StartCoroutine(LerpVolume(0, Secondary));
             _primary = true;
