@@ -8,13 +8,39 @@ namespace Assets._Scripts
     {
         public const char WHITESPACE = ' ';
 
-        public List<CommandBase> Commands;
+        public volatile static object _lock = new object();
+        public static CommandHandler _instance;
+        public static CommandHandler Instance
+        {
+            get
+            {
+                if (_instance == null)
+                {
+                    lock (_lock)
+                    {
+                        if (_instance == null)
+                        {
+                            _instance = new CommandHandler();
+                        }
+                    }
+                }
+
+                return _instance;
+            }
+        }
+
+        public List<CommandBase> Commands { get; private set; }
 
         public bool IsCaseSensitive;
 
-        public void RegisterCommand(CommandBase command)
+        private CommandHandler()
         {
-            Commands.Add(command);
+            Commands = new List<CommandBase>
+            {
+                new DestroyCommand(),
+                new OpenCommand(),
+                new ResetCheckPointCommand()
+            };
         }
 
         public void TryExecuteCommand(string commandToExecute)
