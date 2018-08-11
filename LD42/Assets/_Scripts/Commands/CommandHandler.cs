@@ -50,11 +50,11 @@ public class CommandHandler
 
     //IDEA: paypal fun
 
-    public bool TryExecuteCommand(string commandToExecute)
+    public CommandResult TryExecuteCommand(string commandToExecute)
     {
         if (string.IsNullOrEmpty(commandToExecute))
         {
-            return false;
+            return new CommandResult(false);
         }
 
         commandToExecute = RemoveWhiteSpaceDuplications(commandToExecute);
@@ -79,17 +79,16 @@ public class CommandHandler
 
         if (foundCommand == null)
         {
-            Debug.Log(string.Format("Incorrect command ({0}) [{1}]!", commandPart, commandToExecute));
-            return false;
+            var commandResult = new CommandResult(string.Format("Incorrect command ({0})!", commandToExecute), false);
+            Debug.Log(commandResult);
+            return commandResult;
         }
 
         var parameters = commandToExecute
             .Substring(commandPart.Length, commandToExecute.Length - commandPart.Length)
             .Split(new[] { WHITESPACE }, StringSplitOptions.RemoveEmptyEntries);
 
-        foundCommand.Execute(parameters);
-
-        return true;
+        return foundCommand.Execute(parameters);
     }
 
     private string RemoveWhiteSpaceDuplications(string commandToExecute)

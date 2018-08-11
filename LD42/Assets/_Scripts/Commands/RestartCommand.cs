@@ -1,4 +1,6 @@
-﻿public class RestartCommand : CommandBase
+﻿using UnityEngine;
+
+public class RestartCommand : CommandBase
 {
     public RestartCommand()
     {
@@ -6,15 +8,18 @@
         ParameterCount = 0;
     }
 
-    public override bool Execute(string[] parameters)
+    public override CommandResult Execute(string[] parameters)
     {
-        if (!base.Execute(parameters))
+        var commandResult = base.Execute(parameters);
+        if (!commandResult)
         {
-            return false;
+            return commandResult;
         }
 
         PlayerController.Instance.Die();
 
-        return true;
+        commandResult = new CommandResult("Restart command executed!");
+        Debug.Log(commandResult);
+        return commandResult;
     }
 }
