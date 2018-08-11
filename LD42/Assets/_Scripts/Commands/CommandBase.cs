@@ -25,4 +25,6 @@ public abstract class CommandBase
     {
         Debug.Log(string.Format("Incorrect number of parameters {0} for command {1}", ParameterCount, CommandText));
     }
+
+    
 }

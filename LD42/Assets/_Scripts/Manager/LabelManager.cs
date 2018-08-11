@@ -25,11 +25,13 @@ public class LabelManager : SingletonBase<LabelManager>
 
     public void ShowLabels()
     {
+        LabelsVisible = true;
         Labels.ForEach(x => x.ShowLabel());
     }
 
     public void HideLabels()
     {
+        LabelsVisible = false;
         Labels.ForEach(x => x.HideLabel());
     }
 }

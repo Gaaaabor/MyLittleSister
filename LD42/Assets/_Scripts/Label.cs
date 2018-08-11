@@ -26,8 +26,22 @@ public class Label : MonoBehaviour
         LabelManager.Instance.RegisterLabel(this);
     }
 
+    private void OnEnable()
+    {
+        Debug.Log("OnEnable");
+        if (LabelManager.Instance.LabelsVisible)
+        {
+            ShowLabel();
+        }
+        else
+        {
+            HideLabel();
+        }
+    }
+
     public void ShowLabel()
     {
+        Debug.Log("ShowLabel");
         _anim.SetBool("Show", true);
     }
 

@@ -380,7 +380,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 211612d4d6b86674d94d2d8544eb58e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MapName: Main
+  SceneList:
+  - 1_RoadToVillage
+  - 2_RoadToCastle
+  - 3_Castle
+  - 4_Dungeon
+  - 5_Escape
 --- !u!1 &624076355
 GameObject:
   m_ObjectHideFlags: 0
@@ -1389,7 +1394,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: SunRotater+Vector3Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
-  LerpSpeed: 4
+  LerpSpeed: 15
 --- !u!1 &1538172067
 GameObject:
   m_ObjectHideFlags: 0
