@@ -61,6 +61,26 @@ public class PlayerController : SingletonBase<PlayerController>
         ResetToCheckPoint();
     }
 
+    public void IdlePlayer()
+    {
+        _currentPlayerState = PlayerState.Idle;
+    }
+
+    public void WalkPlayer()
+    {
+        _currentPlayerState = PlayerState.Walking;
+    }
+
+    public void FightPlayer()
+    {
+        _currentPlayerState = PlayerState.Fight;
+    }
+
+    public void TalkPlay()
+    {
+        _currentPlayerState = PlayerState.Talking;
+    }
+
     private void ResetToCheckPoint()
     {
         transform.position = _lastCheckPoint.transform.position;

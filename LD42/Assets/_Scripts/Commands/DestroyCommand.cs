@@ -17,7 +17,17 @@ namespace Assets._Scripts.Commands
                 return false;
             }
 
-            Debug.Log(string.Format("Item with id ({0}) destroyed!", parameters[ParameterCount - 1]));
+            var target = parameters[ParameterCount - 1];
+            var managedGameObject = GameObjectManager.Instance.GetManagedGameObject(target);
+            if (managedGameObject == null)
+            {
+                Debug.Log(string.Format("Item with id ({0}) not found!", parameters[ParameterCount - 1]));
+                return false;
+            }
+
+            managedGameObject.SetDestroyedState();
+
+            Debug.Log(string.Format("Item with id ({0}) destroyed!", target));
 
             return true;
         }

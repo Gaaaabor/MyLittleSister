@@ -1,7 +1,7 @@
 ﻿using Assets._Scripts.Commands;
 using System;
 using System.Collections.Generic;
-using System.Linq;
+using System.Text;
 using UnityEngine;
 
 namespace Assets._Scripts
@@ -42,8 +42,9 @@ namespace Assets._Scripts
             Commands = new List<CommandBase>
             {
                 new DestroyCommand(),
-                new ResetCheckPointCommand(),
-                new OpenCommand(),
+                new DisableCommand(),
+                new EnableCommand(),
+                new RestartCommand(),
                 new ActivateCommand()
             };
         }
@@ -57,13 +58,7 @@ namespace Assets._Scripts
                 return false;
             }
 
-            //for (int i = 0; i < length; i++)
-            //{
-
-            //}
-
-           // commandToExecute = commandToExecute
-                
+            commandToExecute = removeWhiteSpaceDuplications(commandToExecute);
 
             var commandPart = commandToExecute.Contains(WHITESPACE)
                 ? commandToExecute.Split(new[] { WHITESPACE }, StringSplitOptions.RemoveEmptyEntries)[0]
@@ -96,6 +91,32 @@ namespace Assets._Scripts
             foundCommand.Execute(parameters);
 
             return true;
+        }
+
+        private string removeWhiteSpaceDuplications(string commandToExecute)
+        {
+            var builder = new StringBuilder();
+            var previousIsWhitespace = false;
+            for (var i = 0; i < commandToExecute.Length; i++)
+            {
+                if (char.IsWhiteSpace(commandToExecute[i]))
+                {
+                    if (previousIsWhitespace)
+                    {
+                        continue;
+                    }
+
+                    previousIsWhitespace = true;
+                }
+                else
+                {
+                    previousIsWhitespace = false;
+                }
+
+                builder.Append(commandToExecute[i]);
+            }
+
+            return builder.ToString();
         }
     }
 }

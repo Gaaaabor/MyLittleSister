@@ -23,7 +23,7 @@ public class CheckPoint : MonoBehaviour
     {
         foreach (var item in _checkPointObject)
         {
-            //_checkPointObject.ResetCheckPoint();
+            item.Restore();
         }
     }
 }
