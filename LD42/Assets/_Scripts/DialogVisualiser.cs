@@ -36,7 +36,7 @@ public class DialogVisualiser : SingletonBase<DialogVisualiser>
         
         switch (placement)
         {
-            case DialogPlacement.BottonLeft:
+            case DialogPlacement.BottomLeft:
                 BottonLeft.SetActive(true);
                 ButtonLeftText.text = text;
                 ButtonLeftOwner.text = owner;
@@ -84,7 +84,7 @@ public class DialogVisualiser : SingletonBase<DialogVisualiser>
 
 public enum DialogPlacement
 {
-    BottonLeft,
+    BottomLeft,
     BottomRight,
     TopLeft,
     TopRight,
