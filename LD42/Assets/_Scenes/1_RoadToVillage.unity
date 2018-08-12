@@ -7719,6 +7719,21 @@ Prefab:
       propertyPath: reverbZoneMixCustomCurve.m_Curve.Array.data[1].value
       value: -0.0032448373
       objectReference: {fileID: 0}
+    - target: {fileID: 82932483531330638, guid: 905f9ff1fe98b6742a6c75d50574484d,
+        type: 2}
+      propertyPath: m_Volume
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 82123007545452340, guid: 905f9ff1fe98b6742a6c75d50574484d,
+        type: 2}
+      propertyPath: spreadCustomCurve.m_Curve.Array.data[0].value
+      value: 0.097222224
+      objectReference: {fileID: 0}
+    - target: {fileID: 82123007545452340, guid: 905f9ff1fe98b6742a6c75d50574484d,
+        type: 2}
+      propertyPath: m_Volume
+      value: 0.3
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 81688758943003616, guid: 905f9ff1fe98b6742a6c75d50574484d, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 905f9ff1fe98b6742a6c75d50574484d, type: 2}
@@ -9780,7 +9795,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4595347771835556, guid: 3ee94334362c906429b7c9d743d52178, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0.9304176
+      value: 0.7193399
       objectReference: {fileID: 0}
     - target: {fileID: 4595347771835556, guid: 3ee94334362c906429b7c9d743d52178, type: 2}
       propertyPath: m_LocalRotation.z
@@ -9788,7 +9803,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4595347771835556, guid: 3ee94334362c906429b7c9d743d52178, type: 2}
       propertyPath: m_LocalRotation.w
-      value: -0.36650118
+      value: -0.6946583
       objectReference: {fileID: 0}
     - target: {fileID: 4595347771835556, guid: 3ee94334362c906429b7c9d743d52178, type: 2}
       propertyPath: m_RootOrder
@@ -9796,13 +9811,18 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4595347771835556, guid: 3ee94334362c906429b7c9d743d52178, type: 2}
       propertyPath: m_LocalScale.x
-      value: 2.957682
+      value: 2.799267
       objectReference: {fileID: 0}
     - target: {fileID: 4595347771835556, guid: 3ee94334362c906429b7c9d743d52178, type: 2}
       propertyPath: m_LocalScale.z
-      value: 2.957682
+      value: 2.799267
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 4595347771835556, guid: 3ee94334362c906429b7c9d743d52178, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 2.799267
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114164801359012408, guid: 3ee94334362c906429b7c9d743d52178, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 3ee94334362c906429b7c9d743d52178, type: 2}
   m_IsPrefabParent: 0
 --- !u!4 &1548092335 stripped
@@ -11640,7 +11660,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4015662729985304, guid: 3eb7721d050fa344ebcfe173996f7655, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0.9396926
+      value: 0.8571673
       objectReference: {fileID: 0}
     - target: {fileID: 4015662729985304, guid: 3eb7721d050fa344ebcfe173996f7655, type: 2}
       propertyPath: m_LocalRotation.z
@@ -11648,13 +11668,26 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4015662729985304, guid: 3eb7721d050fa344ebcfe173996f7655, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 0.34202015
+      value: 0.5150381
       objectReference: {fileID: 0}
     - target: {fileID: 4015662729985304, guid: 3eb7721d050fa344ebcfe173996f7655, type: 2}
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 4015662729985304, guid: 3eb7721d050fa344ebcfe173996f7655, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 2.9828806
+      objectReference: {fileID: 0}
+    - target: {fileID: 4015662729985304, guid: 3eb7721d050fa344ebcfe173996f7655, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 2.9828806
+      objectReference: {fileID: 0}
+    - target: {fileID: 4015662729985304, guid: 3eb7721d050fa344ebcfe173996f7655, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 2.9828806
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114620543129889386, guid: 3eb7721d050fa344ebcfe173996f7655, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 3eb7721d050fa344ebcfe173996f7655, type: 2}
   m_IsPrefabParent: 0
 --- !u!4 &1834242818 stripped
