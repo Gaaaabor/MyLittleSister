@@ -68,7 +68,7 @@ public class CommandHandler
         CommandBase foundCommand = null;
         foreach (var command in Commands)
         {
-            if (command.CommandText.Equals(commandPart, stringComparison) || command.ShortHand.Equals(commandPart, stringComparison))
+            if (command.CommandText.Equals(commandPart, stringComparison) || (!string.IsNullOrEmpty(command.ShortHand) && command.ShortHand.Equals(commandPart, stringComparison)))
             {
                 foundCommand = command;
                 break;
