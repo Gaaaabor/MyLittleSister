@@ -58,6 +58,7 @@ public class Label : MonoBehaviour
 
     public void Destroyed()
     {
+        Debug.Log("Destroyed");
         _anim.SetInteger("State", 0);
         StopAllCoroutines();
         StartCoroutine(LerpColor(DestroyColor));
@@ -65,6 +66,7 @@ public class Label : MonoBehaviour
 
     public void Disabled()
     {
+        Debug.Log("Disable");
         _anim.SetInteger("State", 1);
         StopAllCoroutines();
         StartCoroutine(LerpColor(DisableColor));

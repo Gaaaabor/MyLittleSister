@@ -9,6 +9,7 @@ public class HelpManager : SingletonBase<HelpManager>
     public bool HelpOn;
     public GameObject HelpPanel;
 
+    public GameObject Cheatmode;
     public GameObject Enable;
     public GameObject Disable;
     public GameObject Activate;
@@ -21,9 +22,11 @@ public class HelpManager : SingletonBase<HelpManager>
     public GameObject SpeedFast;
 
 
-    public void Awake()
+    public override void Awake()
     {
         HelpPanel.SetActive(false);
+
+        Cheatmode.SetActive(false);
         Enable.SetActive(false);
         Disable.SetActive(false);
         Activate.SetActive(false);
@@ -52,11 +55,14 @@ public class HelpManager : SingletonBase<HelpManager>
     {
         switch (helpType)
         {
-            case HelpType.Enable:               
-                Enable.SetActive(false);
+            case HelpType.Cheatmode:
+                Cheatmode.SetActive(true);
+                break;
+            case HelpType.Enable:
+                Enable.SetActive(true);
                 break;
             case HelpType.Disable:
-              
+
                 Disable.SetActive(true);
                 break;
             case HelpType.Kill:
@@ -72,7 +78,7 @@ public class HelpManager : SingletonBase<HelpManager>
                 ActivateFast.SetActive(true);
                 SpeedFast.SetActive(true);
                 break;
-            case HelpType.Speed:               
+            case HelpType.Speed:
                 Speed.SetActive(true);
                 break;
             default:
@@ -83,6 +89,7 @@ public class HelpManager : SingletonBase<HelpManager>
 
 public enum HelpType
 {
+    Cheatmode,
     Enable,
     Disable,
     Kill,
