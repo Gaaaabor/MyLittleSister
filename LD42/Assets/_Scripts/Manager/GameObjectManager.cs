@@ -55,28 +55,24 @@ public class GameObjectManager : SingletonBase<GameObjectManager>
 
     private void StopCommand()
     {
-        if(!String.IsNullOrEmpty(CommandField.text))
+        if(!string.IsNullOrEmpty(CommandField.text))
         {
             CanvasGroup.alpha = 1;
             StopAllCoroutines();
-            StartCoroutine(HideRect());
-            var Result = CommandHandler.Instance.TryExecuteCommand(CommandField.text);
-            if (Result.IsSuccessful)
-            {
-                GameObject go = Instantiate(CommandPref, Parent) as GameObject;
-                go.SetActive(true);
-                go.GetComponentInChildren<Text>().text = Result.Message;
-            }
-            else
-            {
-                GameObject go = Instantiate(ErrorPref, Parent) as GameObject;
-                go.SetActive(true);
-                go.GetComponentInChildren<Text>().text = Result.Message;
-            }
+            StartCoroutine(HideRect());            
+
+            var result = CommandHandler.Instance.TryExecuteCommand(CommandField.text);
+
+            var pref = result 
+                ? CommandPref 
+                : ErrorPref;
+
+            var go = Instantiate(pref, Parent) as GameObject;            
+            go.SetActive(true);
+            go.GetComponentInChildren<Text>().text = result.Message;
         }
 
-        _inCommand = false;
-        CommandField.gameObject.SetActive(false);
+        _inCommand = false;        
         CommandField.text = string.Empty;
         Invoke("FixRect", 0.1f);
     }
