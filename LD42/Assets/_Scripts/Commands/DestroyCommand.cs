@@ -1,10 +1,12 @@
-﻿using UnityEngine;
+﻿using System.Linq;
+using UnityEngine;
 
 public class DestroyCommand : CommandBase
 {
     public DestroyCommand()
     {
-        CommandText = "destroy";
+        ShortHand = "k";
+        CommandText = "kill";
         ParameterCount = 1;
     }
 
@@ -17,17 +19,20 @@ public class DestroyCommand : CommandBase
         }
 
         var target = parameters[ParameterCount - 1];
-        var managedGameObject = GameObjectManager.Instance.GetManagedGameObject(target);
-        if (managedGameObject == null)
+        var managedGameObjects = GameObjectManager.Instance.GetManagedGameObjects(target);
+        if (managedGameObjects == null || !managedGameObjects.Any())
         {
             commandResult = new CommandResult(string.Format("Item with id ({0}) not found!", target), false);
             Debug.Log(commandResult);
             return commandResult;
         }
+        
+        foreach (var managedGameObject in managedGameObjects)
+        {
+            managedGameObject.SetDestroyedState();
+        }
 
-        managedGameObject.SetDestroyedState();
-
-        commandResult = new CommandResult(string.Format("Item with id ({0}) destroyed!", target));
+        commandResult = new CommandResult(string.Format("Item(s) with id ({0}) killed!", target));
         Debug.Log(commandResult);
         return commandResult;
     }

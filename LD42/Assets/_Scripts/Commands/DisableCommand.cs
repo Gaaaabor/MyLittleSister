@@ -1,9 +1,11 @@
-﻿using UnityEngine;
+﻿using System.Linq;
+using UnityEngine;
 
 public class DisableCommand : CommandBase
 {
     public DisableCommand()
     {
+        ShortHand = "d";
         CommandText = "disable";
         ParameterCount = 1;
     }
@@ -17,15 +19,18 @@ public class DisableCommand : CommandBase
         }
 
         var target = parameters[ParameterCount - 1];
-        var managedGameObject = GameObjectManager.Instance.GetManagedGameObject(target);
-        if (managedGameObject == null)
+        var managedGameObjects = GameObjectManager.Instance.GetManagedGameObjects(target);
+        if (managedGameObjects == null || !managedGameObjects.Any())
         {
             commandResult = new CommandResult(string.Format("Item with id ({0}) not found!", target), false);
             Debug.Log(commandResult);
             return commandResult;
         }
 
-        managedGameObject.SetDisabledState();
+        foreach (var managedGameObject in managedGameObjects)
+        {
+            managedGameObject.SetDestroyedState();
+        }
 
         commandResult = new CommandResult(string.Format("Item with id ({0}) disabled!", target));
         Debug.Log(commandResult);
