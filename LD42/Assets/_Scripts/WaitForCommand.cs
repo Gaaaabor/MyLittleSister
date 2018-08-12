@@ -36,7 +36,7 @@ public class WaitForCommand : MonoBehaviour
             Event.Invoke();
         }
 
-        gameObject.SetActive(false);
+        gameObject.SetActive(true);
         Destroy(this);
 
     }
