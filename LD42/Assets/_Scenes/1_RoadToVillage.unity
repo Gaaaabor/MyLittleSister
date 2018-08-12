@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1123,80 +1123,6 @@ Transform:
   m_Father: {fileID: 788009360}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &149922495
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 149922497}
-  - component: {fileID: 149922496}
-  - component: {fileID: 149922498}
-  m_Layer: 0
-  m_Name: WaterReflectionMain Camera
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!20 &149922496
-Camera:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 149922495}
-  m_Enabled: 0
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 1}
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967279
-  m_RenderingPath: 1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!4 &149922497
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 149922495}
-  m_LocalRotation: {x: -0.34202015, y: 0, z: 0, w: 0.9396927}
-  m_LocalPosition: {x: 18.890001, y: -19.04, z: -20.8}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!45 &149922498
-Skybox:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 149922495}
-  m_Enabled: 1
-  m_CustomSkybox: {fileID: 0}
 --- !u!1001 &150290393
 Prefab:
   m_ObjectHideFlags: 0
@@ -2373,8 +2299,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 249918963}
-  m_LocalRotation: {x: 0.22602226, y: 0.008767452, z: 0.0020345692, w: -0.97408056}
-  m_LocalPosition: {x: 13.459663, y: -14.55135, z: -58.691902}
+  m_LocalRotation: {x: 0.35167333, y: 0.0547192, z: 0.020596772, w: -0.9342952}
+  m_LocalPosition: {x: 216.20076, y: 2.9404068, z: -7.687455}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4183,7 +4109,7 @@ Prefab:
     - target: {fileID: 114300177535273514, guid: c8a753b4cee627847b0798b086232349,
         type: 2}
       propertyPath: flickerSpeed
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1890565078275706, guid: c8a753b4cee627847b0798b086232349, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -5204,7 +5130,7 @@ Prefab:
     - target: {fileID: 114300177535273514, guid: c8a753b4cee627847b0798b086232349,
         type: 2}
       propertyPath: flickerSpeed
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1452444100480574, guid: c8a753b4cee627847b0798b086232349, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -6679,7 +6605,7 @@ Prefab:
     - target: {fileID: 114760734165727684, guid: 417c980288eb0714f966eff7910a67f4,
         type: 2}
       propertyPath: flickerSpeed
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1587221671403834, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -6770,7 +6696,7 @@ Prefab:
     - target: {fileID: 114300177535273514, guid: c8a753b4cee627847b0798b086232349,
         type: 2}
       propertyPath: flickerSpeed
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1890565078275706, guid: c8a753b4cee627847b0798b086232349, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -8607,7 +8533,7 @@ Prefab:
     - target: {fileID: 114760734165727684, guid: 417c980288eb0714f966eff7910a67f4,
         type: 2}
       propertyPath: flickerSpeed
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1744831905384530, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -12428,7 +12354,7 @@ Prefab:
     - target: {fileID: 114300177535273514, guid: c8a753b4cee627847b0798b086232349,
         type: 2}
       propertyPath: flickerSpeed
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1890565078275706, guid: c8a753b4cee627847b0798b086232349, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -13750,6 +13676,11 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 114644138753581328, guid: 049e636880f043942b46055add51f418,
+        type: 2}
+      propertyPath: flickerSpeed
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 049e636880f043942b46055add51f418, type: 2}
   m_IsPrefabParent: 0
@@ -13872,7 +13803,7 @@ Prefab:
     - target: {fileID: 114802531750324018, guid: 905f9ff1fe98b6742a6c75d50574484d,
         type: 2}
       propertyPath: flickerSpeed
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 905f9ff1fe98b6742a6c75d50574484d, type: 2}
@@ -15289,7 +15220,7 @@ Prefab:
     - target: {fileID: 114300177535273514, guid: c8a753b4cee627847b0798b086232349,
         type: 2}
       propertyPath: flickerSpeed
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1599430119029052, guid: c8a753b4cee627847b0798b086232349, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -15380,7 +15311,7 @@ Prefab:
     - target: {fileID: 114300177535273514, guid: c8a753b4cee627847b0798b086232349,
         type: 2}
       propertyPath: flickerSpeed
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1890565078275706, guid: c8a753b4cee627847b0798b086232349, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -16155,7 +16086,7 @@ Prefab:
     - target: {fileID: 114760734165727684, guid: 417c980288eb0714f966eff7910a67f4,
         type: 2}
       propertyPath: flickerSpeed
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1587221671403834, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -16781,7 +16712,7 @@ Prefab:
     - target: {fileID: 114760734165727684, guid: 417c980288eb0714f966eff7910a67f4,
         type: 2}
       propertyPath: flickerSpeed
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1136598543808004, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -17292,6 +17223,11 @@ Prefab:
     - target: {fileID: 1712403723138668, guid: 049e636880f043942b46055add51f418, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 114644138753581328, guid: 049e636880f043942b46055add51f418,
+        type: 2}
+      propertyPath: flickerSpeed
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 049e636880f043942b46055add51f418, type: 2}
@@ -18491,7 +18427,7 @@ Prefab:
     - target: {fileID: 114760734165727684, guid: 417c980288eb0714f966eff7910a67f4,
         type: 2}
       propertyPath: flickerSpeed
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1744831905384530, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -18974,7 +18910,7 @@ Prefab:
     - target: {fileID: 114760734165727684, guid: 417c980288eb0714f966eff7910a67f4,
         type: 2}
       propertyPath: flickerSpeed
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
@@ -19493,7 +19429,7 @@ Prefab:
     - target: {fileID: 114760734165727684, guid: 417c980288eb0714f966eff7910a67f4,
         type: 2}
       propertyPath: flickerSpeed
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1587221671403834, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -20375,7 +20311,7 @@ Prefab:
     - target: {fileID: 114760734165727684, guid: 417c980288eb0714f966eff7910a67f4,
         type: 2}
       propertyPath: flickerSpeed
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1677504857219472, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
       propertyPath: m_StaticEditorFlags
