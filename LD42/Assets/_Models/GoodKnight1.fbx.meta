@@ -29,6 +29,8 @@ ModelImporter:
     100046: Cylinder
     100048: //RootNode
     100050: GoodKnight_1
+    100052: Sword_1
+    100054: SwordPivot_1
     400000: Bone
     400002: Bone.001
     400004: Bone.002
@@ -55,13 +57,30 @@ ModelImporter:
     400046: Cylinder
     400048: //RootNode
     400050: GoodKnight_1
+    400052: Sword_1
+    400054: SwordPivot_1
     2100000: Overall
+    2300000: Sword_1
+    2300002: SwordPivot_1
+    3300000: Sword_1
+    3300002: SwordPivot_1
     4300000: Cylinder
+    4300002: Sword_1
+    4300004: SwordPivot_1
+    6400000: Sword_1
+    6400002: SwordPivot_1
     7400000: GoodKnight_1|Idle
     7400002: GoodKnight_1|Walk
+    7400004: GoodKnight_1|Death
     9500000: //RootNode
     13700000: Cylinder
-  externalObjects: {}
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Overall
+    second: {fileID: 2100000, guid: b613d7ff26da38f4eba9b38fcdc43688, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -88,7 +107,91 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: GoodKnight_1|Death
+      takeName: GoodKnight_1|Death
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: GoodKnight_1|Idle
+      takeName: GoodKnight_1|Idle
+      firstFrame: 0
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: GoodKnight_1|Walk
+      takeName: GoodKnight_1|Walk
+      firstFrame: 0
+      lastFrame: 41
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
