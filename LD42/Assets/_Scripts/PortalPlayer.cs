@@ -10,7 +10,7 @@ public class PortalPlayer : MonoBehaviour {
     {
       if(other.tag == "Player")
         {
-            PlayerController.Instance.SetPosition(otherPosition.position);
+            //PlayerController.Instance.SetPosition(otherPosition.position);
         }
     }
 }

@@ -96,5 +96,6 @@ public enum DialogPlacement
     BottomRight,
     TopLeft,
     TopRight,
-    Top
+    Top,
+    None
 }
