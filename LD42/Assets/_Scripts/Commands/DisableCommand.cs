@@ -29,7 +29,7 @@ public class DisableCommand : CommandBase
 
         foreach (var managedGameObject in managedGameObjects)
         {
-            managedGameObject.SetDestroyedState();
+            managedGameObject.SetDisabledState();
         }
 
         commandResult = new CommandResult(string.Format("Item with id ({0}) disabled!", target));
