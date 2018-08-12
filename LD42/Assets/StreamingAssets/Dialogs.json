@@ -441,7 +441,7 @@
 {
 "ID": "administrator_80",
 "Placement": "TopRight",
-"Owner": "Black Knight",
+"Owner": "Dark Knight",
 "Body":"Ah, finally we can meet personally. I have heard so much from you. But your fame means nothing, you have no chance against me."
 },
 
@@ -455,7 +455,7 @@
 {
 "ID": "administrator_90",
 "Placement": "TopRight",
-"Owner": "Black Knight",
+"Owner": "Dark Knight",
 "Body":"White Knight, you are a cheater! You are much worse than me! You can tr to escape, but I know some dev commands too:\n\rActivate loop!"
 },
 
