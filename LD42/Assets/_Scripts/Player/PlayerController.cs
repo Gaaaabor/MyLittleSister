@@ -3,14 +3,16 @@ using UnityEngine;
 
 public class PlayerController : SingletonBase<PlayerController>
 {
-    public float PlayerSpeed;
+    public float WalkSpeed;
+    public float RunSpeed;
+
     public Vector3 MoveDirection;
     public float Gravity;
 
-    public float RunSpeed;
-
     public PlayerState _currentPlayerState;
     private Rigidbody _rigidbody;
+
+    public Animator Anim;
 
     internal void SetPosition(Vector3 position)
     {
@@ -25,6 +27,7 @@ public class PlayerController : SingletonBase<PlayerController>
 
     public GameObject Torch;
     public bool TorchInhand;
+    public bool SwordInHand;
 
     public override void Awake()
     {
@@ -32,7 +35,20 @@ public class PlayerController : SingletonBase<PlayerController>
         _Z = transform.position.z;
         _rigidbody = GetComponent<Rigidbody>();
         _charController = GetComponent<CharacterController>();
+        SetInventory();
+    }
+
+    private void SetInventory()
+    {
         if (TorchInhand)
+        {
+            SetTorch(true);
+        }
+        else
+        {
+            SetTorch(false);
+        }
+        if (SwordInHand)
         {
             SetTorch(true);
         }
@@ -44,8 +60,14 @@ public class PlayerController : SingletonBase<PlayerController>
 
     public void SetTorch(bool v)
     {
-        Torch.SetActive(v);
         TorchInhand = v;
+        SetInventory();
+    }
+
+    public void SetSword(bool v)
+    {
+        SwordInHand = v;
+        SetInventory();
     }
 
     private void Update()
@@ -77,7 +99,7 @@ public class PlayerController : SingletonBase<PlayerController>
 
     private void WalkForward()
     {
-        _moveDirection += MoveDirection * PlayerSpeed * Time.deltaTime;
+        _moveDirection += MoveDirection * WalkSpeed * Time.deltaTime;
     }
 
     private void RunForward()
@@ -127,7 +149,7 @@ public class PlayerController : SingletonBase<PlayerController>
         {
             transform.position = _lastCheckPoint.transform.position;
             _lastCheckPoint.ResetCheckPoint();
-        }            
+        }
     }
 }
 
