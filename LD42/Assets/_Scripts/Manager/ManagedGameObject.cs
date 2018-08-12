@@ -12,6 +12,7 @@ public class ManagedGameObject : MonoBehaviour
     public string ManagedName;
 
     public bool StartEnabled;
+    public GameObject TargetObject;
 
     [Header("Enable")]
     public bool CanEnable = true;
@@ -29,24 +30,22 @@ public class ManagedGameObject : MonoBehaviour
     public bool CanActivate = true;
     public UnityEvent ActivateEvent;
 
-    public GameObject ObjectOverride;
+    [Header("Reset")]
+    public UnityEvent ResetEvent;
 
     [HideInInspector]
     public Label Label;
 
     private void Start()
     {
-        if (ObjectOverride == null)
-        {
-            ObjectOverride = transform.GetChild(0).gameObject;
-        }
-
         if (StartEnabled)
         {
+            Debug.Log("StartEnabled" + gameObject.name);
             SetEnabledState();
         }
         else
         {
+            Debug.Log("StartDisabled" + gameObject.name);
             SetDisabledState();
         }
 
@@ -54,12 +53,21 @@ public class ManagedGameObject : MonoBehaviour
         GameObjectManager.Instance.RegisterObject(this);
     }
 
+    public void DisableComandable()
+    {
+        CanEnable = false;
+        CanActivate = false;
+        CanDestroy = true;
+        CanDisable = false;
+        Label.gameObject.SetActive(false);
+    }
+
     public void SetActivatedState()
     {
-        if (CanActivate && ObjectOverride.activeInHierarchy && !_isDestroyed)
+        if (CanActivate && !_isDestroyed)
         {
             Label.Activate();
-            ActivateEvent.Invoke();  
+            ActivateEvent.Invoke();
         }
     }
 
@@ -69,7 +77,8 @@ public class ManagedGameObject : MonoBehaviour
         {
             Label.Destroyed();
             _isDestroyed = true;
-            ObjectOverride.SetActive(false);
+            if (TargetObject != null)
+                TargetObject.SetActive(false);
             DestroyEvent.Invoke();
         }
     }
@@ -79,7 +88,8 @@ public class ManagedGameObject : MonoBehaviour
         if (CanDisable && !_isDestroyed)
         {
             Label.Disabled();
-            ObjectOverride.SetActive(false);
+            if (TargetObject != null)
+                TargetObject.SetActive(false);
             DisableEvent.Invoke();
         }
     }
@@ -89,13 +99,15 @@ public class ManagedGameObject : MonoBehaviour
         if (CanEnable)
         {
             Label.Enabled();
-            ObjectOverride.SetActive(true);
+            if (TargetObject != null)
+                TargetObject.SetActive(true);
             EnableEvent.Invoke();
         }
     }
 
     public void Restore()
     {
+        ResetEvent.Invoke();
         _memento.Restore(this);
     }
 }

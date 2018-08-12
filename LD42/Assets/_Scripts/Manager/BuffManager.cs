@@ -70,7 +70,7 @@ public class BuffManager : SingletonBase<BuffManager>
     }
 
     [ContextMenu("TestTime")]
-    public void AddTime()
+    public void AddTime(float time)
     {
         AddBuff(new TimeBuff(0.1f, 10f));
     }
