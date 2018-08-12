@@ -11,6 +11,12 @@ public class PlayerController : SingletonBase<PlayerController>
 
     public PlayerState _currentPlayerState;
     private Rigidbody _rigidbody;
+
+    internal void SetPosition(Vector3 position)
+    {
+        transform.position = position;
+    }
+
     private CharacterController _charController;
     private Vector3 _moveDirection;
 
