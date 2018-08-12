@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using UnityEngine;
@@ -9,12 +10,16 @@ public class DialogManager : SingletonBase<DialogManager>
 
     public List<ConversationEvent> eventList;
     public List<ConversationEvent> firedEvent;
-    
+
+    public List<AudioClip> Clips;
+    private AudioSource _audio;
+
     public override void Awake()
     {
         base.Awake();
         var path = Path.Combine(Application.streamingAssetsPath, "Dialogs.json");
         DialogTexts = ParseDialogTexts(path);
+        _audio = GetComponent<AudioSource>();
     }
 
     private List<DialogText> ParseDialogTexts(string path)
@@ -56,7 +61,7 @@ public class DialogManager : SingletonBase<DialogManager>
         var dialogText = DialogTexts.FirstOrDefault(x => x.ID.Equals(nextevent.Id, System.StringComparison.OrdinalIgnoreCase));
         if (dialogText != null)
         {
-            DialogVisualiser.Instance.UpdateDialogText(dialogText.Body, dialogText.Owner, dialogText.GetPlacement(), nextevent.Clear, nextevent.IsModal);            
+            DialogVisualiser.Instance.UpdateDialogText(dialogText.Body, dialogText.Owner, dialogText.GetPlacement(), nextevent.Clear, nextevent.IsModal);
         }
         else
         {
@@ -65,9 +70,22 @@ public class DialogManager : SingletonBase<DialogManager>
 
         PlayerController.Instance.SetPlayerState(nextevent.PlayerState);
 
+        PlayClip(dialogText);
+
         nextevent.Event.Invoke();
         firedEvent.Add(nextevent);
         eventList.Remove(nextevent);
+    }
+
+    private void PlayClip(DialogText dialogText)
+    {
+        _audio.Stop();
+        AudioClip clip = Clips.FirstOrDefault(x => x.name.Equals(dialogText.ID, StringComparison.OrdinalIgnoreCase));
+        if (clip != null)
+        {
+            _audio.clip = clip;
+            _audio.Play();
+        }
     }
 
     public void StartTimer()

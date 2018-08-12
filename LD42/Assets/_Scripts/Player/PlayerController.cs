@@ -123,8 +123,11 @@ public class PlayerController : SingletonBase<PlayerController>
 
     private void ResetToCheckPoint()
     {
-        transform.position = _lastCheckPoint.transform.position;
-        _lastCheckPoint.ResetCheckPoint();
+        if (_lastCheckPoint != null)
+        {
+            transform.position = _lastCheckPoint.transform.position;
+            _lastCheckPoint.ResetCheckPoint();
+        }            
     }
 }
 
