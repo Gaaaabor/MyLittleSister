@@ -393,7 +393,7 @@
 			"ID": "administrator_54",
 			"Placement": "TopRight",
 			"Owner": "Witch",
-			"Body": "The Dark Knight will never let you win! He will marry the princess and found a new, powerul Kingdom. You cannot stop him, prepare to die!"
+			"Body": "The Dark Knight will never let you win! He will marry the princess and found a new, powerful Kingdom. You cannot stop him, prepare to die!"
 		},
 
 		{
@@ -428,9 +428,15 @@
 			"ID": "WhatDidYOuDo",
 			"Placement": "SusyLeftForYouASecond",
 			"Owner": "Chris",
-			"Body": "Suzy!\n\rWhat did you do again? I left you only for second , I had to answer the phone.\n\rPlease, let me write the codes."
+			"Body": "Suzy!\n\rWhat did you do again? I left you only for second, I had to answer the phone.\n\rPlease, let me write the codes."
 		},
 
+		{
+			"ID": "administrator_1234",
+			"Placement": "Top",
+			"Owner": "Narrator",
+			"Body": "You found the legacy code!\n\rNow you can use short commands.\n\rFor example \"e\" is for enable."
+		},
 		{
 			"ID": "administrator_80",
 			"Placement": "TopRight",
@@ -449,7 +455,7 @@
 			"ID": "administrator_90",
 			"Placement": "TopRight",
 			"Owner": "Dark Knight",
-			"Body": "White Knight, you are a cheater! You are much worse than me! You can tr to escape, but I know some dev commands too:\n\rActivate recursion!"
+			"Body": "White Knight, you are a cheater! You are much worse than me! You can try to escape, but I know some dev commands too:\n\rActivate recursion!"
 		},
 
 		{
