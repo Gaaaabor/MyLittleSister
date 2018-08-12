@@ -18,6 +18,11 @@ public class CheatModeCommand : CommandBase
 
         LabelManager.Instance.ShowLabels();
 
+        if (WaitForCheatMode.Instance != null)
+        {
+            WaitForCheatMode.Instance.CheatModeDone(); 
+        }
+
         commandResult = new CommandResult("Cheatmode enabled!");
         Debug.Log(commandResult);
         return commandResult;
