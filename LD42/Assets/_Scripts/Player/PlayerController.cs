@@ -84,7 +84,7 @@ public class PlayerController : SingletonBase<PlayerController>
 
     private void UpdateAnim()
     {
-        Anim.SetFloat("Speed", _rigidbody.velocity.z);
+        Anim.SetFloat("Speed", _charController.velocity.x);
     }
 
     private void WalkForward()
@@ -99,6 +99,7 @@ public class PlayerController : SingletonBase<PlayerController>
 
     public void SetCheckPoint(CheckPoint checkPoint)
     {
+        Anim.SetTrigger("Respawn");
         _lastCheckPoint = checkPoint;
     }
 
@@ -117,7 +118,7 @@ public class PlayerController : SingletonBase<PlayerController>
         {
             case PlayerState.Idle:
                 break;
-            case PlayerState.Walking:
+            case PlayerState.Walking:         
                 break;
             case PlayerState.Run:
                 break;
@@ -131,7 +132,7 @@ public class PlayerController : SingletonBase<PlayerController>
 
     private void ResetToCheckPoint()
     {
-        SetPlayerState(PlayerState.Run);
+        SetPlayerState(PlayerState.Walking);
         if (_lastCheckPoint != null)
         {
             transform.position = _lastCheckPoint.transform.position;
