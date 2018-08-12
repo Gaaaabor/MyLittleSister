@@ -507,6 +507,7 @@ GameObject:
   m_Component:
   - component: {fileID: 267239450}
   - component: {fileID: 267239451}
+  - component: {fileID: 267239452}
   m_Layer: 0
   m_Name: DialogManager
   m_TagString: Untagged
@@ -546,6 +547,150 @@ MonoBehaviour:
   DialogTexts: []
   eventList: []
   firedEvent: []
+  Clips:
+  - {fileID: 8300000, guid: 986079deab9b70748a6b2f8d2a42ea53, type: 3}
+  - {fileID: 8300000, guid: cfed47eeae5c1c245a175b503e643ae0, type: 3}
+  - {fileID: 8300000, guid: 2837098e589ad114fa10c0087a41ecb8, type: 3}
+  - {fileID: 8300000, guid: 5b5459b8b195e8343bf639188c3bbb3d, type: 3}
+  - {fileID: 8300000, guid: a8aa7d20daf31ba49974bb40bb154a14, type: 3}
+  - {fileID: 8300000, guid: 2e4dae4b98208394b9fbb39e22cd9228, type: 3}
+  - {fileID: 8300000, guid: cba5e5686b620564ab55579a74429988, type: 3}
+  - {fileID: 8300000, guid: 61cde91faaa45004fac446e4546e48c9, type: 3}
+  - {fileID: 8300000, guid: a43dafd3e90cd9e46a957ff4e60745ff, type: 3}
+  - {fileID: 8300000, guid: 35f48b94578075e48b21361077be7274, type: 3}
+  - {fileID: 8300000, guid: 898be15aad5bf5443bef67368ebbb765, type: 3}
+  - {fileID: 8300000, guid: 4a1b3a06d4fa235448385ad203fa5a7c, type: 3}
+  - {fileID: 8300000, guid: 248436ff8e0b22647b801aa96a824489, type: 3}
+  - {fileID: 8300000, guid: 69e5d19ed19ce35459fc33f6bd31692b, type: 3}
+  - {fileID: 8300000, guid: 77b7cc83c971e8a4ba45b8380e011236, type: 3}
+  - {fileID: 8300000, guid: 8e52ba5c1d5109847a8d10e34b9fa86f, type: 3}
+  - {fileID: 8300000, guid: c3f8b522af233aa4f92ac523907df0f7, type: 3}
+  - {fileID: 8300000, guid: bb87622a489ea764ab11731504eba5de, type: 3}
+  - {fileID: 8300000, guid: 5c06eee105c60574abf21fb79c2a10d2, type: 3}
+  - {fileID: 8300000, guid: f5709a6c19fe45a4d86195cbd89f4c78, type: 3}
+  - {fileID: 8300000, guid: 43f8d8e2c898a5a4996a25a0c763fe51, type: 3}
+  - {fileID: 8300000, guid: 9468575573f883446ab47cf1306826de, type: 3}
+  - {fileID: 8300000, guid: 1951ce3a603ba6446ba371868c12e7bf, type: 3}
+  - {fileID: 8300000, guid: a82afbb1c3de2004ab381b45ea936248, type: 3}
+  - {fileID: 8300000, guid: a67c1e019b197874a8cee8285842806d, type: 3}
+  - {fileID: 8300000, guid: b113f29e29ba38a47b5ebf4eccf0dd4e, type: 3}
+  - {fileID: 8300000, guid: aac99950648a483419e4ae146ab43669, type: 3}
+  - {fileID: 8300000, guid: 512d51a162dca674e819911e9a4e4098, type: 3}
+  - {fileID: 8300000, guid: b6cbd9ba94b48564f96185b10309a170, type: 3}
+  - {fileID: 8300000, guid: 02cbaf052bb6a5640901a2607d1b128c, type: 3}
+  - {fileID: 8300000, guid: d127cd7e6a7e2534d833ffaeb799363b, type: 3}
+  - {fileID: 8300000, guid: e30e020925930bc47b1360d131b93598, type: 3}
+  - {fileID: 8300000, guid: d9072683427a0184db52778c1c0cf9ea, type: 3}
+  - {fileID: 8300000, guid: 39fc0081d5a318e40bd8b6cd7de2664a, type: 3}
+  - {fileID: 8300000, guid: feb1c62be76911141a817841e4606791, type: 3}
+  - {fileID: 8300000, guid: 498225e9ecab0e646854acf55ea6ae9a, type: 3}
+  - {fileID: 8300000, guid: 362806701c03dce459530db63c57ce53, type: 3}
+  - {fileID: 8300000, guid: 508e4f241731d5e41bcdf8e74e49da75, type: 3}
+  - {fileID: 8300000, guid: 6fa273a96e38f624a9c793a33f1c660d, type: 3}
+  - {fileID: 8300000, guid: e5313aacfa7630d43b1a213151e5cf69, type: 3}
+  - {fileID: 8300000, guid: 0cbba98dfcaac154c88f7fe9fcf77298, type: 3}
+  - {fileID: 8300000, guid: 40f9f419aa4711046a355ea6ba802160, type: 3}
+  - {fileID: 8300000, guid: f9521204b9a001e4ba6b7114d5d700c5, type: 3}
+  - {fileID: 8300000, guid: f43d907ca83e2924089b92199cec8dfc, type: 3}
+  - {fileID: 8300000, guid: ed1baede39c12204ab8aa9af8acb3ac1, type: 3}
+  - {fileID: 8300000, guid: 20324c018ebc9024386ea8f98fdb5089, type: 3}
+  - {fileID: 8300000, guid: 7e79ea470e7282f4fb06d6aec4cbca30, type: 3}
+  - {fileID: 8300000, guid: 401be687fa502e5499a5e492bad653a2, type: 3}
+--- !u!82 &267239452
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 267239449}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!4 &276763675
 Transform:
   m_ObjectHideFlags: 0
@@ -3964,7 +4109,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 569049202}
   m_Direction: 2
   m_Value: 0
-  m_Size: 0.99812603
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6235,7 +6380,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.000040209718}
+  m_AnchoredPosition: {x: 0, y: 0.00001925678}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1953159602

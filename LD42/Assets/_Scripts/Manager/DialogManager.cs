@@ -80,7 +80,7 @@ public class DialogManager : SingletonBase<DialogManager>
     private void PlayClip(DialogText dialogText)
     {
         _audio.Stop();
-        AudioClip clip = Clips.FirstOrDefault(x => x.name.Equals(dialogText.ID + ".mp3", StringComparison.OrdinalIgnoreCase));
+        AudioClip clip = Clips.FirstOrDefault(x => x.name.Equals(dialogText.ID, StringComparison.OrdinalIgnoreCase));
         if (clip != null)
         {
             _audio.clip = clip;
