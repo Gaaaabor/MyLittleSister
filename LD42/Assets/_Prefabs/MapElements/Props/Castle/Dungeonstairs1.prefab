@@ -9,74 +9,74 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1373587551870396}
+  m_RootGameObject: {fileID: 1471193215852040}
   m_IsPrefabParent: 1
---- !u!1 &1325653036058658
+--- !u!1 &1259831339227758
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4218907671755862}
-  - component: {fileID: 33235467381952502}
-  - component: {fileID: 23132017940499310}
-  - component: {fileID: 64996830549204376}
+  - component: {fileID: 4053482273714316}
+  - component: {fileID: 33666645644716088}
+  - component: {fileID: 23866764758285750}
+  - component: {fileID: 64524022217529236}
   m_Layer: 0
-  m_Name: StoneEntrance_1
+  m_Name: DungeonStairs_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1373587551870396
+--- !u!1 &1471193215852040
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4463089387410476}
+  - component: {fileID: 4348399235129302}
   m_Layer: 0
-  m_Name: StoneEntrace
+  m_Name: Dungeonstairs1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4218907671755862
+--- !u!4 &4053482273714316
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1325653036058658}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_GameObject: {fileID: 1259831339227758}
+  m_LocalRotation: {x: -0.00000013767877, y: 0.7071068, z: 0.70710677, w: 0.00000013767878}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7105576, y: 0.35527876, z: 0.35527876}
   m_Children: []
-  m_Father: {fileID: 4463089387410476}
+  m_Father: {fileID: 4348399235129302}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!4 &4463089387410476
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4348399235129302
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1373587551870396}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0, z: 0}
+  m_GameObject: {fileID: 1471193215852040}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -71.39, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4218907671755862}
+  - {fileID: 4053482273714316}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &23132017940499310
+--- !u!23 &23866764758285750
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1325653036058658}
+  m_GameObject: {fileID: 1259831339227758}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -106,19 +106,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33235467381952502
+--- !u!33 &33666645644716088
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1325653036058658}
-  m_Mesh: {fileID: 4300036, guid: 5d640f7fee95a3d4ba8f467de79abc83, type: 3}
---- !u!64 &64996830549204376
+  m_GameObject: {fileID: 1259831339227758}
+  m_Mesh: {fileID: 4300008, guid: 8e942158ac8b4b6418aeb591f1b11baa, type: 3}
+--- !u!64 &64524022217529236
 MeshCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1325653036058658}
+  m_GameObject: {fileID: 1259831339227758}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
@@ -126,4 +126,4 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300036, guid: 5d640f7fee95a3d4ba8f467de79abc83, type: 3}
+  m_Mesh: {fileID: 4300008, guid: 8e942158ac8b4b6418aeb591f1b11baa, type: 3}
