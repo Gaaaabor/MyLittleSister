@@ -364,6 +364,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -388,7 +389,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &7447070
 MonoBehaviour:
@@ -1385,6 +1385,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: hate
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -1442,7 +1443,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &121305807
 MonoBehaviour:
@@ -1524,6 +1524,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -1548,7 +1549,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &121903794
 MonoBehaviour:
@@ -1759,6 +1759,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -1783,7 +1784,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &127972784
 MonoBehaviour:
@@ -1969,6 +1969,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -1993,7 +1994,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &138366947
 MonoBehaviour:
@@ -2892,6 +2892,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: WULF_More
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -2916,7 +2917,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!65 &158014377
 BoxCollider:
@@ -3117,6 +3117,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: T5
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -3152,7 +3153,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &199216501
 MonoBehaviour:
@@ -3474,6 +3474,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Forgive
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -3531,7 +3532,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &214981288
 MonoBehaviour:
@@ -3740,6 +3740,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -3764,7 +3765,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &226972280
 MonoBehaviour:
@@ -5348,6 +5348,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -5372,7 +5373,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &385423607
 MonoBehaviour:
@@ -5567,6 +5567,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -5591,7 +5592,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &389845315
 MonoBehaviour:
@@ -6857,6 +6857,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: T5
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -6892,7 +6893,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &443772908
 MonoBehaviour:
@@ -7391,6 +7391,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -7415,7 +7416,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &497020592
 MonoBehaviour:
@@ -7910,6 +7910,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -7934,7 +7935,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &520153518
 MonoBehaviour:
@@ -8143,6 +8143,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: WULF_01
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -8167,7 +8168,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!65 &520702152
 BoxCollider:
@@ -8256,6 +8256,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -8280,7 +8281,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &524354615
 MonoBehaviour:
@@ -8397,6 +8397,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Remember
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -8454,7 +8455,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &525723166
 MonoBehaviour:
@@ -9003,6 +9003,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -9027,7 +9028,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &581430226
 MonoBehaviour:
@@ -9174,6 +9174,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -9198,7 +9199,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &582135665
 MonoBehaviour:
@@ -10126,6 +10126,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -10150,7 +10151,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &645989164
 MonoBehaviour:
@@ -10895,6 +10895,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: BeeMasterHive01
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -10919,7 +10920,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &690940727
 MonoBehaviour:
@@ -11018,6 +11018,47 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2078378520}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &717536710
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 717536712}
+  - component: {fileID: 717536711}
+  m_Layer: 0
+  m_Name: Night
+  m_TagString: Untagged
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &717536711
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 717536710}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 71.6, z: 68.21}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &717536712
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 717536710}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 259.6341, y: 12.108089, z: 9.068462}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &722609240
 GameObject:
@@ -11209,6 +11250,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -11233,7 +11275,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &729382062
 MonoBehaviour:
@@ -13053,6 +13094,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -13077,7 +13119,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &847896651
 MonoBehaviour:
@@ -13481,6 +13522,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: WULF_04
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -13505,7 +13547,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!65 &857330170
 BoxCollider:
@@ -13678,6 +13719,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: T5
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -13713,7 +13755,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &880993718
 MonoBehaviour:
@@ -14029,6 +14070,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -14053,7 +14095,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &906813416
 MonoBehaviour:
@@ -14264,6 +14305,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -14288,7 +14330,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &940836896
 MonoBehaviour:
@@ -14742,6 +14783,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -14766,7 +14808,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &970721802
 MonoBehaviour:
@@ -15202,6 +15243,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: WULF_
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -15226,7 +15268,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &975296850
 MonoBehaviour:
@@ -15374,6 +15415,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -15398,7 +15440,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &976564532
 MonoBehaviour:
@@ -15929,6 +15970,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -15953,7 +15995,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &1009839879
 MonoBehaviour:
@@ -16100,6 +16141,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -16124,7 +16166,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &1018839100
 MonoBehaviour:
@@ -16316,6 +16357,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -16340,7 +16382,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &1040097229
 MonoBehaviour:
@@ -16485,6 +16526,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: BeeMasterHive01
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -16509,7 +16551,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &1047437847
 MonoBehaviour:
@@ -16698,6 +16739,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -16722,7 +16764,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &1051493137
 MonoBehaviour:
@@ -17753,6 +17794,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -17777,7 +17819,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &1130329516
 MonoBehaviour:
@@ -18367,6 +18408,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -18391,7 +18433,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &1175003987
 MonoBehaviour:
@@ -19851,6 +19892,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -19875,7 +19917,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &1243477711
 MonoBehaviour:
@@ -20070,6 +20111,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: T5
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -20105,7 +20147,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &1251650239
 MonoBehaviour:
@@ -20401,6 +20442,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: T1
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -20436,7 +20478,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &1271789487
 MonoBehaviour:
@@ -20529,6 +20570,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -20553,7 +20595,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &1278868170
 MonoBehaviour:
@@ -20894,6 +20935,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: WULF_02
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -20918,7 +20960,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &1290502333
 MonoBehaviour:
@@ -21701,6 +21742,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -21725,7 +21767,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &1351123787
 MonoBehaviour:
@@ -21870,6 +21911,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: StartWithIt
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -21927,7 +21969,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &1357706468
 MonoBehaviour:
@@ -22427,6 +22468,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -22451,7 +22493,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &1386621554
 MonoBehaviour:
@@ -22663,6 +22704,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -22687,7 +22729,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &1395145804
 MonoBehaviour:
@@ -23018,6 +23059,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -23042,7 +23084,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &1404660141
 MonoBehaviour:
@@ -23641,6 +23682,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -23665,7 +23707,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &1445927775
 MonoBehaviour:
@@ -24025,6 +24066,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: WULF_99
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -24049,7 +24091,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!65 &1463251644
 BoxCollider:
@@ -24294,6 +24335,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -24318,7 +24360,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &1474606261
 MonoBehaviour:
@@ -24636,6 +24677,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -24660,7 +24702,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &1524395859
 MonoBehaviour:
@@ -25459,6 +25500,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -25483,7 +25525,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &1583491446
 MonoBehaviour:
@@ -25677,6 +25718,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -25701,7 +25743,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &1584942824
 MonoBehaviour:
@@ -25876,6 +25917,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -25900,7 +25942,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &1590947583
 MonoBehaviour:
@@ -30819,6 +30860,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: T2
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -30854,7 +30896,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &1601180659
 MonoBehaviour:
@@ -31731,6 +31772,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -31755,7 +31797,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &1653260665
 MonoBehaviour:
@@ -31931,6 +31972,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Why???
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -31988,7 +32030,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &1671303708
 MonoBehaviour:
@@ -32202,6 +32243,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: WULF_03
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -32226,7 +32268,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!65 &1681679715
 BoxCollider:
@@ -32466,6 +32507,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -32490,7 +32532,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &1687798024
 MonoBehaviour:
@@ -33021,6 +33062,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -33045,7 +33087,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &1700245037
 MonoBehaviour:
@@ -33355,6 +33396,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: StarterWULF
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -33379,7 +33421,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &1728041083
 MonoBehaviour:
@@ -34552,6 +34593,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: T3
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -34587,7 +34629,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &1776043164
 MonoBehaviour:
@@ -35069,6 +35110,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -35093,7 +35135,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &1857010359
 MonoBehaviour:
@@ -35882,6 +35923,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: WULF_00
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -35906,7 +35948,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!65 &1902824996
 BoxCollider:
@@ -36212,6 +36253,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: T5
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -36247,7 +36289,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &1918641441
 MonoBehaviour:
@@ -36508,6 +36549,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -36532,7 +36574,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &1935591026
 MonoBehaviour:
@@ -36673,8 +36714,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1937269642}
-  m_LocalRotation: {x: 0.22602226, y: 0.008767452, z: 0.0020345692, w: -0.97408056}
-  m_LocalPosition: {x: 15.470919, y: -86.156586, z: -170.41153}
+  m_LocalRotation: {x: 0.3643243, y: 0.06334744, z: 0.024848972, w: -0.9287828}
+  m_LocalPosition: {x: 268.08273, y: -44.258022, z: -30.92352}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -38368,6 +38409,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -38392,7 +38434,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &2033783587
 MonoBehaviour:
@@ -38886,6 +38927,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -38910,7 +38952,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &2065642728
 MonoBehaviour:
@@ -39152,6 +39193,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: T4
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -39187,7 +39229,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &2078378525
 MonoBehaviour:
@@ -39648,6 +39689,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -39672,7 +39714,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &2118996751
 MonoBehaviour:
@@ -39949,6 +39990,7 @@ MonoBehaviour:
   _isDestroyed: 0
   ManagedName: Beeee
   StartEnabled: 1
+  TargetObject: {fileID: 0}
   CanEnable: 1
   EnableEvent:
     m_PersistentCalls:
@@ -39973,7 +40015,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  ObjectOverride: {fileID: 0}
   Label: {fileID: 0}
 --- !u!114 &2124541000
 MonoBehaviour:
