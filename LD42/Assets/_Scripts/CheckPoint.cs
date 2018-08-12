@@ -1,9 +1,11 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class CheckPoint : MonoBehaviour
 {
     public List<ManagedGameObject> CheckPointObject;
+    public UnityEvent CheckpointEvent;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -15,6 +17,7 @@ public class CheckPoint : MonoBehaviour
 
     public void ResetCheckPoint()
     {
+        CheckpointEvent.Invoke();
         foreach (var item in CheckPointObject)
         {
             item.Restore();

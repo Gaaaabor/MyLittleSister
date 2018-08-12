@@ -26,7 +26,7 @@ public class SpeedCommand : CommandBase
             return commandResult;
         }
 
-        BuffManager.Instance.ChangeTime(timeScaleValue);
+        BuffManager.Instance.SetTimeScale(timeScaleValue);        
 
         commandResult = new CommandResult(string.Format("TimeScale set to ({0})!", timeScaleValue));
         Debug.Log(commandResult);
