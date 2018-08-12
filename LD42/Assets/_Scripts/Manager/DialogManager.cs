@@ -48,14 +48,16 @@ public class DialogManager : SingletonBase<DialogManager>
         if (_on)
         {
             _timer += Time.deltaTime;
-            if (eventList.FirstOrDefault() != null && eventList.FirstOrDefault().Timestemp <= _timer)
-            {
-                ShotNextEvent();
-            }
-            else
+            if (eventList.FirstOrDefault() == null)
             {
                 _on = false;
                 Debug.Log("Conversation done");
+                return;
+            }
+
+            if (eventList.FirstOrDefault().Timestemp <= _timer)
+            {
+                ShotNextEvent();
             }
         }
     }

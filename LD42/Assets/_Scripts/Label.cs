@@ -17,7 +17,7 @@ public class Label : MonoBehaviour
 
     public void Awake()
     {
-        _label = Instantiate(Resources.Load("Label"), transform.position + LabelPlace.transform.localPosition, Quaternion.identity) as GameObject;
+        _label = Instantiate(Resources.Load("Label"), Quaternion.identity) as GameObject;
         _label.transform.SetParent(transform);
         _anim = _label.GetComponentInChildren<Animator>();
         _text = _label.GetComponentInChildren<Text>();
