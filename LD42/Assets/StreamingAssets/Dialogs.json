@@ -386,13 +386,13 @@
 			"ID": "StopTime",
 			"Placement": "BottomRight",
 			"Owner": "Chris",
-			"Body": "Wati a second! There is a command to pause time. \"speed 0\" 0 is paused. 1 is normal. Best is 0.5."
+			"Body": "Wait a second! There is a command to pause time. \"speed 0\" 0 is paused. 1 is normal. Best is 0.5."
 		},
 
 		{
 			"ID": "administrator_54",
 			"Placement": "TopRight",
-			"Owner": "Witch from the hut",
+			"Owner": "Witch",
 			"Body": "The Dark Knight will never let you win! He will marry the princess and found a new, powerul Kingdom. You cannot stop him, prepare to die!"
 		},
 
@@ -404,7 +404,7 @@
 		},
 
 		{
-			"ID": "administrator_60",
+			"ID": "MoreDificult",
 			"Placement": "BottomRight",
 			"Owner": "Chris",
 			"Body": "It is getting more difficult..."
@@ -425,7 +425,7 @@
 		},
 
 		{
-			"ID": "administrator_75",
+			"ID": "WhatDidYOuDo",
 			"Placement": "SusyLeftForYouASecond",
 			"Owner": "Chris",
 			"Body": "Suzy!\n\rWhat did you do again? I left you only for second , I had to answer the phone.\n\rPlease, let me write the codes."
@@ -449,7 +449,7 @@
 			"ID": "administrator_90",
 			"Placement": "TopRight",
 			"Owner": "Dark Knight",
-			"Body": "White Knight, you are a cheater! You are much worse than me! You can tr to escape, but I know some dev commands too:\n\rActivate loop!"
+			"Body": "White Knight, you are a cheater! You are much worse than me! You can tr to escape, but I know some dev commands too:\n\rActivate recursion!"
 		},
 
 		{
@@ -460,24 +460,44 @@
 		},
 
 		{
-			"ID": "administrator_100",
+			"ID": "DestroyingWholeWorld",
 			"Placement": "BottomRight",
 			"Owner": "Chris",
-			"Body": "He is destroying the whole world! We cannot let him to do it, we have to save the princess.\n\rHurry, Suzy! Run as you can!"
+			"Body": "He is destroying the whole world! We cannot let him to do it, we have to save the princess.\n\rHurry, Suzy! Run as fast as you can!"
+		},
+
+		{
+			"ID": "administrator_xxx",
+			"Placement": "TopRight",
+			"Owner": "Dark Knight",
+			"Body": "You can run! But cannot hide!"
 		},
 
 		{
 			"ID": "administrator_105",
 			"Placement": "BottomLeft",
 			"Owner": "Suzy",
-			"Body": "Type activate ant1ch3atm0de to enable the built in anti cheat mode!"
+			"Body": "Disable the built in anti cheat mode!"
 		},
-
 		{
-			"ID": "administrator_110",
+			"ID": "GoodIdea",
 			"Placement": "BottomRight",
 			"Owner": "Chris",
-			"Body": "Look! This is the King's castle! We did it!"
+			"Body": "Good Idea!!!"
+		},
+
+
+		{
+			"ID": "administrator_9011",
+			"Placement": "TopRight",
+			"Owner": "Dark Knight",
+			"Body": "Noooooooooooooo!"
+		},
+		{
+			"ID": "KingCastle",
+			"Placement": "BottomRight",
+			"Owner": "Chris",
+			"Body": "Look! This is the King's castle! We finaly did it!"
 		},
 
 		{
@@ -488,7 +508,7 @@
 		},
 
 		{
-			"ID": "administrator_120",
+			"ID": "ItWasDad",
 			"Placement": "BottomRight",
 			"Owner": "Chris",
 			"Body": "It was Dad."
@@ -502,24 +522,50 @@
 		},
 
 		{
-			"ID": "administrator_130",
+			"ID": "ComeHome",
 			"Placement": "BottomRight",
 			"Owner": "Chris",
-			"Body": "He can come in every minute."
+			"Body": "He can come in any minute."
+		},
+		{
+			"ID": "administrator_125",
+			"Placement": "BottomLeft",
+			"Owner": "Suzy",
+			"Body": "Mom?"
 		},
 
 		{
-			"ID": "administrator_135",
+			"ID": "DadTold",
+			"Placement": "BottomRight",
+			"Owner": "Chris",
+			"Body": "Dad told me \"She is Okey\". Everything will be fine!"
+		},
+		{
+			"ID": "administrator_1353",
 			"Placement": "BottomLeft",
 			"Owner": "Suzy",
 			"Body": "Tomorrow we can play another game?"
 		},
 
 		{
-			"ID": "administrator_140",
+			"ID": "SleepNow",
 			"Placement": "BottomRight",
 			"Owner": "Chris",
-			"Body": "Sure..."
+			"Body": "Sure, but you need to sleep now!"
+		},
+
+		{
+			"ID": "Tale",
+			"Placement": "BottomLeft",
+			"Owner": "Suzy",
+			"Body": "Are you telling me a tale?"
+		},
+
+		{
+			"ID": "Onceupon",
+			"Placement": "BottomRight",
+			"Owner": "Chris",
+			"Body": "Sure, Once upon a time on computer game ....!"
 		}
 	]
 }
