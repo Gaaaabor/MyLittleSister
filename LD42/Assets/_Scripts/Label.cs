@@ -17,13 +17,20 @@ public class Label : MonoBehaviour
 
     public void Awake()
     {
-        _label = Instantiate(Resources.Load("Label"), Quaternion.identity) as GameObject;
-        _label.transform.SetParent(transform);
+        _label = Instantiate(Resources.Load("Label"), LabelPlace) as GameObject;       
+        SetGlobalScale(_label.transform, new Vector3(0.005f, 0.005f, 0.005f));
+        _label.GetComponent<RectTransform>().localPosition = Vector3.zero;
         _anim = _label.GetComponentInChildren<Animator>();
         _text = _label.GetComponentInChildren<Text>();
         _text.text = GetComponent<ManagedGameObject>().ManagedName;
         GetComponentInParent<ManagedGameObject>().Label = this;
         LabelManager.Instance.RegisterLabel(this);
+    }
+
+    public void SetGlobalScale(Transform transform, Vector3 globalScale)
+    {
+        transform.localScale = Vector3.one;
+        transform.localScale = new Vector3(globalScale.x / transform.lossyScale.x, globalScale.y / transform.lossyScale.y, globalScale.z / transform.lossyScale.z);
     }
 
     private void OnEnable()
