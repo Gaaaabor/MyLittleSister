@@ -29,6 +29,8 @@ public class PlayerController : SingletonBase<PlayerController>
     public bool TorchInhand;
     public GameObject Sword;
     public bool SwordInHand;
+    public GameObject Princess;
+    public bool PrincessInHand;
 
     public override void Awake()
     {
@@ -41,13 +43,30 @@ public class PlayerController : SingletonBase<PlayerController>
 
     private void SetInventory()
     {
-        Torch.SetActive(TorchInhand);
-        Sword.SetActive(SwordInHand);
+        if (PrincessInHand)
+        {
+            Torch.SetActive(false);
+            Sword.SetActive(false);
+
+            Princess.SetActive(PrincessInHand);
+        }
+        else
+        {
+            Torch.SetActive(TorchInhand);
+            Sword.SetActive(SwordInHand);
+            Princess.SetActive(false);           
+        }
     }
 
     public void SetTorch(bool v)
     {
         TorchInhand = v;
+        SetInventory();
+    }
+
+    public void SetPrincess(bool v)
+    {
+        PrincessInHand = v;
         SetInventory();
     }
 

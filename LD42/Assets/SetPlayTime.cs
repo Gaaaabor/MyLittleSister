@@ -2,16 +2,18 @@
 
 public class SetPlayTime : MonoBehaviour
 {
-    public float TargetTime;
-    public float Addtime;
-
-    public void AddTime()
+    public void AddTime(float value)
     {
-        BuffManager.Instance.TimeBuffDuration += Addtime;
+        BuffManager.Instance.TimeBuffDuration += value;
     }
 
-    public void SetTime()
+    public void SetGlobalTime(float value)
     {
-        BuffManager.Instance.TimeBuffDuration = TargetTime;
+        Time.timeScale = value;
+    }
+
+    public void SetTimeBuff(float value)
+    {
+        BuffManager.Instance.TimeBuffDuration = value;
     }
 }
