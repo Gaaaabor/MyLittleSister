@@ -52,12 +52,19 @@ public class DialogManager : SingletonBase<DialogManager>
             {
                 ShotNextEvent();
             }
+            else
+            {
+                _on = false;
+                Debug.Log("Conversation done");
+            }
         }
     }
 
     private void ShotNextEvent()
     {
         var nextevent = eventList.FirstOrDefault();
+        Debug.Log(nextevent.Id);
+
         var dialogText = DialogTexts.FirstOrDefault(x => x.ID.Equals(nextevent.Id, System.StringComparison.OrdinalIgnoreCase));
         if (dialogText != null)
         {
@@ -75,11 +82,15 @@ public class DialogManager : SingletonBase<DialogManager>
         nextevent.Event.Invoke();
         firedEvent.Add(nextevent);
         eventList.Remove(nextevent);
+        Debug.Log(nextevent.Id + " Done");
     }
 
     private void PlayClip(DialogText dialogText)
     {
+        if (dialogText == null) return;
+
         _audio.Stop();
+
         AudioClip clip = Clips.FirstOrDefault(x => x.name.Equals(dialogText.ID, StringComparison.OrdinalIgnoreCase));
         if (clip != null)
         {
@@ -98,10 +109,10 @@ public class DialogManager : SingletonBase<DialogManager>
         _on = false;
     }
 
-    public void StartConversation(Conversation conversation)
+    public void StartConversation(Conversation conversation, DialogTrigger trigger)
     {
         eventList = conversation.Conversations;
-
+        Debug.Log(trigger.gameObject.name);
         ResetEvents();
         StartTimer();
     }
