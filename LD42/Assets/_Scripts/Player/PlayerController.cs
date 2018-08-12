@@ -27,6 +27,7 @@ public class PlayerController : SingletonBase<PlayerController>
 
     public GameObject Torch;
     public bool TorchInhand;
+    public GameObject Sword;
     public bool SwordInHand;
 
     public override void Awake()
@@ -40,22 +41,8 @@ public class PlayerController : SingletonBase<PlayerController>
 
     private void SetInventory()
     {
-        if (TorchInhand)
-        {
-            SetTorch(true);
-        }
-        else
-        {
-            SetTorch(false);
-        }
-        if (SwordInHand)
-        {
-            SetTorch(true);
-        }
-        else
-        {
-            SetTorch(false);
-        }
+        Torch.SetActive(TorchInhand);
+        Sword.SetActive(SwordInHand);
     }
 
     public void SetTorch(bool v)
@@ -81,10 +68,6 @@ public class PlayerController : SingletonBase<PlayerController>
             case PlayerState.Walking:
                 WalkForward();
                 break;
-            case PlayerState.Fight:
-                break;
-            case PlayerState.Talking:
-                break;
             case PlayerState.Run:
                 RunForward();
                 break;
@@ -95,6 +78,13 @@ public class PlayerController : SingletonBase<PlayerController>
         _moveDirection.y -= Gravity * Time.deltaTime;
         _charController.Move(_moveDirection);
         transform.position = new Vector3(transform.position.x, transform.position.y, _Z);
+
+        UpdateAnim();
+    }
+
+    private void UpdateAnim()
+    {
+        Anim.SetFloat("Speed", _rigidbody.velocity.z);
     }
 
     private void WalkForward()
@@ -115,36 +105,33 @@ public class PlayerController : SingletonBase<PlayerController>
     [ContextMenu("Die")]
     public void Die()
     {
-        ResetToCheckPoint();
-    }
-
-    public void IdlePlayer()
-    {
-        _currentPlayerState = PlayerState.Idle;
-    }
-
-    public void WalkPlayer()
-    {
-        _currentPlayerState = PlayerState.Walking;
-    }
-
-    public void FightPlayer()
-    {
-        _currentPlayerState = PlayerState.Fight;
-    }
-
-    public void DialogPlay()
-    {
-        _currentPlayerState = PlayerState.Talking;
+        SetPlayerState(PlayerState.Dead);
+        Invoke("ResetToCheckPoint", 1.5f);  
     }
 
     public void SetPlayerState(PlayerState playerState)
     {
         _currentPlayerState = playerState;
+
+        switch (playerState)
+        {
+            case PlayerState.Idle:
+                break;
+            case PlayerState.Walking:
+                break;
+            case PlayerState.Run:
+                break;
+            case PlayerState.Dead:
+                Anim.SetTrigger("Die");
+                break;
+            default:
+                break;
+        }
     }
 
     private void ResetToCheckPoint()
     {
+        SetPlayerState(PlayerState.Run);
         if (_lastCheckPoint != null)
         {
             transform.position = _lastCheckPoint.transform.position;
@@ -157,7 +144,6 @@ public enum PlayerState
 {
     Idle,
     Walking,
-    Fight,
-    Talking,
-    Run
+    Run,
+    Dead
 }
