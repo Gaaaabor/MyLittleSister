@@ -29,7 +29,7 @@ public class EnableCommand : CommandBase
 
         foreach (var managedGameObject in managedGameObjects)
         {
-            managedGameObject.SetDestroyedState();
+            managedGameObject.SetEnabledState();
         }
 
         commandResult = new CommandResult(string.Format("Item with id ({0}) enabled!", target));
