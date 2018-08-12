@@ -10,14 +10,8 @@ public class MusicManager : SingletonBase<MusicManager>
     public float lerpTime = 1;
 
     private bool _primary;
-    private float _startVolume;
 
-    private void Awake()
-    {
-        _startVolume = Primary.volume;
-    }
-
-    public void PlayMusic(AudioClip clip)
+    public void PlayMusic(AudioClip clip,float volume)
     {
         if (_primary)
         {
@@ -25,7 +19,7 @@ public class MusicManager : SingletonBase<MusicManager>
             Secondary.Play();
             StopAllCoroutines();
             StartCoroutine(LerpVolume(0, Primary));
-            StartCoroutine(LerpVolume(1, Secondary));
+            StartCoroutine(LerpVolume(volume, Secondary));
             _primary = false;
         }
         else
@@ -33,7 +27,7 @@ public class MusicManager : SingletonBase<MusicManager>
             Primary.clip = clip;
             Primary.Play();
             StopAllCoroutines();
-            StartCoroutine(LerpVolume(1, Primary));
+            StartCoroutine(LerpVolume(volume, Primary));
             StartCoroutine(LerpVolume(0, Secondary));
             _primary = true;
         }

@@ -38,6 +38,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4595347771835556}
   - component: {fileID: 114799391979128818}
+  - component: {fileID: 114164801359012408}
   m_Layer: 0
   m_Name: Tree4
   m_TagString: Untagged
@@ -128,6 +129,20 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300006, guid: 84a0e731fa5b3ca4ca753e42045c8fa8, type: 3}
+--- !u!114 &114164801359012408
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1343495764243010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f9c99e780113bd408f01215d7166eab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MinScale: 2.5
+  MaxScale: 4
+  RotationOffset: {x: 0, y: 0, z: 0}
 --- !u!114 &114799391979128818
 MonoBehaviour:
   m_ObjectHideFlags: 1

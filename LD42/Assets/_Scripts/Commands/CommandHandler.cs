@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using UnityEngine;
 
@@ -79,16 +80,27 @@ public class CommandHandler
 
         if (foundCommand == null)
         {
-            var commandResult = new CommandResult(string.Format("Incorrect command ({0})!", commandToExecute), false);
-            Debug.Log(commandResult);
-            return commandResult;
+            var incorrectCommandResult = new CommandResult(string.Format("Incorrect command ({0})!", commandToExecute), false);
+            Debug.Log(incorrectCommandResult);
+            return incorrectCommandResult;
         }
 
         var parameters = commandToExecute
             .Substring(commandPart.Length, commandToExecute.Length - commandPart.Length)
             .Split(new[] { WHITESPACE }, StringSplitOptions.RemoveEmptyEntries);
 
-        return foundCommand.Execute(parameters);
+        var foundCommandResult = foundCommand.Execute(parameters);
+
+        if (foundCommandResult)
+        {
+            var waitForCommands = Resources.FindObjectsOfTypeAll(typeof(WaitForCommand)).ToList();
+            foreach (WaitForCommand waitForCommand in waitForCommands)
+            {
+                waitForCommand.OnCommand(foundCommand.CommandText, parameters);
+            }
+        }
+
+        return foundCommandResult;
     }
 
     private string RemoveWhiteSpaceDuplications(string commandToExecute)

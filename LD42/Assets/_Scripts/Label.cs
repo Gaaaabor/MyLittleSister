@@ -28,7 +28,6 @@ public class Label : MonoBehaviour
 
     private void OnEnable()
     {
-        Debug.Log("OnEnable");
         if (LabelManager.Instance.LabelsVisible)
         {
             ShowLabel();

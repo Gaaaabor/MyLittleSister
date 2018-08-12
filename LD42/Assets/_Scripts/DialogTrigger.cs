@@ -17,7 +17,6 @@ public class DialogTrigger : MonoBehaviour
 
     private void StartDialog()
     {
-        PlayerController.Instance.IdlePlayer();
         DialogManager.Instance.StartConversation(Conversation);
     }
 }
