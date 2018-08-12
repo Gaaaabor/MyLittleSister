@@ -59,10 +59,10 @@ public class TimeManager : SingletonBase<TimeManager>
         switch (StartDaytime)
         {
             case DayTime.DAY:
-                Sun.SetRotation(new Vector3(0, dayStartTime * 15, 0),true);
+                Sun.SetRotation(new Vector3(0, dayStartTime * 15, 0), true);
                 break;
             case DayTime.NIGHT:
-                Sun.SetRotation(new Vector3(0, nightStartTime * 15, 0),true);
+                Sun.SetRotation(new Vector3(0, nightStartTime * 15, 0), true);
                 break;
             default:
                 break;
@@ -89,21 +89,16 @@ public class TimeManager : SingletonBase<TimeManager>
     [ContextMenu("SetDay")]
     public void SetDay()
     {
-        if (CurrentTime < dayStartTime - 2 || CurrentTime > dayStartTime + 2)
-        {
-            SetTime(dayStartTime);          
-        }
+        SetTime(dayStartTime);
+
     }
 
     [ContextMenu("SetNight")]
     public void SetNight()
     {
-        if (CurrentTime < nightStartTime - 2 || CurrentTime > nightStartTime + 2)
-        {
-            SetTime(nightStartTime);
-        }
+        SetTime(nightStartTime);
     }
-    
+
     public void SetTime(float time)
     {
         Sun.SetRotation(new Vector3(0, time * 15, 0));

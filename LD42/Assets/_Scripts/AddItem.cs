@@ -13,4 +13,14 @@ public class AddItem : MonoBehaviour {
     {
         PlayerController.Instance.SetTorch(true);
     }
+
+    public void AddPrincess()
+    {
+        PlayerController.Instance.SetPrincess(true);
+    }
+
+    public void RemovePrincess()
+    {
+        PlayerController.Instance.SetPrincess(false);
+    }
 }

@@ -29,6 +29,9 @@ public class PlayerController : SingletonBase<PlayerController>
     public bool TorchInhand;
     public GameObject Sword;
     public bool SwordInHand;
+    public GameObject Princess;
+    public bool PrincessInHand;
+    private PlayerState _lastState;
 
     public override void Awake()
     {
@@ -41,13 +44,30 @@ public class PlayerController : SingletonBase<PlayerController>
 
     private void SetInventory()
     {
-        Torch.SetActive(TorchInhand);
-        Sword.SetActive(SwordInHand);
+        if (PrincessInHand)
+        {
+            Torch.SetActive(false);
+            Sword.SetActive(false);
+
+            Princess.SetActive(PrincessInHand);
+        }
+        else
+        {
+            Torch.SetActive(TorchInhand);
+            Sword.SetActive(SwordInHand);
+            Princess.SetActive(false);
+        }
     }
 
     public void SetTorch(bool v)
     {
         TorchInhand = v;
+        SetInventory();
+    }
+
+    public void SetPrincess(bool v)
+    {
+        PrincessInHand = v;
         SetInventory();
     }
 
@@ -99,26 +119,32 @@ public class PlayerController : SingletonBase<PlayerController>
 
     public void SetCheckPoint(CheckPoint checkPoint)
     {
-        Anim.SetTrigger("Respawn");
         _lastCheckPoint = checkPoint;
     }
 
     [ContextMenu("Die")]
     public void Die()
     {
+        if (_currentPlayerState == PlayerState.Dead) return;
+        _rigidbody.isKinematic = true;
         SetPlayerState(PlayerState.Dead);
-        Invoke("ResetToCheckPoint", 1.5f);  
+        Debug.Log("InvokeREset");
+        Invoke("ResetToCheckPoint", 1.5f);
     }
 
     public void SetPlayerState(PlayerState playerState)
     {
+        Debug.Log("Try " + playerState);
+        if (_currentPlayerState == playerState) return;
+
+        _lastState = _currentPlayerState;
         _currentPlayerState = playerState;
 
         switch (playerState)
         {
             case PlayerState.Idle:
                 break;
-            case PlayerState.Walking:         
+            case PlayerState.Walking:
                 break;
             case PlayerState.Run:
                 break;
@@ -128,16 +154,27 @@ public class PlayerController : SingletonBase<PlayerController>
             default:
                 break;
         }
+        Debug.Log("Done " + playerState);
     }
 
     private void ResetToCheckPoint()
     {
-        SetPlayerState(PlayerState.Walking);
         if (_lastCheckPoint != null)
         {
             transform.position = _lastCheckPoint.transform.position;
             _lastCheckPoint.ResetCheckPoint();
         }
+
+        Invoke("ResetDone", 0.5f);
+        Debug.Log("Reset1");
+    }
+
+    private void ResetDone()
+    {
+        _rigidbody.isKinematic = false;
+        Anim.SetTrigger("Respawn");
+        SetPlayerState(_lastState);
+        Debug.Log("Reset1");
     }
 }
 

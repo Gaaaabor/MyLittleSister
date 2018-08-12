@@ -4,16 +4,21 @@ using UnityEngine;
 
 public class SetPlayTime : MonoBehaviour {
 
-    public float TargetTime;
     public float Addtime;
+    public float SetTime;
 
-    public void AddTime()
+    public void AddTime(float value)
     {
-        BuffManager.Instance.AddTime(Addtime);
+        BuffManager.Instance.AddTime(value);
     }
 
-	public void SetTime()
+	public void SetGlobalTime(float value)
     {
-        BuffManager.Instance.ChangeTime(TargetTime);
+        Time.timeScale = value;
+    }
+
+    public void SetTimeBuff(float value)
+    {
+      //  BuffManager.Instance.SetTime(SetTime);
     }
 }

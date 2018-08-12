@@ -7,6 +7,16 @@ public class MoveToPlayer : MonoBehaviour
     public float Speed;
     public bool Move;
     // Update is called once per frame
+
+    private Vector3 _startPos;
+    private bool _startMove;
+
+    private void Awake()
+    {
+        _startMove = Move;
+        _startPos = transform.position;
+    }
+
     void Update()
     {
         if (Move)
@@ -16,5 +26,11 @@ public class MoveToPlayer : MonoBehaviour
     public void SetMove(bool v)
     {
         Move = v;
+    }
+
+    public void Reset()
+    {
+        Move = _startMove;
+        transform.position = _startPos;
     }
 }

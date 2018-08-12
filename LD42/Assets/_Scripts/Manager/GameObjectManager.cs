@@ -72,7 +72,10 @@ public class GameObjectManager : SingletonBase<GameObjectManager>
             go.GetComponentInChildren<Text>().text = result.Message;
         }
 
-        _inCommand = false;        
+        CommandField.gameObject.SetActive(true);
+        CommandField.ActivateInputField();
+        CommandField.Select();
+
         CommandField.text = string.Empty;
         Invoke("FixRect", 0.1f);
     }
