@@ -38,18 +38,17 @@ public class CommandHandler
     private CommandHandler()
     {
         Commands = new List<CommandBase>
-            {
-                new CheatModeCommand(),
-                new DestroyCommand(),
-                new DisableCommand(),
-                new EnableCommand(),
-                new RestartCommand(),
-                new ActivateCommand(),
-                new SpeedCommand()
-            };
-    }
+        {
+            new ActivateCommand(),
+            new CheatModeCommand(),
+            new DestroyCommand(), //Remark: Its Kill for now
+            new DisableCommand(),
+            new EnableCommand(),
+            new RestartCommand(),
 
-    //IDEA: paypal fun
+            new SpeedCommand()
+        };
+    }
 
     public CommandResult TryExecuteCommand(string commandToExecute)
     {
@@ -69,13 +68,11 @@ public class CommandHandler
         CommandBase foundCommand = null;
         foreach (var command in Commands)
         {
-            if (!command.CommandText.Equals(commandPart, stringComparison))
+            if (command.CommandText.Equals(commandPart, stringComparison) || (!string.IsNullOrEmpty(command.ShortHand) && command.ShortHand.Equals(commandPart, stringComparison)))
             {
-                continue;
+                foundCommand = command;
+                break;
             }
-
-            foundCommand = command;
-            break;
         }
 
         if (foundCommand == null)
@@ -91,16 +88,23 @@ public class CommandHandler
 
         var foundCommandResult = foundCommand.Execute(parameters);
 
-        if (foundCommandResult)
-        {
-            var waitForCommands = Resources.FindObjectsOfTypeAll(typeof(WaitForCommand)).ToList();
-            foreach (WaitForCommand waitForCommand in waitForCommands)
-            {
-                waitForCommand.OnCommand(foundCommand.CommandText, parameters);
-            }
-        }
+        ExecuteWaitForCommands(foundCommand, parameters, foundCommandResult);
 
         return foundCommandResult;
+    }
+
+    private void ExecuteWaitForCommands(CommandBase foundCommand, string[] parameters, CommandResult foundCommandResult)
+    {
+        if (foundCommandResult == null || !foundCommandResult)
+        {
+            return;
+        }
+
+        var waitForCommands = Resources.FindObjectsOfTypeAll(typeof(WaitForCommand)).ToList();
+        foreach (WaitForCommand waitForCommand in waitForCommands)
+        {
+            waitForCommand.OnCommand(foundCommand.CommandText, parameters);
+        }
     }
 
     private string RemoveWhiteSpaceDuplications(string commandToExecute)

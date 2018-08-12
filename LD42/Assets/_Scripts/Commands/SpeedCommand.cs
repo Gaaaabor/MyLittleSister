@@ -4,6 +4,7 @@ public class SpeedCommand : CommandBase
 {
     public SpeedCommand()
     {
+        ShortHand = "s";
         CommandText = "speed";
         ParameterCount = 1;
     }

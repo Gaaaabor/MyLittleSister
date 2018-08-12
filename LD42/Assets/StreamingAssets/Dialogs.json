@@ -474,6 +474,47 @@
 		},
 
 		{
+			"ID": "administrator_xxxxx",
+			"Placement": "TopRight",
+			"Owner": "Dark Knight",
+			"Body": "/spawn meteorshower"
+		},
+
+		{
+			"ID": "administrator_xxxx",
+			"Placement": "TopRight",
+			"Owner": "Dark Knight",
+			"Body": "/activate casesensitiveMode AhAhHHAHhhaHhgHaaa..."
+		},
+
+		{
+			"ID": "administrator_xxxx",
+			"Placement": "TopRight",
+			"Owner": "Dark Knight",
+			"Body": "/spawn Beeswarm"
+		},
+
+			{
+				"ID": "administrator_xxxxx",
+				"Placement": "TopRight",
+				"Owner": "Dark Knight",
+				"Body": "/kill map"
+			},
+
+			{
+				"ID": "administrator_xxxxxyx",
+				"Placement": "Top",
+				"Owner": "Report",
+				"Body": "Texture not found"
+			},
+
+		{
+			"ID": "administrator_xxxxxx",
+			"Placement": "Top",
+			"Owner": "Narrator",
+			"Body": "You you you dsdsaads"
+		},
+		{
 			"ID": "administrator_105",
 			"Placement": "BottomLeft",
 			"Owner": "Suzy",
