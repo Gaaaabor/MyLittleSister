@@ -30,6 +30,9 @@ public class ManagedGameObject : MonoBehaviour
     public bool CanActivate = true;
     public UnityEvent ActivateEvent;
 
+    [Header("Reset")]
+    public UnityEvent ResetEvent;
+
     [HideInInspector]
     public Label Label;
 
@@ -104,6 +107,7 @@ public class ManagedGameObject : MonoBehaviour
 
     public void Restore()
     {
+        ResetEvent.Invoke();
         _memento.Restore(this);
     }
 }
