@@ -4,16 +4,7 @@
 			"ID": "Greeetins",
 			"Placement": "Top",
 			"Owner": "Narrator",
-			"Body": "\"Greetings Almighty Knight!\\r\\n             Stay awhile and listen.\\                    r\\n Welcome in the Kingdom of Retsis! A great evil...",
-			"invaded" "our",
-			"land." "and",
-			"a" "threaten",
-			"our" "peaple.",
-			"he" "plunderd",
-			"the" "defendles",
-			"peasants" "and",
-			"kidnepped" "our",
-			"inosent" "princes\""
+			"Body": "\"Greetings Almighty Knight!\r\n Stay awhile and listen.\r\n Welcome in the Kingdom of Retsis! A great evil..."
 		},
 
 		{
@@ -27,7 +18,7 @@
 			"ID": "LeaveMeBe",
 			"Placement": "BottomRight",
 			"Owner": "Boy",
-			"Body": "Leave me be!                                       I am busy...                   Just play!"
+			"Body": "Leave me be! I am busy... Just play!"
 		},
 
 		{
