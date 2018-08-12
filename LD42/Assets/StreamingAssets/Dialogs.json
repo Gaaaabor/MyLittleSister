@@ -218,10 +218,10 @@
 		},
 
 		{
-			"ID": "administrator_32",
+			"ID": "cutwood",
 			"Placement": "Top",
 			"Owner": "Narrator",
-			"Body": "The ctizens are too scared to go out and cut some wood.\r\nBring 25 wood for them!"
+			"Body": "The ctizens are too scared to go out and cut some wood.\r\nBring twentyfive wood for them!"
 		},
 		{
 			"ID": "SomeThingPlease",
@@ -251,31 +251,31 @@
 		},
 
 		{
-			"ID": "administrator_37",
+			"ID": "NobleHeart",
 			"Placement": "Top",
 			"Owner": "Narrator",
 			"Body": "You have a noble heart, Knight! The villagers are grateful for getting wood for them."
 		},
 
 		{
-			"ID": "administrator_38",
+			"ID": "BringWater",
 			"Placement": "TopRight",
 			"Owner": "Villager",
 			"Body": "Thank you for savig us, Noble Knight. We rely on your great power.\r\nOur well is dry as the desert, we need a stong man to bring water to it."
 		},
 
 		{
-			"ID": "administrator_41",
+			"ID": "EvilFortress",
 			"Placement": "Top",
 			"Owner": "Narrator",
 			"Body": "You helped the villagers so much, they respect you as their hero.\r\nBut the sad thruth is the Kingdom has more serious problems to solve. An evil man kidnapped their beloved princess, and you seems to be the only person who can defeat him. Leave the village and find the evil fortress."
 		},
 
 		{
-			"ID": "administrator_42",
+			"ID": "Sword",
 			"Placement": "TopRight",
 			"Owner": "Villager",
-			"Body": "To support your mission we can offer you a sword. It was the property of the latst knight who entered our village, but he will not need it anymore..."
+			"Body": "To support your mission we can offer you a sword. It was the property of the last knight who entered our village, but he will not need it anymore..."
 		},
 
 		{
@@ -307,14 +307,14 @@
 		},
 
 		{
-			"ID": "administrator_47",
+			"ID": "NightIsComing",
 			"Placement": "Top",
 			"Owner": "Narrator",
 			"Body": "The night is coming, it isn't safe to travel in the dark."
 		},
 
 		{
-			"ID": "administrator_48",
+			"ID": "Torch",
 			"Placement": "TopRight",
 			"Owner": "Villager",
 			"Body": "Be careful at night. A torch will be helpful."
@@ -390,14 +390,14 @@
 		},
 
 		{
-			"ID": "administrator_54",
+			"ID": "Witch",
 			"Placement": "TopRight",
 			"Owner": "Witch",
 			"Body": "The Dark Knight will never let you win! He will marry the princess and found a new, powerful Kingdom. You cannot stop him, prepare to die!"
 		},
 
 		{
-			"ID": "administrator_59",
+			"ID": "nicetrick",
 			"Placement": "BottomLeft",
 			"Owner": "Suzy",
 			"Body": "Finally, we are here!\n\rThis was a nice trick Brother."
@@ -411,14 +411,14 @@
 		},
 
 		{
-			"ID": "administrator_65",
+			"ID": "whereareyou",
 			"Placement": "BottomLeft",
 			"Owner": "Suzy",
-			"Body": "Chris?\n\rChris!\n\rWhere did you go?"
+			"Body": "Chris?\n\rChris!\n\rWhere are you?"
 		},
 
 		{
-			"ID": "administrator_70",
+			"ID": "enablealltraps",
 			"Placement": "BottomLeft",
 			"Owner": "Suzy",
 			"Body": "I saw it many times, it cannot be difficult...\n\rJust wrote that I see on the screen.\n\rI type \"enable alltraps\" and press enter."
@@ -431,8 +431,15 @@
 			"Body": "Suzy!\n\rWhat did you do again? I left you only for second, I had to answer the phone.\n\rPlease, let me write the codes."
 		},
 
+{
+			"ID": "RunFaster",
+			"Placement": "Top",
+			"Owner": "Narrator",
+			"Body": "You have to run faster! \n\rPress space! \n\rSpace, space, space!"
+		},
+
 		{
-			"ID": "administrator_1234",
+			"ID": "ShortCommands",
 			"Placement": "Top",
 			"Owner": "Narrator",
 			"Body": "You found the legacy code!\n\rNow you can use short commands.\n\rFor example \"e\" is for enable."
@@ -445,7 +452,7 @@
 		},
 
 		{
-			"ID": "administrator_85",
+			"ID": "wewillseeit",
 			"Placement": "BottomLeft",
 			"Owner": "Suzy",
 			"Body": "We will see it!"
@@ -459,7 +466,7 @@
 		},
 
 		{
-			"ID": "administrator_95",
+			"ID": "disableloop",
 			"Placement": "BottomLeft",
 			"Owner": "Suzy",
 			"Body": "Chris, you have to disable that loop. You can do it!"
@@ -515,13 +522,13 @@
 			},
 
 		{
-			"ID": "administrator_xxxxxx",
+			"ID": "Whathaveyoudone",
 			"Placement": "Top",
 			"Owner": "Narrator",
-			"Body": "You you you dsdsaads"
+			"Body": "What have you dead... No. This is unexpec... Up. It Done... Please stop right... You can't do this..."
 		},
 		{
-			"ID": "administrator_105",
+			"ID": "disableanticheat",
 			"Placement": "BottomLeft",
 			"Owner": "Suzy",
 			"Body": "Disable the built in anti cheat mode!"
@@ -548,7 +555,7 @@
 		},
 
 		{
-			"ID": "administrator_115",
+			"ID": "whocalledyou",
 			"Placement": "BottomLeft",
 			"Owner": "Suzy",
 			"Body": "Yeah!\n\rBy the way, when you disappeared earlier to pick up the phone... Who called you?"
@@ -562,7 +569,7 @@
 		},
 
 		{
-			"ID": "administrator_125",
+			"ID": "hearrivehome",
 			"Placement": "BottomLeft",
 			"Owner": "Suzy",
 			"Body": "Is he arrive home soon?"
@@ -575,10 +582,10 @@
 			"Body": "He can come in any minute."
 		},
 		{
-			"ID": "administrator_125",
+			"ID": "andmom",
 			"Placement": "BottomLeft",
 			"Owner": "Suzy",
-			"Body": "Mom?"
+			"Body": "And Mom?"
 		},
 
 		{
@@ -588,10 +595,10 @@
 			"Body": "Dad told me \"She is Okey\". Everything will be fine!"
 		},
 		{
-			"ID": "administrator_1353",
+			"ID": "anothergame",
 			"Placement": "BottomLeft",
 			"Owner": "Suzy",
-			"Body": "Tomorrow we can play another game?"
+			"Body": "Tomorrow can we play another game?"
 		},
 
 		{
