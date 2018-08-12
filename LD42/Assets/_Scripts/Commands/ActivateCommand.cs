@@ -29,7 +29,7 @@ public class ActivateCommand : CommandBase
 
         foreach (var managedGameObject in managedGameObjects)
         {
-            managedGameObject.SetDestroyedState();
+            managedGameObject.SetActivatedState();
         }
 
         commandResult = new CommandResult(string.Format("Item with id ({0}) activated!", target));

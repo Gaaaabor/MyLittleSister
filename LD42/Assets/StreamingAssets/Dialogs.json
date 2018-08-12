@@ -130,7 +130,7 @@
 			"ID": "TypeDestroy",
 			"Placement": "BottomRight",
 			"Owner": "Chris",
-			"Body": "Now I can see the object's name.\r\nThere are some basic commands.\r\nTo destroy an object I have to type \"destroy\", press space, then type the object name and press enter.\r\nThe capial letters does not matter when I type the names."
+			"Body": "Now I can see the object's name.\r\nThere are some basic commands.\r\nTo destroy an object I have to type \"kill\", press space, then type the object name and press enter.\r\nThe capial letters does not matter when I type the names."
 		},
 
 		{
