@@ -49,7 +49,7 @@ public class DialogManager : SingletonBase<DialogManager>
         var nextevent = eventList.FirstOrDefault();
         var dialogText = DialogTexts.FirstOrDefault(x => x.SoundFile.Equals(nextevent.Id, System.StringComparison.OrdinalIgnoreCase));
 
-        DialogVisualiser.Instance.UpdateDialogText(dialogText.Body, dialogText.Owner, dialogText.GetPlacement(), nextevent.Clear);
+        DialogVisualiser.Instance.UpdateDialogText(dialogText.Body, dialogText.Owner, dialogText.GetPlacement(), nextevent.Clear, nextevent.IsModal);
 
         PlayerController.Instance.SetPlayerState(nextevent.PlayerState);
 

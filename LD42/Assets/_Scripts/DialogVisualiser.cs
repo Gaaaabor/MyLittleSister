@@ -26,9 +26,17 @@ public class DialogVisualiser : SingletonBase<DialogVisualiser>
         ClearDialog();
     }
 
-    public void UpdateDialogText(string text, string owner, DialogPlacement placement, bool clear)
+    public void UpdateDialogText(string text, string owner, DialogPlacement placement, bool clear, bool isModal)
     {
-        UI.SetActive(false);
+        if (isModal)
+        {
+            UI.SetActive(false); 
+        }
+        else
+        {
+            UI.SetActive(true);
+        }
+
         if (clear)
         {
             ClearDialog();

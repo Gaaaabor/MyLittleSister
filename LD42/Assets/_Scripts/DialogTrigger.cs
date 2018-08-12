@@ -36,6 +36,6 @@ public class ConversationEvent
     public bool Stop;
     public float Timestemp;
     public UnityEvent Event;
-    public bool IsModal;
+    public bool IsModal = true;
     public PlayerState PlayerState;
 }

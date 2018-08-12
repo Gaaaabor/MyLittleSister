@@ -526,8 +526,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 149922495}
-  m_LocalRotation: {x: -0.34202015, y: 0, z: 0, w: 0.9396927}
-  m_LocalPosition: {x: 15.6, y: -16.27, z: -20.8}
+  m_LocalRotation: {x: 0.15323551, y: 0.026677502, z: 0.0041382797, w: -0.98782086}
+  m_LocalPosition: {x: 97.880936, y: -8.703932, z: -24.27261}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1172,8 +1172,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 249918963}
-  m_LocalRotation: {x: -0.48630717, y: 0.010484983, z: 0.0058359797, w: 0.8737055}
-  m_LocalPosition: {x: 34.89047, y: -120.77138, z: -30.304897}
+  m_LocalRotation: {x: 0.15323551, y: 0.026677502, z: 0.0041382797, w: -0.98782086}
+  m_LocalPosition: {x: 97.880936, y: 8.096066, z: -24.27261}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1294,6 +1294,83 @@ Transform:
   m_PrefabParentObject: {fileID: 4447283943895200, guid: 60da528177abfa2459ad25f454d476f3,
     type: 2}
   m_PrefabInternal: {fileID: 266026217}
+--- !u!1 &277544847
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 277544848}
+  - component: {fileID: 277544850}
+  - component: {fileID: 277544849}
+  m_Layer: 0
+  m_Name: Dialog7
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &277544848
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 277544847}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 52.55, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1040157172}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &277544849
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 277544847}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 125.15652, z: 26.00586}
+  m_Center: {x: 0, y: 56.99972, z: 0}
+--- !u!114 &277544850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 277544847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41028f34edada8d4cba6275ac67856c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Conversation:
+    Conversations:
+    - Id: administrator_23.mp3
+      Clear: 1
+      Stop: 0
+      Timestemp: 0
+      Event:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      IsModal: 1
+      PlayerState: 1
+    - Id: administrator_24.mp3
+      Clear: 1
+      Stop: 0
+      Timestemp: 5
+      Event:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      IsModal: 0
+      PlayerState: 1
 --- !u!4 &290869145 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4491694386117548, guid: 9b80711f1ef645e47bfe92dfa2e60876,
@@ -2536,7 +2613,10 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1350554989}
+  - {fileID: 632879795}
+  - {fileID: 820255994}
+  - {fileID: 1950482611}
+  - {fileID: 1766476335}
   - {fileID: 654655762}
   m_Father: {fileID: 458483616}
   m_RootOrder: 1
@@ -3246,7 +3326,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1350554989}
+    m_TransformParent: {fileID: 502156281}
     m_Modifications:
     - target: {fileID: 4224675698487044, guid: c2e1978a5f79607419a330606f8197a4, type: 2}
       propertyPath: m_LocalPosition.x
@@ -3543,7 +3623,7 @@ Transform:
   - {fileID: 413571102}
   - {fileID: 91926354}
   m_Father: {fileID: 502156281}
-  m_RootOrder: 1
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &654655763
 MonoBehaviour:
@@ -4584,7 +4664,7 @@ Transform:
   m_Children:
   - {fileID: 246999086}
   - {fileID: 1945673057}
-  m_Father: {fileID: 1350554989}
+  m_Father: {fileID: 502156281}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &820255995
@@ -4754,7 +4834,7 @@ MonoBehaviour:
           m_Calls: []
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      IsModal: 0
+      IsModal: 1
       PlayerState: 0
     - Id: administrator_02.mp3
       Clear: 1
@@ -4765,7 +4845,7 @@ MonoBehaviour:
           m_Calls: []
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      IsModal: 0
+      IsModal: 1
       PlayerState: 0
     - Id: administrator_03.mp3
       Clear: 1
@@ -4776,7 +4856,7 @@ MonoBehaviour:
           m_Calls: []
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      IsModal: 0
+      IsModal: 1
       PlayerState: 0
     - Id: administrator_04.mp3
       Clear: 1
@@ -4787,7 +4867,7 @@ MonoBehaviour:
           m_Calls: []
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      IsModal: 0
+      IsModal: 1
       PlayerState: 0
     - Id: administrator_05.mp3
       Clear: 1
@@ -4798,7 +4878,7 @@ MonoBehaviour:
           m_Calls: []
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      IsModal: 0
+      IsModal: 1
       PlayerState: 0
     - Id: administrator_06.mp3
       Clear: 1
@@ -4809,7 +4889,7 @@ MonoBehaviour:
           m_Calls: []
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      IsModal: 0
+      IsModal: 1
       PlayerState: 0
     - Id: administrator_07.mp3
       Clear: 1
@@ -4820,7 +4900,7 @@ MonoBehaviour:
           m_Calls: []
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      IsModal: 0
+      IsModal: 1
       PlayerState: 0
     - Id: administrator_08.mp3
       Clear: 1
@@ -4831,7 +4911,7 @@ MonoBehaviour:
           m_Calls: []
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      IsModal: 0
+      IsModal: 1
       PlayerState: 1
 --- !u!65 &841500164
 BoxCollider:
@@ -5105,6 +5185,83 @@ Transform:
   m_Father: {fileID: 1757522879}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: -180.00002}
+--- !u!1 &911386046
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 911386047}
+  - component: {fileID: 911386049}
+  - component: {fileID: 911386048}
+  m_Layer: 0
+  m_Name: Dialog6
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &911386047
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 911386046}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 46.07, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1040157172}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &911386048
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 911386046}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 125.15652, z: 26.00586}
+  m_Center: {x: 0, y: 56.99972, z: 0}
+--- !u!114 &911386049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 911386046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41028f34edada8d4cba6275ac67856c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Conversation:
+    Conversations:
+    - Id: administrator_21.mp3
+      Clear: 1
+      Stop: 0
+      Timestemp: 0
+      Event:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      IsModal: 1
+      PlayerState: 0
+    - Id: administrator_22.mp3
+      Clear: 1
+      Stop: 0
+      Timestemp: 5
+      Event:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      IsModal: 0
+      PlayerState: 1
 --- !u!1 &930553210
 GameObject:
   m_ObjectHideFlags: 0
@@ -5569,6 +5726,9 @@ Transform:
   - {fileID: 1944539199}
   - {fileID: 1919507253}
   - {fileID: 1702590148}
+  - {fileID: 911386047}
+  - {fileID: 277544848}
+  - {fileID: 1878657308}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7259,38 +7419,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4835722740395414, guid: 424bc0378a7582d4599d3dae55411c34,
     type: 2}
   m_PrefabInternal: {fileID: 457684645}
---- !u!1 &1350554988
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1350554989}
-  m_Layer: 0
-  m_Name: FirstForest
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1350554989
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1350554988}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 632879795}
-  - {fileID: 820255994}
-  - {fileID: 1950482611}
-  - {fileID: 1766476335}
-  m_Father: {fileID: 502156281}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1359532277
 Prefab:
   m_ObjectHideFlags: 0
@@ -8383,7 +8511,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1702590147}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 45.2, y: 0, z: 0}
+  m_LocalPosition: {x: 37.17, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1040157172}
@@ -8414,7 +8542,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Conversation:
     Conversations:
-    - Id: administrator_21.mp3
+    - Id: administrator_20.mp3
       Clear: 1
       Stop: 0
       Timestemp: 0
@@ -8423,29 +8551,7 @@ MonoBehaviour:
           m_Calls: []
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      IsModal: 0
-      PlayerState: 0
-    - Id: administrator_22.mp3
-      Clear: 1
-      Stop: 0
-      Timestemp: 0
-      Event:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      IsModal: 0
-      PlayerState: 0
-    - Id: administrator_23.mp3
-      Clear: 1
-      Stop: 0
-      Timestemp: 0
-      Event:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      IsModal: 0
+      IsModal: 1
       PlayerState: 1
 --- !u!1001 &1708393666
 Prefab:
@@ -8778,7 +8884,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1350554989}
+    m_TransformParent: {fileID: 502156281}
     m_Modifications:
     - target: {fileID: 4224675698487044, guid: c2e1978a5f79607419a330606f8197a4, type: 2}
       propertyPath: m_LocalPosition.x
@@ -8794,7 +8900,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4224675698487044, guid: c2e1978a5f79607419a330606f8197a4, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0.12488988
+      value: 0.124889866
       objectReference: {fileID: 0}
     - target: {fileID: 4224675698487044, guid: c2e1978a5f79607419a330606f8197a4, type: 2}
       propertyPath: m_LocalRotation.y
@@ -8802,7 +8908,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4224675698487044, guid: c2e1978a5f79607419a330606f8197a4, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0.14200225
+      value: 0.14200224
       objectReference: {fileID: 0}
     - target: {fileID: 4224675698487044, guid: c2e1978a5f79607419a330606f8197a4, type: 2}
       propertyPath: m_LocalRotation.w
@@ -9634,6 +9740,83 @@ Transform:
   m_PrefabParentObject: {fileID: 4753056943074580, guid: e2f4c29af85db204a838fa294442b488,
     type: 2}
   m_PrefabInternal: {fileID: 35789622}
+--- !u!1 &1878657307
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1878657308}
+  - component: {fileID: 1878657310}
+  - component: {fileID: 1878657309}
+  m_Layer: 0
+  m_Name: Dialog8
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1878657308
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1878657307}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 79.36, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1040157172}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1878657309
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1878657307}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 125.15652, z: 26.00586}
+  m_Center: {x: 0, y: 56.99972, z: 0}
+--- !u!114 &1878657310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1878657307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41028f34edada8d4cba6275ac67856c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Conversation:
+    Conversations:
+    - Id: administrator_25.mp3
+      Clear: 1
+      Stop: 0
+      Timestemp: 0
+      Event:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      IsModal: 0
+      PlayerState: 0
+    - Id: administrator_26.mp3
+      Clear: 1
+      Stop: 0
+      Timestemp: 20
+      Event:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      IsModal: 0
+      PlayerState: 0
 --- !u!1001 &1880409764
 Prefab:
   m_ObjectHideFlags: 0
@@ -9876,6 +10059,8 @@ GameObject:
   - component: {fileID: 1919507253}
   - component: {fileID: 1919507255}
   - component: {fileID: 1919507254}
+  - component: {fileID: 1919507257}
+  - component: {fileID: 1919507256}
   m_Layer: 0
   m_Name: Dialog4
   m_TagString: Untagged
@@ -9891,7 +10076,7 @@ Transform:
   m_GameObject: {fileID: 1919507252}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 35.5, y: 0, z: 0}
-  m_LocalScale: {x: 5.771289, y: 1, z: 1}
+  m_LocalScale: {x: 7.307691, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1040157172}
   m_RootOrder: 3
@@ -9921,7 +10106,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Conversation:
     Conversations:
-    - Id: administrator_20.mp3
+    - Id: administrator_19.mp3
       Clear: 1
       Stop: 0
       Timestemp: 0
@@ -9930,8 +10115,46 @@ MonoBehaviour:
           m_Calls: []
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      IsModal: 0
+      IsModal: 1
       PlayerState: 1
+--- !u!114 &1919507256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1919507252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63553f82a05d07946875d4c83e51f82e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1919507257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1919507252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5a276416a562db4fabbeae4e3d1e678, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1919507252}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &1944539198
 GameObject:
   m_ObjectHideFlags: 0
@@ -9996,7 +10219,7 @@ MonoBehaviour:
           m_Calls: []
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      IsModal: 0
+      IsModal: 1
       PlayerState: 1
     - Id: administrator_14.mp3
       Clear: 1
@@ -10007,7 +10230,7 @@ MonoBehaviour:
           m_Calls: []
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      IsModal: 0
+      IsModal: 1
       PlayerState: 1
     - Id: administrator_15.mp3
       Clear: 1
@@ -10018,7 +10241,7 @@ MonoBehaviour:
           m_Calls: []
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      IsModal: 0
+      IsModal: 1
       PlayerState: 1
     - Id: administrator_16.mp3
       Clear: 1
@@ -10029,7 +10252,7 @@ MonoBehaviour:
           m_Calls: []
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      IsModal: 0
+      IsModal: 1
       PlayerState: 0
     - Id: administrator_17.mp3
       Clear: 1
@@ -10040,7 +10263,7 @@ MonoBehaviour:
           m_Calls: []
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      IsModal: 0
+      IsModal: 1
       PlayerState: 0
     - Id: administrator_18.mp3
       Clear: 1
@@ -10179,13 +10402,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1950482610}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 49.5, y: 6.56, z: 2.95}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1783524159}
   - {fileID: 1527684471}
-  m_Father: {fileID: 1350554989}
+  m_Father: {fileID: 502156281}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1950482612
@@ -10838,7 +11061,7 @@ MonoBehaviour:
           m_Calls: []
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      IsModal: 0
+      IsModal: 1
       PlayerState: 1
     - Id: administrator_10.mp3
       Clear: 1
@@ -10849,7 +11072,7 @@ MonoBehaviour:
           m_Calls: []
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      IsModal: 0
+      IsModal: 1
       PlayerState: 1
     - Id: administrator_11.mp3
       Clear: 1
@@ -10860,7 +11083,7 @@ MonoBehaviour:
           m_Calls: []
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      IsModal: 0
+      IsModal: 1
       PlayerState: 1
     - Id: administrator_12.mp3
       Clear: 0
@@ -10871,5 +11094,5 @@ MonoBehaviour:
           m_Calls: []
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      IsModal: 0
+      IsModal: 1
       PlayerState: 1
