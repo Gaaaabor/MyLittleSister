@@ -386,13 +386,13 @@
 			"ID": "StopTime",
 			"Placement": "BottomRight",
 			"Owner": "Chris",
-			"Body": "Wati a second! There is a command to pause time. \"speed 0\" 0 is paused. 1 is normal. Best is 0.5."
+			"Body": "Wait a second! There is a command to pause time. \"speed 0\" 0 is paused. 1 is normal. Best is 0.5."
 		},
 
 		{
 			"ID": "administrator_54",
 			"Placement": "TopRight",
-			"Owner": "Witch from the hut",
+			"Owner": "Witch",
 			"Body": "The Dark Knight will never let you win! He will marry the princess and found a new, powerul Kingdom. You cannot stop him, prepare to die!"
 		},
 
@@ -449,7 +449,7 @@
 			"ID": "administrator_90",
 			"Placement": "TopRight",
 			"Owner": "Dark Knight",
-			"Body": "White Knight, you are a cheater! You are much worse than me! You can tr to escape, but I know some dev commands too:\n\rActivate loop!"
+			"Body": "White Knight, you are a cheater! You are much worse than me! You can tr to escape, but I know some dev commands too:\n\rActivate recursion!"
 		},
 
 		{
@@ -467,12 +467,32 @@
 		},
 
 		{
+			"ID": "administrator_xxx",
+			"Placement": "TopRight",
+			"Owner": "Dark Knight",
+			"Body": "You can run! But cannot hide!"
+		},
+
+		{
 			"ID": "administrator_105",
 			"Placement": "BottomLeft",
 			"Owner": "Suzy",
-			"Body": "Type activate ant1ch3atm0de to enable the built in anti cheat mode!"
+			"Body": "Disable the built in anti cheat mode!"
+		},
+		{
+			"ID": "administrator_1211",
+			"Placement": "BottomRight",
+			"Owner": "Chris",
+			"Body": "Good Idea!!!"
 		},
 
+
+		{
+			"ID": "administrator_9011",
+			"Placement": "TopRight",
+			"Owner": "Dark Knight",
+			"Body": "Noooooooooooooo!"
+		},
 		{
 			"ID": "administrator_110",
 			"Placement": "BottomRight",
@@ -502,14 +522,26 @@
 		},
 
 		{
-			"ID": "administrator_130",
+			"ID": "administrator_1307",
 			"Placement": "BottomRight",
 			"Owner": "Chris",
 			"Body": "He can come in every minute."
 		},
+		{
+			"ID": "administrator_125",
+			"Placement": "BottomLeft",
+			"Owner": "Suzy",
+			"Body": "Mom?"
+		},
 
 		{
-			"ID": "administrator_135",
+			"ID": "administrator_1306",
+			"Placement": "BottomRight",
+			"Owner": "Chris",
+			"Body": "Dad told \"She is Okey\". Everything will be fine!"
+		},
+		{
+			"ID": "administrator_1353",
 			"Placement": "BottomLeft",
 			"Owner": "Suzy",
 			"Body": "Tomorrow we can play another game?"
@@ -519,7 +551,21 @@
 			"ID": "administrator_140",
 			"Placement": "BottomRight",
 			"Owner": "Chris",
-			"Body": "Sure..."
+			"Body": "Sure, but you need to sleep now!"
+		},
+
+		{
+			"ID": "administrator_135",
+			"Placement": "BottomLeft",
+			"Owner": "Suzy",
+			"Body": "Are you telling me a tale?"
+		},
+
+		{
+			"ID": "administrator_140",
+			"Placement": "BottomRight",
+			"Owner": "Chris",
+			"Body": "Sure, What do you want? ....!"
 		}
 	]
 }
