@@ -1,17 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using UnityEngine;
 using UnityEngine.Events;
 
-public class WaitForCommand : SingletonBase<WaitForCommand>
+public class WaitForCommand : MonoBehaviour
 {
     public UnityEvent Event;    
-    public string CommandText;
+    public List<string> CommandTexts;
     public List<string> RequiredParameters;
 
     public void OnCommand(string commandText, string[] commandParameters)
     {
-        if (!CommandText.Equals(commandText, StringComparison.OrdinalIgnoreCase))
+        if (!CommandTexts.Contains(commandText, StringComparer.OrdinalIgnoreCase))
         {
             return;
         }

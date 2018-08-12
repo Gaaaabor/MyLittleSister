@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using UnityEngine;
 
@@ -90,9 +91,13 @@ public class CommandHandler
 
         var foundCommandResult = foundCommand.Execute(parameters);
 
-        if (foundCommandResult && WaitForCommand.Instance != null)
+        if (foundCommandResult)
         {
-            WaitForCommand.Instance.OnCommand(foundCommand.CommandText, parameters);
+            var waitForCommands = Resources.FindObjectsOfTypeAll(typeof(WaitForCommand)).ToList();
+            foreach (WaitForCommand waitForCommand in waitForCommands)
+            {
+                waitForCommand.OnCommand(foundCommand.CommandText, parameters);
+            }
         }
 
         return foundCommandResult;
