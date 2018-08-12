@@ -8,5 +8,4 @@ public class ChangePlayerState : MonoBehaviour
     {
         PlayerController.Instance.SetPlayerState(StateToChange);
     }
-
 }
