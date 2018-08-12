@@ -40,7 +40,7 @@ public class DialogManager : SingletonBase<DialogManager>
     private void Update()
     {
 #if UNITY_EDITOR
-        if (Input.GetKeyDown(KeyCode.A))
+        if (Input.GetKey(KeyCode.A))
         {
             _timer += Time.deltaTime * 100;
         }
