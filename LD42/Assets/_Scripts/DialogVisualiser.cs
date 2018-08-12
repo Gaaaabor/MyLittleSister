@@ -26,9 +26,17 @@ public class DialogVisualiser : SingletonBase<DialogVisualiser>
         ClearDialog();
     }
 
-    public void UpdateDialogText(string text, string owner, DialogPlacement placement, bool clear)
+    public void UpdateDialogText(string text, string owner, DialogPlacement placement, bool clear, bool isModal)
     {
-        UI.SetActive(false);
+        if (isModal)
+        {
+            UI.SetActive(false); 
+        }
+        else
+        {
+            UI.SetActive(true);
+        }
+
         if (clear)
         {
             ClearDialog();
@@ -36,7 +44,7 @@ public class DialogVisualiser : SingletonBase<DialogVisualiser>
         
         switch (placement)
         {
-            case DialogPlacement.BottonLeft:
+            case DialogPlacement.BottomLeft:
                 BottonLeft.SetActive(true);
                 ButtonLeftText.text = text;
                 ButtonLeftOwner.text = owner;
@@ -84,7 +92,7 @@ public class DialogVisualiser : SingletonBase<DialogVisualiser>
 
 public enum DialogPlacement
 {
-    BottonLeft,
+    BottomLeft,
     BottomRight,
     TopLeft,
     TopRight,

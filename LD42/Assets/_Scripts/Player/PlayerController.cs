@@ -7,9 +7,16 @@ public class PlayerController : SingletonBase<PlayerController>
     public Vector3 MoveDirection;
     public float Gravity;
 
+    public float RunSpeed;
 
     public PlayerState _currentPlayerState;
     private Rigidbody _rigidbody;
+
+    internal void SetPosition(Vector3 position)
+    {
+        transform.position = position;
+    }
+
     private CharacterController _charController;
     private Vector3 _moveDirection;
 
@@ -44,7 +51,7 @@ public class PlayerController : SingletonBase<PlayerController>
     private void Update()
     {
         _moveDirection = Vector3.zero;
- 
+
         switch (_currentPlayerState)
         {
             case PlayerState.Idle:
@@ -55,6 +62,9 @@ public class PlayerController : SingletonBase<PlayerController>
             case PlayerState.Fight:
                 break;
             case PlayerState.Talking:
+                break;
+            case PlayerState.Run:
+                RunForward();
                 break;
             default:
                 break;
@@ -68,6 +78,11 @@ public class PlayerController : SingletonBase<PlayerController>
     private void WalkForward()
     {
         _moveDirection += MoveDirection * PlayerSpeed * Time.deltaTime;
+    }
+
+    private void RunForward()
+    {
+        _moveDirection += MoveDirection * RunSpeed * Time.deltaTime;
     }
 
     public void SetCheckPoint(CheckPoint checkPoint)
@@ -101,6 +116,11 @@ public class PlayerController : SingletonBase<PlayerController>
         _currentPlayerState = PlayerState.Talking;
     }
 
+    public void SetPlayerState(PlayerState playerState)
+    {
+        _currentPlayerState = playerState;
+    }
+
     private void ResetToCheckPoint()
     {
         transform.position = _lastCheckPoint.transform.position;
@@ -114,4 +134,5 @@ public enum PlayerState
     Walking,
     Fight,
     Talking,
+    Run
 }
