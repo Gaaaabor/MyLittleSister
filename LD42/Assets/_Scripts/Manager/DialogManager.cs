@@ -9,10 +9,10 @@ public class DialogManager : SingletonBase<DialogManager>
 
     public List<ConversationEvent> eventList;
     public List<ConversationEvent> firedEvent;
-
-
-    private void Awake()
+    
+    public override void Awake()
     {
+        base.Awake();
         var path = Path.Combine(Application.streamingAssetsPath, "Dialogs.json");
         DialogTexts = ParseDialogTexts(path);
     }
@@ -37,7 +37,7 @@ public class DialogManager : SingletonBase<DialogManager>
 #if UNITY_EDITOR
         if (Input.GetKeyDown(KeyCode.A))
         {
-            _timer += Time.deltaTime * 1000;
+            _timer += Time.deltaTime * 100;
         }
 #endif
         if (_on)
@@ -53,7 +53,7 @@ public class DialogManager : SingletonBase<DialogManager>
     private void ShotNextEvent()
     {
         var nextevent = eventList.FirstOrDefault();
-        var dialogText = DialogTexts.FirstOrDefault(x => x.SoundFile.Equals(nextevent.Id, System.StringComparison.OrdinalIgnoreCase));
+        var dialogText = DialogTexts.FirstOrDefault(x => x.ID.Equals(nextevent.Id, System.StringComparison.OrdinalIgnoreCase));
         if (dialogText != null)
         {
             DialogVisualiser.Instance.UpdateDialogText(dialogText.Body, dialogText.Owner, dialogText.GetPlacement(), nextevent.Clear, nextevent.IsModal);            

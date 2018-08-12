@@ -4,7 +4,7 @@ using System.Collections.Generic;
 [Serializable]
 public class DialogText
 {
-    public string SoundFile;
+    public string ID;
     public string Placement;
     public string Owner;
     public string Body;
