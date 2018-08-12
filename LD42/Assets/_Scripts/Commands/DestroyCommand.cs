@@ -5,7 +5,8 @@ public class DestroyCommand : CommandBase
 {
     public DestroyCommand()
     {
-        CommandText = "destroy";
+        ShortHand = "k";
+        CommandText = "kill";
         ParameterCount = 1;
     }
 
@@ -31,7 +32,7 @@ public class DestroyCommand : CommandBase
             managedGameObject.SetDestroyedState();
         }
 
-        commandResult = new CommandResult(string.Format("Item(s) with id ({0}) destroyed!", target));
+        commandResult = new CommandResult(string.Format("Item(s) with id ({0}) killed!", target));
         Debug.Log(commandResult);
         return commandResult;
     }

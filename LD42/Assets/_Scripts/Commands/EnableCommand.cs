@@ -5,6 +5,7 @@ public class EnableCommand : CommandBase
 {
     public EnableCommand()
     {
+        ShortHand = "e";
         CommandText = "enable";
         ParameterCount = 1;
     }

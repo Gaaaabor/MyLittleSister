@@ -38,18 +38,17 @@ public class CommandHandler
     private CommandHandler()
     {
         Commands = new List<CommandBase>
-            {
-                new CheatModeCommand(),
-                new DestroyCommand(),
-                new DisableCommand(),
-                new EnableCommand(),
-                new RestartCommand(),
-                new ActivateCommand(),
-                new SpeedCommand()
-            };
-    }
+        {
+            new ActivateCommand(),
+            new CheatModeCommand(),
+            new DestroyCommand(), //Remark: Its Kill for now
+            new DisableCommand(),
+            new EnableCommand(),
+            new RestartCommand(),
 
-    //IDEA: paypal fun
+            new SpeedCommand()
+        };
+    }
 
     public CommandResult TryExecuteCommand(string commandToExecute)
     {
@@ -69,13 +68,11 @@ public class CommandHandler
         CommandBase foundCommand = null;
         foreach (var command in Commands)
         {
-            if (!command.CommandText.Equals(commandPart, stringComparison))
+            if (command.CommandText.Equals(commandPart, stringComparison) || command.ShortHand.Equals(commandPart, stringComparison))
             {
-                continue;
+                foundCommand = command;
+                break;
             }
-
-            foundCommand = command;
-            break;
         }
 
         if (foundCommand == null)

@@ -2,6 +2,7 @@
 
 public abstract class CommandBase
 {
+    public string ShortHand { get; protected set; }
     public string CommandText { get; protected set; }
     public int ParameterCount { get; protected set; }
 

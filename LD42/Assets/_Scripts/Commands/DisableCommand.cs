@@ -5,6 +5,7 @@ public class DisableCommand : CommandBase
 {
     public DisableCommand()
     {
+        ShortHand = "d";
         CommandText = "disable";
         ParameterCount = 1;
     }

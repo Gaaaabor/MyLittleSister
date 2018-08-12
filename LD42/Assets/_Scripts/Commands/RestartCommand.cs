@@ -4,6 +4,7 @@ public class RestartCommand : CommandBase
 {
     public RestartCommand()
     {
+        ShortHand = "r";
         CommandText = "restart";
         ParameterCount = 0;
     }
