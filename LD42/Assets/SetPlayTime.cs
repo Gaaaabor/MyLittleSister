@@ -19,6 +19,6 @@ public class SetPlayTime : MonoBehaviour {
 
     public void SetTimeBuff(float value)
     {
-    //    BuffManager.Instance.SetTime(SetTime);
+      //  BuffManager.Instance.SetTime(SetTime);
     }
 }

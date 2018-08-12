@@ -40,12 +40,12 @@ public class ManagedGameObject : MonoBehaviour
     {
         if (StartEnabled)
         {
-            Debug.Log("StartEnabled" + gameObject.name);
+            //Debug.Log("StartEnabled" + gameObject.name);
             SetEnabledState();
         }
         else
         {
-            Debug.Log("StartDisabled" + gameObject.name);
+            //Debug.Log("StartDisabled" + gameObject.name);
             SetDisabledState();
         }
 

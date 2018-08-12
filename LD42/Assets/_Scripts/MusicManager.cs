@@ -11,8 +11,25 @@ public class MusicManager : SingletonBase<MusicManager>
 
     private bool _primary;
 
-    public void PlayMusic(AudioClip clip,float volume)
+    public void PlayMusic(AudioClip clip, float volume)
     {
+
+        if (Primary && _primary && Primary.clip != null)
+        {
+            if (Primary.clip.name == clip.name)
+            {
+                return;
+            }
+        }
+
+        if (Secondary && !_primary&& Secondary.clip!=null)
+        {
+            if (Secondary.clip.name == clip.name)
+            {
+                return;
+            }
+        }
+
         if (_primary)
         {
             Secondary.clip = clip;
@@ -46,7 +63,7 @@ public class MusicManager : SingletonBase<MusicManager>
 
             yield return null;
         }
-        if (newvolume ==0)
+        if (newvolume == 0)
         {
             audio.Stop();
         }

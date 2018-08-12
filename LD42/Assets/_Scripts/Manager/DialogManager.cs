@@ -65,7 +65,7 @@ public class DialogManager : SingletonBase<DialogManager>
     private void ShotNextEvent()
     {
         var nextevent = eventList.FirstOrDefault();
-        Debug.Log(nextevent.Id);
+        //Debug.Log(nextevent.Id);
 
         var dialogText = DialogTexts.FirstOrDefault(x => x.ID.Equals(nextevent.Id, System.StringComparison.OrdinalIgnoreCase));
         if (dialogText != null)
@@ -84,7 +84,7 @@ public class DialogManager : SingletonBase<DialogManager>
         nextevent.Event.Invoke();
         firedEvent.Add(nextevent);
         eventList.Remove(nextevent);
-        Debug.Log(nextevent.Id + " Done");
+        //Debug.Log(nextevent.Id + " Done");
     }
 
     private void PlayClip(DialogText dialogText)
@@ -114,7 +114,7 @@ public class DialogManager : SingletonBase<DialogManager>
     public void StartConversation(Conversation conversation, DialogTrigger trigger)
     {
         eventList = conversation.Conversations;
-        Debug.Log(trigger.gameObject.name);
+        //Debug.Log(trigger.gameObject.name);
         ResetEvents();
         StartTimer();
     }
