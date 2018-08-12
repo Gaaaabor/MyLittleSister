@@ -84,7 +84,7 @@
 },
 
 {
-"SoundFile": "administrator_013.mp3",
+"SoundFile": "administrator_13.mp3",
 "Placement": "BottomLeft",
 "Owner": "Suzy",
 "Body":"Brother!\r\nI can't move along... Help meeeeeeee!"
@@ -122,14 +122,14 @@
 "SoundFile": "administrator_18.mp3",
 "Placement": "BottomRight",
 "Owner": "Chris",
-"Body":"Nooo... We don't cheat. This is just a little help.\r\nFirst, I have to press enter, then type cheatmode, enter."
+"Body":"Nooo... We don't cheat. This is just a little help.\r\nFirst, I have to press enter, then type \"cheatmode\", enter."
 },
 
 {
 "SoundFile": "administrator_19.mp3",
 "Placement": "BottomRight",
 "Owner": "Chris",
-"Body":"Now I can see the object's name.\r\nThere are some basic commands.\r\nTo destroy an object I have to type destroy, press space, then type the object name and press enter."
+"Body":"Now I can see the object's name.\r\nThere are some basic commands.\r\nTo destroy an object I have to type destroy, press space, then type the object name and press enter.\r\nThe capial letters does not count when I type the names."
 },
 
 {
@@ -150,7 +150,7 @@
 "SoundFile": "administrator_22.mp3",
 "Placement": "BottomRight",
 "Owner": "Chris",
-"Body":"Oh, I guess I have to destroy, or disable that rock for you.\r\nIf I type disable, press space, then type the object name, the rock will disappear.\r\nDisabled objects can be enabled later."
+"Body":"Oh, I guess I have to destroy, or disable that rock for you.\r\nIf I type \"disable\", press space, then type the object name, the rock will disappear.\r\nDisabled objects can be enabled later."
 },
 
 {
@@ -178,7 +178,7 @@
 "SoundFile": "administrator_26.mp3",
 "Placement": "BottomRight",
 "Owner": "Chris",
-"Body":"Whid did you do this?\r\nIt is obvious that he cannot swim in that heavy armor.\r\nWe need a bridge!"
+"Body":"Whid did you do this?\r\nIt is obvious that he cannot swim in that heavy armor.\r\nWe need a bridge!\r\nI have to use the \"enable\" command on it."
 },
 
 {
@@ -207,4 +207,326 @@
 "Placement": "BottomLeft",
 "Owner": "Suzy",
 "Body":"Please open the door for me."
-}]}
+},
+
+{
+"SoundFile": "administrator_31.mp3",
+"Placement": "TopRight",
+"Owner": "Villager",
+"Body":"What happened with our gate?\r\nIt was here a minute ago!"
+},
+
+{
+"SoundFile": "administrator_32.mp3",
+"Placement": "Top",
+"Owner": "Narrator",
+"Body":"The ctizens are too scared to go out and cut some wood.\r\nBring 25 wood for them!"
+}, 
+
+"SoundFile": "administrator_33.mp3",
+"Placement": "BottomLeft",
+"Owner": "Suzy",
+"Body":"I don't wanna do that. Do something please!"
+},
+
+{
+"SoundFile": "administrator_34.mp3",
+"Placement": "BottomRight",
+"Owner": "Chris",
+"Body":"This is not how things are going... You have to do heir quest."
+},
+
+"SoundFile": "administrator_35.mp3",
+"Placement": "BottomLeft",
+"Owner": "Suzy",
+"Body":"But collecting that much stuff is boring. I am a knight, not a woodcutter!\r\nI have much more more important tasks."
+},
+
+{
+"SoundFile": "administrator_36.mp3",
+"Placement": "BottomRight",
+"Owner": "Chris",
+"Body":"I can do this for you, by enable a wood pile. That should be enough to build another gate."
+},
+
+{
+"SoundFile": "administrator_37.mp3",
+"Placement": "Top",
+"Owner": "Narrator",
+"Body":"You have a noble heart, Knight! The villagers are grateful for getting wood for them."
+}, 
+
+{
+"SoundFile": "administrator_38.mp3",
+"Placement": "TopRight",
+"Owner": "Villager",
+"Body":"Thank you for savig us, Noble Knight. We rely on your great power.\r\nOur well is dry as the desert, we need a stong man to bring water to it."
+},
+
+{
+"SoundFile": "administrator_39.mp3",
+"Placement": "BottomLeft",
+"Owner": "Suzy",
+"Body":"Should I bring water from the river?\r\nI am too lazy for this task. This is too much work."
+},
+
+{
+"SoundFile": "administrator_40.mp3",
+"Placement": "BottomRight",
+"Owner": "Chris",
+"Body":"I should enable the water in that well..."
+},
+
+{
+"SoundFile": "administrator_41.mp3",
+"Placement": "Top",
+"Owner": "Narrator",
+"Body":"You helped the villagers so much, they respect you as their hero.\r\nBut the sad thruth is the Kingdom has more serious problems to solve. An evil man kidnapped their beloved princess, and you seems to be the only person who can defeat him. Leave the village and find the evil fortress."
+}, 
+
+{
+"SoundFile": "administrator_42.mp3",
+"Placement": "TopRight",
+"Owner": "Villager",
+"Body":"To support your mission we can offer you a sword. It was the property of the latst knight who entered our village, but he will not need it anymore..."
+},
+
+{
+"SoundFile": "administrator_43.mp3",
+"Placement": "BottomLeft",
+"Owner": "Suzy",
+"Body":"Shiny!"
+},
+
+{
+"SoundFile": "administrator_44.mp3",
+"Placement": "BottomRight",
+"Owner": "Chris",
+"Body":"It is nice that you have a sword, but the attack button is stuck too."
+},
+
+{
+"SoundFile": "administrator_45.mp3",
+"Placement": "BottomLeft",
+"Owner": "Suzy",
+"Body":"Never mind! A knight is not a knight without a sword! We have to have one, at least for decoration purposes."
+},
+
+{
+"SoundFile": "administrator_46.mp3",
+"Placement": "BottomRight",
+"Owner": "Chris",
+"Body":"When we leave the village, we have to lower the bridge, with an \"activate\" command."
+},
+
+{
+"SoundFile": "administrator_47.mp3",
+"Placement": "Top",
+"Owner": "Narrator",
+"Body":"The night is coming, it isn't safe to travel in the dark."
+}, 
+
+{
+"SoundFile": "administrator_48.mp3",
+"Placement": "TopRight",
+"Owner": "Villager",
+"Body":"Be careful at night. A torch will be helpful."
+},
+
+{
+"SoundFile": "administrator_49.mp3",
+"Placement": "BottomLeft",
+"Owner": "Suzy",
+"Body":"Something is wrong with those animals..."
+},
+
+{
+"SoundFile": "administrator_50.mp3",
+"Placement": "BottomRight",
+"Owner": "Chris",
+"Body":"Yeah, I heard that the developers did not finish them..."
+},
+
+{
+"SoundFile": "administrator_51.mp3",
+"Placement": "BottomLeft",
+"Owner": "Suzy",
+"Body":"Do you see it, Chris? Is this a hut?"
+},
+
+{
+"SoundFile": "administrator_52.mp3",
+"Placement": "BottomRight",
+"Owner": "Chris",
+"Body":"Somebody lives here..."
+},
+
+{
+"SoundFile": "administrator_53.mp3",
+"Placement": "BottomRight",
+"Owner": "Chris",
+"Body":"This is a dark ritual! We have to stop it!"
+},
+
+{
+"SoundFile": "administrator_54.mp3",
+"Placement": "TopRight",
+"Owner": "Witch from the hut",
+"Body":"The Dark Knight will never let you win! He will marry the princess and found a new, powerul Kingdom. You cannot stop him, prepare to die!"
+},
+
+{
+"SoundFile": "administrator_55.mp3",
+"Placement": "BottomRight",
+"Owner": "Chris",
+"Body":"Suzy?\r\nWhat are you doing?"
+},
+
+{
+"SoundFile": "administrator_56.mp3",
+"Placement": "BottomLeft",
+"Owner": "Suzy",
+"Body":"It is boooring!"
+},
+
+{
+"SoundFile": "administrator_57.mp3",
+"Placement": "BottomRight",
+"Owner": "Chris",
+"Body":"Oh, come on! Do not give up, just press the forward button, we are almost there."
+},
+
+{
+"SoundFile": "administrator_58.mp3",
+"Placement": "BottomLeft",
+"Owner": "Suzy",
+"Body":"If you say..."
+},
+
+{
+"SoundFile": "administrator_59.mp3",
+"Placement": "BottomLeft",
+"Owner": "Suzy",
+"Body":"Finally, we are here!\n\rThis was a nice trick Brother."
+},
+
+{
+"SoundFile": "administrator_60.mp3",
+"Placement": "BottomRight",
+"Owner": "Chris",
+"Body":"It is getting more difficult..."
+},
+
+{
+"SoundFile": "administrator_65.mp3",
+"Placement": "BottomLeft",
+"Owner": "Suzy",
+"Body":"Chris?\n\rChris!\}\rWhere did you go?"
+},
+
+{
+"SoundFile": "administrator_70.mp3",
+"Placement": "BottomLeft",
+"Owner": "Suzy",
+"Body":"I saw it many times, it cannot be difficult...\n\rJust wrote that I see on the screen.\n\rI type enable alltraps and press enter."
+},
+
+{
+"SoundFile": "administrator_75.mp3",
+"Placement": "BottomRight",
+"Owner": "Chris",
+"Body":"Suzy!\n\rWhat did you do again? I left you for a second only, I had to answer the phone.\n\rPlease, let me write the codes."
+},
+
+{
+"SoundFile": "administrator_80.mp3",
+"Placement": "TopRight",
+"Owner": "Black Knight",
+"Body":"Ah, finally we can meet personally. I have heard so much from you. But your fame means nothing, you have no chance against me."
+},
+
+{
+"SoundFile": "administrator_85.mp3",
+"Placement": "BottomLeft",
+"Owner": "Suzy",
+"Body":"We will see it!"
+},
+
+{
+"SoundFile": "administrator_90.mp3",
+"Placement": "TopRight",
+"Owner": "Black Knight",
+"Body":"White Knight, you are a cheater! You are much worse than me! You can tr to escape, but I know some dev commands too:\n\rActivate loop!"
+},
+
+{
+"SoundFile": "administrator_95.mp3",
+"Placement": "BottomLeft",
+"Owner": "Suzy",
+"Body":"Chris, you have to disable that loop. You can do it!"
+},
+
+{
+"SoundFile": "administrator_100.mp3",
+"Placement": "BottomRight",
+"Owner": "Chris",
+"Body":"He is destroying the whole world! We cannot let him to do it, we have to save the princess.\n\rHurry, Suzy! Run as you can!"
+},
+
+{
+"SoundFile": "administrator_105.mp3",
+"Placement": "BottomLeft",
+"Owner": "Suzy",
+"Body":"Type activate ant1ch3atm0de to enable the built in anti cheat mode!"
+},
+
+{
+"SoundFile": "administrator_110.mp3",
+"Placement": "BottomRight",
+"Owner": "Chris",
+"Body":"Look! This is the King's castle! We did it!"
+},
+
+{
+"SoundFile": "administrator_115.mp3",
+"Placement": "BottomLeft",
+"Owner": "Suzy",
+"Body":"Yeah!\n\rBy the way, when you disappeared earlier to pick up the phone... Who called you?"
+},
+
+{
+"SoundFile": "administrator_120.mp3",
+"Placement": "BottomRight",
+"Owner": "Chris",
+"Body":"It was Dad."
+},
+
+{
+"SoundFile": "administrator_125.mp3",
+"Placement": "BottomLeft",
+"Owner": "Suzy",
+"Body":"Is he arrive home soon?"
+},
+
+{
+"SoundFile": "administrator_130.mp3",
+"Placement": "BottomRight",
+"Owner": "Chris",
+"Body":"He can come in every minute."
+},
+
+{
+"SoundFile": "administrator_135.mp3",
+"Placement": "BottomLeft",
+"Owner": "Suzy",
+"Body":"Tomorrow we can play another game?"
+},
+
+{
+"SoundFile": "administrator_140.mp3",
+"Placement": "BottomRight",
+"Owner": "Chris",
+"Body":"Sure..."
+}
+
+]}
