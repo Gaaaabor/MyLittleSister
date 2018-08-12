@@ -91,16 +91,23 @@ public class CommandHandler
 
         var foundCommandResult = foundCommand.Execute(parameters);
 
-        if (foundCommandResult)
-        {
-            var waitForCommands = Resources.FindObjectsOfTypeAll(typeof(WaitForCommand)).ToList();
-            foreach (WaitForCommand waitForCommand in waitForCommands)
-            {
-                waitForCommand.OnCommand(foundCommand.CommandText, parameters);
-            }
-        }
+        ExecuteWaitForCommands(foundCommand, parameters, foundCommandResult);
 
         return foundCommandResult;
+    }
+
+    private void ExecuteWaitForCommands(CommandBase foundCommand, string[] parameters, CommandResult foundCommandResult)
+    {
+        if (foundCommandResult == null || !foundCommandResult)
+        {
+            return;
+        }
+
+        var waitForCommands = Resources.FindObjectsOfTypeAll(typeof(WaitForCommand)).ToList();
+        foreach (WaitForCommand waitForCommand in waitForCommands)
+        {
+            waitForCommand.OnCommand(foundCommand.CommandText, parameters);
+        }
     }
 
     private string RemoveWhiteSpaceDuplications(string commandToExecute)

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Linq;
+using UnityEngine;
 
 public class EnableCommand : CommandBase
 {
@@ -17,15 +18,18 @@ public class EnableCommand : CommandBase
         }
 
         var target = parameters[ParameterCount - 1];
-        var managedGameObject = GameObjectManager.Instance.GetManagedGameObject(target);
-        if (managedGameObject == null)
+        var managedGameObjects = GameObjectManager.Instance.GetManagedGameObjects(target);
+        if (managedGameObjects == null || !managedGameObjects.Any())
         {
             commandResult = new CommandResult(string.Format("Item with id ({0}) not found!", target), false);
             Debug.Log(commandResult);
             return commandResult;
         }
 
-        managedGameObject.SetEnabledState();
+        foreach (var managedGameObject in managedGameObjects)
+        {
+            managedGameObject.SetDestroyedState();
+        }
 
         commandResult = new CommandResult(string.Format("Item with id ({0}) enabled!", target));
         Debug.Log(commandResult);

@@ -107,13 +107,13 @@ public class GameObjectManager : SingletonBase<GameObjectManager>
         ManagedObjects.Add(managedGameObject);
     }
 
-    public ManagedGameObject GetManagedGameObject(string name)
+    public IEnumerable<ManagedGameObject> GetManagedGameObjects(string name)
     {
         if (string.IsNullOrEmpty(name) || ManagedObjects == null)
         {
             return null;
         }
 
-        return ManagedObjects.FirstOrDefault(x => x.ManagedName.Equals(name, StringComparison.OrdinalIgnoreCase));
+        return ManagedObjects.Where(x => x.ManagedName.Equals(name, StringComparison.OrdinalIgnoreCase)).ToList();
     }
 }
