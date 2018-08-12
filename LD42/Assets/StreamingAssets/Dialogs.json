@@ -404,7 +404,7 @@
 		},
 
 		{
-			"ID": "administrator_60",
+			"ID": "MoreDificult",
 			"Placement": "BottomRight",
 			"Owner": "Chris",
 			"Body": "It is getting more difficult..."
@@ -425,7 +425,7 @@
 		},
 
 		{
-			"ID": "administrator_75",
+			"ID": "WhatDidYOuDo",
 			"Placement": "SusyLeftForYouASecond",
 			"Owner": "Chris",
 			"Body": "Suzy!\n\rWhat did you do again? I left you only for second , I had to answer the phone.\n\rPlease, let me write the codes."
@@ -460,10 +460,10 @@
 		},
 
 		{
-			"ID": "administrator_100",
+			"ID": "DestroyingWholeWorld",
 			"Placement": "BottomRight",
 			"Owner": "Chris",
-			"Body": "He is destroying the whole world! We cannot let him to do it, we have to save the princess.\n\rHurry, Suzy! Run as you can!"
+			"Body": "He is destroying the whole world! We cannot let him to do it, we have to save the princess.\n\rHurry, Suzy! Run as fast as you can!"
 		},
 
 		{
@@ -480,7 +480,7 @@
 			"Body": "Disable the built in anti cheat mode!"
 		},
 		{
-			"ID": "administrator_1211",
+			"ID": "GoodIdea",
 			"Placement": "BottomRight",
 			"Owner": "Chris",
 			"Body": "Good Idea!!!"
@@ -494,10 +494,10 @@
 			"Body": "Noooooooooooooo!"
 		},
 		{
-			"ID": "administrator_110",
+			"ID": "KingCastle",
 			"Placement": "BottomRight",
 			"Owner": "Chris",
-			"Body": "Look! This is the King's castle! We did it!"
+			"Body": "Look! This is the King's castle! We finaly did it!"
 		},
 
 		{
@@ -508,7 +508,7 @@
 		},
 
 		{
-			"ID": "administrator_120",
+			"ID": "ItWasDad",
 			"Placement": "BottomRight",
 			"Owner": "Chris",
 			"Body": "It was Dad."
@@ -522,10 +522,10 @@
 		},
 
 		{
-			"ID": "administrator_1307",
+			"ID": "ComeHome",
 			"Placement": "BottomRight",
 			"Owner": "Chris",
-			"Body": "He can come in every minute."
+			"Body": "He can come in any minute."
 		},
 		{
 			"ID": "administrator_125",
@@ -535,10 +535,10 @@
 		},
 
 		{
-			"ID": "administrator_1306",
+			"ID": "DadTold",
 			"Placement": "BottomRight",
 			"Owner": "Chris",
-			"Body": "Dad told \"She is Okey\". Everything will be fine!"
+			"Body": "Dad told me \"She is Okey\". Everything will be fine!"
 		},
 		{
 			"ID": "administrator_1353",
@@ -548,24 +548,24 @@
 		},
 
 		{
-			"ID": "administrator_140",
+			"ID": "SleepNow",
 			"Placement": "BottomRight",
 			"Owner": "Chris",
 			"Body": "Sure, but you need to sleep now!"
 		},
 
 		{
-			"ID": "administrator_135",
+			"ID": "Tale",
 			"Placement": "BottomLeft",
 			"Owner": "Suzy",
 			"Body": "Are you telling me a tale?"
 		},
 
 		{
-			"ID": "administrator_140",
+			"ID": "Onceupon",
 			"Placement": "BottomRight",
 			"Owner": "Chris",
-			"Body": "Sure, What do you want? ....!"
+			"Body": "Sure, Once upon a time on computer game ....!"
 		}
 	]
 }
