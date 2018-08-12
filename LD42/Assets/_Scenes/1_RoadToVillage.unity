@@ -678,7 +678,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Conversation:
     Conversations:
-    - Id: administrator_30
+    - Id: OpenDoor
       Clear: 1
       Stop: 0
       Timestemp: 0
@@ -1438,7 +1438,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Conversation:
     Conversations:
-    - Id: administrator_23
+    - Id: PlayWithMe
       Clear: 1
       Stop: 0
       Timestemp: 0
@@ -1449,7 +1449,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       IsModal: 1
       PlayerState: 1
-    - Id: administrator_24
+    - Id: NothingElse
       Clear: 1
       Stop: 0
       Timestemp: 5
@@ -4959,7 +4959,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Conversation:
     Conversations:
-    - Id: administrator_01
+    - Id: Greeetins
       Clear: 0
       Stop: 0
       Timestemp: 0
@@ -4970,7 +4970,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       IsModal: 1
       PlayerState: 0
-    - Id: administrator_02
+    - Id: Brooooother
       Clear: 1
       Stop: 0
       Timestemp: 5
@@ -4981,7 +4981,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       IsModal: 1
       PlayerState: 0
-    - Id: administrator_03
+    - Id: LeaveMeBe
       Clear: 1
       Stop: 0
       Timestemp: 10
@@ -4992,7 +4992,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       IsModal: 1
       PlayerState: 0
-    - Id: administrator_04
+    - Id: IWantPlay
       Clear: 1
       Stop: 0
       Timestemp: 15
@@ -5003,7 +5003,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       IsModal: 1
       PlayerState: 0
-    - Id: administrator_05
+    - Id: OhMyGodSis
       Clear: 1
       Stop: 0
       Timestemp: 20
@@ -5014,7 +5014,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       IsModal: 1
       PlayerState: 0
-    - Id: administrator_06
+    - Id: ButHow
       Clear: 1
       Stop: 0
       Timestemp: 25
@@ -5025,7 +5025,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       IsModal: 1
       PlayerState: 0
-    - Id: administrator_07
+    - Id: JustPressThisButton
       Clear: 1
       Stop: 0
       Timestemp: 30
@@ -5036,7 +5036,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       IsModal: 1
       PlayerState: 0
-    - Id: administrator_08
+    - Id: HeIsmoving
       Clear: 1
       Stop: 0
       Timestemp: 35
@@ -5385,7 +5385,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Conversation:
     Conversations:
-    - Id: administrator_21
+    - Id: AgainBrother
       Clear: 1
       Stop: 0
       Timestemp: 0
@@ -5396,7 +5396,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       IsModal: 1
       PlayerState: 0
-    - Id: administrator_22
+    - Id: Disable
       Clear: 1
       Stop: 0
       Timestemp: 5
@@ -5503,7 +5503,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Conversation:
     Conversations:
-    - Id: administrator_31
+    - Id: WhatGate
       Clear: 1
       Stop: 0
       Timestemp: 0
@@ -8030,7 +8030,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Conversation:
     Conversations:
-    - Id: administrator_27
+    - Id: PlaySafe
       Clear: 1
       Stop: 0
       Timestemp: 0
@@ -8041,7 +8041,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       IsModal: 0
       PlayerState: 1
-    - Id: administrator_28
+    - Id: CrossIsland
       Clear: 1
       Stop: 0
       Timestemp: 5
@@ -8052,7 +8052,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       IsModal: 0
       PlayerState: 1
-    - Id: administrator_29
+    - Id: Seaguls
       Clear: 1
       Stop: 0
       Timestemp: 10
@@ -8996,7 +8996,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Conversation:
     Conversations:
-    - Id: administrator_20
+    - Id: MoveForward
       Clear: 1
       Stop: 0
       Timestemp: 0
@@ -10261,7 +10261,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Conversation:
     Conversations:
-    - Id: administrator_25
+    - Id: KnightSwim
       Clear: 1
       Stop: 0
       Timestemp: 0
@@ -10272,7 +10272,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       IsModal: 0
       PlayerState: 1
-    - Id: administrator_26
+    - Id: WhyDidYou
       Clear: 1
       Stop: 0
       Timestemp: 5
@@ -10616,7 +10616,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Conversation:
     Conversations:
-    - Id: administrator_19
+    - Id: TypeDestroy
       Clear: 1
       Stop: 0
       Timestemp: 0
@@ -10731,7 +10731,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Conversation:
     Conversations:
-    - Id: administrator_13
+    - Id: CantMoveAlong
       Clear: 1
       Stop: 0
       Timestemp: 0
@@ -10742,7 +10742,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       IsModal: 1
       PlayerState: 1
-    - Id: administrator_14
+    - Id: ThisShoudNotHere
       Clear: 1
       Stop: 0
       Timestemp: 5
@@ -10753,7 +10753,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       IsModal: 1
       PlayerState: 1
-    - Id: administrator_15
+    - Id: SolveThis
       Clear: 1
       Stop: 0
       Timestemp: 10
@@ -10764,7 +10764,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       IsModal: 1
       PlayerState: 1
-    - Id: administrator_16
+    - Id: SomeCodes
       Clear: 1
       Stop: 0
       Timestemp: 15
@@ -10775,7 +10775,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       IsModal: 1
       PlayerState: 0
-    - Id: administrator_17
+    - Id: CheatCodes
       Clear: 1
       Stop: 0
       Timestemp: 20
@@ -10786,7 +10786,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       IsModal: 1
       PlayerState: 0
-    - Id: administrator_18
+    - Id: WeDontCheat
       Clear: 1
       Stop: 0
       Timestemp: 25
@@ -10797,7 +10797,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       IsModal: 0
       PlayerState: 0
-    - Id: administrator_18
+    - Id: WeDontCheat
       Clear: 1
       Stop: 0
       Timestemp: 30
@@ -11584,7 +11584,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Conversation:
     Conversations:
-    - Id: administrator_09
+    - Id: Syrup
       Clear: 1
       Stop: 0
       Timestemp: 0
@@ -11595,7 +11595,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       IsModal: 1
       PlayerState: 0
-    - Id: administrator_10
+    - Id: SorryAccidents
       Clear: 1
       Stop: 0
       Timestemp: 5
@@ -11606,7 +11606,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       IsModal: 1
       PlayerState: 0
-    - Id: administrator_11
+    - Id: MakeingJobHarder
       Clear: 1
       Stop: 0
       Timestemp: 10
@@ -11617,7 +11617,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       IsModal: 1
       PlayerState: 0
-    - Id: administrator_12
+    - Id: ThisIsEasy
       Clear: 0
       Stop: 0
       Timestemp: 15
