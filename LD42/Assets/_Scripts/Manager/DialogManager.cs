@@ -34,6 +34,12 @@ public class DialogManager : SingletonBase<DialogManager>
 
     private void Update()
     {
+#if UNITY_EDITOR
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            _timer += Time.deltaTime * 1000;
+        }
+#endif
         if (_on)
         {
             _timer += Time.deltaTime;
@@ -48,8 +54,14 @@ public class DialogManager : SingletonBase<DialogManager>
     {
         var nextevent = eventList.FirstOrDefault();
         var dialogText = DialogTexts.FirstOrDefault(x => x.SoundFile.Equals(nextevent.Id, System.StringComparison.OrdinalIgnoreCase));
-
-        DialogVisualiser.Instance.UpdateDialogText(dialogText.Body, dialogText.Owner, dialogText.GetPlacement(), nextevent.Clear, nextevent.IsModal);
+        if (dialogText != null)
+        {
+            DialogVisualiser.Instance.UpdateDialogText(dialogText.Body, dialogText.Owner, dialogText.GetPlacement(), nextevent.Clear, nextevent.IsModal);            
+        }
+        else
+        {
+            DialogVisualiser.Instance.UpdateDialogText(string.Empty, string.Empty, DialogPlacement.None, nextevent.Clear, nextevent.IsModal);
+        }
 
         PlayerController.Instance.SetPlayerState(nextevent.PlayerState);
 
