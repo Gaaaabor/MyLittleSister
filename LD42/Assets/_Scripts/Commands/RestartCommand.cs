@@ -17,7 +17,7 @@ public class RestartCommand : CommandBase
             return commandResult;
         }
 
-        PlayerController.Instance.Die();
+        PlayerController.Instance.Die("RestartCommand");
 
         commandResult = new CommandResult("Restart command executed!");
         Debug.Log(commandResult);

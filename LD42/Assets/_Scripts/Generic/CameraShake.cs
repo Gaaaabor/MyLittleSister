@@ -22,7 +22,7 @@ public class CameraShake : SingletonBase<CameraShake>
 
     public void Shake(float duration, float amount)
     {
-        _originalPos = transform.localPosition;
+        _originalPos = PlayerController.Instance.CurrentCam.localPosition;
         StopAllCoroutines();
         shakeaudio.Play();
         StartCoroutine(cShake(duration, amount));
