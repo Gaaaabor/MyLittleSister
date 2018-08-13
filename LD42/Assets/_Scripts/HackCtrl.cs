@@ -16,11 +16,14 @@ public class HackCtrl : MonoBehaviour
     {
         foreach (var item in ObjectsHack1)
         {
-            var rend = item.GetComponentInChildren<Renderer>();
-            if (rend != null)
+            if (item != null)
             {
-                rend.material = Hack1;
-            }
+                var rend = item.GetComponentInChildren<Renderer>();
+                if (rend != null)
+                {
+                    rend.material = Hack1;
+                }
+            }              
         }
         foreach (var item in ObjectsHack2)
         {
