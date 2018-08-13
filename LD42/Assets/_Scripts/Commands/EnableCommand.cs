@@ -19,7 +19,7 @@ public class EnableCommand : CommandBase
         }
 
         var target = parameters[ParameterCount - 1];
-        var managedGameObjects = GameObjectManager.Instance.GetManagedGameObjects(target);
+        var managedGameObjects = FindManagedGameObjects(target);
         if (managedGameObjects == null || !managedGameObjects.Any())
         {
             commandResult = new CommandResult(string.Format("Item with id ({0}) not found!", target), false);

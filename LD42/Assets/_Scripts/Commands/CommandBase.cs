@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using System.Linq;
+using UnityEngine;
 
 public abstract class CommandBase
 {
@@ -21,5 +23,16 @@ public abstract class CommandBase
     private bool IsParameterCountValid(string[] parameters)
     {
         return parameters != null && ParameterCount == parameters.Length;
+    }
+
+    protected IEnumerable<ManagedGameObject> FindManagedGameObjects(string name)
+    {
+        var managedGameObjects = GameObjectManager.Instance.GetManagedGameObjects(name);
+        if (managedGameObjects == null || !managedGameObjects.Any())
+        {
+            return managedGameObjects;
+        }
+
+        return managedGameObjects.Where(x => !string.IsNullOrEmpty(x.ManagedName) && x.ManagedName.Equals(name, CommandHandler.ComparisonMode)).ToList();
     }
 }

@@ -8,6 +8,8 @@ public class CommandHandler
 {
     public const string WHITESPACE = " ";
 
+    public static StringComparison ComparisonMode;
+
     #region //Singleton
     public volatile static object _lock = new object();
     public static CommandHandler _instance;
@@ -62,14 +64,15 @@ public class CommandHandler
         var commandPart = commandToExecute.Contains(WHITESPACE)
             ? commandToExecute.Split(new[] { WHITESPACE }, StringSplitOptions.RemoveEmptyEntries)[0]
             : commandToExecute;
+        
+        ComparisonMode = IsCaseSensitive ? StringComparison.Ordinal : StringComparison.OrdinalIgnoreCase;
 
-        Debug.Log("CaseSensitive: "+IsCaseSensitive);
-        var stringComparison = IsCaseSensitive ? StringComparison.Ordinal : StringComparison.OrdinalIgnoreCase;
+        Debug.Log("ComparisonMode: " + ComparisonMode);
 
         CommandBase foundCommand = null;
         foreach (var command in Commands)
         {
-            if (command.CommandText.Equals(commandPart, stringComparison) || (!string.IsNullOrEmpty(command.ShortHand) && command.ShortHand.Equals(commandPart, stringComparison)))
+            if (command.CommandText.Equals(commandPart, ComparisonMode) || (!string.IsNullOrEmpty(command.ShortHand) && command.ShortHand.Equals(commandPart, ComparisonMode)))
             {
                 foundCommand = command;
                 break;
