@@ -469,14 +469,14 @@
 			"ID": "YouCheat",
 			"Placement": "TopRight",
 			"Owner": "Dark Knight",
-			"Body": "White Knight, you are a cheater! You are much worse than me! You can try to escape, but I know some dev commands too:\n\rActivate recursion!"
+			"Body": "White Knight, you are a cheater! You are much worse than me! My vengeance is comeing!!!"
 		},
-		{
-			"ID": "CanRunHide",
-			"Placement": "TopRight",
-			"Owner": "Dark Knight",
-			"Body": "You can run! But cannot hide! /enable recursion"
-		},
+			{
+				"ID": "CanRunHide",
+				"Placement": "TopRight",
+				"Owner": "Dark Knight",
+				"Body": "You can try to escape, but I know some dev commands too:\n\rActivate recursion!"
+			},
 		{
 			"ID": "disableloop",
 			"Placement": "BottomLeft",
@@ -497,7 +497,7 @@
 			"ID": "Meteor",
 			"Placement": "TopRight",
 			"Owner": "Dark Knight",
-			"Body": "/spawn meteorshower"
+			"Body": "Feeeel the Hatred!!! /spawn meteorshower"
 		},
 
 		{
@@ -511,7 +511,7 @@
 			"ID": "KillMap",
 			"Placement": "TopRight",
 			"Owner": "Dark Knight",
-			"Body": "/kill map"
+			"Body": " I will destroy     everything     /kill map"
 		},
 
 		{
