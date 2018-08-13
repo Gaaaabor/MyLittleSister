@@ -63,6 +63,7 @@ public class CommandHandler
             ? commandToExecute.Split(new[] { WHITESPACE }, StringSplitOptions.RemoveEmptyEntries)[0]
             : commandToExecute;
 
+        Debug.Log("CaseSensitive: "+IsCaseSensitive);
         var stringComparison = IsCaseSensitive ? StringComparison.Ordinal : StringComparison.OrdinalIgnoreCase;
 
         CommandBase foundCommand = null;

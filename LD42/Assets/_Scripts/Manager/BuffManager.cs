@@ -44,9 +44,14 @@ public class BuffManager : SingletonBase<BuffManager>
     {
         if (!CaseSensitivenessBuffIsActive)
         {
+            CaseSensitivenessBuffUi.gameObject.SetActive(false);
             return;
         }
-
+        else
+        {
+            CaseSensitivenessBuffUi.gameObject.SetActive(true);
+        }
+     
         if (0 < CaseSensitivenessBuffDuration)
         {
             CommandHandler.Instance.IsCaseSensitive = true;
@@ -57,10 +62,11 @@ public class BuffManager : SingletonBase<BuffManager>
             CaseSensitivenessBuffIsActive = false;
             CommandHandler.Instance.IsCaseSensitive = false;
             CaseSensitivenessBuffDuration = 0;
+            CaseSensitivenessBuffUi.gameObject.SetActive(false);
         }
 
         CaseSensitivenessBuffText.text = CaseSensitivenessBuffDuration.ToString("N2");
-        CaseSensitivenessBuffUi.gameObject.SetActive(true);
+
     }
 
     private void UpdateTimeBuff()
