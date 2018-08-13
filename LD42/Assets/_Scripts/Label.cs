@@ -17,7 +17,6 @@ public class Label : MonoBehaviour
 
     public void Initialize()
     {
-        Debug.Log("Init");
         _label = Instantiate(Resources.Load("Label"), LabelPlace) as GameObject;
         SetGlobalScale(_label.transform, new Vector3(0.005f, 0.005f, 0.005f));
         _label.GetComponent<RectTransform>().localPosition = Vector3.zero;
@@ -35,7 +34,6 @@ public class Label : MonoBehaviour
 
     private void OnEnable()
     {
-        Debug.Log("Enable");
         if (_anim != null)
             if (LabelManager.Instance.LabelsVisible)
             {

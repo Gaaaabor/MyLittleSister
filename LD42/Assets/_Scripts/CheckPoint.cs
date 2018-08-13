@@ -20,7 +20,8 @@ public class CheckPoint : MonoBehaviour
         CheckpointEvent.Invoke();
         foreach (var item in CheckPointObject)
         {
-            item.Restore();
+            if (item != null)
+                item.Restore();
         }
     }
 }

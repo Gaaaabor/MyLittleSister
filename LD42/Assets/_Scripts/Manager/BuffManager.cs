@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class BuffManager : SingletonBase<BuffManager>
@@ -12,13 +13,25 @@ public class BuffManager : SingletonBase<BuffManager>
     public GameObject CaseSensitivenessBuffUi;
     public Text CaseSensitivenessBuffText;
     public float CaseSensitivenessBuffDuration;
+    private bool _locked;
+
+    internal void LockTime()
+    {
+        _locked = false;
+    }
+
     public bool CaseSensitivenessBuffIsActive;
-    
+
     public override void Awake()
     {
         TimeBuffUi.gameObject.SetActive(false);
         CaseSensitivenessBuffUi.gameObject.SetActive(false);
-        SetTimeScale(1,false);
+        SetTimeScale(1, true);
+    }
+
+    internal void UnlockTime()
+    {
+        _locked = true;
     }
 
     private void Update()
@@ -52,7 +65,6 @@ public class BuffManager : SingletonBase<BuffManager>
 
     private void UpdateTimeBuff()
     {
-        Debug.Log("Update:"+TimeBuffScale);
         if (!TimeBuffIsActive || TimeBuffScale == 1)
         {
             return;
@@ -65,14 +77,15 @@ public class BuffManager : SingletonBase<BuffManager>
         else
         {
             TimeBuffDuration = 0;
-            SetTimeScale(1,false);
+            SetTimeScale(1, true);
         }
 
-        TimeBuffText.text = TimeBuffDuration.ToString("N2");      
+        TimeBuffText.text = TimeBuffDuration.ToString("N2");
     }
 
-    public void SetTimeScale(float scale, bool dontEnable=false)
+    public void SetTimeScale(float scale, bool dontEnable = false)
     {
+        if (_locked) return;
         if (!dontEnable)
         {
             TimeBuffUi.gameObject.SetActive(true);
@@ -89,13 +102,11 @@ public class BuffManager : SingletonBase<BuffManager>
 
         if (TimeBuffScale <= 0)
         {
-            TimeBuffScale = 0;   
+            TimeBuffScale = 0;
         }
 
 
         DoScale();
-
-        Debug.Log("ChangeScale " + scale);
     }
 
     private void DoScale()
