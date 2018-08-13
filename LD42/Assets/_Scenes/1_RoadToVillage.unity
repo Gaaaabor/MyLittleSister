@@ -2512,8 +2512,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 249918963}
-  m_LocalRotation: {x: -0.42894173, y: 0.016258225, z: 0.007721491, w: 0.9031529}
-  m_LocalPosition: {x: 967.0456, y: -1707.5112, z: -1333.6399}
+  m_LocalRotation: {x: -0.25886264, y: 0.020280888, z: 0.0054355357, w: 0.96568596}
+  m_LocalPosition: {x: 226.90611, y: 7.5892277, z: -4.225436}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -10197,11 +10197,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4491694386117548, guid: 9b80711f1ef645e47bfe92dfa2e60876, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.22
+      value: 13.34
       objectReference: {fileID: 0}
     - target: {fileID: 4491694386117548, guid: 9b80711f1ef645e47bfe92dfa2e60876, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -13.01
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4491694386117548, guid: 9b80711f1ef645e47bfe92dfa2e60876, type: 2}
       propertyPath: m_LocalRotation.x
@@ -20218,11 +20218,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4491694386117548, guid: 9b80711f1ef645e47bfe92dfa2e60876, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.22
+      value: 1.85
       objectReference: {fileID: 0}
     - target: {fileID: 4491694386117548, guid: 9b80711f1ef645e47bfe92dfa2e60876, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -13.01
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4491694386117548, guid: 9b80711f1ef645e47bfe92dfa2e60876, type: 2}
       propertyPath: m_LocalRotation.x
@@ -20642,7 +20642,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDestroyed: 0
-  ManagedName: Bush02
+  ManagedName: SwordIsHere
   CurrentState: 0
   StartEnabled: 1
   TargetObject: {fileID: 1775238757}
@@ -21348,7 +21348,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4491694386117548, guid: 9b80711f1ef645e47bfe92dfa2e60876, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -13.01
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4491694386117548, guid: 9b80711f1ef645e47bfe92dfa2e60876, type: 2}
       propertyPath: m_LocalRotation.x
@@ -24956,10 +24956,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1770050963}
   - component: {fileID: 1770050969}
-  - component: {fileID: 1770050966}
   - component: {fileID: 1770050967}
   - component: {fileID: 1770050968}
   - component: {fileID: 1770050965}
+  - component: {fileID: 1770050966}
   m_Layer: 0
   m_Name: TorchToPickUp01
   m_TagString: Untagged
@@ -24987,7 +24987,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1770050964}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63553f82a05d07946875d4c83e51f82e, type: 3}
+  m_Script: {fileID: 11500000, guid: 991b1d0753539e746916147e2bb19d4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1770050967
@@ -28136,8 +28136,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1967680709}
-  m_LocalRotation: {x: -0.42894173, y: 0.016258225, z: 0.007721491, w: 0.9031529}
-  m_LocalPosition: {x: 805.0651, y: -1731.4612, z: -1317.8899}
+  m_LocalRotation: {x: -0.34202015, y: 0, z: 0, w: 0.9396927}
+  m_LocalPosition: {x: 17.199951, y: -13.243, z: -18.24}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
