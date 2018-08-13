@@ -1043,7 +1043,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Clip: {fileID: 8300000, guid: d3e4ec8edc848c244be7c4c1811b20be, type: 3}
-  Volume: 0.3
+  Volume: 0.1
 --- !u!65 &120459717
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29693,7 +29693,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Clip: {fileID: 8300000, guid: d3e4ec8edc848c244be7c4c1811b20be, type: 3}
-  Volume: 0.3
+  Volume: 0.1
 --- !u!65 &1997492910
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29748,7 +29748,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Clip: {fileID: 8300000, guid: 9b4e1627a2c9e4940a28675fa284a5de, type: 3}
-  Volume: 0.3
+  Volume: 0.1
 --- !u!65 &2003820687
 BoxCollider:
   m_ObjectHideFlags: 0
