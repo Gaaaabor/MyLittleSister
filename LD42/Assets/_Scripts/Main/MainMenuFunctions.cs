@@ -5,44 +5,50 @@ using UnityEngine.UI;
 public class MainMenuFunctions : MonoBehaviour
 {
     public GameObject MainMenu;
-    public GameObject NameMenu;
-    public GameObject HighScore;
     public string MainSceneName;
-
-    public InputField NameField;
+    public GameObject Prelog;
 
     private void Awake()
     {
+        Prelog.SetActive(false);
         MainMenu.SetActive(true);
-        NameMenu.SetActive(false);
-        HighScore.SetActive(false);
+        ////NameMenu.SetActive(false);
+        //if (HighScore != null)
+        //    HighScore.SetActive(false);
     }
 
     public void StartGame()
     {
         MainMenu.SetActive(false);
-        NameMenu.SetActive(true);
-        HighScore.SetActive(false);
+        //NameMenu.SetActive(true);
+        //HighScore.SetActive(false);
     }
 
     public void ConfirmName()
     {
         Cursor.visible = false;
-        SceneManager.LoadScene(MainSceneName);
+
+        Prelog.SetActive(true);
+        Invoke("LoadScenes", 5);
+    }
+
+    public void LoadScenes()
+    {
+        SceneManager.LoadSceneAsync(MainSceneName);
     }
 
     public void CheckHighScore()
     {
         MainMenu.SetActive(false);
-        NameMenu.SetActive(false);
-        HighScore.SetActive(true);
+        //NameMenu.SetActive(false);
+        //HighScore.SetActive(true);
     }
 
     public void BackToMenu()
     {
         MainMenu.SetActive(true);
-        NameMenu.SetActive(false);
-        HighScore.SetActive(false);
+        //NameMenu.SetActive(false);
+        //HighScore.SetActive(false);
     }
 
     public void Quit()
