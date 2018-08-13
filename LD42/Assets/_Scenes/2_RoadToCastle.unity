@@ -1168,7 +1168,7 @@ MonoBehaviour:
     - Id: DarkRitual
       Clear: 1
       Stop: 0
-      Timestemp: 10
+      Timestemp: 9
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -1179,7 +1179,7 @@ MonoBehaviour:
     - Id: StopTime
       Clear: 1
       Stop: 0
-      Timestemp: 15
+      Timestemp: 14
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -1223,7 +1223,7 @@ MonoBehaviour:
     - Id: END
       Clear: 0
       Stop: 0
-      Timestemp: 21
+      Timestemp: 20
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -3721,7 +3721,7 @@ MonoBehaviour:
     - Id: Developers
       Clear: 0
       Stop: 0
-      Timestemp: 5
+      Timestemp: 4
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -3732,7 +3732,7 @@ MonoBehaviour:
     - Id: End
       Clear: 1
       Stop: 0
-      Timestemp: 10
+      Timestemp: 7
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -7171,6 +7171,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  ResetPose: 1
 --- !u!135 &539965326
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8760,7 +8761,7 @@ MonoBehaviour:
     - Id: Boring
       Clear: 0
       Stop: 0
-      Timestemp: 15
+      Timestemp: 13
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -8771,7 +8772,7 @@ MonoBehaviour:
     - Id: DontGiveUp
       Clear: 1
       Stop: 0
-      Timestemp: 20
+      Timestemp: 17
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -8782,7 +8783,7 @@ MonoBehaviour:
     - Id: IfYouSaySo
       Clear: 1
       Stop: 0
-      Timestemp: 25
+      Timestemp: 23
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -8793,7 +8794,7 @@ MonoBehaviour:
     - Id: END
       Clear: 1
       Stop: 0
-      Timestemp: 30
+      Timestemp: 27
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -14529,6 +14530,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  ResetPose: 1
 --- !u!1001 &1180491449
 Prefab:
   m_ObjectHideFlags: 0
@@ -26639,7 +26641,7 @@ MonoBehaviour:
     - Id: nicetrick
       Clear: 0
       Stop: 0
-      Timestemp: 5
+      Timestemp: 16
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -26650,7 +26652,7 @@ MonoBehaviour:
     - Id: MoreDificult
       Clear: 0
       Stop: 0
-      Timestemp: 10
+      Timestemp: 21
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -26661,7 +26663,7 @@ MonoBehaviour:
     - Id: End
       Clear: 0
       Stop: 0
-      Timestemp: 15
+      Timestemp: 25
       Event:
         m_PersistentCalls:
           m_Calls:
