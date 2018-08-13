@@ -7,7 +7,7 @@ public class DialogTrigger : MonoBehaviour
 {
     public Conversation Conversation;
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
         if (other.tag == "Player")
         {

@@ -47,7 +47,7 @@ public class Label : MonoBehaviour
 
     public void ShowLabel()
     {
-        Debug.Log("ShowLabel");
+        //Debug.Log("ShowLabel");
         _anim.SetBool("Show", true);
     }
 

@@ -134,6 +134,7 @@ public class PlayerController : SingletonBase<PlayerController>
 
     public void SetPlayerState(PlayerState playerState)
     {
+        if (playerState == PlayerState.None) return;
         Debug.Log("Try " + playerState);
         if (_currentPlayerState == playerState) return;
 
@@ -180,6 +181,7 @@ public class PlayerController : SingletonBase<PlayerController>
 
 public enum PlayerState
 {
+    None,
     Idle,
     Walking,
     Run,

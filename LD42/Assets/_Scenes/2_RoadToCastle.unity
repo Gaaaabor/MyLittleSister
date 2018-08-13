@@ -1108,8 +1108,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95e945e471e2624499989fd209aaf53e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Addtime: 0
-  SetTime: 0
 --- !u!114 &120675266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1156,7 +1154,7 @@ MonoBehaviour:
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
       IsModal: 0
-      PlayerState: 0
+      PlayerState: 1
     - Id: SomeoneLiveHere
       Clear: 0
       Stop: 0
@@ -3734,7 +3732,7 @@ MonoBehaviour:
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
       IsModal: 0
-      PlayerState: 2
+      PlayerState: 0
     - Id: End
       Clear: 1
       Stop: 0
@@ -3767,7 +3765,7 @@ MonoBehaviour:
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
       IsModal: 0
-      PlayerState: 2
+      PlayerState: 3
 --- !u!1 &297163059
 GameObject:
   m_ObjectHideFlags: 0
@@ -8838,7 +8836,7 @@ MonoBehaviour:
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
       IsModal: 0
-      PlayerState: 0
+      PlayerState: 1
     - Id: 
       Clear: 0
       Stop: 0
@@ -8849,7 +8847,7 @@ MonoBehaviour:
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
       IsModal: 0
-      PlayerState: 1
+      PlayerState: 2
     - Id: 
       Clear: 0
       Stop: 0
@@ -8860,7 +8858,7 @@ MonoBehaviour:
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
       IsModal: 0
-      PlayerState: 0
+      PlayerState: 1
     - Id: 
       Clear: 0
       Stop: 0
@@ -8882,7 +8880,7 @@ MonoBehaviour:
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
       IsModal: 0
-      PlayerState: 0
+      PlayerState: 1
     - Id: WhatAreYouDoing
       Clear: 0
       Stop: 0
@@ -8893,7 +8891,7 @@ MonoBehaviour:
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
       IsModal: 0
-      PlayerState: 2
+      PlayerState: 0
     - Id: Boring
       Clear: 0
       Stop: 0
@@ -8904,7 +8902,7 @@ MonoBehaviour:
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
       IsModal: 0
-      PlayerState: 2
+      PlayerState: 1
     - Id: DontGiveUp
       Clear: 1
       Stop: 0
@@ -8915,7 +8913,7 @@ MonoBehaviour:
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
       IsModal: 0
-      PlayerState: 2
+      PlayerState: 0
     - Id: IfYouSaySo
       Clear: 1
       Stop: 0
@@ -8926,7 +8924,7 @@ MonoBehaviour:
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
       IsModal: 0
-      PlayerState: 2
+      PlayerState: 0
     - Id: END
       Clear: 1
       Stop: 0
@@ -8959,7 +8957,7 @@ MonoBehaviour:
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
       IsModal: 0
-      PlayerState: 2
+      PlayerState: 3
 --- !u!114 &646624858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9188,7 +9186,7 @@ Prefab:
     - target: {fileID: 114490185020392674, guid: 9b80711f1ef645e47bfe92dfa2e60876,
         type: 2}
       propertyPath: CheckPointObject.Array.size
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4491694386117548, guid: 9b80711f1ef645e47bfe92dfa2e60876, type: 2}
       propertyPath: m_LocalPosition.x
@@ -9261,6 +9259,11 @@ Prefab:
       propertyPath: CheckPointObject.Array.data[6]
       value: 
       objectReference: {fileID: 1902824998}
+    - target: {fileID: 114490185020392674, guid: 9b80711f1ef645e47bfe92dfa2e60876,
+        type: 2}
+      propertyPath: CheckPointObject.Array.data[7]
+      value: 
+      objectReference: {fileID: 690940726}
     m_RemovedComponents:
     - {fileID: 65711446809540974, guid: 9b80711f1ef645e47bfe92dfa2e60876, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 9b80711f1ef645e47bfe92dfa2e60876, type: 2}
@@ -15768,7 +15771,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4760481084224304, guid: 4a9fec23b0969214a99ae3a66162fbc6, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 465.16327
+      value: 503.58
       objectReference: {fileID: 0}
     - target: {fileID: 4760481084224304, guid: 4a9fec23b0969214a99ae3a66162fbc6, type: 2}
       propertyPath: m_LocalPosition.y
@@ -16105,7 +16108,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4760481084224304, guid: 4a9fec23b0969214a99ae3a66162fbc6, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 442.08
+      value: 479.98
       objectReference: {fileID: 0}
     - target: {fileID: 4760481084224304, guid: 4a9fec23b0969214a99ae3a66162fbc6, type: 2}
       propertyPath: m_LocalPosition.y
@@ -16346,8 +16349,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1387157953}
-  m_LocalRotation: {x: 0.45071483, y: 0.048698723, z: 0.02463566, w: -0.8909981}
-  m_LocalPosition: {x: 513.4919, y: -74.08551, z: -35.82775}
+  m_LocalRotation: {x: 0.26538736, y: 0.038169652, z: 0.010516904, w: -0.9633286}
+  m_LocalPosition: {x: 475.60422, y: -43.046635, z: -57.84958}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -26634,7 +26637,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Conversation:
     Conversations:
-    - Id: administrator_54
+    - Id: Witch
       Clear: 0
       Stop: 0
       Timestemp: 0
@@ -26645,7 +26648,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       IsModal: 0
       PlayerState: 0
-    - Id: administrator_59
+    - Id: nicetrick
       Clear: 0
       Stop: 0
       Timestemp: 5
@@ -26667,7 +26670,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       IsModal: 0
       PlayerState: 0
-    - Id: administrator_59
+    - Id: whereareyou
       Clear: 0
       Stop: 0
       Timestemp: 5
@@ -26688,7 +26691,7 @@ MonoBehaviour:
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
       IsModal: 0
-      PlayerState: 0
+      PlayerState: 3
 --- !u!1001 &1771942039
 Prefab:
   m_ObjectHideFlags: 0
@@ -28809,8 +28812,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1937269642}
-  m_LocalRotation: {x: 0.38057694, y: 0.27157632, z: 0.117978595, w: -0.8760643}
-  m_LocalPosition: {x: 390.90274, y: -28.274284, z: -24.619122}
+  m_LocalRotation: {x: 0.40045965, y: 0.055478014, z: 0.0243006, w: -0.9143105}
+  m_LocalPosition: {x: 234.42238, y: -204.88249, z: -141.97177}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
