@@ -110879,7 +110879,7 @@ MonoBehaviour:
     - Id: 
       Clear: 1
       Stop: 0
-      Timestemp: 5
+      Timestemp: 8
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -123869,6 +123869,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  ResetPose: 1
 --- !u!1 &1677582607
 GameObject:
   m_ObjectHideFlags: 0
@@ -131266,6 +131267,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  ResetPose: 1
 --- !u!1001 &1812913222
 Prefab:
   m_ObjectHideFlags: 0
@@ -132258,6 +132260,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  ResetPose: 1
 --- !u!1001 &1852874099
 Prefab:
   m_ObjectHideFlags: 0
@@ -132415,7 +132418,7 @@ MonoBehaviour:
     - Id: 
       Clear: 1
       Stop: 0
-      Timestemp: 5
+      Timestemp: 11
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -144301,6 +144304,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  ResetPose: 1
 --- !u!1 &2004891817
 GameObject:
   m_ObjectHideFlags: 0
@@ -146084,7 +146088,7 @@ MonoBehaviour:
     - Id: enablealltraps
       Clear: 1
       Stop: 0
-      Timestemp: 5
+      Timestemp: 6
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -146106,7 +146110,7 @@ MonoBehaviour:
     - Id: END
       Clear: 0
       Stop: 0
-      Timestemp: 10
+      Timestemp: 21
       Event:
         m_PersistentCalls:
           m_Calls:
