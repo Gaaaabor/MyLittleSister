@@ -10,7 +10,7 @@ public class ManagedGameObject : MonoBehaviour
     private ManagedGameObjectMemento _memento = new ManagedGameObjectMemento();
 
     public string ManagedName;
-
+    public ObjectState CurrentState;
     public bool StartEnabled;
     public GameObject TargetObject;
 
@@ -35,9 +35,26 @@ public class ManagedGameObject : MonoBehaviour
 
     [HideInInspector]
     public Label Label;
+    private bool _initialized;
 
-    private void Start()
+    private void Awake()
     {
+        Initilazie();
+    }
+
+    private void OnEnable()
+    {
+        if (!_initialized)
+        {
+            Initilazie();
+        }
+    }
+
+    private void Initilazie()
+    {
+        Label = GetComponent<Label>();
+        Label.Initialize();
+      
         if (StartEnabled)
         {
             //Debug.Log("StartEnabled" + gameObject.name);
@@ -51,6 +68,8 @@ public class ManagedGameObject : MonoBehaviour
 
         _memento.Save(this);
         GameObjectManager.Instance.RegisterObject(this);
+
+        _initialized = true;
     }
 
     public void DisableComandable()
@@ -75,6 +94,7 @@ public class ManagedGameObject : MonoBehaviour
     {
         if (CanDestroy)
         {
+            CurrentState = ObjectState.Destroyed;
             Label.Destroyed();
             _isDestroyed = true;
             if (TargetObject != null)
@@ -87,6 +107,7 @@ public class ManagedGameObject : MonoBehaviour
     {
         if (CanDisable && !_isDestroyed)
         {
+            CurrentState = ObjectState.Disabled;
             Label.Disabled();
             if (TargetObject != null)
                 TargetObject.SetActive(false);
@@ -98,6 +119,7 @@ public class ManagedGameObject : MonoBehaviour
     {
         if (CanEnable)
         {
+            CurrentState = ObjectState.Enabeled;
             Label.Enabled();
             if (TargetObject != null)
                 TargetObject.SetActive(true);
@@ -107,7 +129,25 @@ public class ManagedGameObject : MonoBehaviour
 
     public void Restore()
     {
+        if (StartEnabled)
+        {
+            //Debug.Log("StartEnabled" + gameObject.name);
+            SetEnabledState();
+        }
+        else
+        {
+            //Debug.Log("StartDisabled" + gameObject.name);
+            SetDisabledState();
+        }
         ResetEvent.Invoke();
         _memento.Restore(this);
+    }
+
+    public enum ObjectState
+    {
+        Default,
+        Enabeled,
+        Disabled,
+        Destroyed,
     }
 }

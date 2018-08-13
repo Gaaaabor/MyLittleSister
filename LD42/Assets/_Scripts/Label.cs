@@ -15,15 +15,15 @@ public class Label : MonoBehaviour
     private Animator _anim;
     private Text _text;
 
-    public void Awake()
+    public void Initialize()
     {
-        _label = Instantiate(Resources.Load("Label"), LabelPlace) as GameObject;       
+        Debug.Log("Init");
+        _label = Instantiate(Resources.Load("Label"), LabelPlace) as GameObject;
         SetGlobalScale(_label.transform, new Vector3(0.005f, 0.005f, 0.005f));
         _label.GetComponent<RectTransform>().localPosition = Vector3.zero;
         _anim = _label.GetComponentInChildren<Animator>();
         _text = _label.GetComponentInChildren<Text>();
         _text.text = GetComponent<ManagedGameObject>().ManagedName;
-        GetComponentInParent<ManagedGameObject>().Label = this;
         LabelManager.Instance.RegisterLabel(this);
     }
 
@@ -35,14 +35,16 @@ public class Label : MonoBehaviour
 
     private void OnEnable()
     {
-        if (LabelManager.Instance.LabelsVisible)
-        {
-            ShowLabel();
-        }
-        else
-        {
-            HideLabel();
-        }
+        Debug.Log("Enable");
+        if (_anim != null)
+            if (LabelManager.Instance.LabelsVisible)
+            {
+                ShowLabel();
+            }
+            else
+            {
+                HideLabel();
+            }
     }
 
     public void ShowLabel()
@@ -58,32 +60,40 @@ public class Label : MonoBehaviour
 
     public void Destroyed()
     {
-      //  Debug.Log("Destroyed");
-        _anim.SetInteger("State", 0);
+        //  Debug.Log("Destroyed");
+        _anim.SetInteger("State", 2);
         StopAllCoroutines();
-        StartCoroutine(LerpColor(DestroyColor));
+        if (gameObject.activeSelf)
+            StartCoroutine(LerpColor(DestroyColor));
     }
 
     public void Disabled()
     {
         //Debug.Log("Disable");
-        _anim.SetInteger("State", 1);
+
         StopAllCoroutines();
-        StartCoroutine(LerpColor(DisableColor));
+        _anim.SetInteger("State", 1);
+
+        if (gameObject.activeSelf)
+            StartCoroutine(LerpColor(DisableColor));
     }
 
     public void Enabled()
     {
-        _anim.SetInteger("State", 2);
+        _anim.SetInteger("State", 0);
         StopAllCoroutines();
-        StartCoroutine(LerpColor(EnableColor));
+
+        if (gameObject.activeSelf)
+            StartCoroutine(LerpColor(EnableColor));
     }
 
     public void Activate()
     {
         _anim.SetTrigger("Activate");
         StopAllCoroutines();
-        StartCoroutine(LerpColorAndBack(ActivateColor));
+
+        if (gameObject.activeSelf)
+            StartCoroutine(LerpColorAndBack(ActivateColor));
     }
 
     void Reset()

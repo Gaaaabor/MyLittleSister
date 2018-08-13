@@ -14,7 +14,7 @@ public class BuffManager : SingletonBase<BuffManager>
     public float CaseSensitivenessBuffDuration;
     public bool CaseSensitivenessBuffIsActive;
 
-    private void Awake()
+    public override void Awake()
     {
         TimeBuffUi.gameObject.SetActive(false);
         CaseSensitivenessBuffUi.gameObject.SetActive(false);
@@ -42,7 +42,7 @@ public class BuffManager : SingletonBase<BuffManager>
         {
             CaseSensitivenessBuffIsActive = false;
             CommandHandler.Instance.IsCaseSensitive = false;
-            CaseSensitivenessBuffDuration = 0;            
+            CaseSensitivenessBuffDuration = 0;
         }
 
         CaseSensitivenessBuffText.text = CaseSensitivenessBuffDuration.ToString("N2");
@@ -54,7 +54,7 @@ public class BuffManager : SingletonBase<BuffManager>
         if (!TimeBuffIsActive || TimeBuffScale == 1)
         {
             return;
-        }        
+        }
 
         if (0 < TimeBuffDuration)
         {
@@ -62,10 +62,9 @@ public class BuffManager : SingletonBase<BuffManager>
         }
         else
         {
-            TimeBuffIsActive = false;
+
             TimeBuffDuration = 0;
-            TimeBuffScale = 1;
-            Time.timeScale = 1;            
+            SetTimeScale(1);
         }
 
         TimeBuffText.text = TimeBuffDuration.ToString("N2");
@@ -74,18 +73,20 @@ public class BuffManager : SingletonBase<BuffManager>
 
     public void SetTimeScale(float scale)
     {
-        TimeBuffScale = Mathf.Min(Mathf.Abs(scale), 1);
+        TimeBuffScale = scale;
 
-        if (TimeBuffScale == 1)
+        if (TimeBuffScale >= 1)
         {
+            TimeBuffScale = 1;
             TimeBuffIsActive = false;
-            return;
         }
 
-        if (0 < TimeBuffDuration)
+        if (TimeBuffDuration <= 0)
         {
+            TimeBuffScale = 0;
             TimeBuffIsActive = true;
         }
+        Time.timeScale = TimeBuffScale;
     }
 
     [ContextMenu("TestCaseSensitiveness")]

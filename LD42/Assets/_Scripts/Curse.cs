@@ -13,9 +13,13 @@ public class Curse : MonoBehaviour
     public GameObject CurseObject;
     public bool OnCurse;
 
+    public List<ManagedGameObject> labels;
+
     private void Awake()
     {
-        Reset();
+        OnCurse = false;
+        CurseObject.SetActive(false);
+        current = 0;
     }
 
     [ContextMenu("StartCurse")]
@@ -29,6 +33,10 @@ public class Curse : MonoBehaviour
 
     public void Reset()
     {
+        foreach (var item in labels)
+        {
+            item.Restore();
+        }
         OnCurse = false;
         CurseObject.SetActive(false);
         current = 0;

@@ -1,5 +1,7 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
+[Serializable]
 public class ManagedGameObjectMemento
 {
     private bool _isActive;
@@ -9,9 +11,9 @@ public class ManagedGameObjectMemento
 
     public void Save(ManagedGameObject item)
     {
-        _isActive = item.gameObject.activeSelf;
-        _position = item.transform.position;
-        _rotation = item.transform.rotation;
+     //   _isActive = item.gameObject.activeSelf;
+        _position = item.transform.localPosition;
+        _rotation = item.transform.localRotation;
 
         if (item.CanDestroy)
         {
@@ -21,9 +23,9 @@ public class ManagedGameObjectMemento
 
     public void Restore(ManagedGameObject item)
     {
-        item.gameObject.SetActive(_isActive);
-        item.transform.position = _position;
-        item.transform.rotation = _rotation;
+      //  item.gameObject.SetActive(_isActive);
+        item.transform.localPosition = _position;
+        item.transform.localRotation = _rotation;
 
         if (item.CanDestroy)
         {
