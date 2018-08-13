@@ -10,7 +10,12 @@ public class TimeChangeTrigger : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            TimeManager.Instance.SetTime(daytime);
+            Trigger();
         }
+    }
+    [ContextMenu("Trigger")]
+    public void Trigger()
+    {
+        TimeManager.Instance.SetTime(daytime);
     }
 }

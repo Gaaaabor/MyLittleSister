@@ -6,6 +6,7 @@ public class LookAtCamera : MonoBehaviour
 
     private void Start()
     {
+        if (Camera.main == null) return;
         _lookpos = Camera.main.transform.position - transform.position;
         _lookpos.y = 0;
         Quaternion rotation = Quaternion.LookRotation(_lookpos);
@@ -14,6 +15,7 @@ public class LookAtCamera : MonoBehaviour
 
     void Update()
     {
+        if (Camera.main == null) return;
         _lookpos = Camera.main.transform.position - transform.position;
         _lookpos.y = 0;
         Quaternion rotation = Quaternion.LookRotation(_lookpos);
@@ -22,6 +24,7 @@ public class LookAtCamera : MonoBehaviour
 
     public void LookAtNow()
     {
+        if (Camera.main == null) return;
         _lookpos = Camera.main.transform.position - transform.position;
         _lookpos.y = 0;
         Quaternion rotation = Quaternion.LookRotation(_lookpos);

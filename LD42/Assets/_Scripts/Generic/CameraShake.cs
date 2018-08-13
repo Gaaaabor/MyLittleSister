@@ -10,8 +10,7 @@ public class CameraShake : SingletonBase<CameraShake>
 
     public override void Awake()
     {
-        base.Awake();
-        _originalPos = transform.localPosition;
+        base.Awake();      
         shakeaudio.loop = true;
     }
 
@@ -23,6 +22,7 @@ public class CameraShake : SingletonBase<CameraShake>
 
     public void Shake(float duration, float amount)
     {
+        _originalPos = transform.localPosition;
         StopAllCoroutines();
         shakeaudio.Play();
         StartCoroutine(cShake(duration, amount));

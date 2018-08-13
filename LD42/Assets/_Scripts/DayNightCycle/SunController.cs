@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
 public class SunController : MonoBehaviour
 {
@@ -30,7 +31,7 @@ public class SunController : MonoBehaviour
     public AnimationCurve _backgroundDayWeight;
     public AnimationCurve _backgroundNoonWeight;
     public AnimationCurve _backgroundNightWeight;
-
+    public Color DarkColor;
     Light mainLight;
     Skybox sky;
     Material skyMat;
@@ -82,5 +83,11 @@ public class SunController : MonoBehaviour
         RenderSettings.ambientEquatorColor = _ambientEquatorColor.Evaluate(lerpValue);
         RenderSettings.ambientGroundColor = _ambientGroundColor.Evaluate(lerpValue);
 
+    }
+
+    internal void SetDark()
+    {
+        _moonlight.enabled = false;
+        RenderSettings.ambientSkyColor = DarkColor;
     }
 }

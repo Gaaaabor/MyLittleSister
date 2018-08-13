@@ -81,9 +81,17 @@ public class TimeManager : SingletonBase<TimeManager>
                 _time = nightStartTime * 15f;
                 SetNight();
                 break;
+            case DayTime.Dark:
+                SetDark();
+                break;
             default:
                 break;
         }
+    }
+
+    private void SetDark()
+    {
+        sunController.SetDark();
     }
 
     [ContextMenu("SetDay")]
@@ -148,4 +156,5 @@ public enum DayTime
 {
     DAY,
     NIGHT,
+    Dark,
 }

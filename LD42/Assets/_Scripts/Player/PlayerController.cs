@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using UnityEngine;
 
 public class PlayerController : SingletonBase<PlayerController>
@@ -33,6 +34,14 @@ public class PlayerController : SingletonBase<PlayerController>
     public bool PrincessInHand;
     private PlayerState _lastState;
 
+    public Transform FrontCameraPos;
+    public Transform MiddleCameraPos;
+    public Transform BackCameraPos;
+    public Transform UFrontCameraPos;
+    public Transform UMiddleCameraPos;
+    public Transform UBackCameraPos;
+    public Coroutine CamMove;
+
     public override void Awake()
     {
         base.Awake();
@@ -40,6 +49,55 @@ public class PlayerController : SingletonBase<PlayerController>
         _rigidbody = GetComponent<Rigidbody>();
         _charController = GetComponent<CharacterController>();
         SetInventory();
+    }
+    public void ChangeCameraPos(int v)
+    {
+        if (CamMove != null)
+        {
+            StopCoroutine(CamMove);
+            CamMove = null;
+        }
+        switch (v)
+        {
+            case 0:
+                CamMove = StartCoroutine(C_LerpCamera(FrontCameraPos));
+                break;
+            case 1:
+                CamMove = StartCoroutine(C_LerpCamera(MiddleCameraPos));
+                break;
+            case 2:
+                CamMove = StartCoroutine(C_LerpCamera(BackCameraPos));
+                break;
+            case 3:
+                CamMove = StartCoroutine(C_LerpCamera(UBackCameraPos));
+                break;
+            case 4:
+                CamMove = StartCoroutine(C_LerpCamera(UMiddleCameraPos));
+                break;
+            case 5:
+                CamMove = StartCoroutine(C_LerpCamera(UBackCameraPos));
+                break;
+            default:
+                break;
+        }
+    }
+
+    private IEnumerator C_LerpCamera(Transform frontCameraPos)
+    {
+        var currentPos = Camera.main.transform.localPosition;
+        var currentRot = Camera.main.transform.localRotation;
+
+        var t = 0f;
+        while (t < 1)
+        {
+            t += Time.deltaTime / 1;
+            Camera.main.transform.localPosition = Vector3.Lerp(currentPos, frontCameraPos.localPosition, t);
+            Camera.main.transform.localRotation = Quaternion.Lerp(currentRot, frontCameraPos.localRotation, t);
+
+            yield return null;
+        }
+        Camera.main.transform.localPosition = frontCameraPos.localPosition;
+        Camera.main.transform.localRotation = frontCameraPos.localRotation;
     }
 
     private void SetInventory()

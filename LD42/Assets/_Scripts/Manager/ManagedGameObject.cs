@@ -54,16 +54,27 @@ public class ManagedGameObject : MonoBehaviour
     {
         Label = GetComponent<Label>();
         Label.Initialize();
-      
+
         if (StartEnabled)
         {
-            //Debug.Log("StartEnabled" + gameObject.name);
-            SetEnabledState();
+
+            if (CanEnable)
+            {
+                CurrentState = ObjectState.Enabeled;
+                Label.Enabled();
+                if (TargetObject != null)
+                    TargetObject.SetActive(true);
+            }
         }
         else
         {
-            //Debug.Log("StartDisabled" + gameObject.name);
-            SetDisabledState();
+            if (CanDisable && !_isDestroyed)
+            {
+                CurrentState = ObjectState.Disabled;
+                Label.Disabled();
+                if (TargetObject != null)
+                    TargetObject.SetActive(false);
+            }
         }
 
         _memento.Save(this);
@@ -131,13 +142,24 @@ public class ManagedGameObject : MonoBehaviour
     {
         if (StartEnabled)
         {
-            //Debug.Log("StartEnabled" + gameObject.name);
-            SetEnabledState();
+
+            if (CanEnable)
+            {
+                CurrentState = ObjectState.Enabeled;
+                Label.Enabled();
+                if (TargetObject != null)
+                    TargetObject.SetActive(true);
+            }
         }
         else
         {
-            //Debug.Log("StartDisabled" + gameObject.name);
-            SetDisabledState();
+            if (CanDisable && !_isDestroyed)
+            {
+                CurrentState = ObjectState.Disabled;
+                Label.Disabled();
+                if (TargetObject != null)
+                    TargetObject.SetActive(false);
+            }
         }
         ResetEvent.Invoke();
         _memento.Restore(this);

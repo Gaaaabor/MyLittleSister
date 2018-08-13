@@ -72,7 +72,6 @@ public class Label : MonoBehaviour
         //Debug.Log("Disable");
 
         StopAllCoroutines();
-        _anim.SetInteger("State", 1);
 
         if (gameObject.activeSelf)
             StartCoroutine(LerpColor(DisableColor));
@@ -80,7 +79,6 @@ public class Label : MonoBehaviour
 
     public void Enabled()
     {
-        _anim.SetInteger("State", 0);
         StopAllCoroutines();
 
         if (gameObject.activeSelf)
