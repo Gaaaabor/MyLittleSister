@@ -125107,7 +125107,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Clip: {fileID: 8300000, guid: 3139d67b5f4a9744eb717d2b31d81e7c, type: 3}
-  Volume: 0.3
+  Volume: 0.1
 --- !u!65 &1723060563
 BoxCollider:
   m_ObjectHideFlags: 0
