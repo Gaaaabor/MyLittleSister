@@ -8,8 +8,9 @@ OcclusionCullingSettings:
     smallestOccluder: 5
     smallestHole: 0.25
     backfaceThreshold: 100
-  m_SceneGUID: 00000000000000000000000000000000
-  m_OcclusionCullingData: {fileID: 0}
+  m_SceneGUID: cdf173ace9ae05149bf697a626fce735
+  m_OcclusionCullingData: {fileID: 36300000, guid: 67caa62c5749660478bab0cc61aace63,
+    type: 2}
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
@@ -156,6 +157,26 @@ Prefab:
       propertyPath: m_Name
       value: GroundTorch (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1677504857219472, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136598543808004, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679431994838170, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1744831905384530, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587221671403834, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
   m_IsPrefabParent: 0
@@ -207,6 +228,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonfloor1 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1087194589056016, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590005640534790, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
   m_IsPrefabParent: 0
@@ -230,7 +259,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &44584967
 Transform:
@@ -5007,6 +5036,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -5065,6 +5102,14 @@ Prefab:
     - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_Name
       value: Dungeonwall1 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -5125,6 +5170,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -5179,6 +5232,14 @@ Prefab:
     - target: {fileID: 4924101304380338, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
       propertyPath: m_LocalScale.y
       value: 3.78525
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590005640534790, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1087194589056016, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
@@ -5239,6 +5300,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -5298,6 +5367,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -5320,7 +5397,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &115971429
 Transform:
@@ -5454,6 +5531,14 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 1259831339227758, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1471193215852040, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
   m_IsPrefabParent: 0
@@ -5525,6 +5610,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -5547,7 +5640,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &159311487
 Transform:
@@ -5641,6 +5734,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonfloor1 (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 1087194589056016, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590005640534790, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
   m_IsPrefabParent: 0
@@ -5711,6 +5812,14 @@ Prefab:
     - target: {fileID: 4531242446058442, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_LocalScale.z
       value: 1.0000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -5783,6 +5892,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -5854,6 +5971,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -5908,6 +6033,14 @@ Prefab:
     - target: {fileID: 4924101304380338, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
       propertyPath: m_LocalScale.y
       value: 3.78525
+      objectReference: {fileID: 0}
+    - target: {fileID: 1087194589056016, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590005640534790, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
@@ -5980,6 +6113,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -6051,6 +6192,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -6109,6 +6258,14 @@ Prefab:
     - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_Name
       value: Dungeonwall1 (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -6169,6 +6326,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (74)
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -6219,6 +6384,26 @@ Prefab:
     - target: {fileID: 1679431994838170, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
       propertyPath: m_Name
       value: GroundTorch (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1744831905384530, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1677504857219472, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679431994838170, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587221671403834, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136598543808004, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
@@ -6301,6 +6486,26 @@ Prefab:
       propertyPath: m_Name
       value: GroundTorch (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1136598543808004, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1744831905384530, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679431994838170, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1677504857219472, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587221671403834, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
   m_IsPrefabParent: 0
@@ -6351,6 +6556,14 @@ Prefab:
     - target: {fileID: 1471193215852040, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
       propertyPath: m_Name
       value: Dungeonstairs1 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1471193215852040, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1259831339227758, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
@@ -6791,6 +7004,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -6814,7 +7035,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &257823806
 Transform:
@@ -11554,7 +11775,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &280121845
 Transform:
@@ -11656,6 +11877,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -11681,7 +11910,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &295946318
 Transform:
@@ -11810,6 +12039,14 @@ Prefab:
     - target: {fileID: 4531242446058442, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -11961,7 +12198,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &333632891
 Transform:
@@ -12023,6 +12260,14 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 3.7852468
       objectReference: {fileID: 0}
+    - target: {fileID: 1590005640534790, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1087194589056016, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
   m_IsPrefabParent: 0
@@ -12081,6 +12326,14 @@ Prefab:
     - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_Name
       value: Dungeonwall1 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -12153,6 +12406,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -12224,6 +12485,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -12283,6 +12552,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (80)
       objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -12306,7 +12583,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &363474965
 Transform:
@@ -17095,6 +17372,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -17153,6 +17438,14 @@ Prefab:
     - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_Name
       value: Dungeonwall1 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -17332,6 +17625,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (66)
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -17355,7 +17656,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &397102717
 Transform:
@@ -22120,6 +22421,14 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1471193215852040, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1259831339227758, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
   m_IsPrefabParent: 0
@@ -22169,6 +22478,14 @@ Prefab:
     - target: {fileID: 4211955363207562, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -22362,6 +22679,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -22421,6 +22746,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -22476,6 +22809,14 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 3.78525
       objectReference: {fileID: 0}
+    - target: {fileID: 1590005640534790, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1087194589056016, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
   m_IsPrefabParent: 0
@@ -22522,6 +22863,26 @@ Prefab:
     - target: {fileID: 4434336842682028, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
       propertyPath: m_RootOrder
       value: 118
+      objectReference: {fileID: 0}
+    - target: {fileID: 1744831905384530, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136598543808004, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1677504857219472, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679431994838170, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587221671403834, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
@@ -22573,6 +22934,14 @@ Prefab:
     - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_Name
       value: Dungeonwall1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -22648,6 +23017,14 @@ Prefab:
     - target: {fileID: 4211955363207562, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -22754,6 +23131,14 @@ Prefab:
       propertyPath: m_LocalPosition.x
       value: 0.73
       objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -22808,6 +23193,30 @@ Prefab:
     - target: {fileID: 4721486019134464, guid: 3aef1e39c8db63447b22e238fdf9fcd2, type: 2}
       propertyPath: m_LocalScale.z
       value: 0.63170683
+      objectReference: {fileID: 0}
+    - target: {fileID: 1888451986212910, guid: 3aef1e39c8db63447b22e238fdf9fcd2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1599388539157282, guid: 3aef1e39c8db63447b22e238fdf9fcd2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148519089193958, guid: 3aef1e39c8db63447b22e238fdf9fcd2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1072461436605698, guid: 3aef1e39c8db63447b22e238fdf9fcd2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1657064300492672, guid: 3aef1e39c8db63447b22e238fdf9fcd2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1504391694418700, guid: 3aef1e39c8db63447b22e238fdf9fcd2, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3aef1e39c8db63447b22e238fdf9fcd2, type: 2}
@@ -22914,6 +23323,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonstairs1 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1259831339227758, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1471193215852040, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
   m_IsPrefabParent: 0
@@ -22977,6 +23394,14 @@ Prefab:
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1590005640534790, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1087194589056016, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
   m_IsPrefabParent: 0
@@ -23035,6 +23460,14 @@ Prefab:
     - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_Name
       value: Dungeonwall1 (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -23095,6 +23528,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -23153,6 +23594,14 @@ Prefab:
     - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_Name
       value: Dungeonwall1 (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -23213,6 +23662,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -23263,6 +23720,14 @@ Prefab:
     - target: {fileID: 1590005640534790, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
       propertyPath: m_Name
       value: Dungeonfloor1 (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590005640534790, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1087194589056016, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
@@ -23451,6 +23916,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -23624,6 +24097,14 @@ Prefab:
     - target: {fileID: 4924101304380338, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
       propertyPath: m_LocalScale.y
       value: 3.78525
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590005640534790, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1087194589056016, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
@@ -23974,6 +24455,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -24033,6 +24522,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (72)
       objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -24055,7 +24552,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &637565940
 Transform:
@@ -24157,6 +24654,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -24215,6 +24720,14 @@ Prefab:
     - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_Name
       value: Dungeonwall1 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -24374,6 +24887,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -24424,7 +24945,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &668105796
 Transform:
@@ -24489,7 +25010,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &679867263
 Transform:
@@ -24591,6 +25112,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -24649,6 +25178,14 @@ Prefab:
     - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_Name
       value: Dungeonwall1 (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -24948,6 +25485,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -25007,6 +25552,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (64)
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -25029,7 +25582,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &704425228
 Transform:
@@ -25131,6 +25684,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (73)
       objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -25201,6 +25762,14 @@ Prefab:
     - target: {fileID: 4531242446058442, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_LocalScale.z
       value: 1.0000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -25347,7 +25916,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &725807722
 Transform:
@@ -30136,6 +30705,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -30239,6 +30816,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -30303,6 +30888,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (77)
       objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -30362,6 +30955,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -30383,7 +30984,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &791229110
 Transform:
@@ -30637,6 +31238,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -30691,6 +31300,14 @@ Prefab:
     - target: {fileID: 4924101304380338, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
       propertyPath: m_LocalScale.y
       value: 3.78525
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590005640534790, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1087194589056016, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
@@ -30754,6 +31371,14 @@ Prefab:
     - target: {fileID: 4053482273714316, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
       propertyPath: m_LocalPosition.z
       value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1471193215852040, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1259831339227758, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
@@ -30826,6 +31451,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -30880,6 +31513,14 @@ Prefab:
     - target: {fileID: 4924101304380338, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
       propertyPath: m_LocalScale.y
       value: 3.78525
+      objectReference: {fileID: 0}
+    - target: {fileID: 1087194589056016, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590005640534790, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
@@ -30979,6 +31620,26 @@ Prefab:
       propertyPath: m_Name
       value: GroundTorch (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1677504857219472, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136598543808004, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587221671403834, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679431994838170, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1744831905384530, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
   m_IsPrefabParent: 0
@@ -31029,6 +31690,26 @@ Prefab:
     - target: {fileID: 1679431994838170, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
       propertyPath: m_Name
       value: GroundTorch (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1677504857219472, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587221671403834, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1744831905384530, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679431994838170, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136598543808004, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
@@ -31088,6 +31769,14 @@ Prefab:
     - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_Name
       value: Dungeonwall1 (65)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -31322,6 +32011,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonstairs1 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1259831339227758, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1471193215852040, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
   m_IsPrefabParent: 0
@@ -31373,6 +32070,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonstairs1 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1471193215852040, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1259831339227758, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
   m_IsPrefabParent: 0
@@ -31396,7 +32101,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &890477699
 Transform:
@@ -36173,6 +36878,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (75)
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -36236,6 +36949,14 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -36294,6 +37015,14 @@ Prefab:
     - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_Name
       value: Dungeonwall1 (67)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -36354,6 +37083,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -36413,6 +37150,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -36435,7 +37180,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &957660400
 Transform:
@@ -36561,6 +37306,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -36611,6 +37364,14 @@ Prefab:
     - target: {fileID: 1471193215852040, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
       propertyPath: m_Name
       value: Dungeonstairs1 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1471193215852040, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1259831339227758, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
@@ -36683,6 +37444,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -36745,6 +37514,14 @@ Prefab:
     - target: {fileID: 4000350312220420, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
       propertyPath: m_LocalPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590005640534790, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1087194589056016, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
@@ -37011,6 +37788,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -37061,6 +37846,14 @@ Prefab:
     - target: {fileID: 1590005640534790, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
       propertyPath: m_Name
       value: Dungeonfloor1 (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1087194589056016, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590005640534790, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
@@ -37113,6 +37906,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonfloor1 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1590005640534790, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1087194589056016, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
   m_IsPrefabParent: 0
@@ -37163,6 +37964,14 @@ Prefab:
     - target: {fileID: 1471193215852040, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
       propertyPath: m_Name
       value: Dungeonstairs1 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1471193215852040, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1259831339227758, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
@@ -37390,6 +38199,30 @@ Prefab:
       propertyPath: m_Intensity
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1137502975592700, guid: cb16adb13b53f8e4eab32901794ffd6b, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636991589558880, guid: cb16adb13b53f8e4eab32901794ffd6b, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1129858518109260, guid: cb16adb13b53f8e4eab32901794ffd6b, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1273349134023828, guid: cb16adb13b53f8e4eab32901794ffd6b, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503011130494772, guid: cb16adb13b53f8e4eab32901794ffd6b, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1239275043460938, guid: cb16adb13b53f8e4eab32901794ffd6b, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114924733171297068, guid: cb16adb13b53f8e4eab32901794ffd6b, type: 2}
     - {fileID: 114790797777888400, guid: cb16adb13b53f8e4eab32901794ffd6b, type: 2}
@@ -37414,7 +38247,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1025392472
 Transform:
@@ -37647,6 +38480,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -37718,6 +38559,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -37788,6 +38637,14 @@ Prefab:
     - target: {fileID: 4531242446058442, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_LocalScale.z
       value: 1.0000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -37963,6 +38820,14 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1.022919
       objectReference: {fileID: 0}
+    - target: {fileID: 1259831339227758, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1471193215852040, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
   m_IsPrefabParent: 0
@@ -38021,6 +38886,14 @@ Prefab:
     - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_Name
       value: Dungeonwall1 (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -38081,6 +38954,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -38103,7 +38984,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1124496425
 Transform:
@@ -38217,6 +39098,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -38275,6 +39164,14 @@ Prefab:
     - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_Name
       value: Dungeonwall1 (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -38335,6 +39232,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -38358,7 +39263,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1163300101
 Transform:
@@ -43135,6 +44040,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (68)
       objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -43190,6 +44103,14 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 3.78525
       objectReference: {fileID: 0}
+    - target: {fileID: 1590005640534790, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1087194589056016, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
   m_IsPrefabParent: 0
@@ -43240,6 +44161,14 @@ Prefab:
     - target: {fileID: 1590005640534790, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
       propertyPath: m_Name
       value: Dungeonfloor1 (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590005640534790, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1087194589056016, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
@@ -43299,6 +44228,14 @@ Prefab:
     - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_Name
       value: Dungeonwall1 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -43370,6 +44307,14 @@ Prefab:
     - target: {fileID: 4531242446058442, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_LocalScale.z
       value: 1.0000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -43683,6 +44628,30 @@ Prefab:
       propertyPath: m_Intensity
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1636991589558880, guid: cb16adb13b53f8e4eab32901794ffd6b, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1273349134023828, guid: cb16adb13b53f8e4eab32901794ffd6b, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503011130494772, guid: cb16adb13b53f8e4eab32901794ffd6b, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137502975592700, guid: cb16adb13b53f8e4eab32901794ffd6b, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1129858518109260, guid: cb16adb13b53f8e4eab32901794ffd6b, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1239275043460938, guid: cb16adb13b53f8e4eab32901794ffd6b, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114924733171297068, guid: cb16adb13b53f8e4eab32901794ffd6b, type: 2}
     - {fileID: 114790797777888400, guid: cb16adb13b53f8e4eab32901794ffd6b, type: 2}
@@ -43755,6 +44724,14 @@ Prefab:
     - target: {fileID: 4531242446058442, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_LocalScale.z
       value: 1.0000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -43923,6 +44900,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -43986,6 +44971,14 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -44011,7 +45004,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1246390328
 Transform:
@@ -44137,6 +45130,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -44191,6 +45192,14 @@ Prefab:
     - target: {fileID: 4924101304380338, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
       propertyPath: m_LocalScale.y
       value: 3.78525
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590005640534790, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1087194589056016, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
@@ -44326,7 +45335,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1266479980
 Transform:
@@ -49103,6 +50112,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -49161,6 +50178,14 @@ Prefab:
     - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_Name
       value: Dungeonwall1 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -49232,6 +50257,14 @@ Prefab:
     - target: {fileID: 4531242446058442, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_LocalScale.z
       value: 1.0000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -49423,6 +50456,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -49481,6 +50522,14 @@ Prefab:
     - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_Name
       value: Dungeonwall1 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -49545,6 +50594,14 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -49604,6 +50661,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -49654,6 +50719,26 @@ Prefab:
     - target: {fileID: 1679431994838170, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
       propertyPath: m_Name
       value: GroundTorch (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1677504857219472, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136598543808004, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679431994838170, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1744831905384530, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587221671403834, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
@@ -49714,6 +50799,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -49772,6 +50865,14 @@ Prefab:
     - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_Name
       value: Dungeonwall1 (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -50240,6 +51341,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -50286,6 +51395,14 @@ Prefab:
     - target: {fileID: 4924101304380338, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
       propertyPath: m_RootOrder
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590005640534790, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1087194589056016, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
@@ -50346,6 +51463,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -50404,6 +51529,14 @@ Prefab:
     - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_Name
       value: Dungeonwall1 (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -50464,6 +51597,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (79)
       objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -50518,6 +51659,14 @@ Prefab:
     - target: {fileID: 4348399235129302, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
       propertyPath: m_LocalScale.x
       value: 1.0383469
+      objectReference: {fileID: 0}
+    - target: {fileID: 1259831339227758, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1471193215852040, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
@@ -50584,6 +51733,14 @@ Prefab:
     - target: {fileID: 4531242446058442, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_LocalScale.z
       value: 1.0000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -50656,6 +51813,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -50719,6 +51884,14 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -50778,6 +51951,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -50801,7 +51982,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1479752606
 Transform:
@@ -55590,6 +56771,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -55613,7 +56802,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1490189177
 Transform:
@@ -60402,6 +61591,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -60473,6 +61670,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -60531,6 +61736,14 @@ Prefab:
     - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_Name
       value: Dungeonwall1 (76)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -60603,6 +61816,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -60674,6 +61895,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -60732,6 +61961,14 @@ Prefab:
     - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_Name
       value: Dungeonwall1 (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -60796,6 +62033,14 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -60818,7 +62063,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1558837027
 Transform:
@@ -60948,6 +62193,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -60999,6 +62252,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonstairs1 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1471193215852040, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1259831339227758, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
   m_IsPrefabParent: 0
@@ -61023,7 +62284,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1590131740
 Transform:
@@ -61203,6 +62464,30 @@ Prefab:
       propertyPath: m_Intensity
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1129858518109260, guid: cb16adb13b53f8e4eab32901794ffd6b, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1239275043460938, guid: cb16adb13b53f8e4eab32901794ffd6b, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1273349134023828, guid: cb16adb13b53f8e4eab32901794ffd6b, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636991589558880, guid: cb16adb13b53f8e4eab32901794ffd6b, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137502975592700, guid: cb16adb13b53f8e4eab32901794ffd6b, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503011130494772, guid: cb16adb13b53f8e4eab32901794ffd6b, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114924733171297068, guid: cb16adb13b53f8e4eab32901794ffd6b, type: 2}
     - {fileID: 114790797777888400, guid: cb16adb13b53f8e4eab32901794ffd6b, type: 2}
@@ -61264,6 +62549,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -61322,6 +62615,14 @@ Prefab:
     - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_Name
       value: Dungeonwall1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -61401,6 +62702,14 @@ Prefab:
     - target: {fileID: 4531242446058442, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_LocalScale.x
       value: 0.7199162
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -61582,6 +62891,14 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 3.78525
       objectReference: {fileID: 0}
+    - target: {fileID: 1590005640534790, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1087194589056016, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
   m_IsPrefabParent: 0
@@ -61652,6 +62969,14 @@ Prefab:
     - target: {fileID: 4531242446058442, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_LocalScale.z
       value: 1.0000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -61848,6 +63173,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -61871,7 +63204,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1752022537
 Transform:
@@ -66640,6 +67973,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonstairs1 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1471193215852040, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1259831339227758, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
   m_IsPrefabParent: 0
@@ -66694,6 +68035,14 @@ Prefab:
     - target: {fileID: 4924101304380338, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
       propertyPath: m_LocalScale.y
       value: 3.78525
+      objectReference: {fileID: 0}
+    - target: {fileID: 1087194589056016, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590005640534790, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
@@ -66758,6 +68107,14 @@ Prefab:
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1087194589056016, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590005640534790, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
   m_IsPrefabParent: 0
@@ -66813,6 +68170,14 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 3.78525
       objectReference: {fileID: 0}
+    - target: {fileID: 1087194589056016, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590005640534790, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
   m_IsPrefabParent: 0
@@ -66863,6 +68228,26 @@ Prefab:
     - target: {fileID: 1679431994838170, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
       propertyPath: m_Name
       value: GroundTorch (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136598543808004, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679431994838170, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1677504857219472, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1744831905384530, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587221671403834, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 417c980288eb0714f966eff7910a67f4, type: 2}
@@ -66934,6 +68319,14 @@ Prefab:
     - target: {fileID: 4531242446058442, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_LocalScale.z
       value: 1.0000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -67133,6 +68526,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -67322,6 +68723,14 @@ Prefab:
     - target: {fileID: 4531242446058442, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_LocalScale.z
       value: 1.0000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -67613,6 +69022,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -67671,6 +69088,14 @@ Prefab:
     - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_Name
       value: Dungeonwall1 (78)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -67731,6 +69156,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -67789,6 +69222,14 @@ Prefab:
     - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_Name
       value: Dungeonwall1 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -67861,6 +69302,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -67915,6 +69364,14 @@ Prefab:
     - target: {fileID: 4348399235129302, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 1259831339227758, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1471193215852040, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
@@ -67987,6 +69444,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -68046,6 +69511,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -68096,6 +69569,14 @@ Prefab:
     - target: {fileID: 1590005640534790, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
       propertyPath: m_Name
       value: Dungeonfloor1 (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590005640534790, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1087194589056016, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
@@ -68168,6 +69649,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -68230,6 +69719,14 @@ Prefab:
     - target: {fileID: 4531242446058442, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -68294,6 +69791,14 @@ Prefab:
     - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_Name
       value: Dungeonwall1 (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -68365,6 +69870,14 @@ Prefab:
     - target: {fileID: 4531242446058442, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_LocalScale.z
       value: 1.0000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -68651,6 +70164,14 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1.0118616
       objectReference: {fileID: 0}
+    - target: {fileID: 1471193215852040, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1259831339227758, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
   m_IsPrefabParent: 0
@@ -68722,6 +70243,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -68781,6 +70310,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -68839,6 +70376,14 @@ Prefab:
     - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
       propertyPath: m_Name
       value: Dungeonwall1 (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
@@ -68911,6 +70456,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -68982,6 +70535,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -69037,6 +70598,14 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 3.78525
       objectReference: {fileID: 0}
+    - target: {fileID: 1590005640534790, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1087194589056016, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
   m_IsPrefabParent: 0
@@ -69088,6 +70657,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonfloor1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1590005640534790, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1087194589056016, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
   m_IsPrefabParent: 0
@@ -69138,6 +70715,14 @@ Prefab:
     - target: {fileID: 1590005640534790, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
       propertyPath: m_Name
       value: Dungeonfloor1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590005640534790, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1087194589056016, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
@@ -69210,6 +70795,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -69269,6 +70862,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -69323,6 +70924,14 @@ Prefab:
     - target: {fileID: 4924101304380338, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
       propertyPath: m_LocalScale.y
       value: 3.78525
+      objectReference: {fileID: 0}
+    - target: {fileID: 1087194589056016, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590005640534790, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
@@ -69383,6 +70992,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (69)
       objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -69437,6 +71054,14 @@ Prefab:
     - target: {fileID: 4348399235129302, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 1471193215852040, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1259831339227758, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bd239f9df852a344baf431f861f0c00d, type: 2}
@@ -69501,6 +71126,14 @@ Prefab:
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1087194589056016, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590005640534790, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
   m_IsPrefabParent: 0
@@ -69560,6 +71193,14 @@ Prefab:
       propertyPath: m_Name
       value: Dungeonwall1 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1609645328373660, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740378951563900, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d8c8dde4f8bb914da46a53a73e2e963, type: 2}
   m_IsPrefabParent: 0
@@ -69614,6 +71255,14 @@ Prefab:
     - target: {fileID: 4924101304380338, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
       propertyPath: m_LocalScale.y
       value: 3.78525
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590005640534790, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1087194589056016, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 220b9c263a9a16f42ae913593235e1c6, type: 2}
