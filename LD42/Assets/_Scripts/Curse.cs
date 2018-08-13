@@ -38,7 +38,6 @@ public class Curse : MonoBehaviour
             item.Restore();
         }
         OnCurse = false;
-        CurseObject.SetActive(false);
         current = 0;
     }
 
@@ -47,7 +46,11 @@ public class Curse : MonoBehaviour
         current++;
         if (current >= needed)
         {
-            Reset();
+            foreach (var item in labels)
+            {
+                item.DisableComandable();
+            }
+            CurseObject.SetActive(false);
             CompleteEvent.Invoke();
         }
     }

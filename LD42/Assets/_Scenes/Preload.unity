@@ -719,6 +719,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: a736b8de68f300846897f28c1e45e890, type: 3}
   - {fileID: 8300000, guid: 401be687fa502e5499a5e492bad653a2, type: 3}
   - {fileID: 8300000, guid: 3e159f2fec1d0874cb051696dddcc724, type: 3}
+  - {fileID: 8300000, guid: aee87e6bea3eaf04690364a265a80ae9, type: 3}
 --- !u!82 &267239452
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5087,7 +5088,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 569049202}
   m_Direction: 2
   m_Value: 0
-  m_Size: 1
+  m_Size: 0.9995101
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -7935,7 +7936,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.000019769288}
+  m_AnchoredPosition: {x: 0, y: 0.0000025433499}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1953159602
