@@ -6,7 +6,7 @@ public class KillZone : MonoBehaviour {
     {
         if (other.tag == "Player")
         {
-            PlayerController.Instance.Die();
+            PlayerController.Instance.Die(gameObject.name);
         }
     }
 }

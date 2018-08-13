@@ -55,6 +55,6 @@ public class Curse : MonoBehaviour
     public void KillPlayer()
     {
         Reset();
-        PlayerController.Instance.Die();
+        PlayerController.Instance.Die("CurseKill");
     }
 }

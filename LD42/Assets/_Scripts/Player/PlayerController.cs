@@ -41,6 +41,7 @@ public class PlayerController : SingletonBase<PlayerController>
     public Transform UMiddleCameraPos;
     public Transform UBackCameraPos;
     public Coroutine CamMove;
+    public Transform CurrentCam;
 
     public override void Awake()
     {
@@ -50,6 +51,7 @@ public class PlayerController : SingletonBase<PlayerController>
         _charController = GetComponent<CharacterController>();
         SetInventory();
     }
+
     public void ChangeCameraPos(int v)
     {
         if (CamMove != null)
@@ -60,21 +62,26 @@ public class PlayerController : SingletonBase<PlayerController>
         switch (v)
         {
             case 0:
+                CurrentCam = FrontCameraPos;
                 CamMove = StartCoroutine(C_LerpCamera(FrontCameraPos));
                 break;
             case 1:
+                CurrentCam = MiddleCameraPos;
                 CamMove = StartCoroutine(C_LerpCamera(MiddleCameraPos));
                 break;
             case 2:
                 CamMove = StartCoroutine(C_LerpCamera(BackCameraPos));
                 break;
             case 3:
+                CurrentCam = UBackCameraPos;
                 CamMove = StartCoroutine(C_LerpCamera(UBackCameraPos));
                 break;
             case 4:
+                CurrentCam = UMiddleCameraPos;
                 CamMove = StartCoroutine(C_LerpCamera(UMiddleCameraPos));
                 break;
             case 5:
+                CurrentCam = UBackCameraPos;
                 CamMove = StartCoroutine(C_LerpCamera(UBackCameraPos));
                 break;
             default:
@@ -181,8 +188,9 @@ public class PlayerController : SingletonBase<PlayerController>
     }
 
     [ContextMenu("Die")]
-    public void Die()
+    public void Die(string killer)
     {
+        Debug.Log("DiedBy: " + killer);
         if (_currentPlayerState == PlayerState.Dead) return;
         _rigidbody.isKinematic = true;
         SetPlayerState(PlayerState.Dead);
