@@ -113,6 +113,7 @@ public class DialogManager : SingletonBase<DialogManager>
 
     public void StartConversation(Conversation conversation, DialogTrigger trigger)
     {
+        if (eventList.Count != 0) return;
         eventList = conversation.Conversations;
         //Debug.Log(trigger.gameObject.name);
         ResetEvents();
