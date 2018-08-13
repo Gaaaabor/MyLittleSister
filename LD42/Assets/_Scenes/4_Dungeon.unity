@@ -23541,39 +23541,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Conversation:
     Conversations:
-    - Id: 
-      Clear: 1
-      Stop: 0
-      Timestemp: 0
-      Event:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      IsModal: 0
-      PlayerState: 1
-    - Id: 
-      Clear: 1
-      Stop: 0
-      Timestemp: 5
-      Event:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 0}
-            m_MethodName: SetActive
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      IsModal: 0
-      PlayerState: 0
     - Id: END
       Clear: 1
       Stop: 0
@@ -23654,8 +23621,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 595175511}
-  m_LocalRotation: {x: 0.3171947, y: 0.058276765, z: 0.019533688, w: -0.94636667}
-  m_LocalPosition: {x: 1345.0522, y: -61.31623, z: -15.960404}
+  m_LocalRotation: {x: 0.23083164, y: 0.06125272, z: 0.0145630175, w: -0.9709546}
+  m_LocalPosition: {x: 1095.2213, y: -157.51009, z: -45.763313}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -24144,7 +24111,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Conversation:
     Conversations:
-    - Id: 
+    - Id: RunFaster
       Clear: 1
       Stop: 0
       Timestemp: 0
@@ -24154,29 +24121,7 @@ MonoBehaviour:
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
       IsModal: 0
-      PlayerState: 1
-    - Id: 
-      Clear: 1
-      Stop: 0
-      Timestemp: 5
-      Event:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 0}
-            m_MethodName: SetActive
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      IsModal: 0
-      PlayerState: 0
+      PlayerState: 3
     - Id: END
       Clear: 0
       Stop: 0
@@ -25042,7 +24987,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Conversation:
     Conversations:
-    - Id: 
+    - Id: FinnalyMeet
       Clear: 1
       Stop: 0
       Timestemp: 0
@@ -25053,24 +24998,13 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       IsModal: 0
       PlayerState: 1
-    - Id: 
+    - Id: wewillseeit
       Clear: 1
       Stop: 0
       Timestemp: 5
       Event:
         m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 0}
-            m_MethodName: SetActive
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
+          m_Calls: []
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
       IsModal: 0
@@ -44023,7 +43957,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Conversation:
     Conversations:
-    - Id: 
+    - Id: Death
       Clear: 1
       Stop: 0
       Timestemp: 0
@@ -44034,28 +43968,6 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       IsModal: 0
       PlayerState: 1
-    - Id: 
-      Clear: 1
-      Stop: 0
-      Timestemp: 5
-      Event:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 0}
-            m_MethodName: SetActive
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      IsModal: 0
-      PlayerState: 0
     - Id: END
       Clear: 0
       Stop: 0

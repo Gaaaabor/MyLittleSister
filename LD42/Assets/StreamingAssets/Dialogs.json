@@ -426,16 +426,9 @@
 
 		{
 			"ID": "WhatDidYOuDo",
-			"Placement": "SusyLeftForYouASecond",
+			"Placement": "BottonRight",
 			"Owner": "Chris",
 			"Body": "Suzy!\n\rWhat did you do again? I left you only for second, I had to answer the phone.\n\rPlease, let me write the codes."
-		},
-
-{
-			"ID": "RunFaster",
-			"Placement": "Top",
-			"Owner": "Narrator",
-			"Body": "You have to run faster! \n\rPress space! \n\rSpace, space, space!"
 		},
 
 		{
@@ -445,7 +438,14 @@
 			"Body": "You found the legacy code!\n\rNow you can use short commands.\n\rFor example \"e\" is for enable."
 		},
 		{
-			"ID": "administrator_80",
+			"ID": "RunFaster",
+			"Placement": "Top",
+			"Owner": "Narrator",
+			"Body": "You have to run faster! \n\rPress space! \n\rSpace, space, space!"
+		},
+
+		{
+			"ID": "FinnalyMeet",
 			"Placement": "TopRight",
 			"Owner": "Dark Knight",
 			"Body": "Ah, finally we can meet personally. I have heard so much from you. But your fame means nothing, you have no chance against me."
@@ -459,12 +459,24 @@
 		},
 
 		{
-			"ID": "administrator_90",
+			"ID": "Death",
+			"Placement": "TopRight",
+			"Owner": "Dark Knight",
+			"Body": "Whaaghhhh"
+		},
+
+		{
+			"ID": "YouCheat",
 			"Placement": "TopRight",
 			"Owner": "Dark Knight",
 			"Body": "White Knight, you are a cheater! You are much worse than me! You can try to escape, but I know some dev commands too:\n\rActivate recursion!"
 		},
-
+		{
+			"ID": "CanRunHide",
+			"Placement": "TopRight",
+			"Owner": "Dark Knight",
+			"Body": "You can run! But cannot hide! /enable recursion"
+		},
 		{
 			"ID": "disableloop",
 			"Placement": "BottomLeft",
@@ -479,15 +491,10 @@
 			"Body": "He is destroying the whole world! We cannot let him to do it, we have to save the princess.\n\rHurry, Suzy! Run as fast as you can!"
 		},
 
-		{
-			"ID": "administrator_xxx",
-			"Placement": "TopRight",
-			"Owner": "Dark Knight",
-			"Body": "You can run! But cannot hide!"
-		},
+
 
 		{
-			"ID": "administrator_xxxxx",
+			"ID": "Meteor",
 			"Placement": "TopRight",
 			"Owner": "Dark Knight",
 			"Body": "/spawn meteorshower"
@@ -501,25 +508,18 @@
 		},
 
 		{
-			"ID": "administrator_xxxx",
+			"ID": "KillMap",
 			"Placement": "TopRight",
 			"Owner": "Dark Knight",
-			"Body": "/spawn Beeswarm"
+			"Body": "/kill map"
 		},
 
-			{
-				"ID": "administrator_xxxxx",
-				"Placement": "TopRight",
-				"Owner": "Dark Knight",
-				"Body": "/kill map"
-			},
-
-			{
-				"ID": "administrator_xxxxxyx",
-				"Placement": "Top",
-				"Owner": "Report",
-				"Body": "Texture not found"
-			},
+		{
+			"ID": "TextureNotFound",
+			"Placement": "Top",
+			"Owner": "Report",
+			"Body": "Texture not found"
+		},
 
 		{
 			"ID": "Whathaveyoudone",
@@ -528,7 +528,7 @@
 			"Body": "What have you dead... No. This is unexpec... Up. It Done... Please stop right... You can't do this..."
 		},
 		{
-			"ID": "disableanticheat",
+			"ID": "DisableAntiCheat",
 			"Placement": "BottomLeft",
 			"Owner": "Suzy",
 			"Body": "Disable the built in anti cheat mode!"
@@ -542,7 +542,7 @@
 
 
 		{
-			"ID": "administrator_9011",
+			"ID": "Nooo",
 			"Placement": "TopRight",
 			"Owner": "Dark Knight",
 			"Body": "Noooooooooooooo!"
@@ -620,6 +620,12 @@
 			"Placement": "BottomRight",
 			"Owner": "Chris",
 			"Body": "Sure, Once upon a time on computer game ....!"
+		},
+		{
+			"ID": "Bonustime",
+			"Placement": "Top",
+			"Owner": "Narrator",
+			"Body": "Bonus speed activated!"
 		}
 	]
 }

@@ -6645,7 +6645,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Conversation:
     Conversations:
-    - Id: 
+    - Id: BonusSpeed
       Clear: 1
       Stop: 0
       Timestemp: 0
@@ -111557,7 +111557,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Conversation:
     Conversations:
-    - Id: 
+    - Id: WhatDidYOuDo
       Clear: 1
       Stop: 0
       Timestemp: 0
@@ -133278,10 +133278,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Conversation:
     Conversations:
-    - Id: 
+    - Id: ShortCommands
       Clear: 0
       Stop: 0
       Timestemp: 0
+      Event:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 1854354674}
+            m_MethodName: SetActive
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      IsModal: 0
+      PlayerState: 2
+    - Id: 
+      Clear: 0
+      Stop: 0
+      Timestemp: 5
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -145718,7 +145740,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDestroyed: 0
-  ManagedName: AllTrap
+  ManagedName: alltraps
   CurrentState: 0
   StartEnabled: 0
   TargetObject: {fileID: 2033916494}
@@ -146846,7 +146868,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Conversation:
     Conversations:
-    - Id: 
+    - Id: whereareyou
       Clear: 1
       Stop: 0
       Timestemp: 0
@@ -146857,7 +146879,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       IsModal: 0
       PlayerState: 1
-    - Id: 
+    - Id: enablealltraps
       Clear: 1
       Stop: 0
       Timestemp: 5
