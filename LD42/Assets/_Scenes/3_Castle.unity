@@ -110880,7 +110880,7 @@ MonoBehaviour:
     - Id: 
       Clear: 1
       Stop: 0
-      Timestemp: 5
+      Timestemp: 8
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -132419,7 +132419,7 @@ MonoBehaviour:
     - Id: 
       Clear: 1
       Stop: 0
-      Timestemp: 5
+      Timestemp: 11
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -146089,7 +146089,7 @@ MonoBehaviour:
     - Id: enablealltraps
       Clear: 1
       Stop: 0
-      Timestemp: 5
+      Timestemp: 6
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -146111,7 +146111,7 @@ MonoBehaviour:
     - Id: END
       Clear: 0
       Stop: 0
-      Timestemp: 10
+      Timestemp: 21
       Event:
         m_PersistentCalls:
           m_Calls:
