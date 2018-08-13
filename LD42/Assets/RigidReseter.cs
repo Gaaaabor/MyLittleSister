@@ -12,7 +12,10 @@ public class RigidReseter : MonoBehaviour
         _lastPos = transform.localPosition;
         _lastRot = transform.localRotation;
     }
-
+    private void OnEnable()
+    {
+        Reset();
+    }
     public void Reset()
     {
         transform.localPosition = _lastPos;

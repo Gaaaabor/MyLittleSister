@@ -11,17 +11,18 @@ public class PlayerReagator : MonoBehaviour
     public UnityEvent Event;
     private List<GameObject> _insatntiated = new List<GameObject>();
     private List<Vector3> _startPoses = new List<Vector3>();
-
+    public bool ResetPose = true;
     private void Awake()
     {
         if (Prefab != null)
             Prefab.SetActive(false);
 
-        foreach (var item in ActiveStartOjects)
-        {
-            _startPoses.Add(item.transform.position);
-            item.SetActive(false);
-        }
+        if (ResetPose)
+            foreach (var item in ActiveStartOjects)
+            {
+                _startPoses.Add(item.transform.position);
+                item.SetActive(false);
+            }
     }
 
     public void Spawn()
@@ -58,17 +59,22 @@ public class PlayerReagator : MonoBehaviour
             Destroy(item);
         }
         _insatntiated.Clear();
+        if (ResetPose)
+            for (int i = 0; i < ActiveStartOjects.Count; i++)
+            {
+                ActiveStartOjects[i].transform.position = _startPoses[i];
 
-        for (int i = 0; i < ActiveStartOjects.Count; i++)
+            }
+
+        foreach (var item in ActiveStartOjects)
         {
-            ActiveStartOjects[i].SetActive(false);
-            ActiveStartOjects[i].transform.position = _startPoses[i];
-            var move = ActiveStartOjects[i].GetComponent<MoveToPlayer>();
+            item.SetActive(false);
+
+            var move = item.GetComponent<MoveToPlayer>();
             if (move != null)
             {
                 move.Reset();
             }
         }
-
     }
 }

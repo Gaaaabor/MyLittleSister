@@ -6446,6 +6446,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1364112228}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   CanDisable: 1
@@ -6484,6 +6495,17 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1364112228}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
@@ -6529,6 +6551,17 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1364112228}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
@@ -11817,7 +11850,7 @@ Transform:
   m_LocalScale: {x: 5.0032597, y: 11.13906, z: 5.0032597}
   m_Children: []
   m_Father: {fileID: 502156281}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &325064081
 MonoBehaviour:
@@ -11860,6 +11893,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  ResetPose: 1
 --- !u!65 &325064083
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22824,15 +22858,15 @@ Transform:
   - {fileID: 1297476858}
   - {fileID: 2008430282}
   - {fileID: 1186926863}
-  - {fileID: 1019741633}
   - {fileID: 565390552}
+  - {fileID: 1019741633}
   - {fileID: 860022980}
-  - {fileID: 985426535}
   - {fileID: 325064080}
+  - {fileID: 985426535}
   - {fileID: 241957620}
+  - {fileID: 1827275411}
   - {fileID: 1650003465}
   - {fileID: 1364112227}
-  - {fileID: 1827275411}
   - {fileID: 860956458}
   m_Father: {fileID: 458483616}
   m_RootOrder: 1
@@ -23263,12 +23297,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 565390551}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -820.6, y: -22.599997, z: 0}
+  m_LocalPosition: {x: 343.4, y: -4.1, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1857723471}
   m_Father: {fileID: 502156281}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &565390553
 MonoBehaviour:
@@ -23609,6 +23643,7 @@ GameObject:
   - component: {fileID: 591297679}
   - component: {fileID: 591297681}
   - component: {fileID: 591297680}
+  - component: {fileID: 591297682}
   m_Layer: 0
   m_Name: Dialog4 - KeepGoo
   m_TagString: Untagged
@@ -23623,7 +23658,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 591297678}
   m_LocalRotation: {x: 0.21201402, y: -0.04835092, z: -0.010502081, w: 0.9760133}
-  m_LocalPosition: {x: -131.79994, y: 48.899994, z: 157.00002}
+  m_LocalPosition: {x: -150.4, y: 49.7, z: 155.3}
   m_LocalScale: {x: 29.00759, y: 1, z: 0.99999994}
   m_Children: []
   m_Father: {fileID: 744203979}
@@ -23676,6 +23711,17 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       IsModal: 0
       PlayerState: 3
+--- !u!114 &591297682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 591297678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 991b1d0753539e746916147e2bb19d4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &595175511
 GameObject:
   m_ObjectHideFlags: 0
@@ -23685,6 +23731,7 @@ GameObject:
   m_Component:
   - component: {fileID: 595175513}
   - component: {fileID: 595175512}
+  - component: {fileID: 595175514}
   m_Layer: 0
   m_Name: LavaReflectionSceneCamera
   m_TagString: Untagged
@@ -23734,13 +23781,21 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 595175511}
-  m_LocalRotation: {x: 0.07509657, y: 0.59616137, z: 0.056147896, w: -0.7973704}
-  m_LocalPosition: {x: 1207.6923, y: -94.84685, z: -7.2485223}
+  m_LocalRotation: {x: 0.084801205, y: 0.004485108, z: 0.0003826781, w: -0.9963877}
+  m_LocalPosition: {x: 1348.8951, y: -52.441177, z: -21.682701}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!45 &595175514
+Skybox:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 595175511}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 0}
 --- !u!1001 &613397554
 Prefab:
   m_ObjectHideFlags: 0
@@ -24236,9 +24291,9 @@ MonoBehaviour:
       IsModal: 0
       PlayerState: 3
     - Id: END
-      Clear: 0
+      Clear: 1
       Stop: 0
-      Timestemp: 10
+      Timestemp: 5
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -24349,7 +24404,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 663826490}
   m_LocalRotation: {x: 0.0017326779, y: -0.99648917, z: -0.00014557343, w: 0.08370418}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 5, y: 11.3, z: -0.8}
   m_LocalScale: {x: 4.402075, y: 4.402078, z: 4.4020753}
   m_Children: []
   m_Father: {fileID: 241957620}
@@ -24618,6 +24673,7 @@ GameObject:
   - component: {fileID: 685509314}
   - component: {fileID: 685509313}
   - component: {fileID: 685509319}
+  - component: {fileID: 685509320}
   m_Layer: 0
   m_Name: RollingStone_1
   m_TagString: Untagged
@@ -24746,6 +24802,101 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _lastPos: {x: 0, y: 0, z: 0}
   _lastRot: {x: 0, y: 0, z: 0, w: 0}
+--- !u!82 &685509320
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 685509311}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: f3f86dc172b7ca64eacd722c6d1ae762, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &692433752
 Prefab:
   m_ObjectHideFlags: 0
@@ -25069,6 +25220,7 @@ GameObject:
   - component: {fileID: 718578564}
   - component: {fileID: 718578566}
   - component: {fileID: 718578565}
+  - component: {fileID: 718578567}
   m_Layer: 0
   m_Name: Dialog2 - Knight
   m_TagString: Untagged
@@ -25083,8 +25235,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 718578563}
   m_LocalRotation: {x: 0.21201402, y: -0.04835092, z: -0.010502081, w: 0.9760133}
-  m_LocalPosition: {x: -159.4, y: 50, z: 154.5}
-  m_LocalScale: {x: 29.00759, y: 1, z: 0.99999994}
+  m_LocalPosition: {x: -146.24, y: 49.45, z: 155.69}
+  m_LocalScale: {x: 8.706375, y: 1, z: 0.99999994}
   m_Children: []
   m_Father: {fileID: 744203979}
   m_RootOrder: 1
@@ -25169,6 +25321,17 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       IsModal: 0
       PlayerState: 0
+--- !u!114 &718578567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 718578563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 991b1d0753539e746916147e2bb19d4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &725807721
 GameObject:
   m_ObjectHideFlags: 0
@@ -31087,7 +31250,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b948d963ef501e542894e8e842024c69, type: 3}
       propertyPath: m_RootOrder
-      value: 27
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b948d963ef501e542894e8e842024c69, type: 3}
       propertyPath: m_LocalScale.x
@@ -36687,7 +36850,7 @@ Transform:
   m_LocalScale: {x: 5.0032597, y: 11.13906, z: 5.0032597}
   m_Children: []
   m_Father: {fileID: 502156281}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &985426536
 MonoBehaviour:
@@ -36730,6 +36893,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  ResetPose: 1
 --- !u!65 &985426538
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37020,7 +37184,6 @@ GameObject:
   - component: {fileID: 1019741636}
   - component: {fileID: 1019741635}
   - component: {fileID: 1019741634}
-  - component: {fileID: 1019741638}
   m_Layer: 0
   m_Name: RollingStoneReagator
   m_TagString: Untagged
@@ -37035,11 +37198,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1019741632}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 386.96, y: -41.3, z: 0}
+  m_LocalPosition: {x: 380.4, y: -37.2, z: 0}
   m_LocalScale: {x: 5.0032597, y: 11.13906, z: 5.0032597}
   m_Children: []
   m_Father: {fileID: 502156281}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1019741634
 MonoBehaviour:
@@ -37058,20 +37221,10 @@ MonoBehaviour:
   TimeInterval: 0
   Event:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1019741638}
-        m_MethodName: Shake
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  ResetPose: 0
 --- !u!65 &1019741635
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37126,19 +37279,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1019741632}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1019741638
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1019741632}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d38d38e7c13ffe4781fab87df3c6ad2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Duration: 3
-  Amount: 0.5
 --- !u!1001 &1021353317
 Prefab:
   m_ObjectHideFlags: 0
@@ -43326,7 +43466,6 @@ GameObject:
   - component: {fileID: 1186926865}
   - component: {fileID: 1186926864}
   - component: {fileID: 1186926868}
-  - component: {fileID: 1186926869}
   m_Layer: 0
   m_Name: RollingStoneReagator1
   m_TagString: Untagged
@@ -43364,31 +43503,10 @@ MonoBehaviour:
   TimeInterval: 0
   Event:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1019741638}
-        m_MethodName: Shake
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1186926868}
-        m_MethodName: ChangeCamera
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 4
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  ResetPose: 0
 --- !u!65 &1186926865
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43454,19 +43572,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71427d8e99b1b4e46966d5962e04d834, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1186926869
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1186926862}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d38d38e7c13ffe4781fab87df3c6ad2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Duration: 3
-  Amount: 0.5
 --- !u!1001 &1188460563
 Prefab:
   m_ObjectHideFlags: 0
@@ -44105,6 +44210,7 @@ GameObject:
   - component: {fileID: 1260168613}
   - component: {fileID: 1260168615}
   - component: {fileID: 1260168614}
+  - component: {fileID: 1260168616}
   m_Layer: 0
   m_Name: Dialog3- GrabPrincess
   m_TagString: Untagged
@@ -44119,7 +44225,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1260168612}
   m_LocalRotation: {x: 0.21201402, y: -0.04835092, z: -0.010502081, w: 0.9760133}
-  m_LocalPosition: {x: -131.8, y: 48.9, z: 157}
+  m_LocalPosition: {x: -150.8, y: 49.7, z: 155.3}
   m_LocalScale: {x: 29.00759, y: 1, z: 0.99999994}
   m_Children: []
   m_Father: {fileID: 744203979}
@@ -44162,7 +44268,7 @@ MonoBehaviour:
       IsModal: 0
       PlayerState: 1
     - Id: END
-      Clear: 0
+      Clear: 1
       Stop: 0
       Timestemp: 10
       Event:
@@ -44194,6 +44300,17 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       IsModal: 0
       PlayerState: 0
+--- !u!114 &1260168616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1260168612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 991b1d0753539e746916147e2bb19d4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1266479979
 GameObject:
   m_ObjectHideFlags: 0
@@ -49786,7 +49903,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4491694386117548, guid: 9b80711f1ef645e47bfe92dfa2e60876, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 287.7
+      value: 303.3
       objectReference: {fileID: 0}
     - target: {fileID: 4491694386117548, guid: 9b80711f1ef645e47bfe92dfa2e60876, type: 2}
       propertyPath: m_LocalPosition.y
@@ -49912,7 +50029,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400048, guid: f479a5d3df8b77b4b95d7c42a96a231c, type: 3}
       propertyPath: m_RootOrder
-      value: 25
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 400048, guid: f479a5d3df8b77b4b95d7c42a96a231c, type: 3}
       propertyPath: m_LocalScale.x
@@ -60774,7 +60891,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1561442190}
   m_LocalRotation: {x: 0.0017326779, y: -0.99648917, z: -0.00014557343, w: 0.08370418}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 35.8, y: 8.1, z: -6.1}
   m_LocalScale: {x: 4.402075, y: 4.402078, z: 4.4020753}
   m_Children: []
   m_Father: {fileID: 1827275411}
@@ -60907,7 +61024,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1590131740
 Transform:
   m_ObjectHideFlags: 0
@@ -61330,7 +61447,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4505042227249754, guid: dfb152a983297e7489e804187a596233, type: 2}
       propertyPath: m_RootOrder
-      value: 24
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 1025284620068332, guid: dfb152a983297e7489e804187a596233, type: 2}
       propertyPath: m_Name
@@ -66856,7 +66973,7 @@ Transform:
   m_Children:
   - {fileID: 1561442191}
   m_Father: {fileID: 502156281}
-  m_RootOrder: 24
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1827275412
 MonoBehaviour:
@@ -66870,29 +66987,40 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDestroyed: 0
-  ManagedName: KillKnight
+  ManagedName: DarkKnight
   CurrentState: 0
   StartEnabled: 1
   TargetObject: {fileID: 860956459}
-  CanEnable: 1
+  CanEnable: 0
   EnableEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  CanDisable: 1
+  CanDisable: 0
   DisableEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  CanDestroy: 0
+  CanDestroy: 1
   DestroyEvent:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1260168612}
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1827275412}
+        m_MethodName: DisableComandable
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -67218,6 +67346,7 @@ GameObject:
   - component: {fileID: 1857723477}
   - component: {fileID: 1857723474}
   - component: {fileID: 1857723478}
+  - component: {fileID: 1857723479}
   m_Layer: 0
   m_Name: RollingStone_1
   m_TagString: Untagged
@@ -67232,7 +67361,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1857723470}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -6.9, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 133766001}
@@ -67331,7 +67460,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 120
+  m_Constraints: 8
   m_CollisionDetection: 0
 --- !u!114 &1857723478
 MonoBehaviour:
@@ -67346,6 +67475,101 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _lastPos: {x: 0, y: 0, z: 0}
   _lastRot: {x: 0, y: 0, z: 0, w: 0}
+--- !u!82 &1857723479
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1857723470}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: f3f86dc172b7ca64eacd722c6d1ae762, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &1867030700
 Prefab:
   m_ObjectHideFlags: 0
