@@ -620,7 +620,7 @@ MonoBehaviour:
     - Id: Sword
       Clear: 1
       Stop: 0
-      Timestemp: 7
+      Timestemp: 25
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -631,7 +631,7 @@ MonoBehaviour:
     - Id: Shiny
       Clear: 1
       Stop: 0
-      Timestemp: 10
+      Timestemp: 35
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -642,7 +642,7 @@ MonoBehaviour:
     - Id: CantUseSword
       Clear: 1
       Stop: 0
-      Timestemp: 14
+      Timestemp: 37
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -653,7 +653,7 @@ MonoBehaviour:
     - Id: KnightWithoutSword
       Clear: 1
       Stop: 0
-      Timestemp: 20
+      Timestemp: 40
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -664,7 +664,7 @@ MonoBehaviour:
     - Id: Activate
       Clear: 1
       Stop: 0
-      Timestemp: 25
+      Timestemp: 43
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -1631,7 +1631,7 @@ MonoBehaviour:
     - Id: END
       Clear: 0
       Stop: 0
-      Timestemp: 5
+      Timestemp: 3
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -2512,8 +2512,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 249918963}
-  m_LocalRotation: {x: 0.24876158, y: 0.0043600146, z: 0.0011208148, w: -0.9685543}
-  m_LocalPosition: {x: 386.20706, y: -15898.941, z: -28951.023}
+  m_LocalRotation: {x: 0.13708247, y: 0.08308736, z: 0.011494508, w: -0.9870019}
+  m_LocalPosition: {x: 234.32742, y: 13.937851, z: -7.6679134}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2816,7 +2816,7 @@ MonoBehaviour:
     - Id: NothingElse
       Clear: 1
       Stop: 0
-      Timestemp: 5
+      Timestemp: 6
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -2827,7 +2827,7 @@ MonoBehaviour:
     - Id: END
       Clear: 1
       Stop: 0
-      Timestemp: 10
+      Timestemp: 13
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -10681,7 +10681,7 @@ MonoBehaviour:
     - Id: IWantPlay
       Clear: 1
       Stop: 0
-      Timestemp: 15
+      Timestemp: 18
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -10692,7 +10692,7 @@ MonoBehaviour:
     - Id: OhMyGodSis
       Clear: 1
       Stop: 0
-      Timestemp: 20
+      Timestemp: 22
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -10703,7 +10703,7 @@ MonoBehaviour:
     - Id: ButHow
       Clear: 1
       Stop: 0
-      Timestemp: 25
+      Timestemp: 29
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -10714,7 +10714,7 @@ MonoBehaviour:
     - Id: JustPressThisButton
       Clear: 1
       Stop: 0
-      Timestemp: 30
+      Timestemp: 33
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -10725,7 +10725,7 @@ MonoBehaviour:
     - Id: 
       Clear: 1
       Stop: 0
-      Timestemp: 34
+      Timestemp: 36
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -10736,7 +10736,7 @@ MonoBehaviour:
     - Id: HeIsmoving
       Clear: 1
       Stop: 0
-      Timestemp: 35
+      Timestemp: 37
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -10747,7 +10747,7 @@ MonoBehaviour:
     - Id: END
       Clear: 1
       Stop: 0
-      Timestemp: 40
+      Timestemp: 41
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -11311,7 +11311,7 @@ MonoBehaviour:
     - Id: Disable
       Clear: 1
       Stop: 0
-      Timestemp: 5
+      Timestemp: 2
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -11333,7 +11333,7 @@ MonoBehaviour:
     - Id: END
       Clear: 0
       Stop: 0
-      Timestemp: 10
+      Timestemp: 16
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -11495,7 +11495,7 @@ MonoBehaviour:
     - Id: cutwood
       Clear: 1
       Stop: 0
-      Timestemp: 5
+      Timestemp: 4
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -11506,7 +11506,7 @@ MonoBehaviour:
     - Id: SomeThingPlease
       Clear: 1
       Stop: 0
-      Timestemp: 10
+      Timestemp: 13
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -11517,7 +11517,7 @@ MonoBehaviour:
     - Id: ThatHowWork
       Clear: 1
       Stop: 0
-      Timestemp: 15
+      Timestemp: 18
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -11528,7 +11528,7 @@ MonoBehaviour:
     - Id: WoodPile
       Clear: 1
       Stop: 0
-      Timestemp: 20
+      Timestemp: 22
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -11539,7 +11539,7 @@ MonoBehaviour:
     - Id: EnableWood END
       Clear: 1
       Stop: 0
-      Timestemp: 25
+      Timestemp: 33
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -20806,7 +20806,7 @@ MonoBehaviour:
     - Id: BringWater
       Clear: 1
       Stop: 0
-      Timestemp: 5
+      Timestemp: 7
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -20828,7 +20828,7 @@ MonoBehaviour:
     - Id: END
       Clear: 0
       Stop: 0
-      Timestemp: 10
+      Timestemp: 17
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -21191,7 +21191,7 @@ MonoBehaviour:
     - Id: CrossIsland
       Clear: 1
       Stop: 0
-      Timestemp: 5
+      Timestemp: 4
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -21213,7 +21213,7 @@ MonoBehaviour:
     - Id: END
       Clear: 1
       Stop: 0
-      Timestemp: 10
+      Timestemp: 15
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -21626,8 +21626,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1452322640}
-  m_LocalRotation: {x: -0.21373603, y: 0.11399655, z: 0.025120532, w: 0.9698921}
-  m_LocalPosition: {x: -0.8503262, y: 5.4411736, z: -3.5673432}
+  m_LocalRotation: {x: -0.34202015, y: 0, z: 0, w: 0.9396927}
+  m_LocalPosition: {x: 17.199951, y: -13.59, z: -18.24}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -22345,11 +22345,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4341972054195708, guid: 905f9ff1fe98b6742a6c75d50574484d, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 1064.9
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4341972054195708, guid: 905f9ff1fe98b6742a6c75d50574484d, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 32.9
+      value: 1.47
       objectReference: {fileID: 0}
     - target: {fileID: 4341972054195708, guid: 905f9ff1fe98b6742a6c75d50574484d, type: 2}
       propertyPath: m_LocalPosition.z
@@ -23862,7 +23862,7 @@ MonoBehaviour:
     - Id: END
       Clear: 1
       Stop: 0
-      Timestemp: 5
+      Timestemp: 4
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -26247,7 +26247,7 @@ MonoBehaviour:
     - Id: END
       Clear: 1
       Stop: 0
-      Timestemp: 5
+      Timestemp: 3
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -26467,7 +26467,7 @@ MonoBehaviour:
     - Id: Torch
       Clear: 1
       Stop: 0
-      Timestemp: 5
+      Timestemp: 6
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -26478,7 +26478,7 @@ MonoBehaviour:
     - Id: Eanble Torch END
       Clear: 1
       Stop: 0
-      Timestemp: 10
+      Timestemp: 11
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -26922,7 +26922,7 @@ MonoBehaviour:
     - Id: END
       Clear: 0
       Stop: 0
-      Timestemp: 5
+      Timestemp: 17
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -27564,7 +27564,7 @@ MonoBehaviour:
     - Id: ThisShoudNotHere
       Clear: 1
       Stop: 0
-      Timestemp: 5
+      Timestemp: 6
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -27575,7 +27575,7 @@ MonoBehaviour:
     - Id: SolveThis
       Clear: 1
       Stop: 0
-      Timestemp: 10
+      Timestemp: 14
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -27586,7 +27586,7 @@ MonoBehaviour:
     - Id: SomeCodes
       Clear: 1
       Stop: 0
-      Timestemp: 15
+      Timestemp: 18
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -27597,7 +27597,7 @@ MonoBehaviour:
     - Id: CheatCodes
       Clear: 1
       Stop: 0
-      Timestemp: 20
+      Timestemp: 23.5
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -27608,7 +27608,7 @@ MonoBehaviour:
     - Id: WeDontCheat
       Clear: 1
       Stop: 0
-      Timestemp: 25
+      Timestemp: 27
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -27619,7 +27619,7 @@ MonoBehaviour:
     - Id: END
       Clear: 0
       Stop: 0
-      Timestemp: 30
+      Timestemp: 37
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -28123,8 +28123,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1967680709}
-  m_LocalRotation: {x: 0.24876158, y: 0.0043600146, z: 0.0011208148, w: -0.9685543}
-  m_LocalPosition: {x: 386.20706, y: -15915.142, z: -28951.023}
+  m_LocalRotation: {x: -0.34202015, y: 0, z: 0, w: 0.9396927}
+  m_LocalPosition: {x: 17.199951, y: -13.59, z: -18.24}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -29069,7 +29069,7 @@ MonoBehaviour:
     - Id: SorryAccidents
       Clear: 1
       Stop: 0
-      Timestemp: 5
+      Timestemp: 9
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -29080,7 +29080,7 @@ MonoBehaviour:
     - Id: MakeingJobHarder
       Clear: 1
       Stop: 0
-      Timestemp: 10
+      Timestemp: 15
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -29091,7 +29091,7 @@ MonoBehaviour:
     - Id: ThisIsEasy
       Clear: 0
       Stop: 0
-      Timestemp: 15
+      Timestemp: 27
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -29102,7 +29102,7 @@ MonoBehaviour:
     - Id: END
       Clear: 1
       Stop: 0
-      Timestemp: 20
+      Timestemp: 29
       Event:
         m_PersistentCalls:
           m_Calls:
