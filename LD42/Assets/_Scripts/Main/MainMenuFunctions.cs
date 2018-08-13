@@ -26,7 +26,7 @@ public class MainMenuFunctions : MonoBehaviour
 
     public void ConfirmName()
     {
-        Cursor.visible = false;
+        //Cursor.visible = false;
 
         Prelog.SetActive(true);
         Invoke("LoadScenes", 5);

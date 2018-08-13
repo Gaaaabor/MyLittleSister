@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.175
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1899684, g: 0.21377248, b: 0.24770713, a: 0.175}
+  m_IndirectSpecularColor: {r: 0.18996826, g: 0.21377206, b: 0.24770677, a: 0.175}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3818,6 +3818,31 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114463219536492292, guid: 8a6df3620261b92428c37e78a782a3c0,
+        type: 2}
+      propertyPath: m_Text
+      value: "Credits:\r\nAttila Kiss - Developer\r\nG\xE1bor Bocs\xF3 - Developer\r\nJ\xF3zsef
+        Szab\xF3 - 3D Artist\r\nBernadett D\xE9nes - Artist, Story\r\nB\xE1lint Kem\xE9ny
+        - Music\r\n\r\nVoice:\r\nSuzy / Witch - Bernadett D\xE9nes\r\nChris - J\xF3zsef
+        Szab\xF3\r\nNarrator / Villager - G\xE1bor Bocs\xF3\r\nDark Knight - Attila
+        Kiss"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114463219536492292, guid: 8a6df3620261b92428c37e78a782a3c0,
+        type: 2}
+      propertyPath: m_FontData.m_FontSize
+      value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 114463219536492292, guid: 8a6df3620261b92428c37e78a782a3c0,
+        type: 2}
+      propertyPath: m_FontData.m_MinSize
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114463219536492292, guid: 8a6df3620261b92428c37e78a782a3c0,
+        type: 2}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: b4b1c827d0441884f8d092550d4b499d,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8a6df3620261b92428c37e78a782a3c0, type: 2}
   m_IsPrefabParent: 0
@@ -5088,7 +5113,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 569049202}
   m_Direction: 2
   m_Value: 0
-  m_Size: 0.9995101
+  m_Size: 0.99995875
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -7936,7 +7961,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.0000025433499}
+  m_AnchoredPosition: {x: 0, y: 0.000012655699}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1953159602
