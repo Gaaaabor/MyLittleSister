@@ -26,7 +26,7 @@ public class BuffManager : SingletonBase<BuffManager>
     {
         TimeBuffUi.gameObject.SetActive(false);
         CaseSensitivenessBuffUi.gameObject.SetActive(false);
-        SetTimeScale(1, false);
+        SetTimeScale(1, true);
     }
 
     internal void UnlockTime()
@@ -65,7 +65,6 @@ public class BuffManager : SingletonBase<BuffManager>
 
     private void UpdateTimeBuff()
     {
-        Debug.Log("Update:" + TimeBuffScale);
         if (!TimeBuffIsActive || TimeBuffScale == 1)
         {
             return;
@@ -78,7 +77,7 @@ public class BuffManager : SingletonBase<BuffManager>
         else
         {
             TimeBuffDuration = 0;
-            SetTimeScale(1, false);
+            SetTimeScale(1, true);
         }
 
         TimeBuffText.text = TimeBuffDuration.ToString("N2");
@@ -108,8 +107,6 @@ public class BuffManager : SingletonBase<BuffManager>
 
 
         DoScale();
-
-        Debug.Log("ChangeScale " + scale);
     }
 
     private void DoScale()

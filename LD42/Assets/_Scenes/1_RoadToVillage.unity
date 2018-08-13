@@ -2512,8 +2512,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 249918963}
-  m_LocalRotation: {x: 0.2834174, y: 0.017262492, z: 0.0051035583, w: -0.95882773}
-  m_LocalPosition: {x: 216.6706, y: -0.82159996, z: -17.117157}
+  m_LocalRotation: {x: -0.34202015, y: 0, z: 0, w: 0.9396927}
+  m_LocalPosition: {x: 225.33995, y: -8.26, z: -18.24}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -9127,8 +9127,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 772837053}
-  m_LocalRotation: {x: -0.52259874, y: 0.00383451, z: 0.002349635, w: 0.85256696}
-  m_LocalPosition: {x: 5.362556, y: -120.7677, z: -72.94576}
+  m_LocalRotation: {x: -0.21373603, y: 0.11399655, z: 0.025120532, w: 0.9698921}
+  m_LocalPosition: {x: -0.8503262, y: 21.641174, z: -3.5673432}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -21626,8 +21626,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1452322640}
-  m_LocalRotation: {x: -0.34202015, y: 0, z: 0, w: 0.9396927}
-  m_LocalPosition: {x: 17.199951, y: -13.243, z: -18.24}
+  m_LocalRotation: {x: -0.21373603, y: 0.11399655, z: 0.025120532, w: 0.9698921}
+  m_LocalPosition: {x: -0.8503262, y: 5.4411736, z: -3.5673432}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -22349,7 +22349,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4341972054195708, guid: 905f9ff1fe98b6742a6c75d50574484d, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.123
+      value: 1.732
       objectReference: {fileID: 0}
     - target: {fileID: 4341972054195708, guid: 905f9ff1fe98b6742a6c75d50574484d, type: 2}
       propertyPath: m_LocalPosition.z
@@ -22463,7 +22463,7 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
-          - m_Target: {fileID: 1203276415}
+          - m_Target: {fileID: 564146369}
             m_MethodName: SetActive
             m_Mode: 6
             m_Arguments:
@@ -24956,9 +24956,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1770050963}
   - component: {fileID: 1770050969}
-  - component: {fileID: 1770050967}
   - component: {fileID: 1770050968}
-  - component: {fileID: 1770050965}
+  - component: {fileID: 1770050967}
   - component: {fileID: 1770050966}
   m_Layer: 0
   m_Name: TorchToPickUp01
@@ -24967,18 +24966,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1770050965
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1770050964}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9fb2c230f982804b991c15b140825d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  StateToChange: 2
 --- !u!114 &1770050966
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25080,7 +25067,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39c7801afaa525a42a3544eb1ec886cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LabelPlace: {fileID: 0}
+  LabelPlace: {fileID: 889094389}
   EnableColor: {r: 1, g: 1, b: 1, a: 1}
   DestroyColor: {r: 1, g: 0, b: 0, a: 1}
   DisableColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}

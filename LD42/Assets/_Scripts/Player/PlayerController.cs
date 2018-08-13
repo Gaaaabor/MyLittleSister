@@ -186,14 +186,12 @@ public class PlayerController : SingletonBase<PlayerController>
         if (_currentPlayerState == PlayerState.Dead) return;
         _rigidbody.isKinematic = true;
         SetPlayerState(PlayerState.Dead);
-        Debug.Log("InvokeREset");
         Invoke("ResetToCheckPoint", 1.5f);
     }
 
     public void SetPlayerState(PlayerState playerState)
     {
         if (playerState == PlayerState.None) return;
-        Debug.Log("Try " + playerState);
         if (_currentPlayerState == playerState) return;
 
         _lastState = _currentPlayerState;
@@ -213,7 +211,6 @@ public class PlayerController : SingletonBase<PlayerController>
             default:
                 break;
         }
-        Debug.Log("Done " + playerState);
     }
 
     private void ResetToCheckPoint()
@@ -225,7 +222,6 @@ public class PlayerController : SingletonBase<PlayerController>
         }
 
         Invoke("ResetDone", 0.5f);
-        Debug.Log("Reset1");
     }
 
     private void ResetDone()
