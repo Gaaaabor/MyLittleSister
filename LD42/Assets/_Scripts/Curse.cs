@@ -15,7 +15,9 @@ public class Curse : MonoBehaviour
 
     public List<ManagedGameObject> labels;
 
-    private void Awake()
+    private bool _timed;
+
+    public void Awake()
     {
         OnCurse = false;
         CurseObject.SetActive(false);
