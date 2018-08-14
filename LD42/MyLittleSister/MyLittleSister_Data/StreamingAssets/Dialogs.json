@@ -1,0 +1,631 @@
+{
+	"DialogTexts": [
+		{
+			"ID": "Greeetins",
+			"Placement": "Top",
+			"Owner": "Narrator",
+			"Body": "\"Greetings Almighty Knight!\r\n Stay awhile and listen.\r\n Welcome in the Kingdom of Retsis! A great evil..."
+		},
+
+		{
+			"ID": "Brooooother",
+			"Placement": "BottomLeft",
+			"Owner": "Little girl",
+			"Body": "Brotheeer... I don't understaaand..."
+		},
+
+		{
+			"ID": "LeaveMeBe",
+			"Placement": "BottomRight",
+			"Owner": "Boy",
+			"Body": "Leave me be! I am busy... Just play!"
+		},
+
+		{
+			"ID": "IWantPlay",
+			"Placement": "BottomLeft",
+			"Owner": "Little girl",
+			"Body": "I wanna play. But I don't know how..."
+		},
+
+		{
+			"ID": "OhMyGodSis",
+			"Placement": "BottomRight",
+			"Owner": "Boy",
+			"Body": "Oh my God, Sis... Okay... Let's take a look.\r\nFirst, move forward."
+		},
+
+		{
+			"ID": "ButHow",
+			"Placement": "BottomLeft",
+			"Owner": "Little girl",
+			"Body": "But how?"
+		},
+
+		{
+			"ID": "JustPressThisButton",
+			"Placement": "BottomRight",
+			"Owner": "Boy",
+			"Body": "Just press that button, Suzy..."
+		},
+
+		{
+			"ID": "HeIsmoving",
+			"Placement": "BottomLeft",
+			"Owner": "Suzy",
+			"Body": "Oh, he is moving! Thank you."
+		},
+
+		{
+			"ID": "Syrup",
+			"Placement": "BottomRight",
+			"Owner": "Boy",
+			"Body": "Great. Now, move backwards, press this bu... \r\nWhat the ... happened to your keyboard?\r\nIs it syrup???"
+		},
+
+		{
+			"ID": "SorryAccidents",
+			"Placement": "BottomLeft",
+			"Owner": "Suzy",
+			"Body": "Sorry Chris, I was thirsty... but a little accident happened..."
+		},
+
+		{
+			"ID": "MakeingJobHarder",
+			"Placement": "BottomRight",
+			"Owner": "Chris",
+			"Body": "Suzy, you are making my job harder every day...\r\nThe other control keys stuck.\r\nI guess we have to use what we have... So, just press the forward button."
+		},
+
+		{
+			"ID": "ThisIsEasy",
+			"Placement": "BottomLeft",
+			"Owner": "Suzy",
+			"Body": "This is easy!"
+		},
+
+		{
+			"ID": "CantMoveAlong",
+			"Placement": "BottomLeft",
+			"Owner": "Suzy",
+			"Body": "Brother!\r\nI can't move along... Help meeeeeeee!"
+		},
+
+		{
+			"ID": "ThisShoudNotHere",
+			"Placement": "BottomRight",
+			"Owner": "Chris",
+			"Body": "Okay, okay. Please calm down.\r\nLet me take a look...\r\nOh! This trunk should not be here."
+		},
+
+		{
+			"ID": "SolveThis",
+			"Placement": "BottomLeft",
+			"Owner": "Suzy",
+			"Body": "I bet you can solve this!"
+		},
+
+		{
+			"ID": "SomeCodes",
+			"Placement": "BottomRight",
+			"Owner": "Chris",
+			"Body": "Actually, I have a friend, who gave me some codes..."
+		},
+
+		{
+			"ID": "CheatCodes",
+			"Placement": "BottomLeft",
+			"Owner": "Suzy",
+			"Body": "Cheat codes?\r\nI don't want to be a cheater!"
+		},
+
+		{
+			"ID": "WeDontCheat",
+			"Placement": "BottomRight",
+			"Owner": "Chris",
+			"Body": "Nooo... We don't cheat. This is just a little help.\r\nFirst, I have to press enter, then type \"cheatmode\", enter."
+		},
+
+		{
+			"ID": "TypeDestroy",
+			"Placement": "BottomRight",
+			"Owner": "Chris",
+			"Body": "Now I can see the object's name.\r\nThere are some basic commands.\r\nTo destroy an object I have to type \"kill\", press space, then type the object name and press enter.\r\nThe capial letters does not matter when I type the names."
+		},
+
+		{
+			"ID": "MoveForward",
+			"Placement": "BottomLeft",
+			"Owner": "Suzy",
+			"Body": "Hurray! Now I can move forward."
+		},
+
+		{
+			"ID": "AgainBrother",
+			"Placement": "BottomLeft",
+			"Owner": "Suzy",
+			"Body": "Brotheeer!"
+		},
+
+		{
+			"ID": "Disable",
+			"Placement": "BottomRight",
+			"Owner": "Chris",
+			"Body": "Oh, I guess I have to destroy, or disable that rock for you.\r\nIf I type \"disable\",press space, then type the object name, the rock will disappear.\r\nDisabled objects can be enabled later."
+		},
+
+		{
+			"ID": "PlayWithMe",
+			"Placement": "BottomLeft",
+			"Owner": "Suzy",
+			"Body": "You are so smart! Would you mind staying here to help me?"
+		},
+
+		{
+			"ID": "NothingElse",
+			"Placement": "BottomRight",
+			"Owner": "Chris",
+			"Body": "Nah... Okay...\r\nActually...\r\nI have nothing else to do..."
+		},
+
+		{
+			"ID": "KnightSwim",
+			"Placement": "BottomLeft",
+			"Owner": "Suzy",
+			"Body": "Can the Knight swim?"
+		},
+
+		{
+			"ID": "WhyDidYou",
+			"Placement": "BottomRight",
+			"Owner": "Chris",
+			"Body": "Why did you do that?\r\nIt is obvious that he cannot swim in that heavy armor.\r\nWe need a bridge!\r\nI have to use the \"enable\" command on it."
+		},
+
+		{
+			"ID": "PlaySafe",
+			"Placement": "BottomRight",
+			"Owner": "Chris",
+			"Body": "Now you can pass safely."
+		},
+
+		{
+			"ID": "CrossIsland",
+			"Placement": "BottomLeft",
+			"Owner": "Suzy",
+			"Body": "Oh, we have crossed an island!\r\nI loved to live on an island..."
+		},
+
+		{
+			"ID": "Seaguls",
+			"Placement": "BottomRight",
+			"Owner": "Chris",
+			"Body": "I didn't like the seagulls... They stole my pizza, do you remember?"
+		},
+
+		{
+			"ID": "OpenDoor",
+			"Placement": "BottomLeft",
+			"Owner": "Suzy",
+			"Body": "Please open the door for me."
+		},
+
+		{
+			"ID": "WhatGate",
+			"Placement": "TopRight",
+			"Owner": "Villager",
+			"Body": "What happened with our gate?\r\nIt was here a minute ago!"
+		},
+
+		{
+			"ID": "cutwood",
+			"Placement": "Top",
+			"Owner": "Narrator",
+			"Body": "The ctizens are too scared to go out and cut some wood.\r\nBring twentyfive wood for them!"
+		},
+		{
+			"ID": "SomeThingPlease",
+			"Placement": "BottomLeft",
+			"Owner": "Suzy",
+			"Body": "I don't wanna do that. Do something please!"
+		},
+
+		{
+			"ID": "ThatHowWork",
+			"Placement": "BottomRight",
+			"Owner": "Chris",
+			"Body": "This is not how things work... You have to do their quest."
+		},
+		{
+			"ID": "WoodPile",
+			"Placement": "BottomLeft",
+			"Owner": "Suzy",
+			"Body": "But collecting that much stuff is boring. I am a knight, not a woodcutter!\r\nI have much more more important tasks."
+		},
+
+		{
+			"ID": "EnableWood",
+			"Placement": "BottomRight",
+			"Owner": "Chris",
+			"Body": "I can do this for you, by enabling a wood pile. That should be enough to build another gate."
+		},
+
+		{
+			"ID": "NobleHeart",
+			"Placement": "Top",
+			"Owner": "Narrator",
+			"Body": "You have a noble heart, Knight! The villagers are grateful for getting wood for them."
+		},
+
+		{
+			"ID": "BringWater",
+			"Placement": "TopRight",
+			"Owner": "Villager",
+			"Body": "Thank you for savig us, Noble Knight. We rely on your great power.\r\nOur well is dry as the desert, we need a stong man to bring water to it."
+		},
+
+		{
+			"ID": "EvilFortress",
+			"Placement": "Top",
+			"Owner": "Narrator",
+			"Body": "You helped the villagers so much, they respect you as their hero.\r\nBut the sad thruth is the Kingdom has more serious problems to solve. An evil man kidnapped their beloved princess, and you seems to be the only person who can defeat him. Leave the village and find the evil fortress."
+		},
+
+		{
+			"ID": "Sword",
+			"Placement": "TopRight",
+			"Owner": "Villager",
+			"Body": "To support your mission we can offer you a sword. It was the property of the last knight who entered our village, but he will not need it anymore..."
+		},
+
+		{
+			"ID": "Shiny",
+			"Placement": "BottomLeft",
+			"Owner": "Suzy",
+			"Body": "Shiny!"
+		},
+
+		{
+			"ID": "CantUseSword",
+			"Placement": "BottomRight",
+			"Owner": "Chris",
+			"Body": "It is all nice that you have a sword, but the attack button is stuck too."
+		},
+
+		{
+			"ID": "KnightWithoutSword",
+			"Placement": "BottomLeft",
+			"Owner": "Suzy",
+			"Body": "A knight is not a knight without a sword!"
+		},
+
+		{
+			"ID": "Activate",
+			"Placement": "BottomRight",
+			"Owner": "Chris",
+			"Body": "Sometimes just active it. Use \"activate\" command."
+		},
+
+		{
+			"ID": "NightIsComing",
+			"Placement": "Top",
+			"Owner": "Narrator",
+			"Body": "The night is coming, it isn't safe to travel in the dark."
+		},
+
+		{
+			"ID": "Torch",
+			"Placement": "TopRight",
+			"Owner": "Villager",
+			"Body": "Be careful at night. A torch will be helpful."
+		},
+
+		{
+			"ID": "SomethingWrongAnimal",
+			"Placement": "BottomLeft",
+			"Owner": "Suzy",
+			"Body": "Something is wrong with those animals..."
+		},
+
+		{
+			"ID": "Developers",
+			"Placement": "BottomRight",
+			"Owner": "Chris",
+			"Body": "The developers did not finish them..."
+		},
+		{
+			"ID": "WhatAreYouDoing",
+			"Placement": "BottomRight",
+			"Owner": "Chris",
+			"Body": "Suzy?\r\nWhat are you doing?"
+		},
+
+		{
+			"ID": "Boring",
+			"Placement": "BottomLeft",
+			"Owner": "Suzy",
+			"Body": "It is boooring!"
+		},
+
+		{
+			"ID": "DontGiveUp",
+			"Placement": "BottomRight",
+			"Owner": "Chris",
+			"Body": "Oh, come on! Do not give up, just press the forward button, we are almost there."
+		},
+
+		{
+			"ID": "IfYouSaySo",
+			"Placement": "BottomLeft",
+			"Owner": "Suzy",
+			"Body": "If you say so..."
+		},
+
+		{
+			"ID": "SeeAHut",
+			"Placement": "BottomLeft",
+			"Owner": "Suzy",
+			"Body": "Do you see it, Chris? Is this a hut?"
+		},
+
+		{
+			"ID": "SomeoneLiveHere",
+			"Placement": "BottomRight",
+			"Owner": "Chris",
+			"Body": "Somebody lives here..."
+		},
+
+		{
+			"ID": "DarkRitual",
+			"Placement": "BottomRight",
+			"Owner": "Chris",
+			"Body": "This is a dark ritual! We have to stop it?!"
+		},
+
+		{
+			"ID": "StopTime",
+			"Placement": "BottomRight",
+			"Owner": "Chris",
+			"Body": "Wait a second! There is a command to pause time. \"speed 0\" 0 is paused. 1 is normal. Best is 0.5."
+		},
+
+		{
+			"ID": "Witch",
+			"Placement": "TopRight",
+			"Owner": "Witch",
+			"Body": "The Dark Knight will never let you win! He will marry the princess and found a new, powerful Kingdom. You cannot stop him, prepare to die!"
+		},
+
+		{
+			"ID": "nicetrick",
+			"Placement": "BottomLeft",
+			"Owner": "Suzy",
+			"Body": "Finally, we are here!\n\rThis was a nice trick Brother."
+		},
+
+		{
+			"ID": "MoreDificult",
+			"Placement": "BottomRight",
+			"Owner": "Chris",
+			"Body": "It is getting more difficult..."
+		},
+
+		{
+			"ID": "whereareyou",
+			"Placement": "BottomLeft",
+			"Owner": "Suzy",
+			"Body": "Chris?\n\rChris!\n\rWhere are you?"
+		},
+
+		{
+			"ID": "enablealltraps",
+			"Placement": "BottomLeft",
+			"Owner": "Suzy",
+			"Body": "I saw it many times, it cannot be difficult...\n\rJust wrote that I see on the screen.\n\rI type \"enable alltraps\" and press enter."
+		},
+
+		{
+			"ID": "WhatDidYOuDo",
+			"Placement": "BottomRight",
+			"Owner": "Chris",
+			"Body": "Suzy!\n\rWhat did you do again? I left you only for second, I had to answer the phone.\n\rPlease, let me write the codes."
+		},
+
+		{
+			"ID": "ShortCommands",
+			"Placement": "Top",
+			"Owner": "Narrator",
+			"Body": "You found the legacy code!\n\rNow you can use short commands.\n\rFor example \"e\" is for enable."
+		},
+		{
+			"ID": "RunFaster",
+			"Placement": "Top",
+			"Owner": "Narrator",
+			"Body": "You have to run faster! \n\rPress space! \n\rSpace, space, space!"
+		},
+
+		{
+			"ID": "FinnalyMeet",
+			"Placement": "TopRight",
+			"Owner": "Dark Knight",
+			"Body": "Ah, finally we can meet personally. I have heard so much from you. But your fame means nothing, you have no chance against me."
+		},
+
+		{
+			"ID": "wewillseeit",
+			"Placement": "BottomLeft",
+			"Owner": "Suzy",
+			"Body": "We will see it!"
+		},
+
+		{
+			"ID": "Death",
+			"Placement": "TopRight",
+			"Owner": "Dark Knight",
+			"Body": "Whaaghhhh"
+		},
+
+		{
+			"ID": "YouCheat",
+			"Placement": "TopRight",
+			"Owner": "Dark Knight",
+			"Body": "White Knight, you are a cheater! You are much worse than me! My vengeance is comeing!!!"
+		},
+			{
+				"ID": "CanRunHide",
+				"Placement": "TopRight",
+				"Owner": "Dark Knight",
+				"Body": "You can try to escape, but I know some dev commands too:\n\rActivate recursion!"
+			},
+		{
+			"ID": "disableloop",
+			"Placement": "BottomLeft",
+			"Owner": "Suzy",
+			"Body": "Chris, you have to disable that loop. You can do it!"
+		},
+
+		{
+			"ID": "DestroyingWholeWorld",
+			"Placement": "BottomRight",
+			"Owner": "Chris",
+			"Body": "He is destroying the whole world! We cannot let him to do it, we have to save the princess.\n\rHurry, Suzy! Run as fast as you can!"
+		},
+
+
+
+		{
+			"ID": "Meteor",
+			"Placement": "TopRight",
+			"Owner": "Dark Knight",
+			"Body": "Feeeel the Hatred!!! /spawn meteorshower"
+		},
+
+		{
+			"ID": "administrator_xxxx",
+			"Placement": "TopRight",
+			"Owner": "Dark Knight",
+			"Body": "/activate casesensitiveMode AhAhHHAHhhaHhgHaaa..."
+		},
+
+		{
+			"ID": "KillMap",
+			"Placement": "TopRight",
+			"Owner": "Dark Knight",
+			"Body": " I will destroy     everything     /kill map"
+		},
+
+		{
+			"ID": "TextureNotFound",
+			"Placement": "Top",
+			"Owner": "Report",
+			"Body": "Texture not found"
+		},
+
+		{
+			"ID": "Whathaveyoudone",
+			"Placement": "Top",
+			"Owner": "Narrator",
+			"Body": "What have you dead... No. This is unexpec... Up. It Done... Please stop right... You can't do this..."
+		},
+		{
+			"ID": "DisableAntiCheat",
+			"Placement": "BottomLeft",
+			"Owner": "Suzy",
+			"Body": "Disable the built in anti cheat mode!"
+		},
+		{
+			"ID": "GoodIdea",
+			"Placement": "BottomRight",
+			"Owner": "Chris",
+			"Body": "Good Idea!!!"
+		},
+
+
+		{
+			"ID": "Nooo",
+			"Placement": "TopRight",
+			"Owner": "Dark Knight",
+			"Body": "Noooooooooooooo!"
+		},
+		{
+			"ID": "KingCastle",
+			"Placement": "BottomRight",
+			"Owner": "Chris",
+			"Body": "Look! This is the King's castle! We finaly did it!"
+		},
+
+		{
+			"ID": "whocalledyou",
+			"Placement": "BottomLeft",
+			"Owner": "Suzy",
+			"Body": "Yeah!\n\rBy the way, when you disappeared earlier to pick up the phone... Who called you?"
+		},
+
+		{
+			"ID": "ItWasDad",
+			"Placement": "BottomRight",
+			"Owner": "Chris",
+			"Body": "It was Dad."
+		},
+
+		{
+			"ID": "hearrivehome",
+			"Placement": "BottomLeft",
+			"Owner": "Suzy",
+			"Body": "Is he arrive home soon?"
+		},
+
+		{
+			"ID": "ComeHome",
+			"Placement": "BottomRight",
+			"Owner": "Chris",
+			"Body": "He can come in any minute."
+		},
+		{
+			"ID": "andmom",
+			"Placement": "BottomLeft",
+			"Owner": "Suzy",
+			"Body": "And Mom?"
+		},
+
+		{
+			"ID": "DadTold",
+			"Placement": "BottomRight",
+			"Owner": "Chris",
+			"Body": "Dad told me \"She is Okey\". Everything will be fine!"
+		},
+		{
+			"ID": "anothergame",
+			"Placement": "BottomLeft",
+			"Owner": "Suzy",
+			"Body": "Tomorrow can we play another game?"
+		},
+
+		{
+			"ID": "SleepNow",
+			"Placement": "BottomRight",
+			"Owner": "Chris",
+			"Body": "Sure, but you need to sleep now!"
+		},
+
+		{
+			"ID": "Tale",
+			"Placement": "BottomLeft",
+			"Owner": "Suzy",
+			"Body": "Are you telling me a tale?"
+		},
+
+		{
+			"ID": "Onceupon",
+			"Placement": "BottomRight",
+			"Owner": "Chris",
+			"Body": "Sure, Once upon a time on computer game ....!"
+		},
+		{
+			"ID": "Bonustime",
+			"Placement": "Top",
+			"Owner": "Narrator",
+			"Body": "Bonus speed activated!"
+		}
+	]
+}

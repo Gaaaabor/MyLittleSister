@@ -20,7 +20,7 @@ public class MoveToPlayer : MonoBehaviour
     void Update()
     {
         if (Move)
-            transform.position = Vector3.MoveTowards(transform.position, PlayerController.Instance.transform.position, Speed );
+            transform.position = Vector3.MoveTowards(transform.position, PlayerController.Instance.transform.position, Speed *Time.deltaTime);
     }
 
     public void SetMove(bool v)

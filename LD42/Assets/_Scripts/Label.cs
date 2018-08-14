@@ -34,6 +34,11 @@ public class Label : MonoBehaviour
 
     private void OnEnable()
     {
+        CheackVisiblety();
+    }
+
+    public void CheackVisiblety()
+    {
         if (_anim != null)
             if (LabelManager.Instance.LabelsVisible)
             {
@@ -47,7 +52,7 @@ public class Label : MonoBehaviour
 
     public void ShowLabel()
     {
-        //Debug.Log("ShowLabel");
+       Debug.Log("ShowLabel");
         _anim.SetBool("Show", true);
     }
 

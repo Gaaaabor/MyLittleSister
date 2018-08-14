@@ -2066,7 +2066,7 @@ MonoBehaviour:
   - 3_Castle
   - 4_Dungeon
   - 5_Escape
-  TitleScene: 
+  TitleScene: Title
 --- !u!1 &624076355
 GameObject:
   m_ObjectHideFlags: 0
@@ -2827,7 +2827,7 @@ MonoBehaviour:
     m_Curve:
     - serializedVersion: 3
       time: -0.01581347
-      value: 0.93628144
+      value: 0.79632
       inSlope: -0
       outSlope: -0
       tangentMode: 0
@@ -2836,7 +2836,7 @@ MonoBehaviour:
       outWeight: 0.33333334
     - serializedVersion: 3
       time: 0.18418653
-      value: 0.89131665
+      value: 0.7957012
       inSlope: 0.045238256
       outSlope: 0.045238256
       tangentMode: 0
@@ -2863,7 +2863,7 @@ MonoBehaviour:
       outWeight: 0.33333334
     - serializedVersion: 3
       time: 0.78418654
-      value: 0.8547281
+      value: 0.79519767
       inSlope: -0.00000058933733
       outSlope: -0.00000058933733
       tangentMode: 0
@@ -2872,7 +2872,7 @@ MonoBehaviour:
       outWeight: 0.90680563
     - serializedVersion: 3
       time: 0.98418653
-      value: 0.9452856
+      value: 0.79644394
       inSlope: -0
       outSlope: -0
       tangentMode: 0
@@ -5055,7 +5055,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 569049202}
   m_Direction: 2
   m_Value: 0
-  m_Size: 0.99999994
+  m_Size: 0.9999998
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6544,7 +6544,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 343, y: -423}
+  m_AnchoredPosition: {x: 395, y: -423}
   m_SizeDelta: {x: 565.3, y: 66.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1682997732
@@ -6573,7 +6573,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 50
-    m_Alignment: 0
+    m_Alignment: 2
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -8083,7 +8083,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.0000007583361}
+  m_AnchoredPosition: {x: 0, y: 0.000025264746}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1953159602

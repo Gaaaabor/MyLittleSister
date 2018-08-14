@@ -443,7 +443,7 @@ Prefab:
     - target: {fileID: 114485810546121956, guid: 3a18cff46dd29f64caefbbb628978299,
         type: 2}
       propertyPath: Speed
-      value: 0.06
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3a18cff46dd29f64caefbbb628978299, type: 2}
@@ -4198,7 +4198,7 @@ Prefab:
     - target: {fileID: 114485810546121956, guid: 3a18cff46dd29f64caefbbb628978299,
         type: 2}
       propertyPath: Speed
-      value: 0.06
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3a18cff46dd29f64caefbbb628978299, type: 2}
@@ -4263,7 +4263,7 @@ Prefab:
     - target: {fileID: 114485810546121956, guid: 3a18cff46dd29f64caefbbb628978299,
         type: 2}
       propertyPath: Speed
-      value: 0.06
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3a18cff46dd29f64caefbbb628978299, type: 2}
@@ -4817,7 +4817,7 @@ Prefab:
     - target: {fileID: 114485810546121956, guid: 3a18cff46dd29f64caefbbb628978299,
         type: 2}
       propertyPath: Speed
-      value: 0.06
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3a18cff46dd29f64caefbbb628978299, type: 2}
@@ -5915,7 +5915,7 @@ Prefab:
     - target: {fileID: 114485810546121956, guid: 3a18cff46dd29f64caefbbb628978299,
         type: 2}
       propertyPath: Speed
-      value: 0.06
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3a18cff46dd29f64caefbbb628978299, type: 2}
@@ -6410,7 +6410,7 @@ Prefab:
     - target: {fileID: 114485810546121956, guid: 3a18cff46dd29f64caefbbb628978299,
         type: 2}
       propertyPath: Speed
-      value: 0.06
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3a18cff46dd29f64caefbbb628978299, type: 2}
@@ -6502,7 +6502,7 @@ Prefab:
     - target: {fileID: 114485810546121956, guid: 3a18cff46dd29f64caefbbb628978299,
         type: 2}
       propertyPath: Speed
-      value: 0.06
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3a18cff46dd29f64caefbbb628978299, type: 2}
@@ -7208,6 +7208,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   ResetPose: 1
+  ResetOnDisable: 0
 --- !u!135 &539965326
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -7796,7 +7797,7 @@ Prefab:
     - target: {fileID: 114485810546121956, guid: 3a18cff46dd29f64caefbbb628978299,
         type: 2}
       propertyPath: Speed
-      value: 0.06
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3a18cff46dd29f64caefbbb628978299, type: 2}
@@ -8317,7 +8318,7 @@ Prefab:
     - target: {fileID: 114485810546121956, guid: 3a18cff46dd29f64caefbbb628978299,
         type: 2}
       propertyPath: Speed
-      value: 0.06
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3a18cff46dd29f64caefbbb628978299, type: 2}
@@ -9422,35 +9423,13 @@ MonoBehaviour:
   CanDisable: 1
   DisableEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1176999073}
-        m_MethodName: Reset
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   CanDestroy: 1
   DestroyEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1176999073}
-        m_MethodName: Reset
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   CanActivate: 1
@@ -11109,7 +11088,7 @@ Prefab:
     - target: {fileID: 114485810546121956, guid: 3a18cff46dd29f64caefbbb628978299,
         type: 2}
       propertyPath: Speed
-      value: 0.06
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3a18cff46dd29f64caefbbb628978299, type: 2}
@@ -11504,7 +11483,7 @@ Prefab:
     - target: {fileID: 114485810546121956, guid: 3a18cff46dd29f64caefbbb628978299,
         type: 2}
       propertyPath: Speed
-      value: 0.06
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3a18cff46dd29f64caefbbb628978299, type: 2}
@@ -12293,11 +12272,6 @@ Prefab:
       propertyPath: m_Name
       value: Wolf (8)
       objectReference: {fileID: 0}
-    - target: {fileID: 114757131394314756, guid: 4a9fec23b0969214a99ae3a66162fbc6,
-        type: 2}
-      propertyPath: ManagedName
-      value: Wulf2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4a9fec23b0969214a99ae3a66162fbc6, type: 2}
   m_IsPrefabParent: 0
@@ -12836,35 +12810,13 @@ MonoBehaviour:
   CanDisable: 1
   DisableEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 539965325}
-        m_MethodName: Reset
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   CanDestroy: 1
   DestroyEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 539965325}
-        m_MethodName: Reset
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   CanActivate: 1
@@ -13771,7 +13723,7 @@ Prefab:
     - target: {fileID: 114485810546121956, guid: 3a18cff46dd29f64caefbbb628978299,
         type: 2}
       propertyPath: Speed
-      value: 0.06
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3a18cff46dd29f64caefbbb628978299, type: 2}
@@ -14381,7 +14333,7 @@ Prefab:
     - target: {fileID: 114485810546121956, guid: 3a18cff46dd29f64caefbbb628978299,
         type: 2}
       propertyPath: Speed
-      value: 0.06
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3a18cff46dd29f64caefbbb628978299, type: 2}
@@ -14659,6 +14611,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   ResetPose: 1
+  ResetOnDisable: 0
 --- !u!1001 &1180491449
 Prefab:
   m_ObjectHideFlags: 0
@@ -15927,15 +15880,6 @@ Prefab:
       propertyPath: m_Name
       value: BeePref (21)
       objectReference: {fileID: 0}
-    - target: {fileID: 1789480500651228, guid: 3a18cff46dd29f64caefbbb628978299, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114485810546121956, guid: 3a18cff46dd29f64caefbbb628978299,
-        type: 2}
-      propertyPath: Speed
-      value: 0.06
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3a18cff46dd29f64caefbbb628978299, type: 2}
   m_IsPrefabParent: 0
@@ -16925,7 +16869,7 @@ Prefab:
     - target: {fileID: 114485810546121956, guid: 3a18cff46dd29f64caefbbb628978299,
         type: 2}
       propertyPath: Speed
-      value: 0.06
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3a18cff46dd29f64caefbbb628978299, type: 2}
@@ -17179,7 +17123,7 @@ Prefab:
     - target: {fileID: 114485810546121956, guid: 3a18cff46dd29f64caefbbb628978299,
         type: 2}
       propertyPath: Speed
-      value: 0.06
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3a18cff46dd29f64caefbbb628978299, type: 2}
@@ -17735,7 +17679,7 @@ Prefab:
     - target: {fileID: 114485810546121956, guid: 3a18cff46dd29f64caefbbb628978299,
         type: 2}
       propertyPath: Speed
-      value: 0.06
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3a18cff46dd29f64caefbbb628978299, type: 2}
@@ -18637,11 +18581,6 @@ Prefab:
     - target: {fileID: 1789480500651228, guid: 3a18cff46dd29f64caefbbb628978299, type: 2}
       propertyPath: m_Name
       value: BeePref (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 114485810546121956, guid: 3a18cff46dd29f64caefbbb628978299,
-        type: 2}
-      propertyPath: Speed
-      value: 0.06
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3a18cff46dd29f64caefbbb628978299, type: 2}
@@ -27189,7 +27128,7 @@ Prefab:
     - target: {fileID: 114485810546121956, guid: 3a18cff46dd29f64caefbbb628978299,
         type: 2}
       propertyPath: Speed
-      value: 0.06
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3a18cff46dd29f64caefbbb628978299, type: 2}
@@ -29268,7 +29207,7 @@ Prefab:
     - target: {fileID: 114485810546121956, guid: 3a18cff46dd29f64caefbbb628978299,
         type: 2}
       propertyPath: Speed
-      value: 0.15
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3a18cff46dd29f64caefbbb628978299, type: 2}
@@ -29405,7 +29344,7 @@ Prefab:
     - target: {fileID: 114485810546121956, guid: 3a18cff46dd29f64caefbbb628978299,
         type: 2}
       propertyPath: Speed
-      value: 0.06
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3a18cff46dd29f64caefbbb628978299, type: 2}
@@ -29466,7 +29405,7 @@ Prefab:
     - target: {fileID: 114485810546121956, guid: 3a18cff46dd29f64caefbbb628978299,
         type: 2}
       propertyPath: Speed
-      value: 0.06
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3a18cff46dd29f64caefbbb628978299, type: 2}
@@ -29595,7 +29534,7 @@ Prefab:
     - target: {fileID: 114485810546121956, guid: 3a18cff46dd29f64caefbbb628978299,
         type: 2}
       propertyPath: Speed
-      value: 0.06
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3a18cff46dd29f64caefbbb628978299, type: 2}
@@ -30119,7 +30058,7 @@ Prefab:
     - target: {fileID: 114485810546121956, guid: 3a18cff46dd29f64caefbbb628978299,
         type: 2}
       propertyPath: Speed
-      value: 0.06
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3a18cff46dd29f64caefbbb628978299, type: 2}
@@ -31040,7 +30979,7 @@ Prefab:
     - target: {fileID: 114485810546121956, guid: 3a18cff46dd29f64caefbbb628978299,
         type: 2}
       propertyPath: Speed
-      value: 0.06
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3a18cff46dd29f64caefbbb628978299, type: 2}
