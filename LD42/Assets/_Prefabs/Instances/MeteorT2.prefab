@@ -35,8 +35,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4664253734161132}
-  - component: {fileID: 54455825978343370}
   - component: {fileID: 114658207080972746}
+  - component: {fileID: 114516434272509940}
+  - component: {fileID: 135061609538913716}
   m_Layer: 0
   m_Name: Meteor
   m_TagString: Untagged
@@ -122,7 +123,6 @@ GameObject:
   - component: {fileID: 4104332906829122}
   - component: {fileID: 33403487734505452}
   - component: {fileID: 23754392361443492}
-  - component: {fileID: 135973123138271626}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -309,7 +309,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1039984486853468}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.2, y: 0, z: 0}
   m_LocalScale: {x: 1.160645, y: 1.160645, z: 1.160645}
   m_Children:
   - {fileID: 4338749403284228}
@@ -340,14 +340,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1119763496459374}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -121.62622, y: 34.35, z: 1.6865196}
+  m_LocalRotation: {x: -0, y: -0, z: 0.16424996, w: 0.9864187}
+  m_LocalPosition: {x: 192.49997, y: 11.900003, z: 1.6865196}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4664253734161132}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 18.907001}
 --- !u!23 &23396753093318498
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -432,21 +432,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1582958496710350}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!54 &54455825978343370
-Rigidbody:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1039984486853468}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 3
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 120
-  m_CollisionDetection: 0
 --- !u!108 &108641820385010774
 Light:
   m_ObjectHideFlags: 1
@@ -519,6 +504,19 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &114516434272509940
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1039984486853468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e311a8d1fb09c4c9c6d7e586cca500, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 8
+  Move: 1
 --- !u!114 &114538354572661828
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -546,7 +544,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDestroyed: 0
-  ManagedName: DiESys
+  ManagedName: VenGeanCe
   CurrentState: 0
   StartEnabled: 1
   TargetObject: {fileID: 1039984486853468}
@@ -588,6 +586,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 114516434272509940}
+        m_MethodName: Reset
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   Label: {fileID: 0}
@@ -602,12 +611,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68e0a38c8d2f94b428175194d217811e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Direction: {x: 2, y: 0, z: 0}
   Core: {fileID: 1939917150414588}
   ExplodeTime: 3
   SubParticle: {fileID: 1057672647976970}
-  _onMove: 0
-  KIll: {fileID: 1864041079088296}
 --- !u!114 &114711304739773480
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -650,6 +656,18 @@ MonoBehaviour:
   originalColor: {r: 0, g: 0, b: 0, a: 0}
   intensityChange: 0.5
   flickerSpeed: 60
+--- !u!135 &135061609538913716
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1039984486853468}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!135 &135282397697021764
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -658,18 +676,6 @@ SphereCollider:
   m_GameObject: {fileID: 1864041079088296}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!135 &135973123138271626
-SphereCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1582958496710350}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5

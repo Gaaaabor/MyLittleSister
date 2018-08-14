@@ -8251,8 +8251,8 @@ Transform:
   m_Children:
   - {fileID: 101420729}
   - {fileID: 290869145}
-  - {fileID: 1137256689}
   - {fileID: 1483016583}
+  - {fileID: 1137256689}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -26680,17 +26680,6 @@ MonoBehaviour:
           m_StringArgument: Restart
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2132392910}
-        m_MethodName: Restore
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   CanDisable: 1
@@ -26708,17 +26697,6 @@ MonoBehaviour:
           m_StringArgument: Panel
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2132392910}
-        m_MethodName: DisableComandable
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   CanDestroy: 1
@@ -26734,17 +26712,6 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Panel
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 2132392910}
-        m_MethodName: DisableComandable
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
@@ -26766,7 +26733,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Reset
+          m_StringArgument: Restart
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
@@ -71830,8 +71797,8 @@ Transform:
   - {fileID: 1162657354}
   - {fileID: 1539177622}
   - {fileID: 1611704851}
-  - {fileID: 907540404}
   - {fileID: 1376557459}
+  - {fileID: 907540404}
   m_Father: {fileID: 502156281}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -77378,7 +77345,7 @@ Transform:
   m_Children:
   - {fileID: 757798827}
   m_Father: {fileID: 878770958}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &910596401
 GameObject:
@@ -91405,7 +91372,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4491694386117548, guid: 9b80711f1ef645e47bfe92dfa2e60876, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114490185020392674, guid: 9b80711f1ef645e47bfe92dfa2e60876,
         type: 2}
@@ -99329,7 +99296,7 @@ Transform:
   m_Children:
   - {fileID: 1556523548}
   m_Father: {fileID: 878770958}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1376557460
 MonoBehaviour:
@@ -99362,17 +99329,6 @@ MonoBehaviour:
           m_StringArgument: Restart
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1611704852}
-        m_MethodName: Restore
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   CanDisable: 1
@@ -99390,17 +99346,6 @@ MonoBehaviour:
           m_StringArgument: Panel
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1611704852}
-        m_MethodName: DisableComandable
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   CanDestroy: 1
@@ -99416,17 +99361,6 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Panel
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1611704852}
-        m_MethodName: DisableComandable
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
@@ -99448,7 +99382,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Reset
+          m_StringArgument: Restart
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
@@ -110518,7 +110452,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4491694386117548, guid: 9b80711f1ef645e47bfe92dfa2e60876, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 901.2
+      value: 898.4
       objectReference: {fileID: 0}
     - target: {fileID: 4491694386117548, guid: 9b80711f1ef645e47bfe92dfa2e60876, type: 2}
       propertyPath: m_LocalPosition.y
@@ -110546,7 +110480,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4491694386117548, guid: 9b80711f1ef645e47bfe92dfa2e60876, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114490185020392674, guid: 9b80711f1ef645e47bfe92dfa2e60876,
         type: 2}
@@ -117677,7 +117611,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1610014952}
   m_LocalRotation: {x: -0.0000001376788, y: 0.7071069, z: 0.70710677, w: 0.0000001376788}
-  m_LocalPosition: {x: -0, y: 26.028, z: -3.9100003}
+  m_LocalPosition: {x: -0, y: 30.95, z: -3.9100003}
   m_LocalScale: {x: 0.61583596, y: 1.0000001, z: 0.111948945}
   m_Children: []
   m_Father: {fileID: 1108323654}
@@ -117804,17 +117738,6 @@ MonoBehaviour:
           m_StringArgument: Restart
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1376557460}
-        m_MethodName: Restore
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   CanDisable: 1
@@ -117832,17 +117755,6 @@ MonoBehaviour:
           m_StringArgument: Weight
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1376557460}
-        m_MethodName: DisableComandable
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   CanDestroy: 1
@@ -117858,17 +117770,6 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Weight
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1376557460}
-        m_MethodName: DisableComandable
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
@@ -117890,7 +117791,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Reset
+          m_StringArgument: Restart
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
@@ -123875,6 +123776,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   ResetPose: 1
+  ResetOnDisable: 1
 --- !u!1 &1677582607
 GameObject:
   m_ObjectHideFlags: 0
@@ -131273,6 +131175,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   ResetPose: 1
+  ResetOnDisable: 1
 --- !u!1001 &1812913222
 Prefab:
   m_ObjectHideFlags: 0
@@ -132266,6 +132169,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   ResetPose: 1
+  ResetOnDisable: 1
 --- !u!1001 &1852874099
 Prefab:
   m_ObjectHideFlags: 0
@@ -144310,6 +144214,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   ResetPose: 1
+  ResetOnDisable: 1
 --- !u!1 &2004891817
 GameObject:
   m_ObjectHideFlags: 0
@@ -151342,17 +151247,6 @@ MonoBehaviour:
           m_StringArgument: Restart
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 458506260}
-        m_MethodName: Restore
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   CanDisable: 1
@@ -151370,17 +151264,6 @@ MonoBehaviour:
           m_StringArgument: Weight
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 458506260}
-        m_MethodName: DisableComandable
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   CanDestroy: 1
@@ -151396,17 +151279,6 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Weight
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 458506260}
-        m_MethodName: DisableComandable
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
@@ -151428,7 +151300,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Reset
+          m_StringArgument: Restart
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,

@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class SetPlayTime : MonoBehaviour
 {
-
     public void AddTime(float value)
     {
         BuffManager.Instance.TimeBuffDuration += value;
@@ -24,6 +23,6 @@ public class SetPlayTime : MonoBehaviour
     public void SetTimeBuff(float value)
     {
         BuffManager.Instance.TimeBuffDuration = value;
-        BuffManager.Instance.UpdateTimeBuff();
+        BuffManager.Instance.TimeBuffText.text = BuffManager.Instance.TimeBuffDuration.ToString("N2");
     }
 }

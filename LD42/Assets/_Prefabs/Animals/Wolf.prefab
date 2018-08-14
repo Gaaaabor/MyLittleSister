@@ -710,8 +710,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1362901592328584}
-  m_LocalRotation: {x: -0.07617688, y: -0.70299155, z: 0.07617688, w: 0.70299155}
-  m_LocalPosition: {x: 558.22, y: 20.13, z: -0.37}
+  m_LocalRotation: {x: 0.1452995, y: -0.69201744, z: 0.1452995, w: 0.69201744}
+  m_LocalPosition: {x: 418.8019, y: 25.748636, z: 0.0000000020227162}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4475523760142842}
@@ -974,7 +974,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31e311a8d1fb09c4c9c6d7e586cca500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 0.03
+  Speed: 3
   Move: 0
 --- !u!114 &114656506559212254
 MonoBehaviour:
@@ -1006,6 +1006,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  ResetPose: 1
 --- !u!114 &114670695641879994
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1029,7 +1030,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDestroyed: 0
-  ManagedName: H4rLWulf77
+  ManagedName: Wulf2
+  CurrentState: 0
   StartEnabled: 1
   TargetObject: {fileID: 1504506915381912}
   CanEnable: 1

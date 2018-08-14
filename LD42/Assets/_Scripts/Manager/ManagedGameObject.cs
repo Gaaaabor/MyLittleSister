@@ -17,19 +17,19 @@ public class ManagedGameObject : MonoBehaviour
     [Header("Enable")]
     public bool CanEnable = true;
     public UnityEvent EnableEvent;
-
+    private bool _StartEnable;
     [Header("Disable")]
     public bool CanDisable = true;
     public UnityEvent DisableEvent;
-
+    private bool _StartDisable;
     [Header("Destroy")]
     public bool CanDestroy = true;
     public UnityEvent DestroyEvent;
-
+    private bool _StartDestroy;
     [Header("Active")]
     public bool CanActivate = true;
     public UnityEvent ActivateEvent;
-
+    private bool _Startactivate;
     [Header("Reset")]
     public UnityEvent ResetEvent;
 
@@ -39,6 +39,11 @@ public class ManagedGameObject : MonoBehaviour
 
     private void Awake()
     {
+        _Startactivate = CanActivate;
+        _StartDestroy = CanDestroy;
+        _StartDisable = CanDisable;
+        _StartEnable = CanDisable;
+
         Initilazie();
     }
 
@@ -92,6 +97,15 @@ public class ManagedGameObject : MonoBehaviour
         Label.gameObject.SetActive(false);
     }
 
+    public void EnableCommandable()
+    {
+        CanEnable = _StartEnable;
+        CanActivate = _Startactivate;
+        CanDestroy = _StartDestroy;
+        CanDisable = _StartDisable;
+        Label.gameObject.SetActive(true);
+    }
+
     public void SetActivatedState()
     {
         if (CanActivate && !_isDestroyed)
@@ -140,9 +154,9 @@ public class ManagedGameObject : MonoBehaviour
 
     public void Restore()
     {
+        EnableCommandable();
         if (StartEnabled)
         {
-
             if (CanEnable)
             {
                 CurrentState = ObjectState.Enabeled;
@@ -161,6 +175,7 @@ public class ManagedGameObject : MonoBehaviour
                     TargetObject.SetActive(false);
             }
         }
+        Label.CheackVisiblety();
         ResetEvent.Invoke();
         _memento.Restore(this);
     }
