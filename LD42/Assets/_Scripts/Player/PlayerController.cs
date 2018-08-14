@@ -8,6 +8,13 @@ public class PlayerController : SingletonBase<PlayerController>
     public float RunSpeed;
 
     public Vector3 MoveDirection;
+
+    internal void ResetPlayer()
+    {
+        StopAllCoroutines();
+        CancelInvoke();
+    }
+
     public float Gravity;
 
     public PlayerState _currentPlayerState;
