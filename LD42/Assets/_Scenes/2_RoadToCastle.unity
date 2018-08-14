@@ -2404,9 +2404,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isDestroyed: 0
-  ManagedName: 
+  ManagedName: CheckpointTeleportHere
   CurrentState: 0
-  StartEnabled: 0
+  StartEnabled: 1
   TargetObject: {fileID: 0}
   CanEnable: 0
   EnableEvent:
@@ -11794,6 +11794,122 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63553f82a05d07946875d4c83e51f82e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &917739919
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 917739923}
+  - component: {fileID: 917739922}
+  - component: {fileID: 917739921}
+  - component: {fileID: 917739920}
+  m_Layer: 0
+  m_Name: TeleportCheckpoint (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &917739920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 917739919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9c6802aa95a3904b9d25cf720872985, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &917739921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 917739919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e04e59bd884faa747b25ed2cc67c13e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isDestroyed: 0
+  ManagedName: Move2Checkpoint
+  CurrentState: 0
+  StartEnabled: 1
+  TargetObject: {fileID: 0}
+  CanEnable: 0
+  EnableEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  CanDisable: 0
+  DisableEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  CanDestroy: 0
+  DestroyEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  CanActivate: 1
+  ActivateEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 917739920}
+        m_MethodName: Teleport
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  ResetEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  Label: {fileID: 0}
+--- !u!114 &917739922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 917739919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39c7801afaa525a42a3544eb1ec886cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LabelPlace: {fileID: 1854802099}
+  EnableColor: {r: 1, g: 1, b: 1, a: 1}
+  DestroyColor: {r: 1, g: 0, b: 0, a: 1}
+  DisableColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  ActivateColor: {r: 0, g: 1, b: 1, a: 1}
+--- !u!4 &917739923
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 917739919}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 630.52, y: 21.19, z: 1.2421417}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1854802099}
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &918320333
 Prefab:
   m_ObjectHideFlags: 0
@@ -16505,8 +16621,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1387157953}
-  m_LocalRotation: {x: -0.22580257, y: 0.04381785, z: 0.01016563, w: 0.97313404}
-  m_LocalPosition: {x: 200.9927, y: -128.29, z: -303.06592}
+  m_LocalRotation: {x: -0.009002041, y: 0.0015000466, z: 0.000013507468, w: 0.99995834}
+  m_LocalPosition: {x: 965.16974, y: -34.99533, z: -142.28175}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -27887,6 +28003,34 @@ Transform:
   m_PrefabParentObject: {fileID: 4851788701574710, guid: a3fc449fa46278243ad02d43214879d7,
     type: 2}
   m_PrefabInternal: {fileID: 1850249544}
+--- !u!1 &1854802098
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1854802099}
+  m_Layer: 0
+  m_Name: LabelPlace
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1854802099
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1854802098}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 917739923}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1865521628
 Prefab:
   m_ObjectHideFlags: 0
@@ -28998,8 +29142,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1937269642}
-  m_LocalRotation: {x: -0.15603612, y: 0.1005605, z: 0.015969034, w: 0.98248935}
-  m_LocalPosition: {x: 258.30127, y: -7.1558433, z: -13.0389805}
+  m_LocalRotation: {x: -0.009002041, y: 0.0015000466, z: 0.000013507468, w: 0.99995834}
+  m_LocalPosition: {x: 615.64514, y: -60.459206, z: -117.136086}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

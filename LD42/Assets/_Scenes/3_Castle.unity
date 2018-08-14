@@ -55518,6 +55518,122 @@ Transform:
   m_PrefabParentObject: {fileID: 4866008724373120, guid: 6016f749632130c4cb71ac434051ab25,
     type: 2}
   m_PrefabInternal: {fileID: 765041965}
+--- !u!1 &779013124
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 779013128}
+  - component: {fileID: 779013127}
+  - component: {fileID: 779013126}
+  - component: {fileID: 779013125}
+  m_Layer: 0
+  m_Name: TeleportCheckpoint (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &779013125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 779013124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9c6802aa95a3904b9d25cf720872985, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &779013126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 779013124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e04e59bd884faa747b25ed2cc67c13e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isDestroyed: 0
+  ManagedName: T3l3portHere
+  CurrentState: 0
+  StartEnabled: 1
+  TargetObject: {fileID: 0}
+  CanEnable: 0
+  EnableEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  CanDisable: 0
+  DisableEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  CanDestroy: 0
+  DestroyEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  CanActivate: 1
+  ActivateEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 779013125}
+        m_MethodName: Teleport
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  ResetEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  Label: {fileID: 0}
+--- !u!114 &779013127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 779013124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39c7801afaa525a42a3544eb1ec886cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LabelPlace: {fileID: 941639959}
+  EnableColor: {r: 1, g: 1, b: 1, a: 1}
+  DestroyColor: {r: 1, g: 0, b: 0, a: 1}
+  DisableColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  ActivateColor: {r: 0, g: 1, b: 1, a: 1}
+--- !u!4 &779013128
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 779013124}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 772.6, y: 16.87, z: 1.2421417}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 941639959}
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &782426532
 GameObject:
   m_ObjectHideFlags: 0
@@ -77428,6 +77544,122 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 910596401}
   m_Mesh: {fileID: 4300038, guid: 5d640f7fee95a3d4ba8f467de79abc83, type: 3}
+--- !u!1 &917739919
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 917739923}
+  - component: {fileID: 917739922}
+  - component: {fileID: 917739921}
+  - component: {fileID: 917739920}
+  m_Layer: 0
+  m_Name: TeleportCheckpoint (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &917739920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 917739919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9c6802aa95a3904b9d25cf720872985, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &917739921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 917739919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e04e59bd884faa747b25ed2cc67c13e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isDestroyed: 0
+  ManagedName: MoveToP4
+  CurrentState: 0
+  StartEnabled: 1
+  TargetObject: {fileID: 0}
+  CanEnable: 0
+  EnableEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  CanDisable: 0
+  DisableEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  CanDestroy: 0
+  DestroyEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  CanActivate: 1
+  ActivateEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 917739920}
+        m_MethodName: Teleport
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  ResetEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  Label: {fileID: 0}
+--- !u!114 &917739922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 917739919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39c7801afaa525a42a3544eb1ec886cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LabelPlace: {fileID: 1854802099}
+  EnableColor: {r: 1, g: 1, b: 1, a: 1}
+  DestroyColor: {r: 1, g: 0, b: 0, a: 1}
+  DisableColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  ActivateColor: {r: 0, g: 1, b: 1, a: 1}
+--- !u!4 &917739923
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 917739919}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1069.04, y: 31.6, z: 1.2421417}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1854802099}
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &925374322
 GameObject:
   m_ObjectHideFlags: 0
@@ -82308,6 +82540,34 @@ Transform:
   m_PrefabParentObject: {fileID: 4769388064268138, guid: e8a720c2d9045944ba77949654a4ea4f,
     type: 2}
   m_PrefabInternal: {fileID: 938201283}
+--- !u!1 &941639958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 941639959}
+  m_Layer: 0
+  m_Name: LabelPlace
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &941639959
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 941639958}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 779013128}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &944887394
 GameObject:
   m_ObjectHideFlags: 0
@@ -82458,8 +82718,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 953821842}
-  m_LocalRotation: {x: 0.3092927, y: 0.089692876, z: 0.029317478, w: -0.9462736}
-  m_LocalPosition: {x: 1097.4396, y: -195.40498, z: -120.26285}
+  m_LocalRotation: {x: -0.009002048, y: 0.00000010777369, z: 0.000000004393682, w: 0.99995947}
+  m_LocalPosition: {x: 1554.0103, y: -177.75745, z: -208.7745}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -132324,6 +132584,34 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       IsModal: 0
       PlayerState: 2
+--- !u!1 &1854802098
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1854802099}
+  m_Layer: 0
+  m_Name: LabelPlace
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1854802099
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1854802098}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 917739923}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1858316581
 Prefab:
   m_ObjectHideFlags: 0
@@ -151244,7 +151532,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  CanDestroy: 1
+  CanDestroy: 0
   DestroyEvent:
     m_PersistentCalls:
       m_Calls:
