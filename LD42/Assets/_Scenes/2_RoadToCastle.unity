@@ -8889,7 +8889,7 @@ MonoBehaviour:
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
       IsModal: 0
-      PlayerState: 3
+      PlayerState: 2
 --- !u!114 &646624858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16429,8 +16429,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1387157953}
-  m_LocalRotation: {x: 0.21624415, y: 0.061465356, z: 0.013643012, w: -0.9743071}
-  m_LocalPosition: {x: 466.11444, y: -54.348946, z: -100.844376}
+  m_LocalRotation: {x: -0.34464192, y: 0.015485119, z: 0.005684917, w: 0.9385893}
+  m_LocalPosition: {x: 601.1817, y: -101.45026, z: -88.41542}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -26770,7 +26770,7 @@ MonoBehaviour:
       IsModal: 0
       PlayerState: 0
     - Id: nicetrick
-      Clear: 0
+      Clear: 1
       Stop: 0
       Timestemp: 16
       Event:
@@ -26781,7 +26781,7 @@ MonoBehaviour:
       IsModal: 0
       PlayerState: 0
     - Id: MoreDificult
-      Clear: 0
+      Clear: 1
       Stop: 0
       Timestemp: 21
       Event:
@@ -26792,7 +26792,7 @@ MonoBehaviour:
       IsModal: 0
       PlayerState: 0
     - Id: End
-      Clear: 0
+      Clear: 1
       Stop: 0
       Timestemp: 25
       Event:
@@ -28927,8 +28927,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1937269642}
-  m_LocalRotation: {x: -0.28610703, y: 0.038790867, z: 0.011591864, w: 0.95734197}
-  m_LocalPosition: {x: 311.42953, y: -21.15458, z: -20.891113}
+  m_LocalRotation: {x: -0.34464192, y: 0.015485119, z: 0.005684917, w: 0.9385893}
+  m_LocalPosition: {x: 600.7494, y: -136.07318, z: -101.51212}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

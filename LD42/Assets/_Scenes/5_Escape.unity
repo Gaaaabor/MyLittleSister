@@ -2371,7 +2371,7 @@ MonoBehaviour:
     - Id: 
       Clear: 1
       Stop: 0
-      Timestemp: 5
+      Timestemp: 4
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -3540,6 +3540,7 @@ GameObject:
   - component: {fileID: 207326081}
   - component: {fileID: 207326083}
   - component: {fileID: 207326082}
+  - component: {fileID: 207326084}
   m_Layer: 0
   m_Name: Princess
   m_TagString: Untagged
@@ -3553,12 +3554,11 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 207326080}
-  m_LocalRotation: {x: -0.0017326779, y: 0.99648917, z: 0.00014557343, w: 0.08370418}
-  m_LocalPosition: {x: 2544.95, y: -6.05, z: 0}
-  m_LocalScale: {x: 0.22716591, y: 0.22716545, z: 0.2271659}
+  m_LocalRotation: {x: -0.001732678, y: 0.99648917, z: 0.0001455734, w: 0.08370417}
+  m_LocalPosition: {x: 1875.342, y: -6.0499253, z: 0.0039367676}
+  m_LocalScale: {x: 0.22716619, y: 0.22716545, z: 0.22716619}
   m_Children:
   - {fileID: 1141396721}
-  - {fileID: 1172438120}
   m_Father: {fileID: 502156281}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3668,6 +3668,17 @@ MonoBehaviour:
   DestroyColor: {r: 1, g: 0, b: 0, a: 1}
   DisableColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   ActivateColor: {r: 0, g: 1, b: 1, a: 1}
+--- !u!114 &207326084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 207326080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 991b1d0753539e746916147e2bb19d4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &208345450
 Prefab:
   m_ObjectHideFlags: 0
@@ -4022,7 +4033,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 228866215}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1890.3, y: -38.5, z: -0.030639648}
+  m_LocalPosition: {x: 1884.3, y: -38.5, z: -0.030639648}
   m_LocalScale: {x: 29.00759, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 744203979}
@@ -6658,7 +6669,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 425229438}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1775.4998, y: -10.94, z: -0.030639648}
+  m_LocalPosition: {x: 1823.6, y: -10.94, z: -0.030639648}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1482964168}
@@ -8556,11 +8567,22 @@ MonoBehaviour:
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
       IsModal: 0
-      PlayerState: 2
+      PlayerState: 3
     - Id: KingCastle
       Clear: 1
       Stop: 0
-      Timestemp: 0
+      Timestemp: 4
+      Event:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      IsModal: 0
+      PlayerState: 0
+    - Id: END
+      Clear: 1
+      Stop: 0
+      Timestemp: 7
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -8589,7 +8611,7 @@ MonoBehaviour:
         m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
       IsModal: 0
-      PlayerState: 3
+      PlayerState: 0
 --- !u!4 &573015497
 Transform:
   m_ObjectHideFlags: 0
@@ -8597,7 +8619,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 573015493}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1775.4998, y: -38.5, z: -0.030639648}
+  m_LocalPosition: {x: 1808.9, y: -38.5, z: -0.030639648}
   m_LocalScale: {x: 29.00759, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 744203979}
@@ -9093,7 +9115,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 608986579}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1775.4998, y: -38.5, z: -0.030639648}
+  m_LocalPosition: {x: 1816, y: -38.5, z: -0.030639648}
   m_LocalScale: {x: 29.00759, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 744203979}
@@ -9138,7 +9160,7 @@ MonoBehaviour:
     - Id: GoodIdea
       Clear: 1
       Stop: 0
-      Timestemp: 5
+      Timestemp: 3
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -9149,7 +9171,7 @@ MonoBehaviour:
     - Id: END
       Clear: 1
       Stop: 0
-      Timestemp: 10
+      Timestemp: 5
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -10808,7 +10830,7 @@ MonoBehaviour:
     - Id: 
       Clear: 1
       Stop: 0
-      Timestemp: 5
+      Timestemp: 7
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -16368,19 +16390,19 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400048, guid: f479a5d3df8b77b4b95d7c42a96a231c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2906.3345
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400048, guid: f479a5d3df8b77b4b95d7c42a96a231c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10.251013
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400048, guid: f479a5d3df8b77b4b95d7c42a96a231c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -491.746
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400048, guid: f479a5d3df8b77b4b95d7c42a96a231c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -1.1641532e-10
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400048, guid: f479a5d3df8b77b4b95d7c42a96a231c, type: 3}
       propertyPath: m_LocalRotation.y
@@ -16623,12 +16645,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1172438119}
-  m_LocalRotation: {x: 0.0017326779, y: -0.99648917, z: -0.00014557343, w: 0.08370418}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4.402075, y: 4.402078, z: 4.4020753}
+  m_LocalRotation: {x: 0.0012135899, y: -0.69794035, z: 0.0012452167, w: -0.7161538}
+  m_LocalPosition: {x: 0, y: 13.5, z: -0}
+  m_LocalScale: {x: 4.4020653, y: 4.402078, z: 4.4020653}
   m_Children: []
-  m_Father: {fileID: 207326081}
-  m_RootOrder: 1
+  m_Father: {fileID: 1141396721}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1181009587
 GameObject:
@@ -18938,7 +18960,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1343405211}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1775.4998, y: 1.4, z: -0.030639648}
+  m_LocalPosition: {x: 1823.6, y: 1.4, z: -0.030639648}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1522388981}
@@ -19857,7 +19879,7 @@ GameObject:
   - component: {fileID: 1390468658}
   - component: {fileID: 1390468659}
   m_Layer: 0
-  m_Name: Dialog9-End
+  m_Name: Dialog 9-End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19871,7 +19893,7 @@ Transform:
   m_GameObject: {fileID: 1390468654}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1886.2, y: -38.5, z: -0.030639648}
-  m_LocalScale: {x: 29.00759, y: 1, z: 1}
+  m_LocalScale: {x: 100.70794, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 744203979}
   m_RootOrder: 7
@@ -19915,7 +19937,7 @@ MonoBehaviour:
     - Id: ItWasDad
       Clear: 1
       Stop: 0
-      Timestemp: 5
+      Timestemp: 8
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -19937,7 +19959,7 @@ MonoBehaviour:
     - Id: ComeHome
       Clear: 1
       Stop: 0
-      Timestemp: 15
+      Timestemp: 12
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -19948,7 +19970,7 @@ MonoBehaviour:
     - Id: andmom
       Clear: 1
       Stop: 0
-      Timestemp: 20
+      Timestemp: 14
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -19959,7 +19981,7 @@ MonoBehaviour:
     - Id: DadTold
       Clear: 1
       Stop: 0
-      Timestemp: 25
+      Timestemp: 16
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -19970,7 +19992,7 @@ MonoBehaviour:
     - Id: anothergame
       Clear: 1
       Stop: 0
-      Timestemp: 30
+      Timestemp: 20
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -19981,7 +20003,7 @@ MonoBehaviour:
     - Id: SleepNow
       Clear: 1
       Stop: 0
-      Timestemp: 35
+      Timestemp: 23
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -19992,7 +20014,7 @@ MonoBehaviour:
     - Id: Tale
       Clear: 1
       Stop: 0
-      Timestemp: 40
+      Timestemp: 26
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -20003,7 +20025,7 @@ MonoBehaviour:
     - Id: Onceupon
       Clear: 1
       Stop: 0
-      Timestemp: 45
+      Timestemp: 29
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -20014,7 +20036,7 @@ MonoBehaviour:
     - Id: END
       Clear: 0
       Stop: 0
-      Timestemp: 50
+      Timestemp: 36
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -22773,8 +22795,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1547850729}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1672.9, y: -38.5, z: -0.030639648}
-  m_LocalScale: {x: 269.50406, y: 1, z: 1}
+  m_LocalPosition: {x: 1714.7, y: -38.5, z: -0.030639648}
+  m_LocalScale: {x: 30.354853, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 744203979}
   m_RootOrder: 3
@@ -22839,8 +22861,8 @@ MonoBehaviour:
       PlayerState: 0
     - Id: TextureNotFound
       Clear: 1
-      Stop: 0
-      Timestemp: 10
+      Stop: 1
+      Timestemp: 11
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -22850,8 +22872,8 @@ MonoBehaviour:
       PlayerState: 0
     - Id: Whathaveyoudone
       Clear: 1
-      Stop: 0
-      Timestemp: 15
+      Stop: 1
+      Timestemp: 14
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -22862,7 +22884,7 @@ MonoBehaviour:
     - Id: 
       Clear: 1
       Stop: 0
-      Timestemp: 20
+      Timestemp: 25
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -29422,7 +29444,7 @@ MonoBehaviour:
     - Id: disableloop
       Clear: 1
       Stop: 0
-      Timestemp: 5
+      Timestemp: 9
       Event:
         m_PersistentCalls:
           m_Calls: []
@@ -29433,7 +29455,7 @@ MonoBehaviour:
     - Id: 
       Clear: 1
       Stop: 0
-      Timestemp: 10
+      Timestemp: 14
       Event:
         m_PersistentCalls:
           m_Calls:
