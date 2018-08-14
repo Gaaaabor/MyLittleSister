@@ -12,15 +12,7 @@ public class Meteor : MonoBehaviour
     public float ExplodeTime;
     public GameObject SubParticle;
     public bool _onMove;
-
-    private void OnEnable()
-    {
-        _onMove = true;
-        Core.SetActive(true);
-        _rigidbody.useGravity = true;
-        _rigidbody.velocity = Vector3.zero;
-        SubParticle.SetActive(false);
-    }
+    public GameObject KIll;
 
     private void Awake()
     {
@@ -41,10 +33,21 @@ public class Meteor : MonoBehaviour
         _rigidbody.useGravity = false;
         _rigidbody.velocity = Vector3.zero;
         Invoke("Disable", ExplodeTime);
+        transform.localPosition = Vector3.zero;
+    }
+
+    public void Reset()
+    {
+        _onMove = true;
+        Core.SetActive(true);
+        _rigidbody.useGravity = true;
+        _rigidbody.velocity = Vector3.zero;
+        SubParticle.SetActive(false);
+        KIll.SetActive(true);
     }
 
     private void Disable()
     {
-        gameObject.SetActive(false);
+        KIll.SetActive(false);
     }
 }

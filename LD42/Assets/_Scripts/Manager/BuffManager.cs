@@ -69,7 +69,7 @@ public class BuffManager : SingletonBase<BuffManager>
 
     }
 
-    private void UpdateTimeBuff()
+    public void UpdateTimeBuff()
     {
         if (!TimeBuffIsActive || TimeBuffScale == 1)
         {

@@ -24,5 +24,6 @@ public class SetPlayTime : MonoBehaviour
     public void SetTimeBuff(float value)
     {
         BuffManager.Instance.TimeBuffDuration = value;
+        BuffManager.Instance.UpdateTimeBuff();
     }
 }

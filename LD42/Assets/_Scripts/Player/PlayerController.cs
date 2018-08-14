@@ -243,8 +243,15 @@ public class PlayerController : SingletonBase<PlayerController>
     {
         _rigidbody.isKinematic = false;
         Anim.SetTrigger("Respawn");
-        SetPlayerState(_lastState);
-        Debug.Log("Reset1");
+
+        if (_lastState != PlayerState.Dead)
+        {
+            SetPlayerState(_lastState);
+        }
+        else
+        {
+            SetPlayerState(PlayerState.Walking);
+        }
     }
 }
 

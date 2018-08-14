@@ -12,6 +12,7 @@ public class PlayerReagator : MonoBehaviour
     private List<GameObject> _insatntiated = new List<GameObject>();
     private List<Vector3> _startPoses = new List<Vector3>();
     public bool ResetPose = true;
+
     private void Awake()
     {
         if (Prefab != null)
@@ -76,5 +77,10 @@ public class PlayerReagator : MonoBehaviour
                 move.Reset();
             }
         }
+    }
+
+    private void OnEnable()
+    {
+        Reset();
     }
 }
