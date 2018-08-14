@@ -27,6 +27,7 @@ public class Curse : MonoBehaviour
     [ContextMenu("StartCurse")]
     public void StartCurse()
     {
+        CancelInvoke();
         Debug.Log("StartCurse");
         OnCurse = true;
         CurseObject.SetActive(true);

@@ -16429,8 +16429,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1387157953}
-  m_LocalRotation: {x: -0.34464192, y: 0.015485119, z: 0.005684917, w: 0.9385893}
-  m_LocalPosition: {x: 601.1817, y: -101.45026, z: -88.41542}
+  m_LocalRotation: {x: -0.2913036, y: 0.2184562, z: 0.0685121, w: 0.92882997}
+  m_LocalPosition: {x: 587.78516, y: -42.17801, z: -57.33216}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -30220,6 +30220,17 @@ MonoBehaviour:
   StartCurseEvent:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 2027325221}
+        m_MethodName: StartTimer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 2027325221}
         m_MethodName: StartTimer
         m_Mode: 1
