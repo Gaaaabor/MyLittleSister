@@ -1782,6 +1782,7 @@ GameObject:
   - component: {fileID: 241957621}
   - component: {fileID: 241957623}
   - component: {fileID: 241957624}
+  - component: {fileID: 241957625}
   m_Layer: 0
   m_Name: Princess
   m_TagString: Untagged
@@ -1867,6 +1868,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 241957625}
+        m_MethodName: AddTime
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 120
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   CanDisable: 1
@@ -1914,6 +1926,17 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 241957625}
+        m_MethodName: AddTime
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 120
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -1973,6 +1996,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 241957625}
+        m_MethodName: AddTime
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 120
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   ResetEvent:
@@ -2017,6 +2051,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e37e155515c24db4098e9ca6494ee612, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &241957625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 241957619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e945e471e2624499989fd209aaf53e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &254474836
@@ -7508,6 +7553,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   ResetPose: 1
+  ResetOnDisable: 1
 --- !u!65 &325064083
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19665,7 +19711,7 @@ MonoBehaviour:
     - Id: END
       Clear: 1
       Stop: 0
-      Timestemp: 10
+      Timestemp: 0
       Event:
         m_PersistentCalls:
           m_Calls:
@@ -19754,8 +19800,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 595175511}
-  m_LocalRotation: {x: -0.098132975, y: 0.046258092, z: 0.0045647244, w: 0.99408716}
-  m_LocalPosition: {x: 1206.2324, y: -91.18993, z: -90.771095}
+  m_LocalRotation: {x: -0.22580257, y: 0.04381785, z: 0.01016563, w: 0.97313404}
+  m_LocalPosition: {x: 1343.196, y: -57.456688, z: -17.60241}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -32824,6 +32870,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   ResetPose: 1
+  ResetOnDisable: 1
 --- !u!65 &985426538
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39939,6 +39986,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   ResetPose: 0
+  ResetOnDisable: 1
 --- !u!65 &1186926865
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -53905,6 +53953,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   ResetPose: 0
+  ResetOnDisable: 1
 --- !u!65 &1745479482
 BoxCollider:
   m_ObjectHideFlags: 0

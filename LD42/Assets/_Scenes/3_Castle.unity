@@ -1255,17 +1255,6 @@ MonoBehaviour:
   EnableEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 50497347}
-        m_MethodName: DisableComandable
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 2117679633}
         m_MethodName: SetActive
         m_Mode: 6
@@ -98082,17 +98071,6 @@ MonoBehaviour:
   EnableEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1320972698}
-        m_MethodName: DisableComandable
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 279660810}
         m_MethodName: SetActive
         m_Mode: 6
