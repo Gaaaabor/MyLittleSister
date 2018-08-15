@@ -469,7 +469,7 @@
 			"ID": "YouCheat",
 			"Placement": "TopRight",
 			"Owner": "Dark Knight",
-			"Body": "White Knight, you are a cheater! You are much worse than me! My vengeance is comeing!!!"
+			"Body": "White Knight, you are a cheater! You are much worse than me! My vengeance is coming!!!"
 		},
 			{
 				"ID": "CanRunHide",
@@ -511,7 +511,7 @@
 			"ID": "KillMap",
 			"Placement": "TopRight",
 			"Owner": "Dark Knight",
-			"Body": " I will destroy     everything     /kill map"
+			"Body": " I will destroy everything!!!\n\r/kill map"
 		},
 
 		{
@@ -592,7 +592,7 @@
 			"ID": "DadTold",
 			"Placement": "BottomRight",
 			"Owner": "Chris",
-			"Body": "Dad told me \"She is Okey\". Everything will be fine!"
+			"Body": "Dad told me \"She is Okay\". Everything will be fine!"
 		},
 		{
 			"ID": "anothergame",
