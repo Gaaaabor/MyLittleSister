@@ -39,12 +39,12 @@ public class DialogManager : SingletonBase<DialogManager>
 
     private void Update()
     {
-#if UNITY_EDITOR
-        if (Input.GetKey(KeyCode.A))
+
+        if (Input.GetKeyDown(KeyCode.Space) && eventList.FirstOrDefault() != null)
         {
-            _timer += Time.deltaTime * 100;
+            _timer = eventList.FirstOrDefault().Timestemp;
         }
-#endif
+
         if (_on)
         {
             _timer += Time.deltaTime;
